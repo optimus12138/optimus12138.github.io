@@ -93,5 +93,7 @@
     <loc>http://localhost:1313/tags/</loc>
   </url><url>
     <loc>http://localhost:1313/%E5%85%B3%E4%BA%8E/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/test/</loc>
   </url>
 </urlset>

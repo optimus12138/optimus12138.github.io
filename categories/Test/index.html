@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='http://localhost:1313/categories/test/'>
 
-<link rel="stylesheet" href="/scss/style.min.47df77ff13a7559f4d1953c1ad4771d4cb59545647d0da28d89bd8f985fc6d82.css"><meta property='og:title' content="我看世界">
+<link rel="stylesheet" href="/scss/style.min.60e8936ecf55cc7bb9d83b66dae28cde39e6e245d8a5e03d494763911c492ecc.css"><meta property='og:title' content="我看世界">
 <meta property='og:description' content="This is an example category">
 <meta property='og:url' content='http://localhost:1313/categories/test/'>
 <meta property='og:site_name' content='金色河流'>
@@ -78,7 +78,7 @@
         
         
         <li >
-            <a href='/post/' >
+            <a href='/' >
                 
                 
                 
@@ -407,6 +407,15 @@
 
         document.head.appendChild(customFont);
     }());
+</script>
+<script src="https://npm.elemecdn.com/nprogress@0.2.0/nprogress.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://npm.elemecdn.com/nprogress@0.2.0/nprogress.css" crossorigin="anonymous" />
+<script>
+    NProgress.start();
+    document.addEventListener("readystatechange", () => {
+        if (document.readyState === "interactive") NProgress.inc(0.8);
+        if (document.readyState === "complete") NProgress.done();
+    });
 </script>
 
     </body>

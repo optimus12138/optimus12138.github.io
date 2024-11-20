@@ -1886,12 +1886,12 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 </description>
         </item>
         <item>
-        <title>Emo六则</title>
+        <title>EMO六则</title>
         <link>http://localhost:1313/post/emo/</link>
         <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/post/emo/</guid>
-        <description>&lt;blockquote&gt;
+        <description>&lt;img src="http://localhost:1313/post/emo/emo.jpg" alt="Featured image of post EMO六则" /&gt;&lt;blockquote&gt;
 &lt;p&gt;我们一天也没有聊点诗意的东西，聊聊比现实更深一层的困惑，也没能掌握一丁点除了自嘲以外的幽默。我们就这样在最该享有自由的年纪，将自己从头到脚所有的一切拱手让给了现实。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;一&#34;&gt;一
@@ -1985,7 +1985,48 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/%E5%85%B3%E4%BA%8E/</guid>
-        <description>&lt;p&gt;建设中~&lt;/p&gt;
+        <description>&lt;h2 id=&#34;关于我&#34;&gt;关于我
+&lt;/h2&gt;&lt;p&gt;-&lt;/p&gt;
+&lt;h2 id=&#34;博客建设日志&#34;&gt;博客建设日志
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;2022-11-17：设计logo，优化Stack主题&lt;/li&gt;
+&lt;li&gt;2024-11-16：使用Hugo框架搭建博客，使用Stack主题&lt;/li&gt;
+&lt;li&gt;2024-08-17：使用NotionNext框架搭建博客，使用Nobelium主题&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Todo&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 优化分类和标签&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 配置自动化部署&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 配置RSS订阅&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 优化SEO&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 添加网站统计&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 更换.com域名&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 优化主题颜色：金色+蓝色&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 优化主题字体&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;github项目地址&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/optimus12138/NotionNext&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NotionNext&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/optimus12138/optimus12138.github.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         </item>
         <item>

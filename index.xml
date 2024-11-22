@@ -1988,27 +1988,60 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         <description>&lt;h2 id=&#34;关于我&#34;&gt;关于我
 &lt;/h2&gt;&lt;p&gt;-&lt;/p&gt;
 &lt;h2 id=&#34;博客建设日志&#34;&gt;博客建设日志
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;2022-11-17：设计logo，优化Stack主题&lt;/li&gt;
-&lt;li&gt;2024-11-16：使用Hugo框架搭建博客，使用Stack主题&lt;/li&gt;
-&lt;li&gt;2024-08-17：使用NotionNext框架搭建博客，使用Nobelium主题&lt;/li&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;【仓库地址】&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/optimus12138/optimus12138.github.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/optimus12138/NotionNext&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NotionNext&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Todo&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;【博客建设日志】&lt;/strong&gt;：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 优化分类和标签&lt;/p&gt;
+&lt;p&gt;2024-11-20：建设“关于”页面，配置落霞孤鹜字体&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 配置自动化部署&lt;/p&gt;
+&lt;p&gt;2024-11-17：设计logo，优化Stack主题&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 配置RSS订阅&lt;/p&gt;
+&lt;p&gt;2024-11-16：使用Hugo框架搭建博客（Hugo + Github Pages），使用Stack主题。&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 优化SEO&lt;/p&gt;
+&lt;p&gt;2024-08-17：使用NotionNext框架搭建博客（NotionNext + Vercel），使用Nobelium主题。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;【Todo】&lt;/strong&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;内容&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;年终博客总结：&lt;a class=&#34;link&#34; href=&#34;https://www.jdeal.cn/511.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;独立博客自省问卷15题&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;学习优化月总结&lt;a class=&#34;link&#34; href=&#34;https://thirdshire.com/tags/%E6%97%A5%E5%B8%B8%E5%B0%8F%E7%BB%93/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;第三夏尔日常小结&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;形式&lt;/strong&gt;：&lt;/p&gt;
+&lt;!-- - [x] `10min` 配置字体：落霞孤鹜字体 --&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;20min&lt;/code&gt; 优化分类和标签&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 添加网站统计&lt;/p&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;20min&lt;/code&gt;配置自动化部署&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;20min&lt;/code&gt;配置RSS订阅&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;20min&lt;/code&gt;优化SEO&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;20min&lt;/code&gt;添加网站统计&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;20min&lt;/code&gt;添加友链（参考&lt;a class=&#34;link&#34; href=&#34;https://www.xalaok.top/links/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Naive Koala&lt;/a&gt;）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;20min&lt;/code&gt;在“关于”页面/“归档”页面添加热力图（https://blog.douchi.space/hugo-blog-heatmap/#gsc.tab=0）&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 更换.com域名&lt;/p&gt;
@@ -2017,16 +2050,51 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 &lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 优化主题颜色：金色+蓝色&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 优化主题字体&lt;/p&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 学习主题配图，参考&lt;a class=&#34;link&#34; href=&#34;https://www.xalaok.top/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Naive Koala&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Self-host：使用服务器部署博客&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 添加&lt;a class=&#34;link&#34; href=&#34;https://notbyai.fyi/cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NotByAI&lt;/a&gt;标签&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;github项目地址&lt;/strong&gt;：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/optimus12138/NotionNext&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;NotionNext&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/optimus12138/optimus12138.github.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;h2 id=&#34;有意思的博客&#34;&gt;有意思的博客
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://linsnow.cn/posts/cyberlife/log-01/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://linsnow.cn/posts/cyberlife/log-01/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/lin-snow&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/lin-snow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.xalaok.top/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://www.xalaok.top/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://hyruo.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://hyruo.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://wintery.social/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://wintery.social/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;h2 id=&#34;博客搭建原则&#34;&gt;博客搭建原则
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;不要花里胡哨的插件，喧宾夺主了&lt;/li&gt;
+&lt;li&gt;图片：比例要适中，加上caption&lt;/li&gt;
+&lt;li&gt;内容长度:1000字左右最好，不要过短（点一篇博文也需要精力成本，如果只是看到寥寥几个字，我会觉得浪费时间了)；内容长度不要过长（太长不看）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;一些测试&#34;&gt;一些测试
+&lt;/h2&gt;&lt;p&gt;&lt;span id=&#34;voyager&#34;&gt;载入旅行者一号离地球距离信息&amp;hellip;&lt;/span&gt;&lt;/p&gt;
+&lt;script language=&#34;javascript&#34;&gt; 
+    var now = new Date();
+    function createtime(){
+        // 当前时间
+        now.setTime(now.getTime()+250);
+        var start = new Date(&#34;08/01/2022 00:00:00&#34;); // 旅行者1号开始计算的时间
+        var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒
+        var unit = (dis / 149600000).toFixed(6);  // 天文单位
+
+        document.getElementById(&#34;voyager&#34;).innerHTML = &#34;旅行者 1 号当前距离地球 &#34;+ dis +&#34; 千米，约为 &#34;+ unit +&#34; 个天文单位 🚀&#34;
+    }
+    setInterval(&#34;createtime()&#34;,250); 
+&lt;/script&gt; 
 </description>
         </item>
         <item>

@@ -11,6 +11,12 @@
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2024-11-07T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/</loc>
+    <lastmod>2024-11-07T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/post/life10/</loc>
     <lastmod>2024-11-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -30,6 +36,9 @@
     <lastmod>2024-10-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/life08/</loc>
+    <lastmod>2024-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/%E5%BD%B1%E8%A7%86%E5%89%A7/</loc>
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/post/film01/</loc>
@@ -92,8 +101,6 @@
     <loc>http://localhost:1313/links/</loc>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
   </url><url>
     <loc>http://localhost:1313/%E5%85%B3%E4%BA%8E/</loc>
   </url><url>

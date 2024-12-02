@@ -13,7 +13,19 @@
         <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/post/areading04/</guid>
-        <description>&lt;img src="http://localhost:1313/post/areading04/cover/cover.jpg" alt="Featured image of post 零食店、萨莉亚、自助餐与柠檬茶" /&gt;&lt;p&gt;&lt;strong&gt;写在前面&lt;/strong&gt;：
+        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/areading04/cover/cover.jpg&#34;
+	width=&#34;1440&#34;
+	height=&#34;810&#34;
+	srcset=&#34;http://localhost:1313/post/areading04/cover/cover_hu2279268021134030340.jpg 480w, http://localhost:1313/post/areading04/cover/cover_hu16121510807103425684.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;写在前面&lt;/strong&gt;：
 日常碎片阅读，往往都是单篇，不成系统。想着积累成量再组织输出专题，苦于没有时间和精力，在素材库里积灰已久，不知何时能用上。
 不如撺够一波直接输出，尽管只是再加工的半成品，但也是我内化后的内容。
 每期输出4~6篇笔记，包含文章/新闻/视频的信息和观点的总结，以及我自己的思考。&lt;/p&gt;
@@ -99,7 +111,19 @@
         <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/post/areading03/</guid>
-        <description>&lt;img src="http://localhost:1313/post/areading03/cover/cover.jpg" alt="Featured image of post 世界的短视频化" /&gt;&lt;p&gt;&lt;strong&gt;写在前面&lt;/strong&gt;：
+        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/areading03/cover/cover.jpg&#34;
+	width=&#34;1344&#34;
+	height=&#34;768&#34;
+	srcset=&#34;http://localhost:1313/post/areading03/cover/cover_hu16865255121224542615.jpg 480w, http://localhost:1313/post/areading03/cover/cover_hu15750228148209639844.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;175&#34;
+		data-flex-basis=&#34;420px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;写在前面&lt;/strong&gt;：
 日常碎片阅读，往往都是单篇，不成系统。想着积累成量再组织输出专题，苦于没有时间和精力，在素材库里积灰已久，不知何时能用上。
 不如撺够一波直接输出，尽管只是再加工的半成品，但也是我内化后的内容。
 每期输出4~6篇笔记，包含文章/新闻/视频的信息和观点的总结，以及我自己的思考。&lt;/p&gt;
@@ -157,10 +181,11 @@
         <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/post/film01/</guid>
-        <description>&lt;blockquote&gt;
-&lt;p&gt;《&lt;a class=&#34;link&#34; href=&#34;https://movie.douban.com/subject/36587974/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;出走的决心&lt;/a&gt;》影评&lt;/p&gt;
-&lt;/blockquote&gt;
+        <description>
+&lt;div class=&#34;notice notice-info&#34; &gt;
+    &lt;div class=&#34;notice-title&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;icon notice-icon&#34; viewBox=&#34;0 0 512 512&#34; fill=&#34;#705943&#34;&gt;&lt;path d=&#34;M256 8a248 248 0 100 496 248 248 0 000-496zm0 110a42 42 0 110 84 42 42 0 010-84zm56 254c0 7-5 12-12 12h-88c-7 0-12-5-12-12v-24c0-7 5-12 12-12h12v-64h-12c-7 0-12-5-12-12v-24c0-7 5-12 12-12h64c7 0 12 5 12 12v100h12c7 0 12 5 12 12v24z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;&lt;p&gt;《&lt;a class=&#34;link&#34; href=&#34;https://movie.douban.com/subject/36587974/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;出走的决心&lt;/a&gt;》影评&lt;/p&gt;&lt;/div&gt;
+
 &lt;p&gt;关于一个女人的出走，现代版娜拉，改编自现实故事。我三四年前注意到这个新闻，没想到这么快就拍出来电影。看了之后觉得非常好，这是一部以家庭内部视角讲女性困境的电影。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;18岁时憧憬大学，家人不同意，她妥协了，因为她没有别的办法。&lt;/li&gt;
@@ -171,7 +196,7 @@
 &lt;/ul&gt;
 &lt;p&gt;李红的一生就是不断想出走又停留的故事，你可以看到她为什么想出走，又为什么最后停留。&lt;/p&gt;
 &lt;p&gt;这不是一个《神奇女侠》式超能大女主的故事，也不是都市白领剧里励志大女主的故事，但这也这个故事最动人的地方——扒开一个最传统最典型的中式家庭内部，讲述了一个中老年女性的困境，和她最后的出走。&lt;/p&gt;
- &lt;div align=center&gt;&lt;img src=&#34;CZDJX.jpg&#34;  width=&#34;80%&#34; /&gt;
+ &lt;div align=center&gt;&lt;img src=&#34;CZDJX.jpg&#34;  width=&#34;70%&#34; /&gt;
   &lt;figcaption style=&#34;font-size: 14px; color: gray;&#34;&gt;这到底是个什么事理？&lt;/figcaption&gt;
 &lt;/figure&gt;&lt;/div&gt;
 &lt;h2 id=&#34;这到底是个什么事理&#34;&gt;这到底是个什么事理
@@ -204,33 +229,141 @@
 &lt;p&gt;娜拉走后怎样， 鲁迅在一百年前的担忧，或许离开，摆脱旧的“事理”，寻找生活别的活法，重要的是勇气，更重要的是经济独立。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;最后以余秀华的诗作结。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;《石磨》&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;mycard&#34;&gt;
+      &lt;div class=&#34;content&#34;&gt;&lt;p&gt;《石磨》&lt;br&gt;
+余秀华&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;横店的石磨上，谁栓住了我前世今生&lt;br&gt;
 谁蒙住了我的眼睛&lt;br&gt;
 磨眼里喂进三月，桃花，一页风流&lt;br&gt;
 磨眼里喂稗草，苍耳，水花生&lt;br&gt;
-——假如风能养活我，谁就不小心犯了错&lt;/p&gt;
-&lt;p&gt;我转动的上磨大于横店，横店是静止的下磨&lt;br&gt;
+——假如风能养活我，谁就不小心犯了错&lt;br&gt;
+&lt;br&gt;
+我转动的上磨大于横店，横店是静止的下磨&lt;br&gt;
 大于横店的部分有我的情，我的罪，我的梦和绝望&lt;br&gt;
 磨眼里喂世人的冷，一个人的硬&lt;br&gt;
 磨眼里喂进散，大雾，雪&lt;br&gt;
-——风不仅仅养活了我，谁一错再错&lt;/p&gt;
-&lt;p&gt;谁扯下我的眼罩，我还是驮着石磨转动&lt;br&gt;
+——风不仅仅养活了我，谁一错再错&lt;br&gt;
+&lt;br&gt;
+谁扯下我的眼罩，我还是驮着石磨转动&lt;br&gt;
 白天和夜里的速度一样&lt;br&gt;
 没有人喂的磨眼掉进石头，压着桃花&lt;br&gt;
 掉进世俗，压住悲哀&lt;br&gt;
-——这样的转动仅仅是转动&lt;/p&gt;
+——这样的转动仅仅是转动&lt;/p&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;!-- &gt; **《石磨》**
+&gt;
+&gt;横店的石磨上，谁栓住了我前世今生  
+谁蒙住了我的眼睛  
+磨眼里喂进三月，桃花，一页风流  
+磨眼里喂稗草，苍耳，水花生  
+——假如风能养活我，谁就不小心犯了错  
+&gt;  
+&gt;
+&gt;我转动的上磨大于横店，横店是静止的下磨  
+大于横店的部分有我的情，我的罪，我的梦和绝望  
+磨眼里喂世人的冷，一个人的硬  
+磨眼里喂进散，大雾，雪  
+——风不仅仅养活了我，谁一错再错
+&gt;
+&gt;谁扯下我的眼罩，我还是驮着石磨转动  
+白天和夜里的速度一样  
+没有人喂的磨眼掉进石头，压着桃花  
+掉进世俗，压住悲哀  
+——这样的转动仅仅是转动 --&gt;</description>
+        </item>
+        <item>
+        <title>中国足坛的《我不是药神》</title>
+        <link>http://localhost:1313/post/areading02/</link>
+        <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/post/areading02/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/areading02/cover/cover6.jpg&#34;
+	width=&#34;1057&#34;
+	height=&#34;450&#34;
+	srcset=&#34;http://localhost:1313/post/areading02/cover/cover6_hu16061748815422341219.jpg 480w, http://localhost:1313/post/areading02/cover/cover6_hu15320820386951625694.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;234&#34;
+		data-flex-basis=&#34;563px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;写在前面&lt;/strong&gt;：
+日常碎片阅读，往往都是单篇，不成系统。想着积累成量再组织输出专题，苦于没有时间和精力，在素材库里积灰已久，不知何时能用上。
+不如撺够一波直接输出，尽管只是再加工的半成品，但也是我内化后的内容。
+每期输出4~6篇笔记，包含文章/新闻/视频的信息和观点的总结，以及我自己的思考。&lt;/p&gt;
+&lt;p&gt;第二期，关注中国足坛的“假赌黑”和联赛欠薪现象。&lt;/p&gt;
+&lt;p&gt;素材笔记#02-足球篇：中国足坛的《我不是药神》。&lt;/p&gt;
+&lt;h2 id=&#34;遵遇长期欠薪铤而走险踢假球能否被原谅&#34;&gt;遵遇长期欠薪，铤而走险踢假球能否被原谅？
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;参考新闻：
+&lt;a class=&#34;link&#34; href=&#34;https://m.your724sports.com/article/4536264.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;球迷态度：球员遭遇长期欠薪，铤而走险踢假球能否被原谅？|重庆两江竞技|江西庐山|丁捷|杨文吉|陕西长安竞技|懂球帝&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;最近足协披露出了三级联赛”假赌黑“的球员名单，看了一些声泪俱下自述，无一不和被欠薪有关。&lt;/p&gt;
+&lt;p&gt;欲求不满踢假球是贪心，但是到了逼良为娼易子而食的地步，就不应该单单谈道德的问题了…&lt;/p&gt;
+&lt;h2 id=&#34;一则收钱踢假球的球员自述&#34;&gt;一则收钱踢假球的球员自述
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;参考：
+&lt;a class=&#34;link&#34; href=&#34;https://m.your724sports.com/article/4536107.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;终身禁足球员杨文吉：被长期欠薪，为4万块钱辜负了球迷|江西庐山|杨文吉|懂球帝&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;“我除了会踢球，其他什么都不会。”&lt;/p&gt;
+&lt;p&gt;一则收钱踢假球的球员的自述，看完感觉挺心酸的，可一窥行业生态。&lt;/p&gt;
+&lt;p&gt;欠薪假球之风大行其道监管部门不作为，球员讨薪无门铤而走险为了4万块断送职业生涯。&lt;/p&gt;
+&lt;p&gt;评论区出奇一致地表示同情和无奈，看到一个老哥说，“我带入进去底线可能比他还低。”&lt;/p&gt;
+&lt;p&gt;其中一个细节，中甲主力，全国第二级别联赛球员，月薪也一万二，还是税前。赢球能分到三四千，赢不了球什么都没有。&lt;/p&gt;
+&lt;p&gt;像足球运动员这种吃青春饭的职业，要培养起来，先不说成才率，投入的各路成本都难以想象，真正踢职业赚钱的时间也就十年时间，伤病的风险，一旦大伤就等于失业。&lt;/p&gt;
+&lt;p&gt;难怪说家里有矿的才踢球，意思不仅是培养成才需要大量金钱投入，还意味着等踢上职业了，面对欠薪，伤病，你可能还要家里输血才能养活自己。&lt;/p&gt;
+&lt;p&gt;环境可见一斑，这样一个没前途和没钱途的职业，还指望哪个家长送孩子去踢球？&lt;/p&gt;
+&lt;h2 id=&#34;另一则足球行业薪资的披露&#34;&gt;另一则足球行业薪资的披露
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;参考新闻：
+&lt;a class=&#34;link&#34; href=&#34;https://m.your724sports.com/article/4537240.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;赵震：中甲大部分球员工资不到2万，买不起鞋找踢中超的要|中国|广州|江西庐山|上海嘉定汇龙|黑龙江冰城|辽宁铁人|苏州东吴|青岛红狮|广西平果哈嘹|南京城市|佛山南狮|延边龙鼎|石家庄功夫|无锡吴钩|云南玉昆|大连英博|重庆铜梁龙|中国足协|懂球帝&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;又一则业内人士对足球行业薪资的披露，标题有点误导，原话是：“中甲大部分球队的顶薪就是税前一个月2万块。能拿到这个薪水的只有三四个人。其他人从3、4000块到15000不等。”&lt;/p&gt;
+&lt;p&gt;这个数字对于其他行业来说不低，但对于足球运动员来说，高前期投入成本+短职业寿命=非常一般的薪资。谁还去踢球，难怪足球发展不起来。&lt;/p&gt;
+&lt;h2 id=&#34;青训救不了国足没有良好的联赛环境没有用&#34;&gt;青训救不了国足，没有良好的联赛环境没有用
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;参考新闻：
+&lt;a class=&#34;link&#34; href=&#34;https://m.your724sports.com/article/4537160.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;王楚淇评禁足：青训救不了国足，没有良好的联赛环境没有用|中国|江西庐山|杨文吉|王楚淇|懂球帝&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;搞好联赛是前途和出路问题，搞好青训是人才培养问题，没有前途和出路，还培养啥才。&lt;/p&gt;
+&lt;p&gt;想想16年那会中超鼎盛，尽管有种种问题，大家还觉得中超会成为亚洲第一联赛。真是令人唏嘘不已。&lt;/p&gt;
+&lt;h2 id=&#34;中国足坛的我不是药神&#34;&gt;中国足坛的《我不是药神》
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;参考新闻：
+&lt;a class=&#34;link&#34; href=&#34;https://m.your724sports.com/article/4537243.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;媒体人：这几年连现役国脚都被欠薪，中国足球不配谈冲出亚洲|丁捷|杨文吉|孙冬|中国足协|懂球帝&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;刷了这么多帖子，做一个总结。&lt;/p&gt;
+&lt;p&gt;足协公布“赌假黑”名单后，禁足球员声泪俱下的自述，无一不和欠薪有关。最典型的杨文吉，一年只发了三四个月的工资，奖金更是一分没有，一年拿着三四万块钱的去养活自己和家人，更要紧的是女儿刚刚出生…&lt;/p&gt;
+&lt;p&gt;对行业状况的了解转化为了对球员的同情，颇有《我不是药神》的感觉。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>中国足球的九九八十一难，才刚刚开始</title>
         <link>http://localhost:1313/post/areading01/</link>
-        <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/post/areading01/</guid>
-        <description>&lt;img src="http://localhost:1313/post/areading01/cover/cover2.jpg" alt="Featured image of post 中国足球的九九八十一难，才刚刚开始" /&gt;&lt;p&gt;&lt;strong&gt;写在前面&lt;/strong&gt;：
+        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/areading01/cover/cover2.jpg&#34;
+	width=&#34;800&#34;
+	height=&#34;450&#34;
+	srcset=&#34;http://localhost:1313/post/areading01/cover/cover2_hu1645548282383804857.jpg 480w, http://localhost:1313/post/areading01/cover/cover2_hu6906772394774583459.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;写在前面&lt;/strong&gt;：
 日常碎片阅读，往往都是单篇，不成系统。想着积累成量再组织输出专题，苦于没有时间和精力，在素材库里积灰已久，不知何时能用上。
 不如撺够一波直接输出，尽管只是再加工的半成品，但也是我内化后的内容。
 每期输出4~6篇笔记，包含文章/新闻/视频的信息和观点的总结，以及我自己的思考。&lt;/p&gt;
@@ -312,67 +445,6 @@
 &lt;p&gt;文末非常中肯的一段话：&lt;/p&gt;
 &lt;p&gt;球迷和从业者的期待，并非简单的赢球或输球，而是希望国足能够在失败中知耻而后勇，找到提升的方向。&lt;/p&gt;
 &lt;p&gt;因此，我们需要摒弃一切不利于向上发展的声音，更为聚焦、清醒地认识到中国足球当下的处境与欠缺，也就是放弃幻想，降低预期，拉长周期，脚踏实地地推动这项运动在中国一点一点走向真正正确的发展方向。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>中国足坛的《我不是药神》</title>
-        <link>http://localhost:1313/post/areading02/</link>
-        <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/post/areading02/</guid>
-        <description>&lt;img src="http://localhost:1313/post/areading02/cover/cover6.jpg" alt="Featured image of post 中国足坛的《我不是药神》" /&gt;&lt;p&gt;&lt;strong&gt;写在前面&lt;/strong&gt;：
-日常碎片阅读，往往都是单篇，不成系统。想着积累成量再组织输出专题，苦于没有时间和精力，在素材库里积灰已久，不知何时能用上。
-不如撺够一波直接输出，尽管只是再加工的半成品，但也是我内化后的内容。
-每期输出4~6篇笔记，包含文章/新闻/视频的信息和观点的总结，以及我自己的思考。&lt;/p&gt;
-&lt;p&gt;第二期，关注中国足坛的“假赌黑”和联赛欠薪现象。&lt;/p&gt;
-&lt;p&gt;素材笔记#02-足球篇：中国足坛的《我不是药神》。&lt;/p&gt;
-&lt;h2 id=&#34;遵遇长期欠薪铤而走险踢假球能否被原谅&#34;&gt;遵遇长期欠薪，铤而走险踢假球能否被原谅？
-&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;参考新闻：
-&lt;a class=&#34;link&#34; href=&#34;https://m.your724sports.com/article/4536264.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;球迷态度：球员遭遇长期欠薪，铤而走险踢假球能否被原谅？|重庆两江竞技|江西庐山|丁捷|杨文吉|陕西长安竞技|懂球帝&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;最近足协披露出了三级联赛”假赌黑“的球员名单，看了一些声泪俱下自述，无一不和被欠薪有关。&lt;/p&gt;
-&lt;p&gt;欲求不满踢假球是贪心，但是到了逼良为娼易子而食的地步，就不应该单单谈道德的问题了…&lt;/p&gt;
-&lt;h2 id=&#34;一则收钱踢假球的球员自述&#34;&gt;一则收钱踢假球的球员自述
-&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;参考：
-&lt;a class=&#34;link&#34; href=&#34;https://m.your724sports.com/article/4536107.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;终身禁足球员杨文吉：被长期欠薪，为4万块钱辜负了球迷|江西庐山|杨文吉|懂球帝&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;“我除了会踢球，其他什么都不会。”&lt;/p&gt;
-&lt;p&gt;一则收钱踢假球的球员的自述，看完感觉挺心酸的，可一窥行业生态。&lt;/p&gt;
-&lt;p&gt;欠薪假球之风大行其道监管部门不作为，球员讨薪无门铤而走险为了4万块断送职业生涯。&lt;/p&gt;
-&lt;p&gt;评论区出奇一致地表示同情和无奈，看到一个老哥说，“我带入进去底线可能比他还低。”&lt;/p&gt;
-&lt;p&gt;其中一个细节，中甲主力，全国第二级别联赛球员，月薪也一万二，还是税前。赢球能分到三四千，赢不了球什么都没有。&lt;/p&gt;
-&lt;p&gt;像足球运动员这种吃青春饭的职业，要培养起来，先不说成才率，投入的各路成本都难以想象，真正踢职业赚钱的时间也就十年时间，伤病的风险，一旦大伤就等于失业。&lt;/p&gt;
-&lt;p&gt;难怪说家里有矿的才踢球，意思不仅是培养成才需要大量金钱投入，还意味着等踢上职业了，面对欠薪，伤病，你可能还要家里输血才能养活自己。&lt;/p&gt;
-&lt;p&gt;环境可见一斑，这样一个没前途和没钱途的职业，还指望哪个家长送孩子去踢球？&lt;/p&gt;
-&lt;h2 id=&#34;另一则足球行业薪资的披露&#34;&gt;另一则足球行业薪资的披露
-&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;参考新闻：
-&lt;a class=&#34;link&#34; href=&#34;https://m.your724sports.com/article/4537240.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;赵震：中甲大部分球员工资不到2万，买不起鞋找踢中超的要|中国|广州|江西庐山|上海嘉定汇龙|黑龙江冰城|辽宁铁人|苏州东吴|青岛红狮|广西平果哈嘹|南京城市|佛山南狮|延边龙鼎|石家庄功夫|无锡吴钩|云南玉昆|大连英博|重庆铜梁龙|中国足协|懂球帝&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;又一则业内人士对足球行业薪资的披露，标题有点误导，原话是：“中甲大部分球队的顶薪就是税前一个月2万块。能拿到这个薪水的只有三四个人。其他人从3、4000块到15000不等。”&lt;/p&gt;
-&lt;p&gt;这个数字对于其他行业来说不低，但对于足球运动员来说，高前期投入成本+短职业寿命=非常一般的薪资。谁还去踢球，难怪足球发展不起来。&lt;/p&gt;
-&lt;h2 id=&#34;青训救不了国足没有良好的联赛环境没有用&#34;&gt;青训救不了国足，没有良好的联赛环境没有用
-&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;参考新闻：
-&lt;a class=&#34;link&#34; href=&#34;https://m.your724sports.com/article/4537160.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;王楚淇评禁足：青训救不了国足，没有良好的联赛环境没有用|中国|江西庐山|杨文吉|王楚淇|懂球帝&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;搞好联赛是前途和出路问题，搞好青训是人才培养问题，没有前途和出路，还培养啥才。&lt;/p&gt;
-&lt;p&gt;想想16年那会中超鼎盛，尽管有种种问题，大家还觉得中超会成为亚洲第一联赛。真是令人唏嘘不已。&lt;/p&gt;
-&lt;h2 id=&#34;中国足坛的我不是药神&#34;&gt;中国足坛的《我不是药神》
-&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;参考新闻：
-&lt;a class=&#34;link&#34; href=&#34;https://m.your724sports.com/article/4537243.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;媒体人：这几年连现役国脚都被欠薪，中国足球不配谈冲出亚洲|丁捷|杨文吉|孙冬|中国足协|懂球帝&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;刷了这么多帖子，做一个总结。&lt;/p&gt;
-&lt;p&gt;足协公布“赌假黑”名单后，禁足球员声泪俱下的自述，无一不和欠薪有关。最典型的杨文吉，一年只发了三四个月的工资，奖金更是一分没有，一年拿着三四万块钱的去养活自己和家人，更要紧的是女儿刚刚出生…&lt;/p&gt;
-&lt;p&gt;对行业状况的了解转化为了对球员的同情，颇有《我不是药神》的感觉。&lt;/p&gt;
 </description>
         </item>
         <item>

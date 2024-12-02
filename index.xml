@@ -7,7 +7,1126 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>金色河流</copyright>
-        <lastBuildDate>Thu, 07 Nov 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 02 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>关于</title>
+        <link>http://localhost:1313/%E5%85%B3%E4%BA%8E/</link>
+        <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/%E5%85%B3%E4%BA%8E/</guid>
+        <description>&lt;h2 id=&#34;关于我&#34;&gt;关于我
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;🤖 INTJ;&lt;/li&gt;
+&lt;li&gt;🧑‍💻 厌倦社交网络;&lt;/li&gt;
+&lt;li&gt;🤔 对世界有许多困惑;&lt;/li&gt;
+&lt;li&gt;📽️ 爱好电影的非典型理工男;&lt;/li&gt;
+&lt;li&gt;🏊‍♂️ 喜欢游泳但体脂永远减不下来的小胖子.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;博客建设日志&#34;&gt;博客建设日志
+&lt;/h2&gt;&lt;div class=&#34;timeline__row&#34;&gt;
+    &lt;div class=&#34;timeline__time&#34;&gt;
+        &lt;div class=&#34;timeline__time&#34;&gt;2024-12-02&lt;/div&gt;
+        &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;timeline__content&#34;&gt;
+        &lt;div class=&#34;timeline__tags&#34;&gt;
+            &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;a href=&#34;&#34;&gt;
+            &lt;div class=&#34;timeline__title&#34;&gt;Hugo-Stack优化&lt;/div&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;timeline__description&#34;&gt;
+            新增友邻页面,短代码优化部分页面
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;style&gt;
+    .timeline {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .timeline__row {
+        display: flex;
+        padding-left: 4%;
+        height: 90px;
+    }
+    
+    .timeline__time {
+        flex: 0 0 110px;
+        color: #5d5d5d;
+        font-size: 17px;
+        text-transform: uppercase;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem 0;
+    }
+    
+    .timeline__time-text {
+        margin: 0;
+    }
+    
+    .timeline__split-line {
+        position: absolute;
+        top: 0.5rem;
+        right: -20px;
+        height: 100%;
+        width: 2px;
+        background-color: #84c4e240;
+        z-index: 0;
+    }
+    
+    .timeline__split-line:before {
+        content: &#34;&#34;;
+        position: absolute;
+        top: 24%;
+        right: -4px;
+        transform: translateY(-50%);
+        width: 10px;
+        height: 10px;
+        background-color: #c9e5f2;
+        box-shadow: 0 0 0 4px var(--theme);
+        border-radius: 50%;
+        border: 0px solid #84c4e2;
+        z-index: -1;
+    }
+    
+    .timeline__content {
+        flex: 1;
+        margin-left: 4.5rem;
+        padding: 0.5rem 0 1.2rem 0;
+    }
+    
+    .timeline__title {
+        margin: 0;
+        margin-bottom: 2px;
+        padding-top: 3px;
+        margin-left: 0.5rem;
+        color: var(--content);
+        font-family: var(--font-family-teshu);
+        font-size: 19px;
+        font-weight: 600;
+        width: fit-content;
+        display: inline-block;
+        vertical-align: middle;
+         
+    }
+    
+    .timeline__tags {
+        display: inline-block;
+        padding: 0;
+        margin-left: 0.3rem;
+        align-items: center;
+        gap: 0.3rem;
+    }
+    
+    .timeline__tag {
+        display: inline-block;
+        color: var(--secondary);
+        background-color: #84c4e230;
+        border: 1.5px solid #84c4e230;
+        border-radius: 999px;
+        padding: 0rem 0.5rem;
+        font-size: 12px;
+        white-space: nowrap;
+        line-height: 1.4rem;
+        opacity: 0.8;
+        vertical-align: middle;
+         
+    }
+    
+    .timeline__description {
+        font-size: 15px;
+        line-height: 1.6;
+        color: #5d5d5d;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 0.5rem 0 0.4rem 1.5rem;
+         
+    }
+     
+    
+    .timeline__tag-style {
+        background-color: #c581da;
+         
+        border-color: #c581da;
+         
+        color: #FFFFFF;
+         
+    }
+     
+    
+    .timeline__tag-article {
+        background-color: #92d392;
+         
+        border-color: #92d392;
+         
+        color: #000000;
+         
+    }
+     
+    
+    .timeline__tag-page {
+        background-color: #707070;
+         
+        border-color: #707070;
+         
+        color: #FFFFFF;
+         
+    }
+    
+    @media screen and (max-width: 768px) {
+        .timeline__time {
+            font-size: 14px;
+             
+        }
+        .timeline__title {
+            font-size: 16px;
+             
+        }
+        .timeline__description {
+            font-size: 14px;
+             
+        }
+    }
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+    &lt;div class=&#34;timeline__time&#34;&gt;
+        &lt;div class=&#34;timeline__time&#34;&gt;2024-11-22&lt;/div&gt;
+        &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;timeline__content&#34;&gt;
+        &lt;div class=&#34;timeline__tags&#34;&gt;
+            &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;a href=&#34;&#34;&gt;
+            &lt;div class=&#34;timeline__title&#34;&gt;Hugo-Stack优化&lt;/div&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;timeline__description&#34;&gt;
+            添加部分文章封面图
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;style&gt;
+    .timeline {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .timeline__row {
+        display: flex;
+        padding-left: 4%;
+        height: 90px;
+    }
+    
+    .timeline__time {
+        flex: 0 0 110px;
+        color: #5d5d5d;
+        font-size: 17px;
+        text-transform: uppercase;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem 0;
+    }
+    
+    .timeline__time-text {
+        margin: 0;
+    }
+    
+    .timeline__split-line {
+        position: absolute;
+        top: 0.5rem;
+        right: -20px;
+        height: 100%;
+        width: 2px;
+        background-color: #84c4e240;
+        z-index: 0;
+    }
+    
+    .timeline__split-line:before {
+        content: &#34;&#34;;
+        position: absolute;
+        top: 24%;
+        right: -4px;
+        transform: translateY(-50%);
+        width: 10px;
+        height: 10px;
+        background-color: #c9e5f2;
+        box-shadow: 0 0 0 4px var(--theme);
+        border-radius: 50%;
+        border: 0px solid #84c4e2;
+        z-index: -1;
+    }
+    
+    .timeline__content {
+        flex: 1;
+        margin-left: 4.5rem;
+        padding: 0.5rem 0 1.2rem 0;
+    }
+    
+    .timeline__title {
+        margin: 0;
+        margin-bottom: 2px;
+        padding-top: 3px;
+        margin-left: 0.5rem;
+        color: var(--content);
+        font-family: var(--font-family-teshu);
+        font-size: 19px;
+        font-weight: 600;
+        width: fit-content;
+        display: inline-block;
+        vertical-align: middle;
+         
+    }
+    
+    .timeline__tags {
+        display: inline-block;
+        padding: 0;
+        margin-left: 0.3rem;
+        align-items: center;
+        gap: 0.3rem;
+    }
+    
+    .timeline__tag {
+        display: inline-block;
+        color: var(--secondary);
+        background-color: #84c4e230;
+        border: 1.5px solid #84c4e230;
+        border-radius: 999px;
+        padding: 0rem 0.5rem;
+        font-size: 12px;
+        white-space: nowrap;
+        line-height: 1.4rem;
+        opacity: 0.8;
+        vertical-align: middle;
+         
+    }
+    
+    .timeline__description {
+        font-size: 15px;
+        line-height: 1.6;
+        color: #5d5d5d;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 0.5rem 0 0.4rem 1.5rem;
+         
+    }
+     
+    
+    .timeline__tag-style {
+        background-color: #c581da;
+         
+        border-color: #c581da;
+         
+        color: #FFFFFF;
+         
+    }
+     
+    
+    .timeline__tag-article {
+        background-color: #92d392;
+         
+        border-color: #92d392;
+         
+        color: #000000;
+         
+    }
+     
+    
+    .timeline__tag-page {
+        background-color: #707070;
+         
+        border-color: #707070;
+         
+        color: #FFFFFF;
+         
+    }
+    
+    @media screen and (max-width: 768px) {
+        .timeline__time {
+            font-size: 14px;
+             
+        }
+        .timeline__title {
+            font-size: 16px;
+             
+        }
+        .timeline__description {
+            font-size: 14px;
+             
+        }
+    }
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+    &lt;div class=&#34;timeline__time&#34;&gt;
+        &lt;div class=&#34;timeline__time&#34;&gt;2024-11-20&lt;/div&gt;
+        &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;timeline__content&#34;&gt;
+        &lt;div class=&#34;timeline__tags&#34;&gt;
+            &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;a href=&#34;&#34;&gt;
+            &lt;div class=&#34;timeline__title&#34;&gt;Hugo-Stack优化&lt;/div&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;timeline__description&#34;&gt;
+            建设“关于”页面，配置落霞孤鹜字体
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;style&gt;
+    .timeline {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .timeline__row {
+        display: flex;
+        padding-left: 4%;
+        height: 90px;
+    }
+    
+    .timeline__time {
+        flex: 0 0 110px;
+        color: #5d5d5d;
+        font-size: 17px;
+        text-transform: uppercase;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem 0;
+    }
+    
+    .timeline__time-text {
+        margin: 0;
+    }
+    
+    .timeline__split-line {
+        position: absolute;
+        top: 0.5rem;
+        right: -20px;
+        height: 100%;
+        width: 2px;
+        background-color: #84c4e240;
+        z-index: 0;
+    }
+    
+    .timeline__split-line:before {
+        content: &#34;&#34;;
+        position: absolute;
+        top: 24%;
+        right: -4px;
+        transform: translateY(-50%);
+        width: 10px;
+        height: 10px;
+        background-color: #c9e5f2;
+        box-shadow: 0 0 0 4px var(--theme);
+        border-radius: 50%;
+        border: 0px solid #84c4e2;
+        z-index: -1;
+    }
+    
+    .timeline__content {
+        flex: 1;
+        margin-left: 4.5rem;
+        padding: 0.5rem 0 1.2rem 0;
+    }
+    
+    .timeline__title {
+        margin: 0;
+        margin-bottom: 2px;
+        padding-top: 3px;
+        margin-left: 0.5rem;
+        color: var(--content);
+        font-family: var(--font-family-teshu);
+        font-size: 19px;
+        font-weight: 600;
+        width: fit-content;
+        display: inline-block;
+        vertical-align: middle;
+         
+    }
+    
+    .timeline__tags {
+        display: inline-block;
+        padding: 0;
+        margin-left: 0.3rem;
+        align-items: center;
+        gap: 0.3rem;
+    }
+    
+    .timeline__tag {
+        display: inline-block;
+        color: var(--secondary);
+        background-color: #84c4e230;
+        border: 1.5px solid #84c4e230;
+        border-radius: 999px;
+        padding: 0rem 0.5rem;
+        font-size: 12px;
+        white-space: nowrap;
+        line-height: 1.4rem;
+        opacity: 0.8;
+        vertical-align: middle;
+         
+    }
+    
+    .timeline__description {
+        font-size: 15px;
+        line-height: 1.6;
+        color: #5d5d5d;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 0.5rem 0 0.4rem 1.5rem;
+         
+    }
+     
+    
+    .timeline__tag-style {
+        background-color: #c581da;
+         
+        border-color: #c581da;
+         
+        color: #FFFFFF;
+         
+    }
+     
+    
+    .timeline__tag-article {
+        background-color: #92d392;
+         
+        border-color: #92d392;
+         
+        color: #000000;
+         
+    }
+     
+    
+    .timeline__tag-page {
+        background-color: #707070;
+         
+        border-color: #707070;
+         
+        color: #FFFFFF;
+         
+    }
+    
+    @media screen and (max-width: 768px) {
+        .timeline__time {
+            font-size: 14px;
+             
+        }
+        .timeline__title {
+            font-size: 16px;
+             
+        }
+        .timeline__description {
+            font-size: 14px;
+             
+        }
+    }
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+    &lt;div class=&#34;timeline__time&#34;&gt;
+        &lt;div class=&#34;timeline__time&#34;&gt;2024-11-17&lt;/div&gt;
+        &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;timeline__content&#34;&gt;
+        &lt;div class=&#34;timeline__tags&#34;&gt;
+            &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;a href=&#34;&#34;&gt;
+            &lt;div class=&#34;timeline__title&#34;&gt;Hugo-Stack优化&lt;/div&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;timeline__description&#34;&gt;
+            设计logo，优化Stack主题
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;style&gt;
+    .timeline {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .timeline__row {
+        display: flex;
+        padding-left: 4%;
+        height: 90px;
+    }
+    
+    .timeline__time {
+        flex: 0 0 110px;
+        color: #5d5d5d;
+        font-size: 17px;
+        text-transform: uppercase;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem 0;
+    }
+    
+    .timeline__time-text {
+        margin: 0;
+    }
+    
+    .timeline__split-line {
+        position: absolute;
+        top: 0.5rem;
+        right: -20px;
+        height: 100%;
+        width: 2px;
+        background-color: #84c4e240;
+        z-index: 0;
+    }
+    
+    .timeline__split-line:before {
+        content: &#34;&#34;;
+        position: absolute;
+        top: 24%;
+        right: -4px;
+        transform: translateY(-50%);
+        width: 10px;
+        height: 10px;
+        background-color: #c9e5f2;
+        box-shadow: 0 0 0 4px var(--theme);
+        border-radius: 50%;
+        border: 0px solid #84c4e2;
+        z-index: -1;
+    }
+    
+    .timeline__content {
+        flex: 1;
+        margin-left: 4.5rem;
+        padding: 0.5rem 0 1.2rem 0;
+    }
+    
+    .timeline__title {
+        margin: 0;
+        margin-bottom: 2px;
+        padding-top: 3px;
+        margin-left: 0.5rem;
+        color: var(--content);
+        font-family: var(--font-family-teshu);
+        font-size: 19px;
+        font-weight: 600;
+        width: fit-content;
+        display: inline-block;
+        vertical-align: middle;
+         
+    }
+    
+    .timeline__tags {
+        display: inline-block;
+        padding: 0;
+        margin-left: 0.3rem;
+        align-items: center;
+        gap: 0.3rem;
+    }
+    
+    .timeline__tag {
+        display: inline-block;
+        color: var(--secondary);
+        background-color: #84c4e230;
+        border: 1.5px solid #84c4e230;
+        border-radius: 999px;
+        padding: 0rem 0.5rem;
+        font-size: 12px;
+        white-space: nowrap;
+        line-height: 1.4rem;
+        opacity: 0.8;
+        vertical-align: middle;
+         
+    }
+    
+    .timeline__description {
+        font-size: 15px;
+        line-height: 1.6;
+        color: #5d5d5d;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 0.5rem 0 0.4rem 1.5rem;
+         
+    }
+     
+    
+    .timeline__tag-style {
+        background-color: #c581da;
+         
+        border-color: #c581da;
+         
+        color: #FFFFFF;
+         
+    }
+     
+    
+    .timeline__tag-article {
+        background-color: #92d392;
+         
+        border-color: #92d392;
+         
+        color: #000000;
+         
+    }
+     
+    
+    .timeline__tag-page {
+        background-color: #707070;
+         
+        border-color: #707070;
+         
+        color: #FFFFFF;
+         
+    }
+    
+    @media screen and (max-width: 768px) {
+        .timeline__time {
+            font-size: 14px;
+             
+        }
+        .timeline__title {
+            font-size: 16px;
+             
+        }
+        .timeline__description {
+            font-size: 14px;
+             
+        }
+    }
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+    &lt;div class=&#34;timeline__time&#34;&gt;
+        &lt;div class=&#34;timeline__time&#34;&gt;2024-11-16&lt;/div&gt;
+        &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;timeline__content&#34;&gt;
+        &lt;div class=&#34;timeline__tags&#34;&gt;
+            &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;a href=&#34;&#34;&gt;
+            &lt;div class=&#34;timeline__title&#34;&gt;将博客迁移至Hugo&lt;/div&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;timeline__description&#34;&gt;
+            Hugo &amp;#43; Github Pages，使用Stack主题
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;style&gt;
+    .timeline {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .timeline__row {
+        display: flex;
+        padding-left: 4%;
+        height: 90px;
+    }
+    
+    .timeline__time {
+        flex: 0 0 110px;
+        color: #5d5d5d;
+        font-size: 17px;
+        text-transform: uppercase;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem 0;
+    }
+    
+    .timeline__time-text {
+        margin: 0;
+    }
+    
+    .timeline__split-line {
+        position: absolute;
+        top: 0.5rem;
+        right: -20px;
+        height: 100%;
+        width: 2px;
+        background-color: #84c4e240;
+        z-index: 0;
+    }
+    
+    .timeline__split-line:before {
+        content: &#34;&#34;;
+        position: absolute;
+        top: 24%;
+        right: -4px;
+        transform: translateY(-50%);
+        width: 10px;
+        height: 10px;
+        background-color: #c9e5f2;
+        box-shadow: 0 0 0 4px var(--theme);
+        border-radius: 50%;
+        border: 0px solid #84c4e2;
+        z-index: -1;
+    }
+    
+    .timeline__content {
+        flex: 1;
+        margin-left: 4.5rem;
+        padding: 0.5rem 0 1.2rem 0;
+    }
+    
+    .timeline__title {
+        margin: 0;
+        margin-bottom: 2px;
+        padding-top: 3px;
+        margin-left: 0.5rem;
+        color: var(--content);
+        font-family: var(--font-family-teshu);
+        font-size: 19px;
+        font-weight: 600;
+        width: fit-content;
+        display: inline-block;
+        vertical-align: middle;
+         
+    }
+    
+    .timeline__tags {
+        display: inline-block;
+        padding: 0;
+        margin-left: 0.3rem;
+        align-items: center;
+        gap: 0.3rem;
+    }
+    
+    .timeline__tag {
+        display: inline-block;
+        color: var(--secondary);
+        background-color: #84c4e230;
+        border: 1.5px solid #84c4e230;
+        border-radius: 999px;
+        padding: 0rem 0.5rem;
+        font-size: 12px;
+        white-space: nowrap;
+        line-height: 1.4rem;
+        opacity: 0.8;
+        vertical-align: middle;
+         
+    }
+    
+    .timeline__description {
+        font-size: 15px;
+        line-height: 1.6;
+        color: #5d5d5d;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 0.5rem 0 0.4rem 1.5rem;
+         
+    }
+     
+    
+    .timeline__tag-style {
+        background-color: #c581da;
+         
+        border-color: #c581da;
+         
+        color: #FFFFFF;
+         
+    }
+     
+    
+    .timeline__tag-article {
+        background-color: #92d392;
+         
+        border-color: #92d392;
+         
+        color: #000000;
+         
+    }
+     
+    
+    .timeline__tag-page {
+        background-color: #707070;
+         
+        border-color: #707070;
+         
+        color: #FFFFFF;
+         
+    }
+    
+    @media screen and (max-width: 768px) {
+        .timeline__time {
+            font-size: 14px;
+             
+        }
+        .timeline__title {
+            font-size: 16px;
+             
+        }
+        .timeline__description {
+            font-size: 14px;
+             
+        }
+    }
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+    &lt;div class=&#34;timeline__time&#34;&gt;
+        &lt;div class=&#34;timeline__time&#34;&gt;2024-08-17&lt;/div&gt;
+        &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;timeline__content&#34;&gt;
+        &lt;div class=&#34;timeline__tags&#34;&gt;
+            &lt;span class=&#34;timeline__tag&#34;&gt;v1&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;a href=&#34;&#34;&gt;
+            &lt;div class=&#34;timeline__title&#34;&gt;使用NotionNext建站&lt;/div&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;timeline__description&#34;&gt;
+            NotionNext &amp;#43; Vercel，使用Nobelium主题
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;style&gt;
+    .timeline {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .timeline__row {
+        display: flex;
+        padding-left: 4%;
+        height: 90px;
+    }
+    
+    .timeline__time {
+        flex: 0 0 110px;
+        color: #5d5d5d;
+        font-size: 17px;
+        text-transform: uppercase;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem 0;
+    }
+    
+    .timeline__time-text {
+        margin: 0;
+    }
+    
+    .timeline__split-line {
+        position: absolute;
+        top: 0.5rem;
+        right: -20px;
+        height: 100%;
+        width: 2px;
+        background-color: #84c4e240;
+        z-index: 0;
+    }
+    
+    .timeline__split-line:before {
+        content: &#34;&#34;;
+        position: absolute;
+        top: 24%;
+        right: -4px;
+        transform: translateY(-50%);
+        width: 10px;
+        height: 10px;
+        background-color: #c9e5f2;
+        box-shadow: 0 0 0 4px var(--theme);
+        border-radius: 50%;
+        border: 0px solid #84c4e2;
+        z-index: -1;
+    }
+    
+    .timeline__content {
+        flex: 1;
+        margin-left: 4.5rem;
+        padding: 0.5rem 0 1.2rem 0;
+    }
+    
+    .timeline__title {
+        margin: 0;
+        margin-bottom: 2px;
+        padding-top: 3px;
+        margin-left: 0.5rem;
+        color: var(--content);
+        font-family: var(--font-family-teshu);
+        font-size: 19px;
+        font-weight: 600;
+        width: fit-content;
+        display: inline-block;
+        vertical-align: middle;
+         
+    }
+    
+    .timeline__tags {
+        display: inline-block;
+        padding: 0;
+        margin-left: 0.3rem;
+        align-items: center;
+        gap: 0.3rem;
+    }
+    
+    .timeline__tag {
+        display: inline-block;
+        color: var(--secondary);
+        background-color: #84c4e230;
+        border: 1.5px solid #84c4e230;
+        border-radius: 999px;
+        padding: 0rem 0.5rem;
+        font-size: 12px;
+        white-space: nowrap;
+        line-height: 1.4rem;
+        opacity: 0.8;
+        vertical-align: middle;
+         
+    }
+    
+    .timeline__description {
+        font-size: 15px;
+        line-height: 1.6;
+        color: #5d5d5d;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 0.5rem 0 0.4rem 1.5rem;
+         
+    }
+     
+    
+    .timeline__tag-style {
+        background-color: #c581da;
+         
+        border-color: #c581da;
+         
+        color: #FFFFFF;
+         
+    }
+     
+    
+    .timeline__tag-article {
+        background-color: #92d392;
+         
+        border-color: #92d392;
+         
+        color: #000000;
+         
+    }
+     
+    
+    .timeline__tag-page {
+        background-color: #707070;
+         
+        border-color: #707070;
+         
+        color: #FFFFFF;
+         
+    }
+    
+    @media screen and (max-width: 768px) {
+        .timeline__time {
+            font-size: 14px;
+             
+        }
+        .timeline__title {
+            font-size: 16px;
+             
+        }
+        .timeline__description {
+            font-size: 14px;
+             
+        }
+    }
+&lt;/style&gt;
+
+&lt;details&gt;
+    &lt;summary&gt;To-do(内容)&lt;/summary&gt;
+    &lt;ul&gt;
+&lt;li&gt;年终博客总结：&lt;a class=&#34;link&#34; href=&#34;https://www.jdeal.cn/511.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;独立博客自省问卷15题&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;学习优化月总结&lt;a class=&#34;link&#34; href=&#34;https://thirdshire.com/tags/%E6%97%A5%E5%B8%B8%E5%B0%8F%E7%BB%93/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;第三夏尔日常小结&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/details&gt;
+
+&lt;details&gt;
+    &lt;summary&gt;To-do(形式)&lt;/summary&gt;
+    &lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;20min&lt;/code&gt; 优化分类和标签&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;20min&lt;/code&gt;配置&lt;a class=&#34;link&#34; href=&#34;https://immmmm.com/hugo-github-actions/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;自动化部署&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;20min&lt;/code&gt;优化SEO&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;20min&lt;/code&gt;添加网站统计&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;20min&lt;/code&gt;在“关于”页面/“归档”页面添加&lt;a class=&#34;link&#34; href=&#34;https://blog.douchi.space/hugo-blog-heatmap/#gsc.tab=0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;热力图&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 更换.com域名&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 加入十年之约&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;a class=&#34;link&#34; href=&#34;https://immmmm.com/post-show-douban-item-localstorage-cache/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;文章内显示豆瓣条目&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Self-host：使用服务器部署博客&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 添加&lt;a class=&#34;link&#34; href=&#34;https://notbyai.fyi/cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NotByAI&lt;/a&gt;标签&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 优化主题颜色：金色&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 配置RSS订阅&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 配置字体：落霞孤鹜字体&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 添加友链（参考&lt;a class=&#34;link&#34; href=&#34;https://www.xalaok.top/links/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Naive Koala&lt;/a&gt;）&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 学习主题配图，参考&lt;a class=&#34;link&#34; href=&#34;https://www.xalaok.top/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Naive Koala&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/details&gt;
+
+&lt;details&gt;
+    &lt;summary&gt;待探索的博客&lt;/summary&gt;
+    &lt;ol&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://linsnow.cn/posts/cyberlife/log-01/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;L1nSn0wの小窝 - 我的赛博生活01&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/lin-snow&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;lin-snow (L1nSn0w) · GitHub&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.xalaok.top/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Naive Koala | Naive Koala&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://hyruo.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;海若博客&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://wintery.social/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Wintery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://lms.pub/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;不亦乐乎 – 自娱自乐，不亦乐乎!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.hentioe.dev/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;绅士喵&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://xyzbz.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;子夜松声&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;/details&gt;
+
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post/s/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;我的博客折腾笔记&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>十月自救指南</title>
         <link>http://localhost:1313/post/life10/</link>
         <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
@@ -15,7 +1134,7 @@
         <guid>http://localhost:1313/post/life10/</guid>
         <description>&lt;img src="http://localhost:1313/post/life10/cover/cover3.jpg" alt="Featured image of post 十月自救指南" /&gt;&lt;p&gt;十月，科研和论文的焦虑笼罩着整个月份，游戏、运动、电影的娱乐让我麻痹，正事进展的受阻一次又一次让我感到痛苦。&lt;/p&gt;
 &lt;p&gt;经历了艰难的心理建设和昼夜颠倒的赶工，最后时刻完成了任务，一切都令人感到疲惫。&lt;/p&gt;
-&lt;h2 id=&#34;达摩克利斯之剑&#34;&gt;达摩克利斯之剑
+&lt;h2 id=&#34;论文终稿&#34;&gt;论文终稿
 &lt;/h2&gt;&lt;p&gt;月底得交论文终稿。&lt;/p&gt;
 &lt;p&gt;5w字论文的大修，像悬在头顶的达摩克利斯之剑。&lt;/p&gt;
 &lt;p&gt;10月，重新回到了实验室，回到了宿舍-食堂-实验室的三点一线。跑实验-自我否定-看论文-改论文-重新跑实验，循环往复，身心俱疲。&lt;/p&gt;
@@ -138,7 +1257,19 @@
         <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/post/areading04/</guid>
-        <description>&lt;img src="http://localhost:1313/post/areading04/cover/cover.jpg" alt="Featured image of post 零食店、萨莉亚、自助餐与柠檬茶" /&gt;&lt;p&gt;&lt;strong&gt;写在前面&lt;/strong&gt;：
+        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/areading04/cover/cover.jpg&#34;
+	width=&#34;1440&#34;
+	height=&#34;810&#34;
+	srcset=&#34;http://localhost:1313/post/areading04/cover/cover_hu2279268021134030340.jpg 480w, http://localhost:1313/post/areading04/cover/cover_hu16121510807103425684.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;写在前面&lt;/strong&gt;：
 日常碎片阅读，往往都是单篇，不成系统。想着积累成量再组织输出专题，苦于没有时间和精力，在素材库里积灰已久，不知何时能用上。
 不如撺够一波直接输出，尽管只是再加工的半成品，但也是我内化后的内容。
 每期输出4~6篇笔记，包含文章/新闻/视频的信息和观点的总结，以及我自己的思考。&lt;/p&gt;
@@ -224,7 +1355,19 @@
         <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/post/areading03/</guid>
-        <description>&lt;img src="http://localhost:1313/post/areading03/cover/cover.jpg" alt="Featured image of post 世界的短视频化" /&gt;&lt;p&gt;&lt;strong&gt;写在前面&lt;/strong&gt;：
+        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/areading03/cover/cover.jpg&#34;
+	width=&#34;1344&#34;
+	height=&#34;768&#34;
+	srcset=&#34;http://localhost:1313/post/areading03/cover/cover_hu16865255121224542615.jpg 480w, http://localhost:1313/post/areading03/cover/cover_hu15750228148209639844.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;175&#34;
+		data-flex-basis=&#34;420px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;写在前面&lt;/strong&gt;：
 日常碎片阅读，往往都是单篇，不成系统。想着积累成量再组织输出专题，苦于没有时间和精力，在素材库里积灰已久，不知何时能用上。
 不如撺够一波直接输出，尽管只是再加工的半成品，但也是我内化后的内容。
 每期输出4~6篇笔记，包含文章/新闻/视频的信息和观点的总结，以及我自己的思考。&lt;/p&gt;
@@ -347,7 +1490,7 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 	srcset=&#34;http://localhost:1313/post/life08/LLDWS_hu9064530973297731653.png 480w, http://localhost:1313/post/life08/LLDWS_hu13599949443512314572.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
-		alt=&#34;姥姥的外孙&#34;
+		alt=&#34;《姥姥的外孙》&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
@@ -536,10 +1679,11 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/post/film01/</guid>
-        <description>&lt;blockquote&gt;
-&lt;p&gt;《&lt;a class=&#34;link&#34; href=&#34;https://movie.douban.com/subject/36587974/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;出走的决心&lt;/a&gt;》影评&lt;/p&gt;
-&lt;/blockquote&gt;
+        <description>
+&lt;div class=&#34;notice notice-info&#34; &gt;
+    &lt;div class=&#34;notice-title&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;icon notice-icon&#34; viewBox=&#34;0 0 512 512&#34; fill=&#34;#705943&#34;&gt;&lt;path d=&#34;M256 8a248 248 0 100 496 248 248 0 000-496zm0 110a42 42 0 110 84 42 42 0 010-84zm56 254c0 7-5 12-12 12h-88c-7 0-12-5-12-12v-24c0-7 5-12 12-12h12v-64h-12c-7 0-12-5-12-12v-24c0-7 5-12 12-12h64c7 0 12 5 12 12v100h12c7 0 12 5 12 12v24z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;&lt;p&gt;《&lt;a class=&#34;link&#34; href=&#34;https://movie.douban.com/subject/36587974/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;出走的决心&lt;/a&gt;》影评&lt;/p&gt;&lt;/div&gt;
+
 &lt;p&gt;关于一个女人的出走，现代版娜拉，改编自现实故事。我三四年前注意到这个新闻，没想到这么快就拍出来电影。看了之后觉得非常好，这是一部以家庭内部视角讲女性困境的电影。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;18岁时憧憬大学，家人不同意，她妥协了，因为她没有别的办法。&lt;/li&gt;
@@ -550,7 +1694,7 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 &lt;/ul&gt;
 &lt;p&gt;李红的一生就是不断想出走又停留的故事，你可以看到她为什么想出走，又为什么最后停留。&lt;/p&gt;
 &lt;p&gt;这不是一个《神奇女侠》式超能大女主的故事，也不是都市白领剧里励志大女主的故事，但这也这个故事最动人的地方——扒开一个最传统最典型的中式家庭内部，讲述了一个中老年女性的困境，和她最后的出走。&lt;/p&gt;
- &lt;div align=center&gt;&lt;img src=&#34;CZDJX.jpg&#34;  width=&#34;80%&#34; /&gt;
+ &lt;div align=center&gt;&lt;img src=&#34;CZDJX.jpg&#34;  width=&#34;70%&#34; /&gt;
   &lt;figcaption style=&#34;font-size: 14px; color: gray;&#34;&gt;这到底是个什么事理？&lt;/figcaption&gt;
 &lt;/figure&gt;&lt;/div&gt;
 &lt;h2 id=&#34;这到底是个什么事理&#34;&gt;这到底是个什么事理
@@ -583,33 +1727,141 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 &lt;p&gt;娜拉走后怎样， 鲁迅在一百年前的担忧，或许离开，摆脱旧的“事理”，寻找生活别的活法，重要的是勇气，更重要的是经济独立。&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;最后以余秀华的诗作结。&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;《石磨》&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;mycard&#34;&gt;
+      &lt;div class=&#34;content&#34;&gt;&lt;p&gt;《石磨》&lt;br&gt;
+余秀华&lt;br&gt;&lt;/p&gt;
 &lt;p&gt;横店的石磨上，谁栓住了我前世今生&lt;br&gt;
 谁蒙住了我的眼睛&lt;br&gt;
 磨眼里喂进三月，桃花，一页风流&lt;br&gt;
 磨眼里喂稗草，苍耳，水花生&lt;br&gt;
-——假如风能养活我，谁就不小心犯了错&lt;/p&gt;
-&lt;p&gt;我转动的上磨大于横店，横店是静止的下磨&lt;br&gt;
+——假如风能养活我，谁就不小心犯了错&lt;br&gt;
+&lt;br&gt;
+我转动的上磨大于横店，横店是静止的下磨&lt;br&gt;
 大于横店的部分有我的情，我的罪，我的梦和绝望&lt;br&gt;
 磨眼里喂世人的冷，一个人的硬&lt;br&gt;
 磨眼里喂进散，大雾，雪&lt;br&gt;
-——风不仅仅养活了我，谁一错再错&lt;/p&gt;
-&lt;p&gt;谁扯下我的眼罩，我还是驮着石磨转动&lt;br&gt;
+——风不仅仅养活了我，谁一错再错&lt;br&gt;
+&lt;br&gt;
+谁扯下我的眼罩，我还是驮着石磨转动&lt;br&gt;
 白天和夜里的速度一样&lt;br&gt;
 没有人喂的磨眼掉进石头，压着桃花&lt;br&gt;
 掉进世俗，压住悲哀&lt;br&gt;
-——这样的转动仅仅是转动&lt;/p&gt;
+——这样的转动仅仅是转动&lt;/p&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;!-- &gt; **《石磨》**
+&gt;
+&gt;横店的石磨上，谁栓住了我前世今生  
+谁蒙住了我的眼睛  
+磨眼里喂进三月，桃花，一页风流  
+磨眼里喂稗草，苍耳，水花生  
+——假如风能养活我，谁就不小心犯了错  
+&gt;  
+&gt;
+&gt;我转动的上磨大于横店，横店是静止的下磨  
+大于横店的部分有我的情，我的罪，我的梦和绝望  
+磨眼里喂世人的冷，一个人的硬  
+磨眼里喂进散，大雾，雪  
+——风不仅仅养活了我，谁一错再错
+&gt;
+&gt;谁扯下我的眼罩，我还是驮着石磨转动  
+白天和夜里的速度一样  
+没有人喂的磨眼掉进石头，压着桃花  
+掉进世俗，压住悲哀  
+——这样的转动仅仅是转动 --&gt;</description>
+        </item>
+        <item>
+        <title>中国足坛的《我不是药神》</title>
+        <link>http://localhost:1313/post/areading02/</link>
+        <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/post/areading02/</guid>
+        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/areading02/cover/cover6.jpg&#34;
+	width=&#34;1057&#34;
+	height=&#34;450&#34;
+	srcset=&#34;http://localhost:1313/post/areading02/cover/cover6_hu16061748815422341219.jpg 480w, http://localhost:1313/post/areading02/cover/cover6_hu15320820386951625694.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;234&#34;
+		data-flex-basis=&#34;563px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;写在前面&lt;/strong&gt;：
+日常碎片阅读，往往都是单篇，不成系统。想着积累成量再组织输出专题，苦于没有时间和精力，在素材库里积灰已久，不知何时能用上。
+不如撺够一波直接输出，尽管只是再加工的半成品，但也是我内化后的内容。
+每期输出4~6篇笔记，包含文章/新闻/视频的信息和观点的总结，以及我自己的思考。&lt;/p&gt;
+&lt;p&gt;第二期，关注中国足坛的“假赌黑”和联赛欠薪现象。&lt;/p&gt;
+&lt;p&gt;素材笔记#02-足球篇：中国足坛的《我不是药神》。&lt;/p&gt;
+&lt;h2 id=&#34;遵遇长期欠薪铤而走险踢假球能否被原谅&#34;&gt;遵遇长期欠薪，铤而走险踢假球能否被原谅？
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;参考新闻：
+&lt;a class=&#34;link&#34; href=&#34;https://m.your724sports.com/article/4536264.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;球迷态度：球员遭遇长期欠薪，铤而走险踢假球能否被原谅？|重庆两江竞技|江西庐山|丁捷|杨文吉|陕西长安竞技|懂球帝&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
+&lt;p&gt;最近足协披露出了三级联赛”假赌黑“的球员名单，看了一些声泪俱下自述，无一不和被欠薪有关。&lt;/p&gt;
+&lt;p&gt;欲求不满踢假球是贪心，但是到了逼良为娼易子而食的地步，就不应该单单谈道德的问题了…&lt;/p&gt;
+&lt;h2 id=&#34;一则收钱踢假球的球员自述&#34;&gt;一则收钱踢假球的球员自述
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;参考：
+&lt;a class=&#34;link&#34; href=&#34;https://m.your724sports.com/article/4536107.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;终身禁足球员杨文吉：被长期欠薪，为4万块钱辜负了球迷|江西庐山|杨文吉|懂球帝&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;“我除了会踢球，其他什么都不会。”&lt;/p&gt;
+&lt;p&gt;一则收钱踢假球的球员的自述，看完感觉挺心酸的，可一窥行业生态。&lt;/p&gt;
+&lt;p&gt;欠薪假球之风大行其道监管部门不作为，球员讨薪无门铤而走险为了4万块断送职业生涯。&lt;/p&gt;
+&lt;p&gt;评论区出奇一致地表示同情和无奈，看到一个老哥说，“我带入进去底线可能比他还低。”&lt;/p&gt;
+&lt;p&gt;其中一个细节，中甲主力，全国第二级别联赛球员，月薪也一万二，还是税前。赢球能分到三四千，赢不了球什么都没有。&lt;/p&gt;
+&lt;p&gt;像足球运动员这种吃青春饭的职业，要培养起来，先不说成才率，投入的各路成本都难以想象，真正踢职业赚钱的时间也就十年时间，伤病的风险，一旦大伤就等于失业。&lt;/p&gt;
+&lt;p&gt;难怪说家里有矿的才踢球，意思不仅是培养成才需要大量金钱投入，还意味着等踢上职业了，面对欠薪，伤病，你可能还要家里输血才能养活自己。&lt;/p&gt;
+&lt;p&gt;环境可见一斑，这样一个没前途和没钱途的职业，还指望哪个家长送孩子去踢球？&lt;/p&gt;
+&lt;h2 id=&#34;另一则足球行业薪资的披露&#34;&gt;另一则足球行业薪资的披露
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;参考新闻：
+&lt;a class=&#34;link&#34; href=&#34;https://m.your724sports.com/article/4537240.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;赵震：中甲大部分球员工资不到2万，买不起鞋找踢中超的要|中国|广州|江西庐山|上海嘉定汇龙|黑龙江冰城|辽宁铁人|苏州东吴|青岛红狮|广西平果哈嘹|南京城市|佛山南狮|延边龙鼎|石家庄功夫|无锡吴钩|云南玉昆|大连英博|重庆铜梁龙|中国足协|懂球帝&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;又一则业内人士对足球行业薪资的披露，标题有点误导，原话是：“中甲大部分球队的顶薪就是税前一个月2万块。能拿到这个薪水的只有三四个人。其他人从3、4000块到15000不等。”&lt;/p&gt;
+&lt;p&gt;这个数字对于其他行业来说不低，但对于足球运动员来说，高前期投入成本+短职业寿命=非常一般的薪资。谁还去踢球，难怪足球发展不起来。&lt;/p&gt;
+&lt;h2 id=&#34;青训救不了国足没有良好的联赛环境没有用&#34;&gt;青训救不了国足，没有良好的联赛环境没有用
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;参考新闻：
+&lt;a class=&#34;link&#34; href=&#34;https://m.your724sports.com/article/4537160.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;王楚淇评禁足：青训救不了国足，没有良好的联赛环境没有用|中国|江西庐山|杨文吉|王楚淇|懂球帝&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;搞好联赛是前途和出路问题，搞好青训是人才培养问题，没有前途和出路，还培养啥才。&lt;/p&gt;
+&lt;p&gt;想想16年那会中超鼎盛，尽管有种种问题，大家还觉得中超会成为亚洲第一联赛。真是令人唏嘘不已。&lt;/p&gt;
+&lt;h2 id=&#34;中国足坛的我不是药神&#34;&gt;中国足坛的《我不是药神》
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;参考新闻：
+&lt;a class=&#34;link&#34; href=&#34;https://m.your724sports.com/article/4537243.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;媒体人：这几年连现役国脚都被欠薪，中国足球不配谈冲出亚洲|丁捷|杨文吉|孙冬|中国足协|懂球帝&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;刷了这么多帖子，做一个总结。&lt;/p&gt;
+&lt;p&gt;足协公布“赌假黑”名单后，禁足球员声泪俱下的自述，无一不和欠薪有关。最典型的杨文吉，一年只发了三四个月的工资，奖金更是一分没有，一年拿着三四万块钱的去养活自己和家人，更要紧的是女儿刚刚出生…&lt;/p&gt;
+&lt;p&gt;对行业状况的了解转化为了对球员的同情，颇有《我不是药神》的感觉。&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>中国足球的九九八十一难，才刚刚开始</title>
         <link>http://localhost:1313/post/areading01/</link>
-        <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+        <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/post/areading01/</guid>
-        <description>&lt;img src="http://localhost:1313/post/areading01/cover/cover2.jpg" alt="Featured image of post 中国足球的九九八十一难，才刚刚开始" /&gt;&lt;p&gt;&lt;strong&gt;写在前面&lt;/strong&gt;：
+        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/areading01/cover/cover2.jpg&#34;
+	width=&#34;800&#34;
+	height=&#34;450&#34;
+	srcset=&#34;http://localhost:1313/post/areading01/cover/cover2_hu1645548282383804857.jpg 480w, http://localhost:1313/post/areading01/cover/cover2_hu6906772394774583459.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;写在前面&lt;/strong&gt;：
 日常碎片阅读，往往都是单篇，不成系统。想着积累成量再组织输出专题，苦于没有时间和精力，在素材库里积灰已久，不知何时能用上。
 不如撺够一波直接输出，尽管只是再加工的半成品，但也是我内化后的内容。
 每期输出4~6篇笔记，包含文章/新闻/视频的信息和观点的总结，以及我自己的思考。&lt;/p&gt;
@@ -691,67 +1943,6 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 &lt;p&gt;文末非常中肯的一段话：&lt;/p&gt;
 &lt;p&gt;球迷和从业者的期待，并非简单的赢球或输球，而是希望国足能够在失败中知耻而后勇，找到提升的方向。&lt;/p&gt;
 &lt;p&gt;因此，我们需要摒弃一切不利于向上发展的声音，更为聚焦、清醒地认识到中国足球当下的处境与欠缺，也就是放弃幻想，降低预期，拉长周期，脚踏实地地推动这项运动在中国一点一点走向真正正确的发展方向。&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>中国足坛的《我不是药神》</title>
-        <link>http://localhost:1313/post/areading02/</link>
-        <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/post/areading02/</guid>
-        <description>&lt;img src="http://localhost:1313/post/areading02/cover/cover6.jpg" alt="Featured image of post 中国足坛的《我不是药神》" /&gt;&lt;p&gt;&lt;strong&gt;写在前面&lt;/strong&gt;：
-日常碎片阅读，往往都是单篇，不成系统。想着积累成量再组织输出专题，苦于没有时间和精力，在素材库里积灰已久，不知何时能用上。
-不如撺够一波直接输出，尽管只是再加工的半成品，但也是我内化后的内容。
-每期输出4~6篇笔记，包含文章/新闻/视频的信息和观点的总结，以及我自己的思考。&lt;/p&gt;
-&lt;p&gt;第二期，关注中国足坛的“假赌黑”和联赛欠薪现象。&lt;/p&gt;
-&lt;p&gt;素材笔记#02-足球篇：中国足坛的《我不是药神》。&lt;/p&gt;
-&lt;h2 id=&#34;遵遇长期欠薪铤而走险踢假球能否被原谅&#34;&gt;遵遇长期欠薪，铤而走险踢假球能否被原谅？
-&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;参考新闻：
-&lt;a class=&#34;link&#34; href=&#34;https://m.your724sports.com/article/4536264.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;球迷态度：球员遭遇长期欠薪，铤而走险踢假球能否被原谅？|重庆两江竞技|江西庐山|丁捷|杨文吉|陕西长安竞技|懂球帝&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;最近足协披露出了三级联赛”假赌黑“的球员名单，看了一些声泪俱下自述，无一不和被欠薪有关。&lt;/p&gt;
-&lt;p&gt;欲求不满踢假球是贪心，但是到了逼良为娼易子而食的地步，就不应该单单谈道德的问题了…&lt;/p&gt;
-&lt;h2 id=&#34;一则收钱踢假球的球员自述&#34;&gt;一则收钱踢假球的球员自述
-&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;参考：
-&lt;a class=&#34;link&#34; href=&#34;https://m.your724sports.com/article/4536107.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;终身禁足球员杨文吉：被长期欠薪，为4万块钱辜负了球迷|江西庐山|杨文吉|懂球帝&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;“我除了会踢球，其他什么都不会。”&lt;/p&gt;
-&lt;p&gt;一则收钱踢假球的球员的自述，看完感觉挺心酸的，可一窥行业生态。&lt;/p&gt;
-&lt;p&gt;欠薪假球之风大行其道监管部门不作为，球员讨薪无门铤而走险为了4万块断送职业生涯。&lt;/p&gt;
-&lt;p&gt;评论区出奇一致地表示同情和无奈，看到一个老哥说，“我带入进去底线可能比他还低。”&lt;/p&gt;
-&lt;p&gt;其中一个细节，中甲主力，全国第二级别联赛球员，月薪也一万二，还是税前。赢球能分到三四千，赢不了球什么都没有。&lt;/p&gt;
-&lt;p&gt;像足球运动员这种吃青春饭的职业，要培养起来，先不说成才率，投入的各路成本都难以想象，真正踢职业赚钱的时间也就十年时间，伤病的风险，一旦大伤就等于失业。&lt;/p&gt;
-&lt;p&gt;难怪说家里有矿的才踢球，意思不仅是培养成才需要大量金钱投入，还意味着等踢上职业了，面对欠薪，伤病，你可能还要家里输血才能养活自己。&lt;/p&gt;
-&lt;p&gt;环境可见一斑，这样一个没前途和没钱途的职业，还指望哪个家长送孩子去踢球？&lt;/p&gt;
-&lt;h2 id=&#34;另一则足球行业薪资的披露&#34;&gt;另一则足球行业薪资的披露
-&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;参考新闻：
-&lt;a class=&#34;link&#34; href=&#34;https://m.your724sports.com/article/4537240.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;赵震：中甲大部分球员工资不到2万，买不起鞋找踢中超的要|中国|广州|江西庐山|上海嘉定汇龙|黑龙江冰城|辽宁铁人|苏州东吴|青岛红狮|广西平果哈嘹|南京城市|佛山南狮|延边龙鼎|石家庄功夫|无锡吴钩|云南玉昆|大连英博|重庆铜梁龙|中国足协|懂球帝&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;又一则业内人士对足球行业薪资的披露，标题有点误导，原话是：“中甲大部分球队的顶薪就是税前一个月2万块。能拿到这个薪水的只有三四个人。其他人从3、4000块到15000不等。”&lt;/p&gt;
-&lt;p&gt;这个数字对于其他行业来说不低，但对于足球运动员来说，高前期投入成本+短职业寿命=非常一般的薪资。谁还去踢球，难怪足球发展不起来。&lt;/p&gt;
-&lt;h2 id=&#34;青训救不了国足没有良好的联赛环境没有用&#34;&gt;青训救不了国足，没有良好的联赛环境没有用
-&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;参考新闻：
-&lt;a class=&#34;link&#34; href=&#34;https://m.your724sports.com/article/4537160.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;王楚淇评禁足：青训救不了国足，没有良好的联赛环境没有用|中国|江西庐山|杨文吉|王楚淇|懂球帝&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;搞好联赛是前途和出路问题，搞好青训是人才培养问题，没有前途和出路，还培养啥才。&lt;/p&gt;
-&lt;p&gt;想想16年那会中超鼎盛，尽管有种种问题，大家还觉得中超会成为亚洲第一联赛。真是令人唏嘘不已。&lt;/p&gt;
-&lt;h2 id=&#34;中国足坛的我不是药神&#34;&gt;中国足坛的《我不是药神》
-&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;参考新闻：
-&lt;a class=&#34;link&#34; href=&#34;https://m.your724sports.com/article/4537243.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;媒体人：这几年连现役国脚都被欠薪，中国足球不配谈冲出亚洲|丁捷|杨文吉|孙冬|中国足协|懂球帝&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;刷了这么多帖子，做一个总结。&lt;/p&gt;
-&lt;p&gt;足协公布“赌假黑”名单后，禁足球员声泪俱下的自述，无一不和欠薪有关。最典型的杨文吉，一年只发了三四个月的工资，奖金更是一分没有，一年拿着三四万块钱的去养活自己和家人，更要紧的是女儿刚刚出生…&lt;/p&gt;
-&lt;p&gt;对行业状况的了解转化为了对球员的同情，颇有《我不是药神》的感觉。&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -1886,12 +3077,513 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 </description>
         </item>
         <item>
+        <title>我的博客折腾笔记</title>
+        <link>http://localhost:1313/post/s/</link>
+        <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/post/s/</guid>
+        <description>&lt;h2 id=&#34;建站&#34;&gt;建站
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;NotionNext建站参考:&lt;a class=&#34;link&#34; href=&#34;https://docs.tangly1024.com/about&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;NotionNexti帮助手册&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Vercel托管参考:&lt;a class=&#34;link&#34; href=&#34;https://docs.tangly1024.com/article/vercel-deploy-notion-next-static&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Vercel静态部署NotionNext&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Hugo建站参考:&lt;/li&gt;
+&lt;li&gt;Hugo主题:&lt;a class=&#34;link&#34; href=&#34;https://themes.gohugo.io/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Themes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;域名购买:&lt;a class=&#34;link&#34; href=&#34;https://www.aliyun.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;阿里云&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;字体配置&#34;&gt;字体配置
+&lt;/h2&gt;&lt;h2 id=&#34;封面图制作&#34;&gt;封面图制作
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;选材&lt;/li&gt;
+&lt;li&gt;制作蒙版+文字:美图秀秀&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;hugo主题优化-短代码&#34;&gt;Hugo主题优化-短代码
+&lt;/h2&gt;&lt;p&gt;参考:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.xalaok.top/post/hugo-shortcodes/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;一些hugo短代码&lt;/a&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Notice/toggle list/时间轴/聊天气泡/旅行者一号/块引用&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Neodb&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.sleepymoon.cyou/2023/hugo-shortcodes/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo|在Stack主题上可行的短代码们&lt;/a&gt;:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 手动打码/高斯模糊/图片轮播/插入pdf/网易云音乐&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;notice&#34;&gt;Notice
+&lt;/h3&gt;
+&lt;div class=&#34;notice notice-warning&#34; &gt;
+    &lt;div class=&#34;notice-title&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;icon notice-icon&#34; viewBox=&#34;0 0 576 512&#34; fill=&#34;#704343&#34;&gt;&lt;path d=&#34;M570 440c18 32-5 72-42 72H48c-37 0-60-40-42-72L246 24c19-32 65-32 84 0l240 416zm-282-86a46 46 0 100 92 46 46 0 000-92zm-44-165l8 136c0 6 5 11 12 11h48c7 0 12-5 12-11l8-136c0-7-5-13-12-13h-64c-7 0-12 6-12 13z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;&lt;p&gt;你好。&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;notice notice-info&#34; &gt;
+    &lt;div class=&#34;notice-title&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;icon notice-icon&#34; viewBox=&#34;0 0 512 512&#34; fill=&#34;#705943&#34;&gt;&lt;path d=&#34;M256 8a248 248 0 100 496 248 248 0 000-496zm0 110a42 42 0 110 84 42 42 0 010-84zm56 254c0 7-5 12-12 12h-88c-7 0-12-5-12-12v-24c0-7 5-12 12-12h12v-64h-12c-7 0-12-5-12-12v-24c0-7 5-12 12-12h64c7 0 12 5 12 12v100h12c7 0 12 5 12 12v24z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;&lt;p&gt;你好。&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;notice notice-note&#34; &gt;
+    &lt;div class=&#34;notice-title&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;icon notice-icon&#34; viewBox=&#34;0 0 512 512&#34; fill=&#34;#436170&#34;&gt;&lt;path d=&#34;M504 256a248 248 0 11-496 0 248 248 0 01496 0zm-248 50a46 46 0 100 92 46 46 0 000-92zm-44-165l8 136c0 6 5 11 12 11h48c7 0 12-5 12-11l8-136c0-7-5-13-12-13h-64c-7 0-12 6-12 13z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;&lt;p&gt;你好。&lt;/p&gt;&lt;/div&gt;
+
+
+&lt;div class=&#34;notice notice-tip&#34; &gt;
+    &lt;div class=&#34;notice-title&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;icon notice-icon&#34; viewBox=&#34;0 0 512 512&#34; fill=&#34;#437052&#34;&gt;&lt;path d=&#34;M504 256a248 248 0 11-496 0 248 248 0 01496 0zM227 387l184-184c7-6 7-16 0-22l-22-23c-7-6-17-6-23 0L216 308l-70-70c-6-6-16-6-23 0l-22 23c-7 6-7 16 0 22l104 104c6 7 16 7 22 0z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;&lt;p&gt;你好。&lt;/p&gt;&lt;/div&gt;
+
+&lt;h3 id=&#34;toggle-list&#34;&gt;toggle list
+&lt;/h3&gt;&lt;details&gt;
+    &lt;summary&gt;点这里看隐藏内容！&lt;/summary&gt;
+    这里是隐藏内容！🥰
+&lt;/details&gt;
+
+&lt;h3 id=&#34;时间轴&#34;&gt;时间轴
+&lt;/h3&gt;&lt;div class=&#34;timeline__row&#34;&gt;
+    &lt;div class=&#34;timeline__time&#34;&gt;
+        &lt;div class=&#34;timeline__time&#34;&gt;2023-10-01&lt;/div&gt;
+        &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;timeline__content&#34;&gt;
+        &lt;div class=&#34;timeline__tags&#34;&gt;
+            &lt;span class=&#34;timeline__tag&#34;&gt;节日&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;a href=&#34;&#34;&gt;
+            &lt;div class=&#34;timeline__title&#34;&gt;国庆节&lt;/div&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;timeline__description&#34;&gt;
+            祖国生日快乐
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;style&gt;
+    .timeline {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .timeline__row {
+        display: flex;
+        padding-left: 4%;
+        height: 90px;
+    }
+    
+    .timeline__time {
+        flex: 0 0 110px;
+        color: #5d5d5d;
+        font-size: 17px;
+        text-transform: uppercase;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem 0;
+    }
+    
+    .timeline__time-text {
+        margin: 0;
+    }
+    
+    .timeline__split-line {
+        position: absolute;
+        top: 0.5rem;
+        right: -20px;
+        height: 100%;
+        width: 2px;
+        background-color: #84c4e240;
+        z-index: 0;
+    }
+    
+    .timeline__split-line:before {
+        content: &#34;&#34;;
+        position: absolute;
+        top: 24%;
+        right: -4px;
+        transform: translateY(-50%);
+        width: 10px;
+        height: 10px;
+        background-color: #c9e5f2;
+        box-shadow: 0 0 0 4px var(--theme);
+        border-radius: 50%;
+        border: 0px solid #84c4e2;
+        z-index: -1;
+    }
+    
+    .timeline__content {
+        flex: 1;
+        margin-left: 4.5rem;
+        padding: 0.5rem 0 1.2rem 0;
+    }
+    
+    .timeline__title {
+        margin: 0;
+        margin-bottom: 2px;
+        padding-top: 3px;
+        margin-left: 0.5rem;
+        color: var(--content);
+        font-family: var(--font-family-teshu);
+        font-size: 19px;
+        font-weight: 600;
+        width: fit-content;
+        display: inline-block;
+        vertical-align: middle;
+         
+    }
+    
+    .timeline__tags {
+        display: inline-block;
+        padding: 0;
+        margin-left: 0.3rem;
+        align-items: center;
+        gap: 0.3rem;
+    }
+    
+    .timeline__tag {
+        display: inline-block;
+        color: var(--secondary);
+        background-color: #84c4e230;
+        border: 1.5px solid #84c4e230;
+        border-radius: 999px;
+        padding: 0rem 0.5rem;
+        font-size: 12px;
+        white-space: nowrap;
+        line-height: 1.4rem;
+        opacity: 0.8;
+        vertical-align: middle;
+         
+    }
+    
+    .timeline__description {
+        font-size: 15px;
+        line-height: 1.6;
+        color: #5d5d5d;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 0.5rem 0 0.4rem 1.5rem;
+         
+    }
+     
+    
+    .timeline__tag-style {
+        background-color: #c581da;
+         
+        border-color: #c581da;
+         
+        color: #FFFFFF;
+         
+    }
+     
+    
+    .timeline__tag-article {
+        background-color: #92d392;
+         
+        border-color: #92d392;
+         
+        color: #000000;
+         
+    }
+     
+    
+    .timeline__tag-page {
+        background-color: #707070;
+         
+        border-color: #707070;
+         
+        color: #FFFFFF;
+         
+    }
+    
+    @media screen and (max-width: 768px) {
+        .timeline__time {
+            font-size: 14px;
+             
+        }
+        .timeline__title {
+            font-size: 16px;
+             
+        }
+        .timeline__description {
+            font-size: 14px;
+             
+        }
+    }
+&lt;/style&gt;
+
+&lt;h3 id=&#34;聊天气泡&#34;&gt;聊天气泡
+&lt;/h3&gt;
+&lt;div class=&#34;chat --other&#34;&gt;
+    &lt;div class=&#34;chat__inner&#34;&gt;
+        &lt;div class=&#34;chat__meta&#34;&gt;John Doe&amp;nbsp;&amp;nbsp;&amp;nbsp;2023-09-12 14:30&lt;/div&gt;
+        &lt;div class=&#34;chat__text&#34;&gt;
+            
+这是左边的消息内容。
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;style&gt;
+    .chat {
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+         
+        transition: transform 0.2s;
+         
+        max-width: 80%;
+        min-width: 15%;
+    }
+    
+    .chat:hover {
+        transform: scale(1.05);
+    }
+    
+    .chat.--self {
+        text-align: left;
+        background-color: #ecf5ff;
+        color: #000000;
+        border-radius: 15px;
+        width: fit-content;
+        margin-left: auto;
+    }
+     
+    
+    .chat.--self::before {
+        content: &#34;&#34;;
+        position: absolute;
+        right: -18px;
+         
+        bottom: 5px;
+        transform: translateY(-50%);
+        border-width: 15px 0 0 20px;
+        border-style: solid;
+        border-color: transparent transparent transparent #ecf5ff;
+         
+    }
+     
+    
+    .chat.--other {
+        text-align: left;
+        background-color: #ffecec;
+        color: #333;
+        border-radius: 15px;
+        position: relative;
+        width: fit-content;
+    }
+     
+    
+    .chat.--other::before {
+        content: &#34;&#34;;
+        position: absolute;
+        left: -18px;
+        bottom: 5px;
+        transform: translateY(-50%);
+        border-width: 15px 20px 0 0;
+        border-style: solid;
+        border-color: transparent #ffecec transparent transparent;
+    }
+     
+    
+    .chat__meta {
+        font-weight: bold;
+        font-size: 0.67em;
+        color: #707070;
+        margin-bottom: 5px;
+    }
+     
+    
+    .chat__text {
+        font-size: 0.9em;
+        margin-left: 10px;
+        word-break: break-all;
+    }
+    
+    [data-scheme=&#34;dark&#34;] {
+        .chat.--self {
+            color: #fefefe;
+            background-color: #253958;
+        }
+        .chat.--self::before {
+            border-color: transparent transparent transparent #253958;
+        }
+        .chat.--other {
+            color: #fefefe;
+            background-color: #1a1a1a;
+        }
+        .chat.--other::before {
+            border-color: transparent #1a1a1a transparent transparent;
+        }
+        .chat__meta {
+            color: #b1b1b1;
+        }
+    }
+&lt;/style&gt;
+
+
+&lt;div class=&#34;chat --self&#34;&gt;
+    &lt;div class=&#34;chat__inner&#34;&gt;
+        &lt;div class=&#34;chat__meta&#34; style=&#34;text-align: right;&#34;&gt;2023-09-12 14:45&amp;nbsp;&amp;nbsp;&amp;nbsp;Alice&lt;/div&gt;
+        &lt;div class=&#34;chat__text&#34;&gt;
+             
+这是右边的消息内容，测试长长长长长长长长长长长长长长长长长长长长长长长长度。
+
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;style&gt;
+    .chat {
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+         
+        transition: transform 0.2s;
+         
+        max-width: 80%;
+        min-width: 15%;
+    }
+    
+    .chat:hover {
+        transform: scale(1.05);
+    }
+    
+    .chat.--self {
+        text-align: left;
+        background-color: #ecf5ff;
+        color: #000000;
+        border-radius: 15px;
+        width: fit-content;
+        margin-left: auto;
+    }
+     
+    
+    .chat.--self::before {
+        content: &#34;&#34;;
+        position: absolute;
+        right: -18px;
+         
+        bottom: 5px;
+        transform: translateY(-50%);
+        border-width: 15px 0 0 20px;
+        border-style: solid;
+        border-color: transparent transparent transparent #ecf5ff;
+         
+    }
+     
+    
+    .chat.--other {
+        text-align: left;
+        background-color: #ffecec;
+        color: #333;
+        border-radius: 15px;
+        position: relative;
+        width: fit-content;
+    }
+     
+    
+    .chat.--other::before {
+        content: &#34;&#34;;
+        position: absolute;
+        left: -18px;
+        bottom: 5px;
+        transform: translateY(-50%);
+        border-width: 15px 20px 0 0;
+        border-style: solid;
+        border-color: transparent #ffecec transparent transparent;
+    }
+     
+    
+    .chat__meta {
+        font-weight: bold;
+        font-size: 0.67em;
+        color: #707070;
+        margin-bottom: 5px;
+    }
+     
+    
+    .chat__text {
+        font-size: 0.9em;
+        margin-left: 10px;
+        word-break: break-all;
+    }
+    
+    [data-scheme=&#34;dark&#34;] {
+        .chat.--self {
+            color: #fefefe;
+            background-color: #253958;
+        }
+        .chat.--self::before {
+            border-color: transparent transparent transparent #253958;
+        }
+        .chat.--other {
+            color: #fefefe;
+            background-color: #1a1a1a;
+        }
+        .chat.--other::before {
+            border-color: transparent #1a1a1a transparent transparent;
+        }
+        .chat__meta {
+            color: #b1b1b1;
+        }
+    }
+&lt;/style&gt;
+
+&lt;h3 id=&#34;旅行者一号&#34;&gt;旅行者一号
+&lt;/h3&gt;&lt;p&gt;&lt;span id=&#34;voyager&#34;&gt;载入旅行者一号离地球距离信息&amp;hellip;&lt;/span&gt;&lt;/p&gt;
+&lt;script language=&#34;javascript&#34;&gt; 
+    var now = new Date();
+    function createtime(){
+        // 当前时间
+        now.setTime(now.getTime()+250);
+        var start = new Date(&#34;08/01/2022 00:00:00&#34;); // 旅行者1号开始计算的时间
+        var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒
+        var unit = (dis / 149600000).toFixed(6);  // 天文单位
+
+        document.getElementById(&#34;voyager&#34;).innerHTML = &#34;旅行者 1 号当前距离地球 &#34;+ dis +&#34; 千米，约为 &#34;+ unit +&#34; 个天文单位 🚀&#34;
+    }
+    setInterval(&#34;createtime()&#34;,250); 
+&lt;/script&gt; 
+&lt;h3 id=&#34;块引用&#34;&gt;块引用
+&lt;/h3&gt;&lt;blockquote&gt;
+    &lt;p&gt;内容&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;span&gt;作者/说话的人, &lt;/span&gt;&lt;a href=&#34;%e9%93%be%e6%8e%a5%ef%bc%88%e5%8f%af%e9%80%89%ef%bc%89&#34;&gt;&lt;cite&gt;书名/来源&lt;/cite&gt;&lt;/a&gt;&lt;/span&gt;&lt;/blockquote&gt;
+&lt;h3 id=&#34;neodb未完成&#34;&gt;Neodb(未完成)
+&lt;/h3&gt;&lt;h3 id=&#34;book未完成&#34;&gt;book(未完成)
+&lt;/h3&gt;&lt;h3 id=&#34;卡片&#34;&gt;卡片
+&lt;/h3&gt;&lt;div class=&#34;mycard&#34;&gt;
+      &lt;div class=&#34;content&#34;&gt; 可以在这里插入链接假装是卡片式链接。
+&lt;br&gt;
+换行需要空标签。 &lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;h3 id=&#34;居中引用未完成&#34;&gt;居中引用(未完成)
+&lt;/h3&gt;</description>
+        </item>
+        <item>
         <title>EMO六则</title>
         <link>http://localhost:1313/post/emo/</link>
         <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/post/emo/</guid>
-        <description>&lt;img src="http://localhost:1313/post/emo/emo.jpg" alt="Featured image of post EMO六则" /&gt;&lt;blockquote&gt;
+        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/emo/emo.jpg&#34;
+	width=&#34;1080&#34;
+	height=&#34;608&#34;
+	srcset=&#34;http://localhost:1313/post/emo/emo_hu13854104914141390214.jpg 480w, http://localhost:1313/post/emo/emo_hu13901099590268812992.jpg 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
 &lt;p&gt;我们一天也没有聊点诗意的东西，聊聊比现实更深一层的困惑，也没能掌握一丁点除了自嘲以外的幽默。我们就这样在最该享有自由的年纪，将自己从头到脚所有的一切拱手让给了现实。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;一&#34;&gt;一
@@ -1923,10 +3615,15 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         <pubDate>Sun, 29 May 2022 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/post/past/</guid>
-        <description>&lt;p&gt;最近不知怎么，总会梦见老外婆（外婆的母亲），风烛残年已经十分苍老，一个人呆坐在老木屋的门槛上，午后安静的阳光落在她厚厚的袍子上，屋檐投下的阴影让人看不清她的面容。这是我关于这个老人残存的记忆。长大后读到余华在《细雨中呼喊》里的描述，“祖父的晚年像一把老旧的木椅，等待着生命中最后一场火的燃烧”，那样遥远的记忆又重新被唤醒。&lt;/p&gt;
-&lt;p&gt;关于外婆的记忆则清晰许多，我曾陪过她度过最后的时光，奇怪的是，之后的梦里却很少出现她。外婆的晚年在县医院的病房里度过。春节刚过我得闲在家，家里人曾安排我在那段日子陪在她的身边。白床单，消毒水，隔壁床的病人来了又走，我的外婆却总是坐在她的床位上，她不常躺着。后来我再忙些，外婆的病再重些，家里请了专门的保姆，我便不再每天往医院跑。5月是个难忘的月份，我顺利进入了梦想学校的研究生复试，本科学校发来返校的通知等待回校，一切都仓促有序，这时传来外婆去世的噩耗。这是2020年的晚春。&lt;/p&gt;
+        <description>&lt;h2 id=&#34;heading&#34;&gt;
+&lt;/h2&gt;&lt;p&gt;最近不知怎么，总会梦见老外婆（外婆的母亲），风烛残年已经十分苍老，一个人呆坐在老木屋的门槛上，午后安静的阳光落在她厚厚的袍子上，屋檐投下的阴影让人看不清她的面容。这是我小时候关于这个老人残存的记忆。&lt;/p&gt;
+&lt;p&gt;长大后读到余华在《细雨中呼喊》里的描述，“祖父的晚年像一把老旧的木椅，等待着生命中最后一场火的燃烧”，那样遥远的记忆又重新被唤醒。&lt;/p&gt;
+&lt;p&gt;关于外婆的记忆则清晰许多，我曾陪过她度过最后的时光，奇怪的是，之后的梦里却很少出现她。&lt;/p&gt;
+&lt;p&gt;外婆的晚年在县医院的病房里度过。春节刚过我得闲在家，家里人曾安排我在那段日子陪在她的身边。白床单，消毒水，隔壁床的病人来了又走，我的外婆却总是坐在她的床位上，她不常躺着。后来我再忙些，外婆的病再重些，家里请了专门的保姆，我便不再每天往医院跑。5月是个难忘的月份，我顺利进入了梦想学校的研究生复试，本科学校发来返校的通知等待回校，一切都仓促有序，这时传来外婆去世的噩耗。&lt;/p&gt;
+&lt;p&gt;这是2020年的晚春。&lt;/p&gt;
 &lt;p&gt;2020年发生许多事，2022年也发生许多事，又一个5月将要结束，我总是回想起外婆，偶尔想起老木屋下老外婆的身影。我无法想象我的晚年，甚至无法想象稍微长远的将来。小时候听《明天会更好》的振奋感如今难再有，关于老人的记忆却总是不经意间袭来，不时出现在梦里。&lt;/p&gt;
-</description>
+&lt;h2 id=&#34;heading-1&#34;&gt;
+&lt;/h2&gt;</description>
         </item>
         <item>
         <title>归档</title>
@@ -1937,41 +3634,6 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         <description></description>
         </item>
         <item>
-        <title>Links</title>
-        <link>http://localhost:1313/links/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/links/</guid>
-        <description>&lt;p&gt;To use this feature, add &lt;code&gt;links&lt;/code&gt; section to frontmatter.&lt;/p&gt;
-&lt;p&gt;This page&amp;rsquo;s frontmatter:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;9
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nt&#34;&gt;links&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;GitHub&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;GitHub is the world&amp;#39;s largest software development platform.&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;website&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://github.com&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;  &lt;/span&gt;- &lt;span class=&#34;nt&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;TypeScript&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;description&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;website&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;https://www.typescriptlang.org&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;image&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;l&#34;&gt;ts-logo-128.jpg&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;code&gt;image&lt;/code&gt; field accepts both local and external images.&lt;/p&gt;
-</description>
-        </item>
-        <item>
         <title>Search</title>
         <link>http://localhost:1313/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1980,133 +3642,36 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         <description></description>
         </item>
         <item>
-        <title>关于</title>
-        <link>http://localhost:1313/%E5%85%B3%E4%BA%8E/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/%E5%85%B3%E4%BA%8E/</guid>
-        <description>&lt;h2 id=&#34;关于我&#34;&gt;关于我
-&lt;/h2&gt;&lt;p&gt;-&lt;/p&gt;
-&lt;h2 id=&#34;博客建设日志&#34;&gt;博客建设日志
-&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;【仓库地址】&lt;/strong&gt;：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/optimus12138/optimus12138.github.io&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Hugo&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/optimus12138/NotionNext&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;NotionNext&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;【博客建设日志】&lt;/strong&gt;：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;2024-11-22：添加部分文章封面图&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2024-11-20：建设“关于”页面，配置落霞孤鹜字体&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2024-11-17：设计logo，优化Stack主题&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2024-11-16：使用Hugo框架搭建博客（Hugo + Github Pages），使用Stack主题。&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;2024-08-17：使用NotionNext框架搭建博客（NotionNext + Vercel），使用Nobelium主题。&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;【Todo】&lt;/strong&gt;:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;内容&lt;/strong&gt;：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;年终博客总结：&lt;a class=&#34;link&#34; href=&#34;https://www.jdeal.cn/511.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;独立博客自省问卷15题&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;学习优化月总结&lt;a class=&#34;link&#34; href=&#34;https://thirdshire.com/tags/%E6%97%A5%E5%B8%B8%E5%B0%8F%E7%BB%93/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;第三夏尔日常小结&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;形式&lt;/strong&gt;：&lt;/p&gt;
-&lt;!-- - [x] `10min` 配置字体：落霞孤鹜字体 --&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;20min&lt;/code&gt; 优化分类和标签&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;20min&lt;/code&gt;配置自动化部署&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;20min&lt;/code&gt;配置RSS订阅&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;20min&lt;/code&gt;优化SEO&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;20min&lt;/code&gt;添加网站统计&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;20min&lt;/code&gt;添加友链（参考&lt;a class=&#34;link&#34; href=&#34;https://www.xalaok.top/links/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Naive Koala&lt;/a&gt;）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;20min&lt;/code&gt;在“关于”页面/“归档”页面添加热力图（https://blog.douchi.space/hugo-blog-heatmap/#gsc.tab=0）&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 更换.com域名&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 优化主题颜色：金色+蓝色&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 学习主题配图，参考&lt;a class=&#34;link&#34; href=&#34;https://www.xalaok.top/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Naive Koala&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Self-host：使用服务器部署博客&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 添加&lt;a class=&#34;link&#34; href=&#34;https://notbyai.fyi/cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;NotByAI&lt;/a&gt;标签&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;有意思的博客&#34;&gt;有意思的博客
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://linsnow.cn/posts/cyberlife/log-01/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://linsnow.cn/posts/cyberlife/log-01/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/lin-snow&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://github.com/lin-snow&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.xalaok.top/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://www.xalaok.top/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://hyruo.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://hyruo.com/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://wintery.social/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://wintery.social/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;博客搭建原则&#34;&gt;博客搭建原则
-&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;不要花里胡哨的插件，喧宾夺主了&lt;/li&gt;
-&lt;li&gt;图片：比例要适中，加上caption&lt;/li&gt;
-&lt;li&gt;内容长度:1000字左右最好，不要过短（点一篇博文也需要精力成本，如果只是看到寥寥几个字，我会觉得浪费时间了)；内容长度不要过长（太长不看）&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;一些测试&#34;&gt;一些测试
-&lt;/h2&gt;&lt;p&gt;&lt;span id=&#34;voyager&#34;&gt;载入旅行者一号离地球距离信息&amp;hellip;&lt;/span&gt;&lt;/p&gt;
-&lt;script language=&#34;javascript&#34;&gt; 
-    var now = new Date();
-    function createtime(){
-        // 当前时间
-        now.setTime(now.getTime()+250);
-        var start = new Date(&#34;08/01/2022 00:00:00&#34;); // 旅行者1号开始计算的时间
-        var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒
-        var unit = (dis / 149600000).toFixed(6);  // 天文单位
-
-        document.getElementById(&#34;voyager&#34;).innerHTML = &#34;旅行者 1 号当前距离地球 &#34;+ dis +&#34; 千米，约为 &#34;+ unit +&#34; 个天文单位 🚀&#34;
-    }
-    setInterval(&#34;createtime()&#34;,250); 
-&lt;/script&gt; 
-</description>
-        </item>
-        <item>
         <title>我看世界</title>
         <link>http://localhost:1313/categories/test/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/categories/test/</guid>
         <description>&lt;img src="http://localhost:1313/categories/test/hutomo-abrianto-l2jk-uxb1BY-unsplash.jpg" alt="Featured image of post 我看世界" /&gt;</description>
+        </item>
+        <item>
+        <title>友邻</title>
+        <link>http://localhost:1313/links/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/links/</guid>
+        <description>&lt;p&gt;我的互联网邻居&lt;/p&gt;
+&lt;!-- To use this feature, add `links` section to frontmatter.
+
+This page&#39;s frontmatter:
+
+
+
+```yaml
+links:
+  - title: GitHub
+    description: GitHub is the world&#39;s largest software development platform.
+    website: https://github.com
+    image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
+```
+
+`image` field accepts both local and external images. --&gt;
+</description>
         </item>
         
     </channel>

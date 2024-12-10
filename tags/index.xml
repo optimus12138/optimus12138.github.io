@@ -55,14 +55,6 @@
         <guid>http://localhost:1313/tags/%E8%B0%88%E5%86%99%E4%BD%9C/</guid>
         <description></description>
         </item>
-        <item>
-        <title>写作</title>
-        <link>http://localhost:1313/tags/%E5%86%99%E4%BD%9C/</link>
-        <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/tags/%E5%86%99%E4%BD%9C/</guid>
-        <description></description>
-        </item>
         
     </channel>
 </rss>

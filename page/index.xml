@@ -7,22 +7,201 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>金色河流</copyright>
-        <lastBuildDate>Mon, 02 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 28 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>关于</title>
         <link>http://localhost:1313/%E5%85%B3%E4%BA%8E/</link>
-        <pubDate>Mon, 02 Dec 2024 00:00:00 +0000</pubDate>
+        <pubDate>Sat, 28 Dec 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/%E5%85%B3%E4%BA%8E/</guid>
         <description>&lt;h2 id=&#34;关于我&#34;&gt;关于我
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;🤖 INTJ;&lt;/li&gt;
-&lt;li&gt;🧑‍💻 厌倦社交网络;&lt;/li&gt;
-&lt;li&gt;🤔 对世界有许多困惑;&lt;/li&gt;
+&lt;li&gt;🕸️ 厌倦社交网络;&lt;/li&gt;
+&lt;li&gt;🤥 对世界有许多困惑;&lt;/li&gt;
 &lt;li&gt;📽️ 爱好电影的非典型理工男;&lt;/li&gt;
-&lt;li&gt;🏊‍♂️ 喜欢游泳但体脂永远减不下来的小胖子.&lt;/li&gt;
+&lt;li&gt;🏊‍♂️ 喜欢游泳但体脂永远减不下来的小胖子。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;关于本站&#34;&gt;关于本站
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;🏰 我的互联网自留地；&lt;/li&gt;
+&lt;li&gt;📝 记录生活，记录思考，记录困惑，记录成长;&lt;/li&gt;
+&lt;li&gt;🏃 在内容创作这件事上,「持续性」大于一切。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;博客建设日志&#34;&gt;博客建设日志
 &lt;/h2&gt;&lt;div class=&#34;timeline__row&#34;&gt;
+    &lt;div class=&#34;timeline__time&#34;&gt;
+        &lt;div class=&#34;timeline__time&#34;&gt;2024-12-28&lt;/div&gt;
+        &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class=&#34;timeline__content&#34;&gt;
+        &lt;div class=&#34;timeline__tags&#34;&gt;
+            &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;a href=&#34;&#34;&gt;
+            &lt;div class=&#34;timeline__title&#34;&gt;布局优化&lt;/div&gt;
+        &lt;/a&gt;
+        
+        &lt;div class=&#34;timeline__description&#34;&gt;
+            Hugo-Stack优化
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;style&gt;
+    .timeline {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .timeline__row {
+        display: flex;
+        padding-left: 4%;
+        height: 90px;
+    }
+    
+    .timeline__time {
+        flex: 0 0 110px;
+        color: #5d5d5d;
+        font-size: 17px;
+        text-transform: uppercase;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0.5rem 0;
+    }
+    
+    .timeline__time-text {
+        margin: 0;
+    }
+    
+    .timeline__split-line {
+        position: absolute;
+        top: 0.5rem;
+        right: -20px;
+        height: 100%;
+        width: 2px;
+        background-color: #84c4e240;
+        z-index: 0;
+    }
+    
+    .timeline__split-line:before {
+        content: &#34;&#34;;
+        position: absolute;
+        top: 24%;
+        right: -4px;
+        transform: translateY(-50%);
+        width: 10px;
+        height: 10px;
+        background-color: #c9e5f2;
+        box-shadow: 0 0 0 4px var(--theme);
+        border-radius: 50%;
+        border: 0px solid #84c4e2;
+        z-index: -1;
+    }
+    
+    .timeline__content {
+        flex: 1;
+        margin-left: 4.5rem;
+        padding: 0.5rem 0 1.2rem 0;
+    }
+    
+    .timeline__title {
+        margin: 0;
+        margin-bottom: 2px;
+        padding-top: 3px;
+        margin-left: 0.5rem;
+        color: var(--content);
+        font-family: var(--font-family-teshu);
+        font-size: 19px;
+        font-weight: 600;
+        width: fit-content;
+        display: inline-block;
+        vertical-align: middle;
+         
+    }
+    
+    .timeline__tags {
+        display: inline-block;
+        padding: 0;
+        margin-left: 0.3rem;
+        align-items: center;
+        gap: 0.3rem;
+    }
+    
+    .timeline__tag {
+        display: inline-block;
+        color: var(--secondary);
+        background-color: #84c4e230;
+        border: 1.5px solid #84c4e230;
+        border-radius: 999px;
+        padding: 0rem 0.5rem;
+        font-size: 12px;
+        white-space: nowrap;
+        line-height: 1.4rem;
+        opacity: 0.8;
+        vertical-align: middle;
+         
+    }
+    
+    .timeline__description {
+        font-size: 15px;
+        line-height: 1.6;
+        color: #5d5d5d;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 0.5rem 0 0.4rem 1.5rem;
+         
+    }
+     
+    
+    .timeline__tag-style {
+        background-color: #c581da;
+         
+        border-color: #c581da;
+         
+        color: #FFFFFF;
+         
+    }
+     
+    
+    .timeline__tag-article {
+        background-color: #92d392;
+         
+        border-color: #92d392;
+         
+        color: #000000;
+         
+    }
+     
+    
+    .timeline__tag-page {
+        background-color: #707070;
+         
+        border-color: #707070;
+         
+        color: #FFFFFF;
+         
+    }
+    
+    @media screen and (max-width: 768px) {
+        .timeline__time {
+            font-size: 14px;
+             
+        }
+        .timeline__title {
+            font-size: 16px;
+             
+        }
+        .timeline__description {
+            font-size: 14px;
+             
+        }
+    }
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
     &lt;div class=&#34;timeline__time&#34;&gt;
         &lt;div class=&#34;timeline__time&#34;&gt;2024-12-11&lt;/div&gt;
         &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
@@ -32,11 +211,11 @@
             &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
         &lt;/div&gt;
         &lt;a href=&#34;&#34;&gt;
-            &lt;div class=&#34;timeline__title&#34;&gt;Hugo-Stack优化&lt;/div&gt;
+            &lt;div class=&#34;timeline__title&#34;&gt;添加字数统计，优化暗色模式&lt;/div&gt;
         &lt;/a&gt;
         
         &lt;div class=&#34;timeline__description&#34;&gt;
-            添加字数统计，优化暗色模式
+            Hugo-Stack优化
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -205,11 +384,11 @@
             &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
         &lt;/div&gt;
         &lt;a href=&#34;&#34;&gt;
-            &lt;div class=&#34;timeline__title&#34;&gt;Hugo-Stack优化&lt;/div&gt;
+            &lt;div class=&#34;timeline__title&#34;&gt;新增“友邻”页面，短代码优化部分页面&lt;/div&gt;
         &lt;/a&gt;
         
         &lt;div class=&#34;timeline__description&#34;&gt;
-            新增“友邻”页面,短代码优化部分页面
+            Hugo-Stack优化
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -378,11 +557,11 @@
             &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
         &lt;/div&gt;
         &lt;a href=&#34;&#34;&gt;
-            &lt;div class=&#34;timeline__title&#34;&gt;Hugo-Stack优化&lt;/div&gt;
+            &lt;div class=&#34;timeline__title&#34;&gt;添加部分文章封面图&lt;/div&gt;
         &lt;/a&gt;
         
         &lt;div class=&#34;timeline__description&#34;&gt;
-            添加部分文章封面图
+            Hugo-Stack优化
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -551,11 +730,11 @@
             &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
         &lt;/div&gt;
         &lt;a href=&#34;&#34;&gt;
-            &lt;div class=&#34;timeline__title&#34;&gt;Hugo-Stack优化&lt;/div&gt;
+            &lt;div class=&#34;timeline__title&#34;&gt;建设“关于”页面，配置落霞孤鹜字体&lt;/div&gt;
         &lt;/a&gt;
         
         &lt;div class=&#34;timeline__description&#34;&gt;
-            建设“关于”页面，配置落霞孤鹜字体
+            Hugo-Stack优化
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -724,11 +903,11 @@
             &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
         &lt;/div&gt;
         &lt;a href=&#34;&#34;&gt;
-            &lt;div class=&#34;timeline__title&#34;&gt;Hugo-Stack优化&lt;/div&gt;
+            &lt;div class=&#34;timeline__title&#34;&gt;设计logo，优化Stack主题&lt;/div&gt;
         &lt;/a&gt;
         
         &lt;div class=&#34;timeline__description&#34;&gt;
-            设计logo，优化Stack主题
+            Hugo-Stack优化
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
@@ -1062,7 +1241,7 @@
 
 &lt;div class=&#34;timeline__row&#34;&gt;
     &lt;div class=&#34;timeline__time&#34;&gt;
-        &lt;div class=&#34;timeline__time&#34;&gt;2024-08-17&lt;/div&gt;
+        &lt;div class=&#34;timeline__time&#34;&gt;2024-06-12&lt;/div&gt;
         &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;timeline__content&#34;&gt;
@@ -1235,7 +1414,7 @@
 
 &lt;p&gt;&lt;strong&gt;To-do（内容）&lt;/strong&gt;：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;年终博客总结：&lt;a class=&#34;link&#34; href=&#34;https://www.jdeal.cn/511.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;一周年（2025-06-12）博客总结：&lt;a class=&#34;link&#34; href=&#34;https://yayu.net/4626.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;独立博客自省问卷15题
     
     &lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
@@ -1246,7 +1425,7 @@
     &lt;/svg&gt;&lt;/span&gt;
     
     &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;学习优化月总结&lt;a class=&#34;link&#34; href=&#34;https://thirdshire.com/tags/%E6%97%A5%E5%B8%B8%E5%B0%8F%E7%BB%93/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;del&gt;学习优化月总结：&lt;a class=&#34;link&#34; href=&#34;https://thirdshire.com/tags/%E6%97%A5%E5%B8%B8%E5%B0%8F%E7%BB%93/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;第三夏尔日常小结
     
     &lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
@@ -1256,14 +1435,27 @@
             fill=&#34;currentColor&#34;&gt;
     &lt;/svg&gt;&lt;/span&gt;
     
-    &lt;/a&gt;&lt;/li&gt;
+    &lt;/a&gt;&lt;/del&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;To-do（形式）&lt;/strong&gt;：&lt;/p&gt;
 &lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 再优化首页封面图片尺寸&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 解决rss图片的问题&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 优化手机端的排版&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 优化分类和标签&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 重新设计Logo-河流做出G的形状&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 重新设计Logo-河流做出G的形状 颜色#FFC105&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;v3&lt;/code&gt;Self-host：使用服务器部署博客&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;v3&lt;/code&gt;设置&lt;a class=&#34;link&#34; href=&#34;https://blog.xing-ye.top/posts/ae793e83/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;图床
+    
+    &lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+        height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+    
+    &lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;v3&lt;/code&gt;配置&lt;a class=&#34;link&#34; href=&#34;https://immmmm.com/hugo-github-actions/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;自动化部署
     
@@ -1277,7 +1469,7 @@
     &lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;v3&lt;/code&gt;更换.com域名&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;v3&lt;/code&gt;加入十年之约&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;v4&lt;/code&gt;更换至&lt;a class=&#34;link&#34; href=&#34;https://chirpy.cotes.page/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;v4&lt;/code&gt;试试这个主题&lt;a class=&#34;link&#34; href=&#34;https://chirpy.cotes.page/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Jekyll-Chirpy
     
     &lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
@@ -1288,9 +1480,21 @@
     &lt;/svg&gt;&lt;/span&gt;
     
     &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;v4&lt;/code&gt;试试这个主题&lt;a class=&#34;link&#34; href=&#34;https://github.com/lin-snow/hugo-theme-xlog&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo-Xlog
+    
+    &lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+        height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+    
+    &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;已完成：&lt;/p&gt;
-&lt;ul&gt;
+&lt;details&gt;
+    &lt;summary&gt;已完成&lt;/summary&gt;
+    &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 优化主题颜色：金色&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 配置RSS订阅&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 配置字体：落霞孤鹜字体 &lt;a class=&#34;link&#34; href=&#34;https://www.xalaok.top/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -1383,8 +1587,12 @@
     &lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 优化暗色模式的颜色&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;已放弃：&lt;/p&gt;
-&lt;ul&gt;
+
+&lt;/details&gt;
+
+&lt;details&gt;
+    &lt;summary&gt;已放弃&lt;/summary&gt;
+    &lt;ul&gt;
 &lt;li&gt;&lt;del&gt;太麻烦：&lt;a class=&#34;link&#34; href=&#34;https://immmmm.com/post-show-douban-item-localstorage-cache/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;文章内显示豆瓣条目
     
@@ -1420,66 +1628,6 @@
     &lt;/a&gt;&lt;/del&gt;&lt;/li&gt;
 &lt;li&gt;&lt;del&gt;没必要：优化SEO&lt;/del&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;details&gt;
-    &lt;summary&gt;待探索的博客&lt;/summary&gt;
-    &lt;ol&gt;
-&lt;li&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://hyruo.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;海若博客
-    
-    &lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
-        height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
-        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
-            fill=&#34;currentColor&#34;&gt;
-    &lt;/svg&gt;&lt;/span&gt;
-    
-    &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://wintery.social/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Wintery
-    
-    &lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
-        height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
-        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
-            fill=&#34;currentColor&#34;&gt;
-    &lt;/svg&gt;&lt;/span&gt;
-    
-    &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://lms.pub/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;不亦乐乎 – 自娱自乐，不亦乐乎!
-    
-    &lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
-        height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
-        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
-            fill=&#34;currentColor&#34;&gt;
-    &lt;/svg&gt;&lt;/span&gt;
-    
-    &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.hentioe.dev/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;绅士喵
-    
-    &lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
-        height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
-        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
-            fill=&#34;currentColor&#34;&gt;
-    &lt;/svg&gt;&lt;/span&gt;
-    
-    &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://xyzbz.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;子夜松声
-    
-    &lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
-        height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
-        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
-        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
-            fill=&#34;currentColor&#34;&gt;
-    &lt;/svg&gt;&lt;/span&gt;
-    
-    &lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
 
 &lt;/details&gt;
 

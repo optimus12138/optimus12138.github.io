@@ -13,7 +13,19 @@
         <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/post/cyberworld01/</guid>
-        <description>&lt;img src="http://localhost:1313/post/cyberworld01/pics/src.png" alt="Featured image of post 未经审视的赛博生活不值得过" /&gt;&lt;p&gt;电影《这个男人来自地球》里虚构了一个活了上万年的人，他为了不被外界打扰，每隔一段时间就得搬家。&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/cyberworld01/pics/src.png&#34;
+	width=&#34;1440&#34;
+	height=&#34;810&#34;
+	srcset=&#34;http://localhost:1313/post/cyberworld01/pics/src_hu1217853750034495902.png 480w, http://localhost:1313/post/cyberworld01/pics/src_hu5931703565695540524.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;电影《这个男人来自地球》里虚构了一个活了上万年的人，他为了不被外界打扰，每隔一段时间就得搬家。&lt;/p&gt;
 &lt;p&gt;不知从什么时候开始，我就成为了这么一个人。
 作为从贴吧时代存活下来的互联网原住民，越来越少地发帖和互动，我时常删除过往在互联网上的痕迹，每隔段时间就会删除自己的账号。&lt;/p&gt;
 &lt;p&gt;因为我深知赛博世界快乐难以长久，而在虚拟世界寻求认同感是一件虚幻的事情。但我仍然身处其中，时常感到愉悦，又时常冒出难以言状的厌倦。&lt;/p&gt;

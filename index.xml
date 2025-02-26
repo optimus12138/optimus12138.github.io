@@ -3778,7 +3778,7 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
             &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
         &lt;/div&gt;
         &lt;a href=&#34;&#34;&gt;
-            &lt;div class=&#34;timeline__title&#34;&gt;统一封面风格&lt;/div&gt;
+            &lt;div class=&#34;timeline__title&#34;&gt;统一封面风格，优化分类和标签&lt;/div&gt;
         &lt;/a&gt;
         
         &lt;div class=&#34;timeline__description&#34;&gt;
@@ -5354,7 +5354,6 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 解决rss图片的问题&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 优化手机端的排版&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 优化分类和标签&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 重新设计Logo-河流做出G的形状 颜色#FFC105&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;v3&lt;/code&gt;Self-host：使用服务器部署博客&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; &lt;code&gt;v3&lt;/code&gt;设置&lt;a class=&#34;link&#34; href=&#34;https://blog.xing-ye.top/posts/ae793e83/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -5407,6 +5406,7 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 &lt;details&gt;
     &lt;summary&gt;已完成&lt;/summary&gt;
     &lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 优化分类和标签&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 再优化首页封面图片尺寸&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 优化主题颜色：金色&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 配置RSS订阅&lt;/li&gt;

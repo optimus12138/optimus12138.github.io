@@ -13,24 +13,7 @@
         <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/post/areading02/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/areading02/cover/cover6.jpg&#34;
-	width=&#34;1057&#34;
-	height=&#34;450&#34;
-	srcset=&#34;http://localhost:1313/post/areading02/cover/cover6_hu16061748815422341219.jpg 480w, http://localhost:1313/post/areading02/cover/cover6_hu15320820386951625694.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;234&#34;
-		data-flex-basis=&#34;563px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;写在前面&lt;/strong&gt;：
-日常碎片阅读，往往都是单篇，不成系统。想着积累成量再组织输出专题，苦于没有时间和精力，在素材库里积灰已久，不知何时能用上。
-不如撺够一波直接输出，尽管只是再加工的半成品，但也是我内化后的内容。
-每期输出4~6篇笔记，包含文章/新闻/视频的信息和观点的总结，以及我自己的思考。&lt;/p&gt;
-&lt;p&gt;第二期，关注中国足坛的“假赌黑”和联赛欠薪现象。&lt;/p&gt;
-&lt;p&gt;素材笔记#02-足球篇：中国足坛的《我不是药神》。&lt;/p&gt;
+        <description>&lt;img src="http://localhost:1313/post/areading02/cover/src.png" alt="Featured image of post 中国足坛的《我不是药神》" /&gt;&lt;!-- ![](cover/cover6.jpg) --&gt;
 &lt;h2 id=&#34;遵遇长期欠薪铤而走险踢假球能否被原谅&#34;&gt;遵遇长期欠薪，铤而走险踢假球能否被原谅？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;参考新闻：
@@ -131,25 +114,15 @@
         <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/post/areading01/</guid>
-        <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/areading01/cover/cover2.jpg&#34;
-	width=&#34;800&#34;
-	height=&#34;450&#34;
-	srcset=&#34;http://localhost:1313/post/areading01/cover/cover2_hu1645548282383804857.jpg 480w, http://localhost:1313/post/areading01/cover/cover2_hu6906772394774583459.jpg 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;177&#34;
-		data-flex-basis=&#34;426px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;写在前面&lt;/strong&gt;：
+        <description>&lt;img src="http://localhost:1313/post/areading01/cover/src.png" alt="Featured image of post 中国足球的九九八十一难，才刚刚开始" /&gt;&lt;!-- ![](cover/cover2.jpg) --&gt;
+&lt;!-- **写在前面**：
 日常碎片阅读，往往都是单篇，不成系统。想着积累成量再组织输出专题，苦于没有时间和精力，在素材库里积灰已久，不知何时能用上。
 不如撺够一波直接输出，尽管只是再加工的半成品，但也是我内化后的内容。
-每期输出4~6篇笔记，包含文章/新闻/视频的信息和观点的总结，以及我自己的思考。&lt;/p&gt;
-&lt;p&gt;第一期关注中国足球。
+每期输出4~6篇笔记，包含文章/新闻/视频的信息和观点的总结，以及我自己的思考。
+
+第一期关注中国足球。
 近日，国足在世预赛18强赛中，0比7大败日本。中国足球为什么始终好不了？
-素材笔记#01-足球篇：中国足球的九九八十一难，才刚刚开始。&lt;/p&gt;
+素材笔记#01-足球篇：中国足球的九九八十一难，才刚刚开始。 --&gt;
 &lt;h2 id=&#34;国足教练伊万科维奇为什么还不下课&#34;&gt;国足教练伊万科维奇为什么还不下课？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;参考文章：&lt;a class=&#34;link&#34; href=&#34;https://mp.weixin.qq.com/s/w5xMVmbZWeGYacRQDJjNTg&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;

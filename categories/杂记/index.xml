@@ -108,10 +108,10 @@
         </item>
         <item>
         <title>我的博客折腾笔记</title>
-        <link>http://localhost:1313/post/s/</link>
+        <link>http://localhost:1313/post/settings/</link>
         <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/s/</guid>
+        <guid>http://localhost:1313/post/settings/</guid>
         <description>&lt;h2 id=&#34;建站&#34;&gt;建站
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;NotionNext建站参考:&lt;a class=&#34;link&#34; href=&#34;https://docs.tangly1024.com/about&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -160,15 +160,15 @@
     
     &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;字体配置&#34;&gt;字体配置
-&lt;/h2&gt;&lt;h2 id=&#34;封面图制作&#34;&gt;封面图制作
-&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;选材&lt;/li&gt;
-&lt;li&gt;制作蒙版+文字:美图秀秀&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;hugo主题优化-短代码&#34;&gt;Hugo主题优化-短代码
-&lt;/h2&gt;&lt;p&gt;参考:&lt;/p&gt;
-&lt;ol&gt;
+&lt;!-- ## 字体配置 --&gt;
+&lt;!-- ## 封面图制作
+
+1. 选材
+2. 制作蒙版+文字:美图秀秀 --&gt;
+&lt;h2 id=&#34;hugo主题优化短代码&#34;&gt;Hugo主题优化(短代码)
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;参考:&lt;/p&gt;
+&lt;ul&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.xalaok.top/post/hugo-shortcodes/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;一些hugo短代码
     
@@ -179,13 +179,7 @@
             fill=&#34;currentColor&#34;&gt;
     &lt;/svg&gt;&lt;/span&gt;
     
-    &lt;/a&gt;:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Notice/toggle list/时间轴/聊天气泡/旅行者一号/块引用&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Neodb&lt;/li&gt;
-&lt;/ul&gt;
-&lt;ol start=&#34;2&#34;&gt;
+    &lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.sleepymoon.cyou/2023/hugo-shortcodes/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hugo|在Stack主题上可行的短代码们
     
@@ -196,11 +190,9 @@
             fill=&#34;currentColor&#34;&gt;
     &lt;/svg&gt;&lt;/span&gt;
     
-    &lt;/a&gt;:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 手动打码/高斯模糊/图片轮播/插入pdf/网易云音乐&lt;/li&gt;
+    &lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
+&lt;/blockquote&gt;
 &lt;h3 id=&#34;notice&#34;&gt;Notice
 &lt;/h3&gt;
 &lt;div class=&#34;notice notice-warning&#34; &gt;
@@ -637,17 +629,16 @@
 &lt;h3 id=&#34;块引用&#34;&gt;块引用
 &lt;/h3&gt;&lt;blockquote&gt;
     &lt;p&gt;内容&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;span&gt;作者/说话的人, &lt;/span&gt;&lt;a href=&#34;%e9%93%be%e6%8e%a5%ef%bc%88%e5%8f%af%e9%80%89%ef%bc%89&#34;&gt;&lt;cite&gt;书名/来源&lt;/cite&gt;&lt;/a&gt;&lt;/span&gt;&lt;/blockquote&gt;
-&lt;h3 id=&#34;neodb未完成&#34;&gt;Neodb(未完成)
-&lt;/h3&gt;&lt;h3 id=&#34;book未完成&#34;&gt;book(未完成)
-&lt;/h3&gt;&lt;h3 id=&#34;卡片&#34;&gt;卡片
+&lt;h3 id=&#34;卡片&#34;&gt;卡片
 &lt;/h3&gt;&lt;div class=&#34;mycard&#34;&gt;
       &lt;div class=&#34;content&#34;&gt; 可以在这里插入链接假装是卡片式链接。
 &lt;br&gt;
 换行需要空标签。 &lt;/div&gt;
     &lt;/div&gt;
 
-&lt;h3 id=&#34;居中引用未完成&#34;&gt;居中引用(未完成)
-&lt;/h3&gt;</description>
+&lt;!-- ### 居中引用(未完成) --&gt;
+&lt;!-- ### Neodb(未完成)
+### book(未完成) --&gt;</description>
         </item>
         <item>
         <title>EMO六则</title>

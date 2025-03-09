@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>金色河流</copyright>
-        <lastBuildDate>Fri, 14 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/%E6%9D%82%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 04 Mar 2025 17:47:01 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E6%9D%82%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>约定</title>
         <link>http://localhost:1313/post/promise/</link>
         <pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate>
@@ -90,16 +90,16 @@
     
     &lt;/a&gt;的朋友知道，
 我对互联网的态度是消极的，近日读到一篇对玩梗和抽象文化的批评文章，深感共鸣，遂摘录到微博：&lt;/p&gt;
-&lt;div align=center&gt;&lt;img src=&#34;image.png&#34;  width=&#34;90%&#34; /&gt;
+&lt;div align=center&gt;&lt;img src=&#34;pics/image.webp&#34;  width=&#34;90%&#34; /&gt;
 &lt;/figure&gt;&lt;/div&gt;
 &lt;p&gt;评论罗伯特，微博著名的智障AI，玩梗和抽象文化的集大成者，极其“不合时宜”地和我唱起了反调：&lt;/p&gt;
-&lt;div align=center&gt;&lt;img src=&#34;image-1.png&#34;  width=&#34;90%&#34; /&gt;
+&lt;div align=center&gt;&lt;img src=&#34;pics/image-1.webp&#34;  width=&#34;90%&#34; /&gt;
 &lt;/figure&gt;&lt;/div&gt;
 &lt;p&gt;这回复让我哭笑不得，我忍不住吐槽：&lt;/p&gt;
-&lt;div align=center&gt;&lt;img src=&#34;image-2.png&#34;  width=&#34;90%&#34; /&gt;
+&lt;div align=center&gt;&lt;img src=&#34;pics/image-2.webp&#34;  width=&#34;90%&#34; /&gt;
 &lt;/figure&gt;&lt;/div&gt;
 &lt;p&gt;虽然知道AI只是神经网络数据训练的结果，没有真正的意识也不值得去回应，但看到TA我微博上蹿下跳，倒像是原摘录的现实注解：&lt;/p&gt;
-&lt;div align=center&gt;&lt;img src=&#34;image-3.png&#34;  width=&#34;90%&#34; /&gt;
+&lt;div align=center&gt;&lt;img src=&#34;pics/image-3.webp&#34;  width=&#34;90%&#34; /&gt;
 &lt;/figure&gt;&lt;/div&gt;
 &lt;p&gt;好吧承认被你打败了。&lt;/p&gt;
 &lt;p&gt;谁想到有一天我会被AI骚扰，所以这玩意儿咋关？&lt;/p&gt;
@@ -394,7 +394,7 @@
 &lt;/h3&gt;
 &lt;div class=&#34;chat --other&#34;&gt;
     &lt;div class=&#34;chat__inner&#34;&gt;
-        &lt;div class=&#34;chat__meta&#34;&gt;John Doe&amp;nbsp;&amp;nbsp;&amp;nbsp;2023-09-12 14:30&lt;/div&gt;
+        
         &lt;div class=&#34;chat__text&#34;&gt;
             
 这是左边的消息内容。
@@ -504,7 +504,7 @@
 
 &lt;div class=&#34;chat --self&#34;&gt;
     &lt;div class=&#34;chat__inner&#34;&gt;
-        &lt;div class=&#34;chat__meta&#34; style=&#34;text-align: right;&#34;&gt;2023-09-12 14:45&amp;nbsp;&amp;nbsp;&amp;nbsp;Alice&lt;/div&gt;
+        
         &lt;div class=&#34;chat__text&#34;&gt;
              
 这是右边的消息内容，测试长长长长长长长长长长长长长长长长长长长长长长长长度。
@@ -646,7 +646,7 @@
         <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/post/emo/</guid>
-        <description>&lt;img src="http://localhost:1313/post/emo/emo.jpg" alt="Featured image of post EMO六则" /&gt;&lt;blockquote&gt;
+        <description>&lt;img src="http://localhost:1313/post/emo/emo.webp" alt="Featured image of post EMO六则" /&gt;&lt;blockquote&gt;
 &lt;p&gt;我们一天也没有聊点诗意的东西，聊聊比现实更深一层的困惑，也没能掌握一丁点除了自嘲以外的幽默。我们就这样在最该享有自由的年纪，将自己从头到脚所有的一切拱手让给了现实。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;一&#34;&gt;一
@@ -678,7 +678,7 @@
         <pubDate>Sun, 29 May 2022 00:00:00 +0000</pubDate>
         
         <guid>http://localhost:1313/post/past/</guid>
-        <description>&lt;img src="http://localhost:1313/post/past/pics/src.png" alt="Featured image of post 关于老人的记忆" /&gt;&lt;h2 id=&#34;heading&#34;&gt;
+        <description>&lt;img src="http://localhost:1313/post/past/pics/src.webp" alt="Featured image of post 关于老人的记忆" /&gt;&lt;h2 id=&#34;heading&#34;&gt;
 &lt;/h2&gt;&lt;p&gt;最近不知怎么，总会梦见老外婆（外婆的母亲），风烛残年已经十分苍老，一个人呆坐在老木屋的门槛上，午后安静的阳光落在她厚厚的袍子上，屋檐投下的阴影让人看不清她的面容。这是我小时候关于这个老人残存的记忆。&lt;/p&gt;
 &lt;p&gt;长大后读到余华在《细雨中呼喊》里的描述，“祖父的晚年像一把老旧的木椅，等待着生命中最后一场火的燃烧”，那样遥远的记忆又重新被唤醒。&lt;/p&gt;
 &lt;p&gt;关于外婆的记忆则清晰许多，我曾陪过她度过最后的时光。奇怪的是，之后的梦里却很少出现她。&lt;/p&gt;

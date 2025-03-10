@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on 金色河流</title>
-        <link>https://goldenriver.site/post/</link>
+        <link>http://localhost:1313/post/</link>
         <description>Recent content in Posts on 金色河流</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>金色河流</copyright>
-        <lastBuildDate>Mon, 10 Mar 2025 15:10:20 +0800</lastBuildDate><atom:link href="https://goldenriver.site/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 10 Mar 2025 19:19:19 +0800</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>2025 Week 10</title>
-        <link>https://goldenriver.site/post/2025week10/</link>
+        <link>http://localhost:1313/post/2025week10/</link>
         <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/2025week10/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/2025week10/cover/src_clean.png" alt="Featured image of post 2025 Week 10" /&gt;&lt;blockquote&gt;
+        <guid>http://localhost:1313/post/2025week10/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2025week10/cover/src_clean.png" alt="Featured image of post 2025 Week 10" /&gt;&lt;blockquote&gt;
 &lt;p&gt;周记 | 2025年第10周（03-03~03-09）的见闻、体验与思考&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;状态&#34;&gt;状态
@@ -293,11 +293,52 @@
 </description>
         </item>
         <item>
+        <title>2025 Week 11</title>
+        <link>http://localhost:1313/post/2025week11/</link>
+        <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/post/2025week11/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2025week11/cover/src_clean.png" alt="Featured image of post 2025 Week 11" /&gt;&lt;blockquote&gt;
+&lt;p&gt;周记 | 2025年第11周（03-10~03-16）的见闻、体验与思考&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;状态&#34;&gt;状态
+&lt;/h2&gt;&lt;h2 id=&#34;折腾博客&#34;&gt;折腾博客
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025week11/TinySnap-2025-03-10-18.18.01.png&#34;
+	width=&#34;2634&#34;
+	height=&#34;1481&#34;
+	srcset=&#34;http://localhost:1313/post/2025week11/TinySnap-2025-03-10-18.18.01_hu7938295405491293911.png 480w, http://localhost:1313/post/2025week11/TinySnap-2025-03-10-18.18.01_hu11352722176281097579.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;TinySnap-2025-03-10-18.18.01&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/2025week11/TinySnap-2025-03-10-19.13.52.png&#34;
+	width=&#34;2635&#34;
+	height=&#34;1482&#34;
+	srcset=&#34;http://localhost:1313/post/2025week11/TinySnap-2025-03-10-19.13.52_hu7569677397331014215.png 480w, http://localhost:1313/post/2025week11/TinySnap-2025-03-10-19.13.52_hu7942207258278459283.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;TinySnap-2025-03-10-19.13.52&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>《娱乐至死》：当娱乐吞噬严肃，我们如何抵抗思想的消亡？</title>
-        <link>https://goldenriver.site/post/amusing-ourselves-to-death/</link>
+        <link>http://localhost:1313/post/amusing-ourselves-to-death/</link>
         <pubDate>Sun, 09 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/amusing-ourselves-to-death/</guid>
+        <guid>http://localhost:1313/post/amusing-ourselves-to-death/</guid>
         <description>&lt;img src="https://s1mon-files.oss-cn-shenzhen.aliyuncs.com/img/202503101233813.png" alt="Featured image of post 《娱乐至死》：当娱乐吞噬严肃，我们如何抵抗思想的消亡？" /&gt;&lt;blockquote&gt;
 &lt;p&gt;以下材料内容由本人摘记，材料组织及标题来自DeepSeek&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -387,11 +428,11 @@
         </item>
         <item>
         <title>2025 Week 09</title>
-        <link>https://goldenriver.site/post/2025week09/</link>
+        <link>http://localhost:1313/post/2025week09/</link>
         <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/2025week09/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/2025week09/cover/src_clean.png" alt="Featured image of post 2025 Week 09" /&gt;&lt;blockquote&gt;
+        <guid>http://localhost:1313/post/2025week09/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2025week09/cover/src_clean.png" alt="Featured image of post 2025 Week 09" /&gt;&lt;blockquote&gt;
 &lt;p&gt;周记 | 2025年第9周（02-24~03-02）的见闻、体验与思考&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;焦虑状态&#34;&gt;焦虑状态
@@ -645,11 +686,11 @@
         </item>
         <item>
         <title>2025 Week 08</title>
-        <link>https://goldenriver.site/post/2025week08/</link>
+        <link>http://localhost:1313/post/2025week08/</link>
         <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/2025week08/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/2025week08/cover/src_clean.png" alt="Featured image of post 2025 Week 08" /&gt;&lt;blockquote&gt;
+        <guid>http://localhost:1313/post/2025week08/</guid>
+        <description>&lt;img src="http://localhost:1313/post/2025week08/cover/src_clean.png" alt="Featured image of post 2025 Week 08" /&gt;&lt;blockquote&gt;
 &lt;p&gt;周记 | 2025年第8周（02-17~02-23）的见闻、体验与思考&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;最近因为工作的事情很焦虑，天天熬夜，精神状态大崩，脸上冒痘生疼，急需调整。&lt;/p&gt;
@@ -853,11 +894,11 @@
         </item>
         <item>
         <title>约定</title>
-        <link>https://goldenriver.site/post/promise/</link>
+        <link>http://localhost:1313/post/promise/</link>
         <pubDate>Fri, 14 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/promise/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/promise/cover.png" alt="Featured image of post 约定" /&gt;&lt;p&gt;多年前在穿行于崇山峻岭的大巴上听到周蕙的《约定》，彼时听到“你我约定，难过的往事不许提，也答应永远都不让对方担心”，想起青春的残酷记忆，陷入了久久阴郁。&lt;/p&gt;
+        <guid>http://localhost:1313/post/promise/</guid>
+        <description>&lt;img src="http://localhost:1313/post/promise/cover.png" alt="Featured image of post 约定" /&gt;&lt;p&gt;多年前在穿行于崇山峻岭的大巴上听到周蕙的《约定》，彼时听到“你我约定，难过的往事不许提，也答应永远都不让对方担心”，想起青春的残酷记忆，陷入了久久阴郁。&lt;/p&gt;
 &lt;p&gt;后来听到王菲的粤语原版，那么的缠绵悱恻，荡气回肠，却很被那样的打动。&lt;/p&gt;
 &lt;p&gt;再后来的很多时候，点开这首歌的场景各不相同，但总是让我回想起那辆大巴，想起那时窗外的山川，那是我“难过的往事”封存的时刻。&lt;/p&gt;
 &lt;p&gt;新的一年，和自己的约定，不要多关心人类，要多爱自己。&lt;/p&gt;
@@ -917,11 +958,11 @@
         </item>
         <item>
         <title>近日赛博笑话一则</title>
-        <link>https://goldenriver.site/post/cyberlife02/</link>
+        <link>http://localhost:1313/post/cyberlife02/</link>
         <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/cyberlife02/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/cyberlife02/cover/cover.png" alt="Featured image of post 近日赛博笑话一则" /&gt;&lt;h2 id=&#34;heading&#34;&gt;
+        <guid>http://localhost:1313/post/cyberlife02/</guid>
+        <description>&lt;img src="http://localhost:1313/post/cyberlife02/cover/cover.png" alt="Featured image of post 近日赛博笑话一则" /&gt;&lt;h2 id=&#34;heading&#34;&gt;
 &lt;/h2&gt;&lt;p&gt;读过我此前写网络的&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/post/cyberworld01/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;一篇博客
     
@@ -952,11 +993,11 @@
         </item>
         <item>
         <title>成熟的人拒绝谈论理想</title>
-        <link>https://goldenriver.site/post/puzzle01/</link>
+        <link>http://localhost:1313/post/puzzle01/</link>
         <pubDate>Sun, 29 Dec 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/puzzle01/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/puzzle01/pics/src6.webp" alt="Featured image of post 成熟的人拒绝谈论理想" /&gt;&lt;!-- ![]( pics/src6.webp) --&gt;
+        <guid>http://localhost:1313/post/puzzle01/</guid>
+        <description>&lt;img src="http://localhost:1313/post/puzzle01/pics/src6.webp" alt="Featured image of post 成熟的人拒绝谈论理想" /&gt;&lt;!-- ![]( pics/src6.webp) --&gt;
 &lt;!-- 谈谈世界观、价值观、人生观。 --&gt;
 &lt;h2 id=&#34;我不想改变世界&#34;&gt;我不想改变世界
 &lt;/h2&gt;&lt;p&gt;前几天看到一则马云的访谈，他在多年前曾提及对自我和世界的看法：&lt;/p&gt;
@@ -1015,11 +1056,11 @@
         </item>
         <item>
         <title>未经审视的赛博生活不值得过</title>
-        <link>https://goldenriver.site/post/cyberlife01/</link>
+        <link>http://localhost:1313/post/cyberlife01/</link>
         <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/cyberlife01/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/cyberlife01/pics/src.webp" alt="Featured image of post 未经审视的赛博生活不值得过" /&gt;&lt;!-- ![](pics/src.webp) --&gt;
+        <guid>http://localhost:1313/post/cyberlife01/</guid>
+        <description>&lt;img src="http://localhost:1313/post/cyberlife01/pics/src.webp" alt="Featured image of post 未经审视的赛博生活不值得过" /&gt;&lt;!-- ![](pics/src.webp) --&gt;
 &lt;p&gt;电影《这个男人来自地球》里虚构了一个活了上万年的人，他为了不被外界打扰，每隔一段时间就得搬家。&lt;/p&gt;
 &lt;p&gt;不知从什么时候开始，我就成为了这么一个人。
 作为从贴吧时代存活下来的互联网原住民，越来越少地发帖和互动，我时常删除过往在互联网上的痕迹，每隔段时间就会删除自己的账号。&lt;/p&gt;
@@ -1129,11 +1170,11 @@
         </item>
         <item>
         <title>2024 November</title>
-        <link>https://goldenriver.site/post/life11/</link>
+        <link>http://localhost:1313/post/life11/</link>
         <pubDate>Thu, 05 Dec 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/life11/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/life11/cover/src2.webp" alt="Featured image of post 2024 November" /&gt;&lt;!-- ![(AI生成图片)]( cover/src2.webp) --&gt;
+        <guid>http://localhost:1313/post/life11/</guid>
+        <description>&lt;img src="http://localhost:1313/post/life11/cover/src2.webp" alt="Featured image of post 2024 November" /&gt;&lt;!-- ![(AI生成图片)]( cover/src2.webp) --&gt;
 &lt;h2 id=&#34;heading&#34;&gt;🚅
 &lt;/h2&gt;&lt;p&gt;地铁上看到一句话：&lt;/p&gt;
 &lt;blockquote&gt;
@@ -1199,10 +1240,10 @@
 &lt;p&gt;我想这是我今后会怀念的生活。&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;附---观影记录&#34;&gt;附&amp;ndash; 观影记录
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life11/pics/ET.webp&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life11/pics/ET.webp&#34;
 	width=&#34;1671&#34;
 	height=&#34;652&#34;
-	srcset=&#34;https://goldenriver.site/post/life11/pics/ET_hu13047225635877409467.webp 480w, https://goldenriver.site/post/life11/pics/ET_hu16027737080194563877.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life11/pics/ET_hu13047225635877409467.webp 480w, http://localhost:1313/post/life11/pics/ET_hu16027737080194563877.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1211,10 +1252,10 @@
 		data-flex-basis=&#34;615px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life11/pics/HDWL.webp&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life11/pics/HDWL.webp&#34;
 	width=&#34;1671&#34;
 	height=&#34;709&#34;
-	srcset=&#34;https://goldenriver.site/post/life11/pics/HDWL_hu5606107163933105259.webp 480w, https://goldenriver.site/post/life11/pics/HDWL_hu18284167076268359381.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life11/pics/HDWL_hu5606107163933105259.webp 480w, http://localhost:1313/post/life11/pics/HDWL_hu18284167076268359381.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1223,10 +1264,10 @@
 		data-flex-basis=&#34;565px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life11/pics/HDWL2.webp&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life11/pics/HDWL2.webp&#34;
 	width=&#34;1671&#34;
 	height=&#34;709&#34;
-	srcset=&#34;https://goldenriver.site/post/life11/pics/HDWL2_hu4846975753544713814.webp 480w, https://goldenriver.site/post/life11/pics/HDWL2_hu10951948334891098344.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life11/pics/HDWL2_hu4846975753544713814.webp 480w, http://localhost:1313/post/life11/pics/HDWL2_hu10951948334891098344.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1235,10 +1276,10 @@
 		data-flex-basis=&#34;565px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life11/pics/ZJAR.webp&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life11/pics/ZJAR.webp&#34;
 	width=&#34;1671&#34;
 	height=&#34;708&#34;
-	srcset=&#34;https://goldenriver.site/post/life11/pics/ZJAR_hu5430252460579412089.webp 480w, https://goldenriver.site/post/life11/pics/ZJAR_hu5344994915816776142.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life11/pics/ZJAR_hu5430252460579412089.webp 480w, http://localhost:1313/post/life11/pics/ZJAR_hu5344994915816776142.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1247,10 +1288,10 @@
 		data-flex-basis=&#34;566px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life11/pics/RGZN.webp&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life11/pics/RGZN.webp&#34;
 	width=&#34;1671&#34;
 	height=&#34;934&#34;
-	srcset=&#34;https://goldenriver.site/post/life11/pics/RGZN_hu5368099257130541933.webp 480w, https://goldenriver.site/post/life11/pics/RGZN_hu425342274095496794.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life11/pics/RGZN_hu5368099257130541933.webp 480w, http://localhost:1313/post/life11/pics/RGZN_hu425342274095496794.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1259,10 +1300,10 @@
 		data-flex-basis=&#34;429px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life11/pics/ZGNR.webp&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life11/pics/ZGNR.webp&#34;
 	width=&#34;1671&#34;
 	height=&#34;653&#34;
-	srcset=&#34;https://goldenriver.site/post/life11/pics/ZGNR_hu12008312022115472195.webp 480w, https://goldenriver.site/post/life11/pics/ZGNR_hu16007529775627363428.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life11/pics/ZGNR_hu12008312022115472195.webp 480w, http://localhost:1313/post/life11/pics/ZGNR_hu16007529775627363428.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1271,10 +1312,10 @@
 		data-flex-basis=&#34;614px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life11/pics/WS.webp&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life11/pics/WS.webp&#34;
 	width=&#34;1671&#34;
 	height=&#34;765&#34;
-	srcset=&#34;https://goldenriver.site/post/life11/pics/WS_hu12519500656691637149.webp 480w, https://goldenriver.site/post/life11/pics/WS_hu8952968600854940147.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life11/pics/WS_hu12519500656691637149.webp 480w, http://localhost:1313/post/life11/pics/WS_hu8952968600854940147.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1283,10 +1324,10 @@
 		data-flex-basis=&#34;524px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life11/pics/JQR.webp&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life11/pics/JQR.webp&#34;
 	width=&#34;1671&#34;
 	height=&#34;652&#34;
-	srcset=&#34;https://goldenriver.site/post/life11/pics/JQR_hu9223456981573050967.webp 480w, https://goldenriver.site/post/life11/pics/JQR_hu482879222295004253.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life11/pics/JQR_hu9223456981573050967.webp 480w, http://localhost:1313/post/life11/pics/JQR_hu482879222295004253.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1295,10 +1336,10 @@
 		data-flex-basis=&#34;615px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life11/pics/BYPX.webp&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life11/pics/BYPX.webp&#34;
 	width=&#34;1671&#34;
 	height=&#34;653&#34;
-	srcset=&#34;https://goldenriver.site/post/life11/pics/BYPX_hu7915111587952664584.webp 480w, https://goldenriver.site/post/life11/pics/BYPX_hu15740004739367831121.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life11/pics/BYPX_hu7915111587952664584.webp 480w, http://localhost:1313/post/life11/pics/BYPX_hu15740004739367831121.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1307,10 +1348,10 @@
 		data-flex-basis=&#34;614px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life11/pics/HDX.webp&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life11/pics/HDX.webp&#34;
 	width=&#34;1671&#34;
 	height=&#34;821&#34;
-	srcset=&#34;https://goldenriver.site/post/life11/pics/HDX_hu18109454957775725388.webp 480w, https://goldenriver.site/post/life11/pics/HDX_hu12054959184139665486.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life11/pics/HDX_hu18109454957775725388.webp 480w, http://localhost:1313/post/life11/pics/HDX_hu12054959184139665486.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1319,10 +1360,10 @@
 		data-flex-basis=&#34;488px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life11/pics/CY.webp&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life11/pics/CY.webp&#34;
 	width=&#34;1671&#34;
 	height=&#34;765&#34;
-	srcset=&#34;https://goldenriver.site/post/life11/pics/CY_hu17457730106356556821.webp 480w, https://goldenriver.site/post/life11/pics/CY_hu13975988778323018504.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life11/pics/CY_hu17457730106356556821.webp 480w, http://localhost:1313/post/life11/pics/CY_hu13975988778323018504.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1335,11 +1376,11 @@
         </item>
         <item>
         <title>2024 October</title>
-        <link>https://goldenriver.site/post/life10/</link>
+        <link>http://localhost:1313/post/life10/</link>
         <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/life10/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/life10/cover/sr3.png" alt="Featured image of post 2024 October" /&gt;&lt;!-- ![](cover/cover4.webp) --&gt;
+        <guid>http://localhost:1313/post/life10/</guid>
+        <description>&lt;img src="http://localhost:1313/post/life10/cover/sr3.png" alt="Featured image of post 2024 October" /&gt;&lt;!-- ![](cover/cover4.webp) --&gt;
 &lt;p&gt;十月，科研和论文的焦虑笼罩着整个月份，游戏、运动、电影的娱乐让我麻痹，正事进展的受阻一次又一次让我感到痛苦。&lt;/p&gt;
 &lt;p&gt;经历了艰难的心理建设和昼夜颠倒的赶工，最后时刻完成了任务，一切都令人感到疲惫。&lt;/p&gt;
 &lt;h2 id=&#34;论文终稿&#34;&gt;论文终稿
@@ -1351,10 +1392,10 @@
 &lt;h2 id=&#34;蛋白粉&#34;&gt;蛋白粉
 &lt;/h2&gt;&lt;p&gt;月初还有精力运动的时候，跑了几个完整的5公里，这对于曾经跑几步就喘的我来说，是一种突破。&lt;/p&gt;
 &lt;p&gt;三分化升级了哑铃的重量，令人欣慰的是，累计喝完了一罐2磅的蛋白粉。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life10/pics/image-1.webp&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life10/pics/image-1.webp&#34;
 	width=&#34;666&#34;
 	height=&#34;314&#34;
-	srcset=&#34;https://goldenriver.site/post/life10/pics/image-1_hu11434700991568491874.webp 480w, https://goldenriver.site/post/life10/pics/image-1_hu12739631099599822885.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life10/pics/image-1_hu11434700991568491874.webp 480w, http://localhost:1313/post/life10/pics/image-1_hu12739631099599822885.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;喝完一罐蛋白粉&#34;
@@ -1375,10 +1416,10 @@
 &lt;/h2&gt;&lt;p&gt;实在累的时候就看电影。&lt;/p&gt;
 &lt;p&gt;看了迈克尔·贝的《勇闯夺命岛》，非常精巧的一个故事。顺着尼古拉斯·凯奇主演电影，看了《变脸》和《空中监狱》。这几部都属于好莱坞顶格动作类型大片了，简单直给，爆炸和动作戏拉满。&lt;/p&gt;
 &lt;p&gt;我已经不期待从电影中获得什么思考，简单的官能刺激，正是我所需要的。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life10/pics/YC.webp&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life10/pics/YC.webp&#34;
 	width=&#34;828&#34;
 	height=&#34;1438&#34;
-	srcset=&#34;https://goldenriver.site/post/life10/pics/YC_hu5268288636063017430.webp 480w, https://goldenriver.site/post/life10/pics/YC_hu9624140800614376253.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life10/pics/YC_hu5268288636063017430.webp 480w, http://localhost:1313/post/life10/pics/YC_hu9624140800614376253.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;《勇闯夺命岛》&#34;
@@ -1389,10 +1430,10 @@
 		data-flex-basis=&#34;138px&#34;
 	
 &gt;
-&lt;img src=&#34;https://goldenriver.site/post/life10/pics/BL.webp&#34;
+&lt;img src=&#34;http://localhost:1313/post/life10/pics/BL.webp&#34;
 	width=&#34;828&#34;
 	height=&#34;1482&#34;
-	srcset=&#34;https://goldenriver.site/post/life10/pics/BL_hu6010764139327968207.webp 480w, https://goldenriver.site/post/life10/pics/BL_hu7499844822981269994.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life10/pics/BL_hu6010764139327968207.webp 480w, http://localhost:1313/post/life10/pics/BL_hu7499844822981269994.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;《变脸》&#34;
@@ -1403,10 +1444,10 @@
 		data-flex-basis=&#34;134px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life10/pics/KZ.webp&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life10/pics/KZ.webp&#34;
 	width=&#34;828&#34;
 	height=&#34;1392&#34;
-	srcset=&#34;https://goldenriver.site/post/life10/pics/KZ_hu2560182441778768353.webp 480w, https://goldenriver.site/post/life10/pics/KZ_hu10187245267173358449.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life10/pics/KZ_hu2560182441778768353.webp 480w, http://localhost:1313/post/life10/pics/KZ_hu10187245267173358449.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;《空中监狱》&#34;
@@ -1417,10 +1458,10 @@
 		data-flex-basis=&#34;142px&#34;
 	
 &gt;
-&lt;img src=&#34;https://goldenriver.site/post/life10/pics/GJ.webp&#34;
+&lt;img src=&#34;http://localhost:1313/post/life10/pics/GJ.webp&#34;
 	width=&#34;828&#34;
 	height=&#34;1258&#34;
-	srcset=&#34;https://goldenriver.site/post/life10/pics/GJ_hu3538470573149789825.webp 480w, https://goldenriver.site/post/life10/pics/GJ_hu1017177463765886881.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life10/pics/GJ_hu3538470573149789825.webp 480w, http://localhost:1313/post/life10/pics/GJ_hu1017177463765886881.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;《国家公敌》&#34;
@@ -1433,10 +1474,10 @@
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;end&#34;&gt;End
 &lt;/h2&gt;&lt;p&gt;没有什么自救指南，一切都是熬过来的。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life10/pics/LW.webp&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life10/pics/LW.webp&#34;
 	width=&#34;828&#34;
 	height=&#34;1303&#34;
-	srcset=&#34;https://goldenriver.site/post/life10/pics/LW_hu12788694206359215029.webp 480w, https://goldenriver.site/post/life10/pics/LW_hu6452481753461662729.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life10/pics/LW_hu12788694206359215029.webp 480w, http://localhost:1313/post/life10/pics/LW_hu6452481753461662729.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1445,10 +1486,10 @@
 		data-flex-basis=&#34;152px&#34;
 	
 &gt;
-&lt;img src=&#34;https://goldenriver.site/post/life10/pics/LTJL.webp&#34;
+&lt;img src=&#34;http://localhost:1313/post/life10/pics/LTJL.webp&#34;
 	width=&#34;828&#34;
 	height=&#34;1392&#34;
-	srcset=&#34;https://goldenriver.site/post/life10/pics/LTJL_hu13649022547150006102.webp 480w, https://goldenriver.site/post/life10/pics/LTJL_hu16444164902581011430.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life10/pics/LTJL_hu13649022547150006102.webp 480w, http://localhost:1313/post/life10/pics/LTJL_hu16444164902581011430.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1461,11 +1502,11 @@
         </item>
         <item>
         <title>零食店、萨莉亚、自助餐与柠檬茶</title>
-        <link>https://goldenriver.site/post/areading04/</link>
+        <link>http://localhost:1313/post/areading04/</link>
         <pubDate>Fri, 11 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/areading04/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/areading04/cover/src.webp" alt="Featured image of post 零食店、萨莉亚、自助餐与柠檬茶" /&gt;&lt;h2 id=&#34;占领乡镇的零食大店&#34;&gt;“占领”乡镇的零食大店
+        <guid>http://localhost:1313/post/areading04/</guid>
+        <description>&lt;img src="http://localhost:1313/post/areading04/cover/src.webp" alt="Featured image of post 零食店、萨莉亚、自助餐与柠檬茶" /&gt;&lt;h2 id=&#34;占领乡镇的零食大店&#34;&gt;“占领”乡镇的零食大店
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;参考文章：&lt;a class=&#34;link&#34; href=&#34;https://mp.weixin.qq.com/s/H2OMg7fezaBgsPNr_WwkyQ&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;“占领”乡镇的零食大店 (qq.com)
@@ -1568,11 +1609,11 @@
         </item>
         <item>
         <title>世界的短视频化</title>
-        <link>https://goldenriver.site/post/cyberlife00/</link>
+        <link>http://localhost:1313/post/cyberlife00/</link>
         <pubDate>Fri, 04 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/cyberlife00/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/cyberlife00/cover/src1.png" alt="Featured image of post 世界的短视频化" /&gt;&lt;h2 id=&#34;手机与奶头乐&#34;&gt;手机与奶头乐
+        <guid>http://localhost:1313/post/cyberlife00/</guid>
+        <description>&lt;img src="http://localhost:1313/post/cyberlife00/cover/src1.png" alt="Featured image of post 世界的短视频化" /&gt;&lt;h2 id=&#34;手机与奶头乐&#34;&gt;手机与奶头乐
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;参考新闻：
 &lt;a class=&#34;link&#34; href=&#34;https://m.your724sports.com/article/4529561.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -1656,11 +1697,11 @@
         </item>
         <item>
         <title>2024 September (2)</title>
-        <link>https://goldenriver.site/post/life09/</link>
+        <link>http://localhost:1313/post/life09/</link>
         <pubDate>Wed, 02 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/life09/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/life09/cover/src.jpg" alt="Featured image of post 2024 September (2)" /&gt;&lt;!-- ![](cover/cover3.webp) --&gt;
+        <guid>http://localhost:1313/post/life09/</guid>
+        <description>&lt;img src="http://localhost:1313/post/life09/cover/src.jpg" alt="Featured image of post 2024 September (2)" /&gt;&lt;!-- ![](cover/cover3.webp) --&gt;
 &lt;h2 id=&#34;九月&#34;&gt;九月
 &lt;/h2&gt;&lt;p&gt;九月，制定了三分化训练计划，开始系统性地力量训练；有氧依然以游泳与跑步为主，绕学校主路跑一圈，4.2km，马拉松的十分之一，一个迷你马拉松。&lt;/p&gt;
 &lt;p&gt;下半年减肥到现在，已经可以算小基数了（BMI=21.4），但是买了体脂称后，发现一个令人沮丧的事情——为什么体重少了，体脂率依然这么高？&lt;/p&gt;
@@ -1678,10 +1719,10 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
   &lt;figcaption style=&#34;font-size: 14px; color: gray;&#34;&gt;分化训练计划&lt;/figcaption&gt;
 &lt;/figure&gt;&lt;/div&gt;
 &lt;p&gt;一开始训练，情况不太理想。第一次练腿，祈祷第二天不要疼痛——结果疼了3天；练二头时把肌肉拉伤了…停了大半周恢复。好在慢慢掌握了训练的强度，渐渐进入正轨。力量搭配上有氧，期间出游一周每天暴走2W步，九月的运动量我自己还是满意的。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life09/pics/JYYD.webp&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life09/pics/JYYD.webp&#34;
 	width=&#34;1772&#34;
 	height=&#34;959&#34;
-	srcset=&#34;https://goldenriver.site/post/life09/pics/JYYD_hu17644752847148315973.webp 480w, https://goldenriver.site/post/life09/pics/JYYD_hu12663590048535017819.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life09/pics/JYYD_hu17644752847148315973.webp 480w, http://localhost:1313/post/life09/pics/JYYD_hu12663590048535017819.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34; 九月运动/健身记录（力量12次&amp;#43;有氧14次；运动21天/30天）&#34;
@@ -1699,18 +1740,18 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         </item>
         <item>
         <title>2024 September (1)</title>
-        <link>https://goldenriver.site/post/life08/</link>
+        <link>http://localhost:1313/post/life08/</link>
         <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/life08/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/life08/cover/cover.png" alt="Featured image of post 2024 September (1)" /&gt;&lt;p&gt;九月，进影院2次，都是家庭题材。看了《出走的决心》，非常喜欢，专门写了一篇影评。《姥姥的外孙》，不符合预期，感觉一般。&lt;/p&gt;
+        <guid>http://localhost:1313/post/life08/</guid>
+        <description>&lt;img src="http://localhost:1313/post/life08/cover/cover.png" alt="Featured image of post 2024 September (1)" /&gt;&lt;p&gt;九月，进影院2次，都是家庭题材。看了《出走的决心》，非常喜欢，专门写了一篇影评。《姥姥的外孙》，不符合预期，感觉一般。&lt;/p&gt;
 &lt;p&gt;线上观影，国产2部，印度片3部，电影解说美国青春校园片3部，英剧1部。&lt;/p&gt;
 &lt;h2 id=&#34;院线&#34;&gt;院线
 &lt;/h2&gt;&lt;p&gt;九月院线看的都是家庭题材，只是调性截然相反。一部压抑，一部温馨。一部出走，一部回归。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life08/pics/CZDJX.webp&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life08/pics/CZDJX.webp&#34;
 	width=&#34;270&#34;
 	height=&#34;378&#34;
-	srcset=&#34;https://goldenriver.site/post/life08/pics/CZDJX_hu10196255219797056445.webp 480w, https://goldenriver.site/post/life08/pics/CZDJX_hu3671933330973158645.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life08/pics/CZDJX_hu10196255219797056445.webp 480w, http://localhost:1313/post/life08/pics/CZDJX_hu3671933330973158645.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;《出走的决心》&#34;
@@ -1720,10 +1761,10 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 		data-flex-grow=&#34;71&#34;
 		data-flex-basis=&#34;171px&#34;
 	
-&gt;  &lt;img src=&#34;https://goldenriver.site/post/life08/pics/LLDWS.webp&#34;
+&gt;  &lt;img src=&#34;http://localhost:1313/post/life08/pics/LLDWS.webp&#34;
 	width=&#34;270&#34;
 	height=&#34;377&#34;
-	srcset=&#34;https://goldenriver.site/post/life08/pics/LLDWS_hu9256125816103204018.webp 480w, https://goldenriver.site/post/life08/pics/LLDWS_hu3453356878540409435.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life08/pics/LLDWS_hu9256125816103204018.webp 480w, http://localhost:1313/post/life08/pics/LLDWS_hu3453356878540409435.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;《姥姥的外孙》&#34;
@@ -1775,10 +1816,10 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 &lt;/ul&gt;
 &lt;h2 id=&#34;线上&#34;&gt;线上
 &lt;/h2&gt;&lt;h3 id=&#34;印度片3部&#34;&gt;印度片3部
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life08/pics/YGBY.webp&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life08/pics/YGBY.webp&#34;
 	width=&#34;270&#34;
 	height=&#34;405&#34;
-	srcset=&#34;https://goldenriver.site/post/life08/pics/YGBY_hu1970303014173452681.webp 480w, https://goldenriver.site/post/life08/pics/YGBY_hu769133324905003855.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life08/pics/YGBY_hu1970303014173452681.webp 480w, http://localhost:1313/post/life08/pics/YGBY_hu769133324905003855.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;《因果报应》&#34;
@@ -1788,10 +1829,10 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 		data-flex-grow=&#34;66&#34;
 		data-flex-basis=&#34;160px&#34;
 	
-&gt; &lt;img src=&#34;https://goldenriver.site/post/life08/pics/WSMTJ.webp&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/post/life08/pics/WSMTJ.webp&#34;
 	width=&#34;270&#34;
 	height=&#34;390&#34;
-	srcset=&#34;https://goldenriver.site/post/life08/pics/WSMTJ_hu3572111360672162871.webp 480w, https://goldenriver.site/post/life08/pics/WSMTJ_hu8737071975876868771.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life08/pics/WSMTJ_hu3572111360672162871.webp 480w, http://localhost:1313/post/life08/pics/WSMTJ_hu8737071975876868771.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;《误杀瞒天记》&#34;
@@ -1801,10 +1842,10 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 		data-flex-grow=&#34;69&#34;
 		data-flex-basis=&#34;166px&#34;
 	
-&gt; &lt;img src=&#34;https://goldenriver.site/post/life08/pics/XLLDHSDS.webp&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/post/life08/pics/XLLDHSDS.webp&#34;
 	width=&#34;270&#34;
 	height=&#34;386&#34;
-	srcset=&#34;https://goldenriver.site/post/life08/pics/XLLDHSDS_hu15909866596135691339.webp 480w, https://goldenriver.site/post/life08/pics/XLLDHSDS_hu16835733674558622259.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life08/pics/XLLDHSDS_hu15909866596135691339.webp 480w, http://localhost:1313/post/life08/pics/XLLDHSDS_hu16835733674558622259.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;《小萝莉的猴神大叔》&#34;
@@ -1857,10 +1898,10 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;国产2部&#34;&gt;国产2部
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life08/pics/CESYSJCL.webp&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life08/pics/CESYSJCL.webp&#34;
 	width=&#34;270&#34;
 	height=&#34;388&#34;
-	srcset=&#34;https://goldenriver.site/post/life08/pics/CESYSJCL_hu13406409831500441376.webp 480w, https://goldenriver.site/post/life08/pics/CESYSJCL_hu12221923605099428938.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life08/pics/CESYSJCL_hu13406409831500441376.webp 480w, http://localhost:1313/post/life08/pics/CESYSJCL_hu12221923605099428938.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;《从21世纪安全撤离》&#34;
@@ -1870,10 +1911,10 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 		data-flex-grow=&#34;69&#34;
 		data-flex-basis=&#34;167px&#34;
 	
-&gt; &lt;img src=&#34;https://goldenriver.site/post/life08/pics/GZYZ.webp&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/post/life08/pics/GZYZ.webp&#34;
 	width=&#34;270&#34;
 	height=&#34;405&#34;
-	srcset=&#34;https://goldenriver.site/post/life08/pics/GZYZ_hu13895395699697688101.webp 480w, https://goldenriver.site/post/life08/pics/GZYZ_hu17119383125123607499.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life08/pics/GZYZ_hu13895395699697688101.webp 480w, http://localhost:1313/post/life08/pics/GZYZ_hu17119383125123607499.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;《孤注一掷》&#34;
@@ -1913,10 +1954,10 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id=&#34;美国青春校园片3部&#34;&gt;美国青春校园片3部
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life08/pics/ZQYW.webp&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life08/pics/ZQYW.webp&#34;
 	width=&#34;270&#34;
 	height=&#34;381&#34;
-	srcset=&#34;https://goldenriver.site/post/life08/pics/ZQYW_hu406869831905989711.webp 480w, https://goldenriver.site/post/life08/pics/ZQYW_hu5048753810428882556.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life08/pics/ZQYW_hu406869831905989711.webp 480w, http://localhost:1313/post/life08/pics/ZQYW_hu5048753810428882556.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;《足球尤物》&#34;
@@ -1926,10 +1967,10 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 		data-flex-grow=&#34;70&#34;
 		data-flex-basis=&#34;170px&#34;
 	
-&gt; &lt;img src=&#34;https://goldenriver.site/post/life08/pics/JNH.webp&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/post/life08/pics/JNH.webp&#34;
 	width=&#34;270&#34;
 	height=&#34;386&#34;
-	srcset=&#34;https://goldenriver.site/post/life08/pics/JNH_hu2626464005985504653.webp 480w, https://goldenriver.site/post/life08/pics/JNH_hu4641648586274927736.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life08/pics/JNH_hu2626464005985504653.webp 480w, http://localhost:1313/post/life08/pics/JNH_hu4641648586274927736.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;《贱女陔》&#34;
@@ -1939,10 +1980,10 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 		data-flex-grow=&#34;69&#34;
 		data-flex-basis=&#34;167px&#34;
 	
-&gt; &lt;img src=&#34;https://goldenriver.site/post/life08/pics/XJHL.webp&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/post/life08/pics/XJHL.webp&#34;
 	width=&#34;270&#34;
 	height=&#34;405&#34;
-	srcset=&#34;https://goldenriver.site/post/life08/pics/XJHL_hu6732976625344726754.webp 480w, https://goldenriver.site/post/life08/pics/XJHL_hu608426733288869703.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life08/pics/XJHL_hu6732976625344726754.webp 480w, http://localhost:1313/post/life08/pics/XJHL_hu608426733288869703.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;《小姐好辣》&#34;
@@ -1986,10 +2027,10 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
     &lt;/a&gt;》&lt;/strong&gt;，看的解说，讲了什么已经记不清了，只是特别容易被这类美式青春校园气息感染。&lt;/p&gt;
 &lt;p&gt;之前非常排斥电影解说，但一次偶然观看经历对这个方式有了新的看法。一部让我看100分钟的电影会感到平庸无趣，但是剪成10分钟，浓缩一下剧情就感觉还不错。是不是说明，这些平庸之作的真实信息量只有10分钟？&lt;/p&gt;
 &lt;h3 id=&#34;英剧1部&#34;&gt;英剧1部
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life08/pics/LR.webp&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life08/pics/LR.webp&#34;
 	width=&#34;270&#34;
 	height=&#34;405&#34;
-	srcset=&#34;https://goldenriver.site/post/life08/pics/LR_hu10784036092426489035.webp 480w, https://goldenriver.site/post/life08/pics/LR_hu13422138436589739661.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life08/pics/LR_hu10784036092426489035.webp 480w, http://localhost:1313/post/life08/pics/LR_hu13422138436589739661.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;《流人》&#34;
@@ -2019,11 +2060,11 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         </item>
         <item>
         <title>困在“事理”里的女性，人生应该还有别的活法</title>
-        <link>https://goldenriver.site/post/film01/</link>
+        <link>http://localhost:1313/post/film01/</link>
         <pubDate>Sun, 29 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/film01/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/film01/cover/src2.webp" alt="Featured image of post 困在“事理”里的女性，人生应该还有别的活法" /&gt;&lt;!-- 
+        <guid>http://localhost:1313/post/film01/</guid>
+        <description>&lt;img src="http://localhost:1313/post/film01/cover/src2.webp" alt="Featured image of post 困在“事理”里的女性，人生应该还有别的活法" /&gt;&lt;!-- 
 
 &lt;div class=&#34;notice notice-info&#34; &gt;
     &lt;div class=&#34;notice-title&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; class=&#34;icon notice-icon&#34; viewBox=&#34;0 0 512 512&#34; fill=&#34;#705943&#34;&gt;&lt;path d=&#34;M256 8a248 248 0 100 496 248 248 0 000-496zm0 110a42 42 0 110 84 42 42 0 010-84zm56 254c0 7-5 12-12 12h-88c-7 0-12-5-12-12v-24c0-7 5-12 12-12h12v-64h-12c-7 0-12-5-12-12v-24c0-7 5-12 12-12h64c7 0 12 5 12 12v100h12c7 0 12 5 12 12v24z&#34;/&gt;&lt;/svg&gt;&lt;/div&gt;&lt;p&gt;《&lt;a class=&#34;link&#34; href=&#34;https://movie.douban.com/subject/36587974/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -2127,11 +2168,11 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         </item>
         <item>
         <title>中国足坛的《我不是药神》</title>
-        <link>https://goldenriver.site/post/areading02/</link>
+        <link>http://localhost:1313/post/areading02/</link>
         <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/areading02/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/areading02/cover/src.webp" alt="Featured image of post 中国足坛的《我不是药神》" /&gt;&lt;!-- ![](cover/cover6.webp) --&gt;
+        <guid>http://localhost:1313/post/areading02/</guid>
+        <description>&lt;img src="http://localhost:1313/post/areading02/cover/src.webp" alt="Featured image of post 中国足坛的《我不是药神》" /&gt;&lt;!-- ![](cover/cover6.webp) --&gt;
 &lt;h2 id=&#34;遵遇长期欠薪铤而走险踢假球能否被原谅&#34;&gt;遵遇长期欠薪，铤而走险踢假球能否被原谅？
 &lt;/h2&gt;&lt;blockquote&gt;
 &lt;p&gt;参考新闻：
@@ -2228,11 +2269,11 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         </item>
         <item>
         <title>中国足球的九九八十一难，才刚刚开始</title>
-        <link>https://goldenriver.site/post/areading01/</link>
+        <link>http://localhost:1313/post/areading01/</link>
         <pubDate>Fri, 13 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/areading01/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/areading01/cover/src.webp" alt="Featured image of post 中国足球的九九八十一难，才刚刚开始" /&gt;&lt;!-- ![](cover/cover2.webp) --&gt;
+        <guid>http://localhost:1313/post/areading01/</guid>
+        <description>&lt;img src="http://localhost:1313/post/areading01/cover/src.webp" alt="Featured image of post 中国足球的九九八十一难，才刚刚开始" /&gt;&lt;!-- ![](cover/cover2.webp) --&gt;
 &lt;!-- **写在前面**：
 日常碎片阅读，往往都是单篇，不成系统。想着积累成量再组织输出专题，苦于没有时间和精力，在素材库里积灰已久，不知何时能用上。
 不如撺够一波直接输出，尽管只是再加工的半成品，但也是我内化后的内容。
@@ -2374,11 +2415,11 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         </item>
         <item>
         <title>2024 Week 35</title>
-        <link>https://goldenriver.site/post/life07/</link>
+        <link>http://localhost:1313/post/life07/</link>
         <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/life07/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/life07/cover.png" alt="Featured image of post 2024 Week 35" /&gt;&lt;h2 id=&#34;生活碎片&#34;&gt;生活碎片
+        <guid>http://localhost:1313/post/life07/</guid>
+        <description>&lt;img src="http://localhost:1313/post/life07/cover.png" alt="Featured image of post 2024 Week 35" /&gt;&lt;h2 id=&#34;生活碎片&#34;&gt;生活碎片
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;影院看《异形·夺命舰》，非常存粹的恐怖片，很刺激；补了前作中的两部，看了系列的解说，感觉并不是我喜欢的类型。&lt;/li&gt;
 &lt;li&gt;看完了《边水往事》，二十多集，一个晚上加一个上午刷完了，非常有早期看《盗墓笔记》的感觉。&lt;/li&gt;
@@ -2389,11 +2430,11 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         </item>
         <item>
         <title>理解《黑神话∶悟空》爆火的五个关键词</title>
-        <link>https://goldenriver.site/post/wukong/</link>
+        <link>http://localhost:1313/post/wukong/</link>
         <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/wukong/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/wukong/WK.webp" alt="Featured image of post 理解《黑神话∶悟空》爆火的五个关键词" /&gt;&lt;p&gt;你的朋友圈是不是也被《黑神话：悟空》刷屏了呢？作为国产第一款真正意义上的3A游戏，这款游戏仅四天时间就达到一千万套的销量，创造了国产单机游戏的神话，从本身的内容和质量，到游戏所承载的意义，衍生出了无数令人津津乐道的话题。即使不是该游戏的受众也会能深切地感受到这款游戏的爆火。如何理解这份火热以及背后的意义呢？&lt;/p&gt;
+        <guid>http://localhost:1313/post/wukong/</guid>
+        <description>&lt;img src="http://localhost:1313/post/wukong/WK.webp" alt="Featured image of post 理解《黑神话∶悟空》爆火的五个关键词" /&gt;&lt;p&gt;你的朋友圈是不是也被《黑神话：悟空》刷屏了呢？作为国产第一款真正意义上的3A游戏，这款游戏仅四天时间就达到一千万套的销量，创造了国产单机游戏的神话，从本身的内容和质量，到游戏所承载的意义，衍生出了无数令人津津乐道的话题。即使不是该游戏的受众也会能深切地感受到这款游戏的爆火。如何理解这份火热以及背后的意义呢？&lt;/p&gt;
  &lt;div align=center&gt;&lt;img src=&#34;WK.webp&#34;  width=&#34;100%&#34; /&gt;
   &lt;figcaption style=&#34;font-size: 14px; color: gray;&#34;&gt;《黑神话：悟空》全平台销量已超过1000万套（统计数据截止北京时间2024年8月23日21点整）&lt;/figcaption&gt;
 &lt;/figure&gt;&lt;/div&gt;&lt;aside&gt;
@@ -2437,11 +2478,11 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         </item>
         <item>
         <title>2024 Week 33</title>
-        <link>https://goldenriver.site/post/life06/</link>
+        <link>http://localhost:1313/post/life06/</link>
         <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/life06/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/life06/pics/cover.png" alt="Featured image of post 2024 Week 33" /&gt;&lt;p&gt;08/12-08/18，2024年第33周。&lt;/p&gt;
+        <guid>http://localhost:1313/post/life06/</guid>
+        <description>&lt;img src="http://localhost:1313/post/life06/pics/cover.png" alt="Featured image of post 2024 Week 33" /&gt;&lt;p&gt;08/12-08/18，2024年第33周。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;本周继续减脂攻坚，网络上围观了一次被打后的维权全过程，同时生活中积攒了许多值得吐槽的事；&lt;/li&gt;
 &lt;li&gt;中元节祭祖，了解到这一节日的起源；&lt;/li&gt;
@@ -2536,11 +2577,11 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         </item>
         <item>
         <title>奥运·印象</title>
-        <link>https://goldenriver.site/post/olympics/</link>
+        <link>http://localhost:1313/post/olympics/</link>
         <pubDate>Thu, 15 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/olympics/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/olympics/cover/AYYX.png" alt="Featured image of post 奥运·印象" /&gt;&lt;p&gt;回顾这些日子里：&lt;/p&gt;
+        <guid>http://localhost:1313/post/olympics/</guid>
+        <description>&lt;img src="http://localhost:1313/post/olympics/cover/AYYX.png" alt="Featured image of post 奥运·印象" /&gt;&lt;p&gt;回顾这些日子里：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;见证了一场的确可以用“别开生面”来形容的开幕式；&lt;/li&gt;
 &lt;li&gt;多个夜晚和家人一起看乒乓球比赛（时间比较友好）；&lt;/li&gt;
@@ -2696,11 +2737,11 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         </item>
         <item>
         <title>2024 Week 32</title>
-        <link>https://goldenriver.site/post/life05/</link>
+        <link>http://localhost:1313/post/life05/</link>
         <pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/life05/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/life05/pics/cover.png" alt="Featured image of post 2024 Week 32" /&gt;&lt;p&gt;8/5-8/11，2024年第32周。&lt;/p&gt;
+        <guid>http://localhost:1313/post/life05/</guid>
+        <description>&lt;img src="http://localhost:1313/post/life05/pics/cover.png" alt="Featured image of post 2024 Week 32" /&gt;&lt;p&gt;8/5-8/11，2024年第32周。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;本周又要看奥运又要看足球赛，对起居作息、饮食运动都做了些许调整；&lt;/li&gt;
 &lt;li&gt;遭遇到了恶评，对自我产生了不小的冲击，冷静下来完成一次自我的重建；&lt;/li&gt;
@@ -2854,11 +2895,11 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         </item>
         <item>
         <title>2024 Week 31</title>
-        <link>https://goldenriver.site/post/life04/</link>
+        <link>http://localhost:1313/post/life04/</link>
         <pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/life04/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/life04/cover.png" alt="Featured image of post 2024 Week 31" /&gt;&lt;p&gt;07/29-08/04，2024年第31周。&lt;/p&gt;
+        <guid>http://localhost:1313/post/life04/</guid>
+        <description>&lt;img src="http://localhost:1313/post/life04/cover.png" alt="Featured image of post 2024 Week 31" /&gt;&lt;p&gt;07/29-08/04，2024年第31周。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;本周睡眠质量堪忧，减肥好像进入了误区需要调整；&lt;/li&gt;
 &lt;li&gt;看奥运会获得了许多快乐；&lt;/li&gt;
@@ -2876,10 +2917,10 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 &lt;li&gt;减肥好像进入了误区，体重和体型都进入平台期，一直没太大的变化。&lt;/li&gt;
 &lt;li&gt;一个误区是太关注体重数值，导致焦虑。朋友Z指点，到了这个体重，应该关注体脂，多加入力量训练，毕竟体脂才是决定体型外貌的条件。&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life04/TZL.webp&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life04/TZL.webp&#34;
 	width=&#34;358&#34;
 	height=&#34;212&#34;
-	srcset=&#34;https://goldenriver.site/post/life04/TZL_hu13554994345940325213.webp 480w, https://goldenriver.site/post/life04/TZL_hu6214930645810396612.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life04/TZL_hu13554994345940325213.webp 480w, http://localhost:1313/post/life04/TZL_hu6214930645810396612.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;体脂率对体型的影响&#34;
@@ -2999,11 +3040,11 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         </item>
         <item>
         <title>培养良好习惯的四步法则</title>
-        <link>https://goldenriver.site/post/reading03/</link>
+        <link>http://localhost:1313/post/reading03/</link>
         <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/reading03/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/reading03/cover/src.webp" alt="Featured image of post 培养良好习惯的四步法则" /&gt;&lt;h2 id=&#34;前言&#34;&gt;前言
+        <guid>http://localhost:1313/post/reading03/</guid>
+        <description>&lt;img src="http://localhost:1313/post/reading03/cover/src.webp" alt="Featured image of post 培养良好习惯的四步法则" /&gt;&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;研究估计，我们每天的行动中有40～50%出于习惯。人们很容易高估某个决定性时刻的重要性，而很容易低估每天进行微小习惯的价值。事实上，这些小选择累积起来，每一个都为如何度过下一段时间设定了轨迹。每时每刻的选择就像岔路口，不同的选择最终会导致卓有成效或者一事无成的一天。&lt;/p&gt;
 &lt;p&gt;可以说，保持什么样的习惯，决定我们度过怎么样的一生。&lt;/p&gt;
  &lt;div align=center&gt;&lt;img src=&#34;RS.webp&#34;  width=&#34;80%&#34; /&gt;
@@ -3202,11 +3243,11 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         </item>
         <item>
         <title>2024 Week 30</title>
-        <link>https://goldenriver.site/post/life03/</link>
+        <link>http://localhost:1313/post/life03/</link>
         <pubDate>Sun, 28 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/life03/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/life03/pics/cover.png" alt="Featured image of post 2024 Week 30" /&gt;&lt;p&gt;07/22-07/28，2024年第30周。&lt;/p&gt;
+        <guid>http://localhost:1313/post/life03/</guid>
+        <description>&lt;img src="http://localhost:1313/post/life03/pics/cover.png" alt="Featured image of post 2024 Week 30" /&gt;&lt;p&gt;07/22-07/28，2024年第30周。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;本周气温迎来了一波降温，睡眠有所改善，加强了运动；&lt;/li&gt;
 &lt;li&gt;思考了坚持写日记给我带来的益处，并分析了周记和阅读笔记的写作方式；&lt;/li&gt;
@@ -3267,11 +3308,11 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         </item>
         <item>
         <title>2024 Week 29</title>
-        <link>https://goldenriver.site/post/life02/</link>
+        <link>http://localhost:1313/post/life02/</link>
         <pubDate>Sun, 21 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/life02/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/life02/pics/cover.png" alt="Featured image of post 2024 Week 29" /&gt;&lt;p&gt;07/15-07/21，2024年第29周。&lt;/p&gt;
+        <guid>http://localhost:1313/post/life02/</guid>
+        <description>&lt;img src="http://localhost:1313/post/life02/pics/cover.png" alt="Featured image of post 2024 Week 29" /&gt;&lt;p&gt;07/15-07/21，2024年第29周。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;本周向家人坦白了学业和工作的事，进而对诚实和内心秩序有了进一步的思考；&lt;/li&gt;
 &lt;li&gt;第一次单独和长辈喝酒，意识到了必须接受身份转变了；&lt;/li&gt;
@@ -3332,11 +3373,11 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         </item>
         <item>
         <title>2024 Week 28</title>
-        <link>https://goldenriver.site/post/life01/</link>
+        <link>http://localhost:1313/post/life01/</link>
         <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/life01/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/life01/cover.png" alt="Featured image of post 2024 Week 28" /&gt;&lt;p&gt;07/08-07/14，2024年第28周。&lt;/p&gt;
+        <guid>http://localhost:1313/post/life01/</guid>
+        <description>&lt;img src="http://localhost:1313/post/life01/cover.png" alt="Featured image of post 2024 Week 28" /&gt;&lt;p&gt;07/08-07/14，2024年第28周。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;本周回家了，再次体会到了家乡的“热情”；&lt;/li&gt;
 &lt;li&gt;饭后散步的活动多了和家人相处的时光；&lt;/li&gt;
@@ -3358,10 +3399,10 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 &lt;p&gt;周三晚上带外甥出去散步。刚上一年级的一个小男孩，正是玩心正盛的时候，只是父母都外出打工，留他和妹妹两个人在外婆家，附近没什么玩伴，所以见到我就十分热烈。我想起我的童年，尽管物质上也十分匮乏，但不缺游戏和伙伴来填补躁动的无聊的时光。想到这我就决定，在家的这段时间花时间来陪陪他。&lt;/p&gt;
 &lt;h2 id=&#34;游泳的阶段性进步&#34;&gt;游泳的阶段性进步
 &lt;/h2&gt;&lt;p&gt;在学校一直靠游泳来减肥，回到家担心游不了泳了，一搜，没想到18线小县城居然也有正规的游泳馆。环境还不错，水池挺大，10泳道长度50米，深水区2米深。去游了3次，游泳体验不错。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life01/TYZX.webp&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life01/TYZX.webp&#34;
 	width=&#34;1200&#34;
 	height=&#34;900&#34;
-	srcset=&#34;https://goldenriver.site/post/life01/TYZX_hu12648251285626201429.webp 480w, https://goldenriver.site/post/life01/TYZX_hu368080908204610652.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life01/TYZX_hu12648251285626201429.webp 480w, http://localhost:1313/post/life01/TYZX_hu368080908204610652.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;体育中心的游泳馆&#34;
@@ -3371,10 +3412,10 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 		data-flex-grow=&#34;133&#34;
 		data-flex-basis=&#34;320px&#34;
 	
-&gt; &lt;img src=&#34;https://goldenriver.site/post/life01/YYG.webp&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/post/life01/YYG.webp&#34;
 	width=&#34;2000&#34;
 	height=&#34;1436&#34;
-	srcset=&#34;https://goldenriver.site/post/life01/YYG_hu9023001899629071365.webp 480w, https://goldenriver.site/post/life01/YYG_hu1223721325278672805.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life01/YYG_hu9023001899629071365.webp 480w, http://localhost:1313/post/life01/YYG_hu1223721325278672805.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;游泳馆内环境（网图，实际没这么亮）&#34;
@@ -3395,10 +3436,10 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 &lt;/figure&gt;&lt;/div&gt;
 &lt;h2 id=&#34;社会新闻-油罐车事件&#34;&gt;社会新闻-油罐车事件
 &lt;/h2&gt;&lt;p&gt;已经很少看社会新闻了，刷微博时发现新京报的一篇关于油罐车的报道被刷屏。看文章描述，“记者透露，食品类液体和化工液体运输混用且不清洗，已是罐车运输行业里公开的秘密。“挺骇人听闻的，日常使用的食用油里参杂了煤油这样含致癌物质的工业油成分，食品安全如何保障？有三鹿奶粉、地沟油这样臭名昭著的前车之鉴，每每有涉及食品安全的事件爆出，总是能牵动中国人民的神经，因此新闻出来后舆论群情激愤是必然的事。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life01/XJB.webp&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life01/XJB.webp&#34;
 	width=&#34;515&#34;
 	height=&#34;534&#34;
-	srcset=&#34;https://goldenriver.site/post/life01/XJB_hu1996222308480741669.webp 480w, https://goldenriver.site/post/life01/XJB_hu6812549343850533202.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life01/XJB_hu1996222308480741669.webp 480w, http://localhost:1313/post/life01/XJB_hu6812549343850533202.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;新京报关于油罐车的报道&#34;
@@ -3408,10 +3449,10 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 		data-flex-grow=&#34;96&#34;
 		data-flex-basis=&#34;231px&#34;
 	
-&gt; &lt;img src=&#34;https://goldenriver.site/post/life01/MDG.webp&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/post/life01/MDG.webp&#34;
 	width=&#34;641&#34;
 	height=&#34;514&#34;
-	srcset=&#34;https://goldenriver.site/post/life01/MDG_hu6058560892092565883.webp 480w, https://goldenriver.site/post/life01/MDG_hu16954419956363863532.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life01/MDG_hu6058560892092565883.webp 480w, http://localhost:1313/post/life01/MDG_hu16954419956363863532.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;马督公的团队跟进调查&#34;
@@ -3426,10 +3467,10 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 &lt;p&gt;马督公的团队带的tag很好，作为消费者，”煤油罐车装的食用油流向了哪里“是普通老百姓最首先关心的问题。同时作如此重要的吹哨新闻，按照常理接下来应该看到的是，相关的科学报道，医疗报道，经济报道，产业链黑幕挖掘，监管问题，责任问题和饥司法问题等等。只是从新京报7月2日的调查报道发出到今天引起广泛关注，提供有价值新闻的，目前只看到马督公团队一家自媒体做的跟进调查，其他自媒体提供的相关内容乏善可陈，而传统新闻媒体对此噤若寒蝉，非常吊诡。&lt;/p&gt;
 &lt;h2 id=&#34;社会新闻-无人自动驾驶车已经在武汉跑滴滴了&#34;&gt;社会新闻-无人自动驾驶车已经在武汉跑滴滴了
 &lt;/h2&gt;&lt;p&gt;无人自动驾驶车已经在武汉跑滴滴了？首先是在B站刷到的视频，挺震撼的，驾驶座的确没人，乘客上车后自动驾驶到目的地，看样子已经能够稳定地接单了。了解了一下是百度旗下的自动驾驶出行服务“萝卜快跑”，现在在武汉等城市投放试点，还处于测试阶段。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://goldenriver.site/post/life01/WHD.webp&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/post/life01/WHD.webp&#34;
 	width=&#34;1957&#34;
 	height=&#34;2561&#34;
-	srcset=&#34;https://goldenriver.site/post/life01/WHD_hu10184520889688037096.webp 480w, https://goldenriver.site/post/life01/WHD_hu14959464216578957816.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life01/WHD_hu10184520889688037096.webp 480w, http://localhost:1313/post/life01/WHD_hu14959464216578957816.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;武汉的无人驾驶体验视频（1）&#34;
@@ -3439,10 +3480,10 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
 		data-flex-grow=&#34;76&#34;
 		data-flex-basis=&#34;183px&#34;
 	
-&gt; &lt;img src=&#34;https://goldenriver.site/post/life01/WHD2.webp&#34;
+&gt; &lt;img src=&#34;http://localhost:1313/post/life01/WHD2.webp&#34;
 	width=&#34;828&#34;
 	height=&#34;1258&#34;
-	srcset=&#34;https://goldenriver.site/post/life01/WHD2_hu1598582657214101689.webp 480w, https://goldenriver.site/post/life01/WHD2_hu18095906206943735679.webp 1024w&#34;
+	srcset=&#34;http://localhost:1313/post/life01/WHD2_hu1598582657214101689.webp 480w, http://localhost:1313/post/life01/WHD2_hu18095906206943735679.webp 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;武汉的无人驾驶体验视频（2）&#34;
@@ -3461,11 +3502,11 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         </item>
         <item>
         <title>微习惯：简单到不可能失败的自我管理法则</title>
-        <link>https://goldenriver.site/post/reading02/</link>
+        <link>http://localhost:1313/post/reading02/</link>
         <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/reading02/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/reading02/cover/WXG.jpg" alt="Featured image of post 微习惯：简单到不可能失败的自我管理法则" /&gt; &lt;div align=center&gt;&lt;img src=&#34;WXG.webp&#34;  width=&#34;60%&#34; /&gt;
+        <guid>http://localhost:1313/post/reading02/</guid>
+        <description>&lt;img src="http://localhost:1313/post/reading02/cover/WXG.jpg" alt="Featured image of post 微习惯：简单到不可能失败的自我管理法则" /&gt; &lt;div align=center&gt;&lt;img src=&#34;WXG.webp&#34;  width=&#34;60%&#34; /&gt;
   &lt;figcaption style=&#34;font-size: 14px; color: gray;&#34;&gt;《微习惯》&lt;/figcaption&gt;
 &lt;/figure&gt;&lt;/div&gt;
 &lt;h2 id=&#34;为什么我总是三分钟热度&#34;&gt;为什么我总是三分钟热度？
@@ -3536,11 +3577,11 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         </item>
         <item>
         <title>手机与多巴胺：现代生活的注意力陷阱</title>
-        <link>https://goldenriver.site/post/smartphone-brain/</link>
+        <link>http://localhost:1313/post/smartphone-brain/</link>
         <pubDate>Sun, 16 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/smartphone-brain/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/smartphone-brain/cover/src.webp" alt="Featured image of post 手机与多巴胺：现代生活的注意力陷阱" /&gt;&lt;blockquote&gt;
+        <guid>http://localhost:1313/post/smartphone-brain/</guid>
+        <description>&lt;img src="http://localhost:1313/post/smartphone-brain/cover/src.webp" alt="Featured image of post 手机与多巴胺：现代生活的注意力陷阱" /&gt;&lt;blockquote&gt;
 &lt;p&gt;我们是如何夺走人们的时间和精力的？我们只是利用了人类心理的弱点。再放入了一点点的多巴胺。
 ——肖恩·帕克（Sean Parker），Facebook创始人、前总裁&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -3707,10 +3748,10 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         </item>
         <item>
         <title>我的博客折腾笔记</title>
-        <link>https://goldenriver.site/post/settings/</link>
+        <link>http://localhost:1313/post/settings/</link>
         <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/settings/</guid>
+        <guid>http://localhost:1313/post/settings/</guid>
         <description>&lt;h2 id=&#34;建站&#34;&gt;建站
 &lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;NotionNext建站参考:&lt;a class=&#34;link&#34; href=&#34;https://docs.tangly1024.com/about&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -4241,11 +4282,11 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         </item>
         <item>
         <title>EMO六则</title>
-        <link>https://goldenriver.site/post/emo/</link>
+        <link>http://localhost:1313/post/emo/</link>
         <pubDate>Mon, 22 May 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/emo/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/emo/emo.webp" alt="Featured image of post EMO六则" /&gt;&lt;blockquote&gt;
+        <guid>http://localhost:1313/post/emo/</guid>
+        <description>&lt;img src="http://localhost:1313/post/emo/emo.webp" alt="Featured image of post EMO六则" /&gt;&lt;blockquote&gt;
 &lt;p&gt;我们一天也没有聊点诗意的东西，聊聊比现实更深一层的困惑，也没能掌握一丁点除了自嘲以外的幽默。我们就这样在最该享有自由的年纪，将自己从头到脚所有的一切拱手让给了现实。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;一&#34;&gt;一
@@ -4273,11 +4314,11 @@ $$&lt;p&gt;减重期间，脂肪是少了，但肌肉也在减少。分子分母
         </item>
         <item>
         <title>关于老人的记忆</title>
-        <link>https://goldenriver.site/post/past/</link>
+        <link>http://localhost:1313/post/past/</link>
         <pubDate>Sun, 29 May 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://goldenriver.site/post/past/</guid>
-        <description>&lt;img src="https://goldenriver.site/post/past/pics/src.webp" alt="Featured image of post 关于老人的记忆" /&gt;&lt;h2 id=&#34;heading&#34;&gt;
+        <guid>http://localhost:1313/post/past/</guid>
+        <description>&lt;img src="http://localhost:1313/post/past/pics/src.webp" alt="Featured image of post 关于老人的记忆" /&gt;&lt;h2 id=&#34;heading&#34;&gt;
 &lt;/h2&gt;&lt;p&gt;最近不知怎么，总会梦见老外婆（外婆的母亲），风烛残年已经十分苍老，一个人呆坐在老木屋的门槛上，午后安静的阳光落在她厚厚的袍子上，屋檐投下的阴影让人看不清她的面容。这是我小时候关于这个老人残存的记忆。&lt;/p&gt;
 &lt;p&gt;长大后读到余华在《细雨中呼喊》里的描述，“祖父的晚年像一把老旧的木椅，等待着生命中最后一场火的燃烧”，那样遥远的记忆又重新被唤醒。&lt;/p&gt;
 &lt;p&gt;关于外婆的记忆则清晰许多，我曾陪过她度过最后的时光。奇怪的是，之后的梦里却很少出现她。&lt;/p&gt;

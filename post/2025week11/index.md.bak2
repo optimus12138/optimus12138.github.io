@@ -1,0 +1,163 @@
+---
+title: 2025 Week 11
+description: ①近日状态；②优化博客访问速度
+date: 2025-03-16
+slug: 2025Week11
+image: cover/cover.webp
+categories:
+    - 生活碎片
+---
+
+>周记 | 2025年第11周（03-10~03-16）的见闻、体验与思考 
+
+
+## 近日状态
+
+### 🌤️ 💨
+
+“乍暖还寒”是春天的标准特征，暖空气和冷空气交替影响，气温时升时降，在南方特别明显。
+
+这就导致了周前几天我还穿短袖，过了一晚上又把衣服加上了。
+
+另外，人和人的体感真的不一样，我走在街上，穿着短袖，热的走两步就出汗，但还看到不少人穿着毛衣外套 。
+
+### 🍎 📶
+
+一直计划着给父母买iphone，最近出的iphone16e感觉挺适合，想着等降价到3500就入手。但关于信号弱这一点，又纠结起来了 。我自己总是被嘲讽”苹果用户特有的强自适应”，虽然信号时不时一两格我自己还算能接受，但还是不放心给父母用。
+
+### 💻 🐍
+
+DeepSeek总感觉生成的内容用力过猛，我反馈的最多的一类就是“说人话”、“朴实一点”。
+
+直到让DS帮我整理笔记，发现被偷偷添加一些我不认识的花里胡哨的内容，我一边在提示词加一大堆限定语，一边内心暗叫：
+<div align=center><img src="image.webp"  width="90%" />
+<figcaption style="font-size: 14px; color: gray;">“你随便篡改我的歌词是画蛇添足，还看星星一颗两颗三颗四颗连成线，你以为你是贪吃蛇吗”<br>——来自《夏洛特烦恼》夏洛暴打周杰伦片段</figcaption>
+</figure></div>
+
+
+### 🧋 🍓
+
+蜜雪冰城的山楂莓莓甜到掉渣。
+
+蜜桃四季春只有第一口是甜的。
+
+### 🚇 🥤
+
+一直没搞懂深圳地铁的水检是什么原理，以前还要放在机器上，现在直接摸一下就给过。我以为是个别安检糊弄了事，后来发现坐的每一站的安检都是这样。
+
+地铁安检口，安检人员摸了一下杯口，然后向同伴确认，“热的，可以了”。可是我的杯子是空的，今天也没装过热水。
+
+我想是不是危险的液体都需要低温储存？所以摸着没有冰手的感觉就可以判断没有危险？
+
+但是后来发现，只有空杯才是这个流程，装水的还是要检测。
+
+所以摸空杯到底是什么操作？
+
+💬 🛖
+
+日常在即刻发各种笔记，在微博上碎碎念和胡言乱语，但还是担心隐私保护不太可靠。
+
+于是周末把大部分数据迁移到了Memos上。self-host服务够安全，能替代掉大部分的需求。
+
+今后不再在这两公共平台上输出了，数字隐居进度又推进了一大步。
+
+（但Memos好像没有好的导出数据的方案，有点头疼）
+
+
+
+## 优化博客访问速度
+
+博客托管在github上，总感觉访问速度很慢，图片时不时加载半天，我想博友刚点进来可能就被转圈转半天的加载给劝退了。
+
+这周有时间终于折腾了一下。
+
+找到了3个方案：
+
+1. 图片转 **WebP格式进行压缩**
+2. 用国内的图床储存图片
+3. CDN加速
+
+实装后在[测试网址](https://www.itdog.cn/http/)测试了一下，在可接受的范围内：![alt text](image-1.png)
+
+### WebP格式图片压缩
+
+WebP兼容性好，还提供无损压缩，我看很多网站图片用的都是WebP格式。
+
+1. webp转换工具使用的是[google的cwebp](https://developers.google.com/speed/webp/download?hl=zh-cn)
+2. 用DS写了个批量转换和文本替代的python脚本（放在图片和文本同级或上级目录）：
+
+```python
+import os
+import subprocess
+import re
+
+# 转换图片文件为 WebP 格式
+def convert_to_webp(filepath):
+    output_path = os.path.splitext(filepath)[0] + '.webp'
+    try:
+        subprocess.run(['cwebp', -lossless, filepath, '-o', output_path], check=True)
+        print(f'Converted {filepath} to {output_path}')
+    except subprocess.CalledProcessError as e:
+        print(f'Failed to convert {filepath}: {e}')
+
+# 遍历文件夹并转换图片
+def convert_images_in_folder(folder):
+    for root, dirs, files in os.walk(folder):
+        for file in files:
+            if file.lower().endswith(('.png', '.jpg')):
+                filepath = os.path.join(root, file)
+                convert_to_webp(filepath)
+
+# 替换指定文件中的图片扩展名
+def replace_extensions_in_markdown(filepath):
+    try:
+        with open(filepath, 'r', encoding='utf-8') as file:
+            content = file.read()
+        
+        # 替换 "png" 和 "jpg" 为 "webp"
+        content = content.replace('.png', '.webp')
+        content = content.replace('.jpg', '.webp')
+        
+        with open(filepath, 'w', encoding='utf-8') as file:
+            file.write(content)
+        print(f'Replaced "png" and "jpg" with "webp" in {filepath}')
+    except FileNotFoundError:
+        print(f'The file {filepath} was not found.')
+    except Exception as e:
+        print(f'An error occurred: {e}')
+
+# 主函数
+def main():
+    # 转换当前文件夹及其子文件夹中的图片
+    convert_images_in_folder('.')
+
+    # 遍历当前目录及其子目录，替换所有的 index.md 文件中的图片扩展名
+    for root, dirs, files in os.walk('.'):
+        for file in files:
+            if file == 'index.md':
+                markdown_path = os.path.join(root, file)
+                replace_extensions_in_markdown(markdown_path)
+
+if __name__ == '__main__':
+    main()
+
+```
+
+转换后肉眼看没有差别，应该达到了无损的效果：
+
+![png格式](favicon.png)![WebP格式](favicon.webp)
+
+
+### 国内图床储存图片
+
+### CDN加速
+
+CDN加速我理解为将远端服务器的数据放到近端服务器缓存，等读取的时候直接就近取材，不必从远端服务器拿数据。
+
+利用Cloudflare配置了CDN加速。
+
+### 其他
+
+1. 发现之前博客部分url定向依然是localhost环境，导致一些内容不可用，特别是rss读取的内容图片无法显示。这问题很好解决，但这么久才发现。强制了baseurl，解决了网址定向的问题。
+2. 虽然博客不开评论，但想着之后什么时候可以开个留言页面，于是搭建了twikoo评论系统，托管在vercel上。
+3. 我希望我的友邻是可以互相串门互相关心的朋友的关系，而不希望是内容创作者和内容消费者的关系。

@@ -6,11 +6,11 @@
 
 <link rel='canonical' href='http://localhost:1313/404.html'>
 
-<link rel="stylesheet" href="/scss/style.min.3f3846a5562d42b4e2580209d3fe4cec6e7519eb8f8198a9dcdc8b13759cd606.css"><meta property='og:title' content="404 Page not found">
+<link rel="stylesheet" href="/scss/style.min.ab1198b2b1f8e4f6940048f8c83825fb4903222604cadc4a1be1f24c11b0e827.css"><meta property='og:title' content="404 Page not found">
 <meta property='og:description' content="时常怀念，偶尔向前">
 <meta property='og:url' content='http://localhost:1313/404.html'>
 <meta property='og:site_name' content='金色河流'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-03-19T05:18:04&#43;08:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-03-19T19:41:11&#43;08:00 '/>
 <meta name="twitter:title" content="404 Page not found">
 <meta name="twitter:description" content="时常怀念，偶尔向前">
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -238,7 +238,41 @@
     <div class="not-found-card">
         <h1 class="article-title">404 错误</h1>
         <h2 class="article-subtitle">页面不存在</h2>
-    </div><footer class="site-footer">
+    </div><form action="/search/" class="search-form widget" data-json="http://localhost:1313/search/index.json">
+            <p>
+                <label>搜索</label>
+                <input id="searchInput" name="keyword" required placeholder="输入关键词..." />
+            
+                <button title="搜索">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                </button>
+            </p>
+        </form>
+
+        <div class="search-result">
+            <h3 class="search-result--title section-title"></h3>
+            <div class="search-result--list article-list--compact"></div>
+        </div>
+        
+        <script>
+            window.searchResultTitleTemplate = "#PAGES_COUNT 个结果 （用时 #TIME_SECONDS 秒）"
+        </script><script type="text/javascript" src="/ts/search.js" defer></script>
+
+        <script>
+            const wrongUrl = new URL(window.location.href);
+
+            
+            const searchKeyword = wrongUrl.pathname.split(/[/|-]/).join(' ').trim();
+
+            document.getElementById('searchInput').setAttribute('value', searchKeyword);
+        </script><footer class="site-footer">
     <section class="copyright">
         &copy; 
         
@@ -324,8 +358,10 @@
         
             
         
+            
+        
         发表了33篇文章 · 
-        总计50.98k字
+        总计51.06k字
     </section>
 
     <section class="powerby">

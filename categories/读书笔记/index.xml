@@ -2,17 +2,85 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>读书笔记 on 金色河流</title>
-        <link>http://localhost:1313/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+        <link>https://goldenriver.site/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
         <description>Recent content in 读书笔记 on 金色河流</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>金色河流</copyright>
-        <lastBuildDate>Wed, 19 Mar 2025 19:41:11 +0800</lastBuildDate><atom:link href="http://localhost:1313/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 23 Mar 2025 14:50:48 +0800</lastBuildDate><atom:link href="https://goldenriver.site/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>微习惯：简单到不可能失败的自我管理法则</title>
+        <link>https://goldenriver.site/post/mini-habits/</link>
+        <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://goldenriver.site/post/mini-habits/</guid>
+        <description>&lt;img src="https://goldenriver.site/post/mini-habits/cover4.png" alt="Featured image of post 微习惯：简单到不可能失败的自我管理法则" /&gt;&lt;div class=&#34;mycard&#34;&gt;
+      &lt;div class=&#34;content&#34;&gt;&lt;p&gt;&lt;strong&gt;书籍信息&lt;/strong&gt;
+&lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;书名：&lt;a class=&#34;link&#34; href=&#34;https://book.douban.com/subject/26877306/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;微习惯 (豆瓣)
+    
+    &lt;span style=&#34;white-space: nowrap;&#34;&gt;&lt;svg width=&#34;.7em&#34;
+        height=&#34;.7em&#34; viewBox=&#34;0 0 21 21&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;
+        &lt;path d=&#34;m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z&#34; fill=&#34;currentColor&#34; /&gt;
+        &lt;path d=&#34;M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z&#34;
+            fill=&#34;currentColor&#34;&gt;
+    &lt;/svg&gt;&lt;/span&gt;
+    
+    &lt;/a&gt; （Mini Habits）
+&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;作者：斯蒂芬·盖斯 [美] （Stephen Guise）
+&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;首次出版：2014年&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+&lt;h2 id=&#34;为何总是三分钟热度&#34;&gt;为何总是三分钟热度？
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;一个得不到执行的念头只会消亡——罗杰·冯·欧克&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;研究表明，人类习惯性高估自控力。&lt;/strong&gt; 我们常常制定计划时豪情万丈，执行时却因动力衰退陷入“虎头蛇尾”的困局。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;这是因为依赖动力的行为模式十分脆弱&lt;/strong&gt;。动力充足时（如受励志视频激励），意志力消耗低，行动阻力小；然而动力与情绪状态密切相关，在疲惫、低能量时难以维持，导致行动链断裂。&lt;/p&gt;
+&lt;p&gt;长远地来看，对我们有益的目标并不总是短跑比赛，规律作息、阅读和思考、锻炼身体，&lt;strong&gt;这些越是终身受益的事，越需摆脱对短期热情的依赖&lt;/strong&gt;。好的行为和生活方式理应一直贯彻下去。&lt;/p&gt;
+&lt;p&gt;这也是《微习惯》这本书的核心观点：&lt;strong&gt;如果一个行为终身受益，靠“热度”来维持并不可靠，不妨先花时间让它成为习惯。&lt;/strong&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;让潜意识接管你的行为&#34;&gt;让潜意识接管你的行为
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;养成习惯就是形成潜意识。&lt;/strong&gt;“潜意识”一词听起来让人不明所以，理解这一点需要更深入地了解我们的大脑。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;大脑是由执行决策和自动行为模式识别两部分组成的系统。&lt;/strong&gt; 前额皮层主导理性决策（高耗能），基底神经节掌管自动行为（低耗能）。前者如精密指挥官，后者如高效执行者——无须持续监督就能处理各种任务。这种自动功能便是潜意识。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;通俗来说，执行决策消耗精力，自动模式则容易得多&lt;/strong&gt;。激发动力就是调动执行决策机制，而潜意识的行为则是开启自动模式。可以这样理解，大脑的很多时候并不是由理智来主管的，相反，基于潜意识的行为有时候并不会经过大脑的审视，这也解释了为什么坏习惯总是容易发生。&lt;/p&gt;
+&lt;p&gt;对潜意识加以引导，则能够帮助我们形成有益的习惯。&lt;strong&gt;引导潜意识的奥秘在于重复，重复是潜意识大脑使用的语言。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;那么，如何有效地利用重复来形成习惯？&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;破除行动阻力的四大杠杆&#34;&gt;破除行动阻力的四大杠杆
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;首先是缩小感知难度&lt;/strong&gt;。开始行动的理由是最难找到的，因为目标的重量造成了巨大的压力。相比于设定“每天读书1小时”，结果某天只读10分钟便自责放弃，更好的做法是目标始终是“1页书”，读10分钟已是超额胜利，这样的目标反而能够培养起长期阅读的习惯。&lt;strong&gt;因为对行为结果的预期，也能反过来促成行动的动力。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;其次是剥离道德审判&lt;/strong&gt;。完成即成功，拒绝“未达完美=失败”的自我批判，&lt;strong&gt;满意每一个进步，绝不要自欺欺人。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;然后是利用行动惯性&lt;/strong&gt;。静止的物体需要大力才能启动（比如从沙发起身），&lt;strong&gt;但一旦动起来，“继续运动”反而轻松&lt;/strong&gt;。例如，想着“先穿上跑鞋就出门”比“必须跑5公里”更易突破拖延。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;最后是建立积极反馈&lt;/strong&gt;。完成微习惯后立刻记录（如打卡APP），可以用可视化成果强化信心，或是落后的进度促进自我激励。&lt;strong&gt;通过经常汇报进度，利用多巴胺奖励促进基底神经节路径深化&lt;/strong&gt;。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;贯彻微习惯的八大法则&#34;&gt;贯彻微习惯的八大法则
+&lt;/h2&gt;&lt;p&gt;1.&lt;strong&gt;绝不自欺欺人&lt;/strong&gt;：保持目标绝对微小（如“每天做1个俯卧撑”），即使有余力也&lt;strong&gt;不暗中提高标准&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;2.&lt;strong&gt;满意每一个进步&lt;/strong&gt;：微习惯策略的核心是一个很简单的大脑错觉，但同时也是一种重视开始的生活哲理，一种认为行动优于动力的生活哲理，一种相信将每一小步积累起来便能让量变转为质变的生活哲理。&lt;/p&gt;
+&lt;p&gt;3.&lt;strong&gt;经常回报自己，尤其在完成微习惯之后&lt;/strong&gt;：不管是用食物、出去痛快玩一夜，还是对着镜子告诉自己你有多了不起——这种回报会激励你再次执行微习惯，它会通过这种方式奖励你。最终，你会建立一个正反馈循环。&lt;/p&gt;
+&lt;p&gt;4.&lt;strong&gt;保持头脑清醒&lt;/strong&gt;：意识到“1个俯卧撑”是策略而非终点，避免陷入自我感动。&lt;/p&gt;
+&lt;p&gt;5.&lt;strong&gt;感到强烈抵触时，后退并缩小目标&lt;/strong&gt;：警惕虚假疲劳，例如将“写1000字”退为“写1句话”，用行动破解情绪阻力。&lt;/p&gt;
+&lt;p&gt;6.&lt;strong&gt;提醒自己这件事很轻松&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;7.&lt;strong&gt;绝不要小看微步骤&lt;/strong&gt;：每一个大工程都是由无数小步骤组成的，就像每一个有机体都是由微小的细胞组成的一样。&lt;/p&gt;
+&lt;p&gt;8.&lt;strong&gt;用多余精力超额，而非设定更大目标&lt;/strong&gt;：完成基础目标后，允许但不要求超额，避免透支意志力。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;最后&#34;&gt;最后
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;塑造生活的不是你偶尔的壮举，而是你一贯坚持的事——安东尼·罗宾&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;微习惯的本质是“对抗完美主义的生存策略”&lt;/strong&gt;。它不承诺奇迹，但通过“每天5分钟”的绝对确定性，让改变悄然发生。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;当不再纠结“能否做到”，而是专注“是否启动”，人生齿轮便已开始转动&lt;/strong&gt;。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>《娱乐至死》：当娱乐吞噬严肃，我们如何抵抗思想的消亡？</title>
-        <link>http://localhost:1313/post/amusing-ourselves-to-death/</link>
+        <link>https://goldenriver.site/post/amusing-ourselves-to-death/</link>
         <pubDate>Sun, 09 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/amusing-ourselves-to-death/</guid>
+        <guid>https://goldenriver.site/post/amusing-ourselves-to-death/</guid>
         <description>&lt;img src="https://s1mon-files.oss-cn-shenzhen.aliyuncs.com/img/202503191905043.webp" alt="Featured image of post 《娱乐至死》：当娱乐吞噬严肃，我们如何抵抗思想的消亡？" /&gt;&lt;blockquote&gt;
 &lt;p&gt;以下材料内容由本人摘记，材料组织及标题来自DeepSeek&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -102,11 +170,11 @@
         </item>
         <item>
         <title>培养良好习惯的四步法则</title>
-        <link>http://localhost:1313/post/reading03/</link>
+        <link>https://goldenriver.site/post/reading03/</link>
         <pubDate>Wed, 31 Jul 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/reading03/</guid>
-        <description>&lt;img src="http://localhost:1313/post/reading03/cover/src.webp" alt="Featured image of post 培养良好习惯的四步法则" /&gt;&lt;h2 id=&#34;前言&#34;&gt;前言
+        <guid>https://goldenriver.site/post/reading03/</guid>
+        <description>&lt;img src="https://goldenriver.site/post/reading03/cover/src.webp" alt="Featured image of post 培养良好习惯的四步法则" /&gt;&lt;h2 id=&#34;前言&#34;&gt;前言
 &lt;/h2&gt;&lt;p&gt;研究估计，我们每天的行动中有40～50%出于习惯。人们很容易高估某个决定性时刻的重要性，而很容易低估每天进行微小习惯的价值。事实上，这些小选择累积起来，每一个都为如何度过下一段时间设定了轨迹。每时每刻的选择就像岔路口，不同的选择最终会导致卓有成效或者一事无成的一天。&lt;/p&gt;
 &lt;p&gt;可以说，保持什么样的习惯，决定我们度过怎么样的一生。&lt;/p&gt;
  &lt;div align=center&gt;&lt;img src=&#34;RS.webp&#34;  width=&#34;80%&#34; /&gt;
@@ -304,87 +372,12 @@
 </description>
         </item>
         <item>
-        <title>微习惯：简单到不可能失败的自我管理法则</title>
-        <link>http://localhost:1313/post/reading02/</link>
-        <pubDate>Sun, 23 Jun 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/post/reading02/</guid>
-        <description>&lt;img src="http://localhost:1313/post/reading02/cover/WXG.webp" alt="Featured image of post 微习惯：简单到不可能失败的自我管理法则" /&gt; &lt;div align=center&gt;&lt;img src=&#34;WXG.webp&#34;  width=&#34;60%&#34; /&gt;
-  &lt;figcaption style=&#34;font-size: 14px; color: gray;&#34;&gt;《微习惯》&lt;/figcaption&gt;
-&lt;/figure&gt;&lt;/div&gt;
-&lt;h2 id=&#34;为什么我总是三分钟热度&#34;&gt;为什么我总是三分钟热度？
-&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;一个得不到执行的念头只会消亡。
-————罗杰·冯·欧克&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;研究表明，人总会习惯性地高估自己的自控力，所以我们常常在制定计划时许下豪言壮志，而在执行时又虎头蛇尾。&lt;/p&gt;
-&lt;p&gt;如果说执行某个行动需要调动意志力，动力越足，意志力消耗就越低，抵触情绪越低，做某件事的行动就越容易。因此，激发动力常常被用作执行行动的策略。这也很好解释，我们制定计划时往往是动力充足的时候，而在日常执行时，躺在床上不想运动，刷到彭于晏的励志视频补充动力，也容易产生出门跑步的念头。&lt;/p&gt;
-&lt;p&gt;然而，每个人都有不在状态的时候，精力不足无法调动意志力，计划的执行就成为了”明天再说“。激发动力的策略以人的感受为基础，而感受依赖此时此刻的状态。事实上，励志视频、鸡汤文或者给自己打气，并不是每一次都会奏效。状态不稳定，感受也不稳定，激发动力而采取行动也就不稳定，这种策略难以长此以往地达到效果。因为兴奋会递减，热情会亏损，依靠动力的劲头容易消失，于是“三分钟热度”很多时候就成为行动的结果。&lt;/p&gt;
-&lt;p&gt;长远地来看，对我们有益的目标并不总是短跑比赛，规律作息、阅读和思考、锻炼身体，这些好的行为和生活方式理应一直贯彻下去。这也是《微习惯》这本书第一个核心观点，如果一个行为终身受益，靠“热度”来维持并不可靠，不妨先花时间让它成为习惯。&lt;/p&gt;
-&lt;h2 id=&#34;2-让潜意识来接管你的行为&#34;&gt;2 让潜意识来接管你的行为
-&lt;/h2&gt;&lt;p&gt;习惯的养成就是形成潜意识。“潜意识”一词听起来让人不明所以，理解这一点需要更深入地了解我们的大脑。&lt;/p&gt;
-&lt;p&gt;习惯的生物机制，在于建立神经通路，它在书中被描述为：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;一旦某个习惯指定的神经通路被一个想法或外部信号触发，脑中就会有一个电荷沿着这条通路放电，然后你就会有一股想进行这项习惯行为的强烈欲望。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;这种神经通路被称为基底神经节，我们每个人的大脑里都运行着这种机制。&lt;/p&gt;
-&lt;p&gt;大脑是由执行决策和进行自动行为模式识别的两部分组成的系统。执行决策的部分由前额皮层主管，就是我们俗称的理智；自动行为的部分由基底神经节控制，它倾向于重复。前额皮层的管理功能相当活跃，反应灵敏，但同时也消耗了大量的精力（和意志力）。基底神经节的自动功能不仅强大，而且效率高。它们能节省精力，无须持续监督就能处理各种任务。这种基底神经节的自动功能便是潜意识。&lt;/p&gt;
-&lt;p&gt;通俗来说，执行决策消耗精力，自动模式则容易得多。激发动力就是调动执行决策机制，而潜意识的行为则是开启自动模式。&lt;/p&gt;
-&lt;p&gt;我们可以这样理解，大脑的很多时候并不是由理智来主管的，基于潜意识的行为有时候并不会经过大脑的审视，这也解释了为什么坏习惯为什么总是容易发生，而对潜意识加以引导，则能够帮助我们形成有益的习惯。引导潜意识的奥秘在于重复，重复是潜意识大脑使用的语言。&lt;/p&gt;
-&lt;p&gt;这就来到了本书的重点，如何有效地重复来形成习惯？&lt;/p&gt;
-&lt;h2 id=&#34;3-微习惯的独特之处&#34;&gt;3 微习惯的独特之处
-&lt;/h2&gt;&lt;aside&gt;
-✍️ 感知的困难难度比实际的大得多，也是我常常体会到的。
-&lt;blockquote&gt;
-&lt;p&gt;30分钟锻炼就像一座高山一样。那次锻炼的感知难度很高——我感觉到的困难比实际的大得多。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/aside&gt;
-&lt;aside&gt;
-✍️ 巨大的目标带来巨大的压力，造成的结果是，如果最终做不到，情愿不开始。
-&lt;blockquote&gt;
-&lt;p&gt;开始行动的理由是最难找到的，因为目标的重量造成了巨大的压力。而一旦开始，我们会觉得似乎需要达到最初的目标才算得上成功，这就是我们不愿意启动那些让我们闻之色变的计划的原因。如果最终做不到，我们宁可不开始。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/aside&gt;
-&lt;aside&gt;
-✍️ 这种对行为结果的预期，也能反过来促成行动的动力。
-&lt;blockquote&gt;
-&lt;p&gt;我感受到的主观疲劳明显减退了。事实上，我感觉自己有充足的能量完成1个俯卧撑，而且这种“轻易就能做成一件事”的想法，哪怕是很小的事，也能让我的能量更充足。&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;/aside&gt;
-&lt;h2 id=&#34;4-从每天做五个俯卧撑开始&#34;&gt;4 从每天做五个俯卧撑开始
-&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;塑造你生活的不是你偶尔做的一两件事，而是你一贯坚持做的事。
-——安东尼·罗宾&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;与其三天打鱼两天晒网，不如日拱一卒，哪怕是一点点的行动，也比毫不作为强。&lt;/p&gt;
-&lt;p&gt;八个规则：&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;ol&gt;
-&lt;li&gt;绝不要自欺欺人&lt;/li&gt;
-&lt;li&gt;满意每一个进步&lt;/li&gt;
-&lt;li&gt;经常汇报自己，尤其在完成微习惯之后&lt;/li&gt;
-&lt;li&gt;保持头脑清醒&lt;/li&gt;
-&lt;li&gt;感到强烈抵触时，后退并缩小目标&lt;/li&gt;
-&lt;li&gt;提醒自己这件事很轻松绝不要小看微步骤&lt;/li&gt;
-&lt;li&gt;用多余精力超额完成任务，而不是制定更大目标&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;5-我的微习惯&#34;&gt;5 我的微习惯
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;早睡早起&lt;/strong&gt;：11点半前躺在床上，早上离开床后就不再上床&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;阅读&lt;/strong&gt;：每日至少阅读10分钟&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;运动&lt;/strong&gt;：跑步/游泳/爬楼 或者 10个俯卧撑&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;写作&lt;/strong&gt;：每日写日记，50字或者一张生活照&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
         <title>手机与多巴胺：现代生活的注意力陷阱</title>
-        <link>http://localhost:1313/post/smartphone-brain/</link>
+        <link>https://goldenriver.site/post/smartphone-brain/</link>
         <pubDate>Sun, 16 Jun 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/post/smartphone-brain/</guid>
-        <description>&lt;img src="http://localhost:1313/post/smartphone-brain/cover/src.webp" alt="Featured image of post 手机与多巴胺：现代生活的注意力陷阱" /&gt;&lt;blockquote&gt;
+        <guid>https://goldenriver.site/post/smartphone-brain/</guid>
+        <description>&lt;img src="https://goldenriver.site/post/smartphone-brain/cover/src.webp" alt="Featured image of post 手机与多巴胺：现代生活的注意力陷阱" /&gt;&lt;blockquote&gt;
 &lt;p&gt;我们是如何夺走人们的时间和精力的？我们只是利用了人类心理的弱点。再放入了一点点的多巴胺。
 ——肖恩·帕克（Sean Parker），Facebook创始人、前总裁&lt;/p&gt;
 &lt;/blockquote&gt;

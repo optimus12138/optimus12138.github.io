@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>金色河流</copyright>
-        <lastBuildDate>Mon, 28 Apr 2025 07:43:21 +0800</lastBuildDate><atom:link href="https://goldenriver.site/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 28 Apr 2025 08:19:15 +0800</lastBuildDate><atom:link href="https://goldenriver.site/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>归档</title>
         <link>https://goldenriver.site/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
@@ -94,7 +94,7 @@ links:
 &lt;li&gt;🏃 在内容创作这件事上,「持续性」大于一切。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;博客建设日志&#34;&gt;博客建设日志
-&lt;/h2&gt;&lt;!-- &lt;div class=&#34;timeline__row&#34;&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;div class=&#34;timeline__row&#34;&gt;
     &lt;div class=&#34;timeline__time&#34;&gt;
         &lt;div class=&#34;timeline__time&#34;&gt;2025-04-28&lt;/div&gt;
         &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
@@ -266,8 +266,8 @@ links:
         }
     }
 &lt;/style&gt;
- --&gt;
-&lt;p&gt;&lt;div class=&#34;timeline__row&#34;&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
     &lt;div class=&#34;timeline__time&#34;&gt;
         &lt;div class=&#34;timeline__time&#34;&gt;2025-04-11&lt;/div&gt;
         &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;

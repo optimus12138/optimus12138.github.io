@@ -7,7 +7,7 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>金色河流</copyright>
-        <lastBuildDate>Mon, 28 Apr 2025 08:19:15 +0800</lastBuildDate><atom:link href="https://goldenriver.site/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 28 Apr 2025 22:19:58 +0800</lastBuildDate><atom:link href="https://goldenriver.site/page/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>归档</title>
         <link>https://goldenriver.site/archives/</link>
         <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
@@ -108,7 +108,7 @@ links:
         &lt;/a&gt;
         
         &lt;div class=&#34;timeline__description&#34;&gt;
-            Hugo-Stack优化
+            感谢[@vhko](https://github.com/vhko)
         &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;

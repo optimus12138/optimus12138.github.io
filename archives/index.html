@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://goldenriver.site/archives/'>
 
-<link rel="stylesheet" href="/scss/style.min.e3f54382a3d71628ef43f59a160641796bf2a185da389e3fdf5d8f1473643399.css"><meta property='og:title' content="归档">
+<link rel="stylesheet" href="/scss/style.min.f76ebdf09ff0a02021018fab20bbc9e0cd7ffdf869f3ba944db9f3d6c419b88b.css"><meta property='og:title' content="归档">
 <meta property='og:description' content="">
 <meta property='og:url' content='https://goldenriver.site/archives/'>
 <meta property='og:site_name' content='金色河流'>
@@ -343,7 +343,7 @@
                             
                             <a href="/tags/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F" class="tagCloud-tags">
                                 生活感悟
-                                <span class="tagCloud-count">19</span>
+                                <span class="tagCloud-count">20</span>
                             </a>
                         
                             
@@ -367,7 +367,7 @@
                             
                             <a href="/tags/%E8%B0%88%E5%86%99%E4%BD%9C" class="tagCloud-tags">
                                 谈写作
-                                <span class="tagCloud-count">6</span>
+                                <span class="tagCloud-count">7</span>
                             </a>
                         
                             
@@ -401,799 +401,531 @@
                 <h2 class="section-title">热力图</h2>
                 <style>
     #heatmap {
+        max-width: 100%;
+        height: auto;
+        padding: 0;
+        text-align: center;
         aspect-ratio: 5 / 1;
     }
     @media (max-width: 425px) {
         #heatmap {
-            aspect-ratio: 5/2;
+            aspect-ratio: 5 / 2;
         }
     }
+    .badge {
+        display: inline-block;
+        background-color: #e6b03d;
+        color: white;
+        font-size: 0.9em;
+        padding: 1px 5px;
+        border-radius: 4px;
+        margin-right: 4px;
+    }
+    .tooltip-entry {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 0.3em;
+        margin-bottom: 2px;
+    }
+    .tooltip-entry a {
+        flex: 1;
+        text-align: left;
+        font-size: 1em;
+    }
+    .range-select {
+        margin: 0.5em auto;
+        text-align: center;
+    }
+    .range-select select {
+        padding: 0.3em 0.6em;
+        font-size: 0.9em;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
 </style>
-<div id="heatmap" style="
-  max-width: 100%;
-  height: auto;
-  
-  padding: 2px;
-  text-align: center;"
-></div>
+
+<div class="range-select">
+    <label for="range">显示范围：</label>
+    <select id="range" onchange="handleSelectChange()">
+        <option value="lastYear">过去一年</option>
+        <option value="2025">2025年</option>
+        <option value="2024">2024年</option>
+        <option value="2023">2023年</option>
+        <option value="2022">2022年</option>
+    </select>
+</div>
+
+<div id="heatmap"></div>
+
 <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
 <script type="text/javascript">
     var chartDom = document.getElementById('heatmap');
     var myChart = echarts.init(chartDom);
+
     window.onresize = function () {
         myChart.resize();
     };
-    var option;
+
+    var dataMap = {};
 
     
-    
-    
-    
-    
-    
-    var dataMap = new Map();
-    
-        var key = "2025-04-28";
-        var value = dataMap.get(key);
+        var key = '2025-05-07';
+        var wordCount =  1321 ;
+        var link = '\/post\/2025week18\/';
+        var title = '2025 Week 18';
+        var category = '生活日志';
+
+        if (!dataMap[key]) {
+            dataMap[key] = [];
+        }
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2025-04-28';
         var wordCount =  1759 ;
-        var link = "/post/2025week16/";
-        var title = "2025 Week 16~17：近期见闻、体验与思考";
+        var link = '\/post\/2025week16\/';
+        var title = '2025 Week 16~17：近期见闻、体验与思考';
+        var category = '生活日志';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2025-04-27";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2025-04-27';
         var wordCount =  840 ;
-        var link = "/post/2025week17/";
-        var title = "2025 Week16~17：减脂与运动记录";
+        var link = '\/post\/2025week17\/';
+        var title = '2025 Week16~17：减脂与运动记录';
+        var category = '生活日志';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2025-04-21";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2025-04-21';
         var wordCount =  2614 ;
-        var link = "/post/commic-economics/";
-        var title = "经济学为什么重要：经济生活常识扫盲";
+        var link = '\/post\/commic-economics\/';
+        var title = '经济学为什么重要：经济生活常识扫盲';
+        var category = '读书笔记';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2025-04-13";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2025-04-13';
         var wordCount =  2886 ;
-        var link = "/post/2025week15/";
-        var title = "2025 Week 15";
+        var link = '\/post\/2025week15\/';
+        var title = '2025 Week 15';
+        var category = '生活日志';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2025-04-08";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2025-04-08';
         var wordCount =  2029 ;
-        var link = "/post/2025week14/";
-        var title = "2025 Week 12~14";
+        var link = '\/post\/2025week14\/';
+        var title = '2025 Week 12~14';
+        var category = '生活日志';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2025-03-22";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2025-03-22';
         var wordCount =  1649 ;
-        var link = "/post/mini-habits/";
-        var title = "微习惯：简单到不可能失败的自我管理法则";
+        var link = '\/post\/mini-habits\/';
+        var title = '微习惯：简单到不可能失败的自我管理法则';
+        var category = '读书笔记';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2025-03-18";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2025-03-18';
         var wordCount =  1907 ;
-        var link = "/post/2025week11/";
-        var title = "2025 Week 11";
+        var link = '\/post\/2025week11\/';
+        var title = '2025 Week 11';
+        var category = '生活日志';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2025-03-10";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2025-03-10';
         var wordCount =  1813 ;
-        var link = "/post/2025week10/";
-        var title = "2025 Week 10";
+        var link = '\/post\/2025week10\/';
+        var title = '2025 Week 10';
+        var category = '生活日志';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2025-03-09";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2025-03-09';
         var wordCount =  1392 ;
-        var link = "/post/amusing-ourselves-to-death/";
-        var title = "《娱乐至死》：当娱乐吞噬严肃，我们如何抵抗思想的消亡？";
+        var link = '\/post\/amusing-ourselves-to-death\/';
+        var title = '《娱乐至死》：当娱乐吞噬严肃，我们如何抵抗思想的消亡？';
+        var category = '读书笔记';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2025-03-03";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2025-03-03';
         var wordCount =  1332 ;
-        var link = "/post/2025week09/";
-        var title = "2025 Week 09";
+        var link = '\/post\/2025week09\/';
+        var title = '2025 Week 09';
+        var category = '生活日志';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2025-02-24";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2025-02-24';
         var wordCount =  1356 ;
-        var link = "/post/2025week08/";
-        var title = "2025 Week 08";
+        var link = '\/post\/2025week08\/';
+        var title = '2025 Week 08';
+        var category = '生活日志';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2025-02-14";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2025-02-14';
         var wordCount =  428 ;
-        var link = "/post/promise/";
-        var title = "约定";
+        var link = '\/post\/promise\/';
+        var title = '约定';
+        var category = '杂记';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2025-01-13";
-        var value = dataMap.get(key);
-        var wordCount =  221 ;
-        var link = "/post/cyberlife02/";
-        var title = "近日赛博笑话一则";
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2025-01-13';
+        var wordCount =  222 ;
+        var link = '\/post\/cyberlife02\/';
+        var title = '近日赛博笑话一则';
+        var category = '杂记';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2024-12-29";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2024-12-29';
         var wordCount =  1474 ;
-        var link = "/post/puzzle01/";
-        var title = "成熟的人拒绝谈论理想";
+        var link = '\/post\/puzzle01\/';
+        var title = '成熟的人拒绝谈论理想';
+        var category = '专题';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2024-12-18";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2024-12-18';
         var wordCount =  2079 ;
-        var link = "/post/cyberlife01/";
-        var title = "未经审视的赛博生活不值得过";
+        var link = '\/post\/cyberlife01\/';
+        var title = '未经审视的赛博生活不值得过';
+        var category = '专题';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2024-12-05";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2024-12-05';
         var wordCount =  1289 ;
-        var link = "/post/life11/";
-        var title = "2024 November";
+        var link = '\/post\/life11\/';
+        var title = '2024 November';
+        var category = '生活日志';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2024-11-07";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2024-11-07';
         var wordCount =  559 ;
-        var link = "/post/life10/";
-        var title = "2024 October";
+        var link = '\/post\/life10\/';
+        var title = '2024 October';
+        var category = '生活日志';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2024-10-11";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2024-10-11';
         var wordCount =  2094 ;
-        var link = "/post/areading04/";
-        var title = "零食店、萨莉亚、自助餐与柠檬茶";
+        var link = '\/post\/areading04\/';
+        var title = '零食店、萨莉亚、自助餐与柠檬茶';
+        var category = '专题';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2024-10-04";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2024-10-04';
         var wordCount =  1426 ;
-        var link = "/post/cyberlife00/";
-        var title = "世界的短视频化";
+        var link = '\/post\/cyberlife00\/';
+        var title = '世界的短视频化';
+        var category = '专题';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2024-10-02";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2024-10-02';
         var wordCount =  632 ;
-        var link = "/post/life09/";
-        var title = "2024 September (2)";
+        var link = '\/post\/life09\/';
+        var title = '2024 September (2)';
+        var category = '生活日志';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2024-10-01";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2024-10-01';
         var wordCount =  1138 ;
-        var link = "/post/life08/";
-        var title = "2024 September (1)";
+        var link = '\/post\/life08\/';
+        var title = '2024 September (1)';
+        var category = '生活日志';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2024-09-29";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2024-09-29';
         var wordCount =  1800 ;
-        var link = "/post/film01/";
-        var title = "困在“事理”里的女性，人生应该还有别的活法";
+        var link = '\/post\/film01\/';
+        var title = '困在“事理”里的女性，人生应该还有别的活法';
+        var category = '专题';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2024-09-20";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2024-09-20';
         var wordCount =  1233 ;
-        var link = "/post/areading02/";
-        var title = "中国足坛的《我不是药神》";
+        var link = '\/post\/areading02\/';
+        var title = '中国足坛的《我不是药神》';
+        var category = '专题';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2024-09-13";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2024-09-13';
         var wordCount =  1904 ;
-        var link = "/post/areading01/";
-        var title = "中国足球的九九八十一难，才刚刚开始";
+        var link = '\/post\/areading01\/';
+        var title = '中国足球的九九八十一难，才刚刚开始';
+        var category = '专题';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2024-09-02";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2024-09-02';
         var wordCount =  174 ;
-        var link = "/post/life07/";
-        var title = "2024 Week 35";
+        var link = '\/post\/life07\/';
+        var title = '2024 Week 35';
+        var category = '生活日志';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2024-08-26";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2024-08-26';
         var wordCount =  461 ;
-        var link = "/post/wukong/";
-        var title = "理解《黑神话∶悟空》爆火的五个关键词";
+        var link = '\/post\/wukong\/';
+        var title = '理解《黑神话∶悟空》爆火的五个关键词';
+        var category = '专题';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2024-08-19";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2024-08-19';
         var wordCount =  2076 ;
-        var link = "/post/life06/";
-        var title = "2024 Week 33";
+        var link = '\/post\/life06\/';
+        var title = '2024 Week 33';
+        var category = '生活日志';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2024-08-15";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2024-08-15';
         var wordCount =  2275 ;
-        var link = "/post/olympics/";
-        var title = "奥运·印象";
+        var link = '\/post\/olympics\/';
+        var title = '奥运·印象';
+        var category = '专题';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2024-08-12";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2024-08-12';
         var wordCount =  2400 ;
-        var link = "/post/life05/";
-        var title = "2024 Week 32";
+        var link = '\/post\/life05\/';
+        var title = '2024 Week 32';
+        var category = '生活日志';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2024-08-05";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2024-08-05';
         var wordCount =  1985 ;
-        var link = "/post/life04/";
-        var title = "2024 Week 31";
+        var link = '\/post\/life04\/';
+        var title = '2024 Week 31';
+        var category = '生活日志';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2024-07-31";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2024-07-31';
         var wordCount =  3809 ;
-        var link = "/post/reading03/";
-        var title = "培养良好习惯的四步法则";
+        var link = '\/post\/reading03\/';
+        var title = '培养良好习惯的四步法则';
+        var category = '读书笔记';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2024-07-28";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2024-07-28';
         var wordCount =  1647 ;
-        var link = "/post/life03/";
-        var title = "2024 Week 30";
+        var link = '\/post\/life03\/';
+        var title = '2024 Week 30';
+        var category = '生活日志';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2024-07-21";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2024-07-21';
         var wordCount =  1533 ;
-        var link = "/post/life02/";
-        var title = "2024 Week 29";
+        var link = '\/post\/life02\/';
+        var title = '2024 Week 29';
+        var category = '生活日志';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2024-07-14";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2024-07-14';
         var wordCount =  1881 ;
-        var link = "/post/life01/";
-        var title = "2024 Week 28";
+        var link = '\/post\/life01\/';
+        var title = '2024 Week 28';
+        var category = '生活日志';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2024-06-16";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2024-06-16';
         var wordCount =  4929 ;
-        var link = "/post/smartphone-brain/";
-        var title = "手机与多巴胺：现代生活的注意力陷阱";
+        var link = '\/post\/smartphone-brain\/';
+        var title = '手机与多巴胺：现代生活的注意力陷阱';
+        var category = '读书笔记';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2024-06-12";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2024-06-12';
         var wordCount =  312 ;
-        var link = "/post/settings/";
-        var title = "我的博客折腾笔记";
+        var link = '\/post\/settings\/';
+        var title = '我的博客折腾笔记';
+        var category = '杂记';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2023-05-22";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2023-05-22';
         var wordCount =  724 ;
-        var link = "/post/emo/";
-        var title = "EMO六则";
+        var link = '\/post\/emo\/';
+        var title = 'EMO六则';
+        var category = '杂记';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
+        if (!dataMap[key]) {
+            dataMap[key] = [];
         }
-        var key = "2022-05-29";
-        var value = dataMap.get(key);
+        dataMap[key].push({ wordCount, link, title, category });
+        var key = '2022-05-29';
         var wordCount =  529 ;
-        var link = "/post/past/";
-        var title = "关于老人的记忆";
+        var link = '\/post\/past\/';
+        var title = '关于老人的记忆';
+        var category = '杂记';
 
-        
-        if (value == null) {
-            dataMap.set(key, [
-                {
-                    wordCount,
-                    link,
-                    title
-                }
-            ]);
-        } else {
-            value.push({wordCount, link, title});
-        }var data = [];
-    
-    for (const [key, value] of dataMap.entries()) {
-        var sum = 0;
-        for (const v of value) {
+        if (!dataMap[key]) {
+            dataMap[key] = [];
+        }
+        dataMap[key].push({ wordCount, link, title, category });var data = [];
+    for (const key in dataMap) {
+        let sum = 0;
+        for (const v of dataMap[key]) {
             sum += v.wordCount;
         }
         data.push([
             key,
-            (sum / 1000).toFixed(1)
+            parseFloat((sum / 1000).toFixed(1))
         ]);
     }
 
-    var startDate = new Date();
-    var year_Mill = startDate.setFullYear((startDate.getFullYear() - 1));
-    var startDate = + new Date(year_Mill);
-    var endDate = + new Date();
-
-    var dayTime = 3600 * 24 * 1000;
-    startDate = echarts
-        .format
-        .formatTime('yyyy-MM-dd', startDate);
-    endDate = echarts
-        .format
-        .formatTime('yyyy-MM-dd', endDate);
-
-    
-    function heatmap_width(months) {
-        var startDate = new Date();
-        var mill = startDate.setMonth((startDate.getMonth() - months));
-        var endDate = + new Date();
-        startDate = + new Date(mill);
-
-        endDate = echarts
-            .format
-            .formatTime('yyyy-MM-dd', endDate);
-        startDate = echarts
-            .format
-            .formatTime('yyyy-MM-dd', startDate);
-
-        var showmonth = [];
-        showmonth.push([startDate, endDate]);
-        return showmonth
-    };
-
-    function getRangeArr() {
-        const windowWidth = window.innerWidth;
-        if (windowWidth >= 600) {
-            return heatmap_width(12);
-        } else if (windowWidth >= 400) {
-            return heatmap_width(3);
-        } else {
-            return heatmap_width(3);
-        }
+    function getDateRange(months) {
+        const now = new Date();
+        const start = new Date(now.getFullYear(), now.getMonth() - months, now.getDate());
+        return [
+            echarts.format.formatTime('yyyy-MM-dd', start),
+            echarts.format.formatTime('yyyy-MM-dd', now)
+        ];
     }
 
-    option = {
-        
-        
-        
-        
-        
+    function getYearRange(year) {
+        return [
+            `${year}-01-01`,
+            `${year}-12-31`
+        ];
+    }
+
+    function updateRange(type) {
+        let range;
+        if (type === 'lastYear') {
+            range = getDateRange(12);
+        } else {
+            range = getYearRange(type);
+        }
+        option.calendar.range = range;
+        myChart.setOption(option);
+    }
+
+    function handleSelectChange() {
+        const val = document.getElementById('range').value;
+        updateRange(val);
+    }
+
+    function getResponsiveRange() {
+        const w = window.innerWidth;
+        return getDateRange(w >= 600 ? 12 : 3);
+    }
+
+    var option = {
         tooltip: {
             hideDelay: 1000,
             enterable: true,
-            borderColor: ' #e6b03d',
+            borderColor: '#e6b03d',
+            backgroundColor: '#fff8e1',
+            textStyle: { color: '#333', fontSize: 14 },
             formatter: function (p) {
                 const date = p.data[0];
-                const posts = dataMap.get(date);
+                const posts = dataMap[date];
                 var content = `${date}`;
-                for (const [i, post] of posts.entries()) {
-                    content += "<br>";
-                    var link = post.link;
-                    var title = post.title;
-                    var wordCount = (post.wordCount / 1000).toFixed(1);
-                    content += `<a href="${link}" target="_blank">${title} | ${wordCount} 千字</a>`
+                if (!posts) return content;
+                for (const post of posts) {
+                    content += "<div class='tooltip-entry'>";
+                    var category = post.category || '未分类';
+                    content += `<span class='badge'>${category}</span><a href="${post.link}" target="_blank">${post.title}</a>`;
+                    content += "</div>";
                 }
-                
                 return content;
             }
         },
@@ -1205,59 +937,35 @@
             orient: 'horizontal',
             left: 'center',
             top: -30,
-            inRange: {
-                
-                color: ['rgb(255, 238, 182)', ' #f9e1a4', ' #f8d68b', ' #f4c65d', ' #e6b03d ']
+            inRange: { color: ['#FFDC73']
             },
             splitNumber: 5,
-            text: [
-                '千字', ''
-            ],
+            text: ['千字', ''],
             showLabel: true,
             itemGap: 20
         },
         calendar: {
-            backGround: '',
-            borderRadius: 3,
-            top: 66,
-            left: 22,
-            right: 4,
-            cellSize: 'auto',
-            range: getRangeArr(),
+            borderRadius: 2,
+            top: 30,
+            left: 18,
+            right: 2,
+            cellSize: ['auto', 20],
+            range: getResponsiveRange(),
             itemStyle: {
-                color: ' #FFFFFF',
-                borderWidth: 4,
-                borderColor: '#f4f4f4'
-            },
-            yearLabel: {
-                color:'pink',
-                fontstyle:'oblique',
-                show: true,
-                margin: 10,
-                position: "top"
-            },
-            monthLabel: {
-                
-                nameMap: [
-                    '1月',
-                    '2月',
-                    '3月',
-                    '4月',
-                    '5月',
-                    '6月',
-                    '7月',
-                    '8月',
-                    '9月',
-                    '10月',
-                    '11月',
-                    '12月'
-                ]
-            },
-            yearLabel: {
-                show: true,
-                position: 'top'
+                color: '#fafafa',
+                borderWidth: 2,
+                borderColor: '#f0f0f0'
             },
             
+            monthLabel: {
+                nameMap: ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
+                margin: 6,
+                fontSize: 11
+            },
+            dayLabel: {
+                margin: 6,
+                fontSize: 11
+            },
             splitLine: {
                 lineStyle: {
                     opacity: 0
@@ -1268,23 +976,46 @@
             type: 'heatmap',
             coordinateSystem: 'calendar',
             data: data,
+            label: {
+                show: true,
+                formatter: function (params) {
+                    const date = params.data[0];
+                    const d = new Date(date);
+                    if (d.getDate() === 1) return '①';
+                    return '';
+                },
+                color: '#e6b03d',
+                fontSize: 16,
+                fontWeight: 'bolder'
+            },
             itemStyle: {
-                borderRadius: 3
+                borderRadius: 2
+            },
+            emphasis: {
+                itemStyle: {
+                    borderColor: '#e6b03d',
+                    borderWidth: 3,
+                    shadowBlur: 6,
+                    shadowColor: 'rgba(0, 0, 0, 0.2)'
+                }
             }
         }
     };
+
     myChart.setOption(option);
+
     myChart.on('click', function (params) {
         if (params.componentType === 'series') {
-            
-            const post = dataMap.get(params.data[0])[0];
-            const link = window.location.origin + post.link;
-            window
-                .open(link, '_blank')
-                .focus();
+            const date = params.data[0];
+            const posts = dataMap[date];
+            if (posts && posts.length > 0) {
+                const link = window.location.origin + posts[0].link;
+                window.open(link, '_blank').focus();
+            }
         }
     });
 </script>
+
             </header>
             <section>
             
@@ -1293,6 +1024,38 @@
             
             
 
+            
+                
+                <div class="archives-group" id="2025-05">
+                    <h2 class="archives-date section-title">
+                        <a href="/archives/#2025-05">2025-05</a>
+                    </h2>
+                    <div class="article-list--compact">
+                        
+                            <article>
+    <a href="/post/2025week18/">
+        <div class="article-details">
+            <h2 class="article-title">2025 Week 18</h2> 
+            <footer class="article-time">
+                <time datetime='2025-05-07T00:00:00Z'>2025-05-07</time>
+            </footer>
+            
+                <div class="article-subtitle">
+                    ①体面和决绝的成年人；②不扫兴的成年人；③不必听那么多道理(3)
+                </div>
+                
+        </div>
+            <div class="article-image">
+                
+                    <img src="https://s1mon-files.oss-cn-shenzhen.aliyuncs.com/img/202505081718992.webp" loading="lazy" alt="Featured image of post 2025 Week 18" />
+                
+            </div>
+        
+    </a>
+</article>
+                        
+                    </div>
+                </div>
             
                 
                 <div class="archives-group" id="2025-04">
@@ -1617,8 +1380,11 @@
                 
         </div>
             <div class="article-image">
-                
-                    <img src="https://s1mon-files.oss-cn-shenzhen.aliyuncs.com/img/202503191911738.webp" loading="lazy" alt="Featured image of post 近日赛博笑话一则" />
+                <img src="/post/cyberlife02/cover_hu2308230880361197120.webp" 
+                        width="120"
+                        height="120" 
+                        alt="近日赛博笑话一则"
+                        loading="lazy">
                 
             </div>
         
@@ -2415,8 +2181,10 @@
         
             
         
-        发表了38篇文章 · 
-        总计61.32k字
+            
+        
+        发表了39篇文章 · 
+        总计62.54k字
     </section>
 
     <section class="powerby">

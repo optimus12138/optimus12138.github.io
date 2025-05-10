@@ -1,0 +1,207 @@
+{
+  "recentFiles": [
+    {
+      "basename": "index",
+      "path": "post/阅读笔记/Steer-clear-of-the-ordinary-road/index.md"
+    },
+    {
+      "basename": "index.bak",
+      "path": "post/专题/影评/Personal-Top-10-Films-of-All-Time/index.bak.md"
+    },
+    {
+      "basename": "index",
+      "path": "post/专题/影评/film01 - 副本/index.md"
+    },
+    {
+      "basename": "index",
+      "path": "post/周记/2025/Week18/index.md"
+    },
+    {
+      "basename": "Home索引",
+      "path": "采集项目/Home索引.md"
+    },
+    {
+      "basename": "简历项目描述",
+      "path": "采集项目/简历项目描述.md"
+    },
+    {
+      "basename": "当我想要拖延和逃避的时候看",
+      "path": "当我想要拖延和逃避的时候看.md"
+    },
+    {
+      "basename": "待解决的问题",
+      "path": "采集项目/待解决的问题.md"
+    },
+    {
+      "basename": "LL_CONFIG信号的作用",
+      "path": "采集项目/LL_CONFIG信号的作用.md"
+    },
+    {
+      "basename": "关键点",
+      "path": "采集项目/一些分析/关键点.md"
+    },
+    {
+      "basename": "OKR",
+      "path": "采集项目/一些分析/OKR.md"
+    },
+    {
+      "basename": "系统设计与方案验证分析",
+      "path": "采集项目/一些分析/系统设计与方案验证分析.md"
+    },
+    {
+      "basename": "分析借鉴AD7606以太网传输例程",
+      "path": "采集项目/一些分析/分析借鉴AD7606以太网传输例程.md"
+    },
+    {
+      "basename": "concurrent assignment并发赋值问题",
+      "path": "采集项目/遇到的问题及解决/concurrent assignment并发赋值问题.md"
+    },
+    {
+      "basename": "dout出现x值的情况",
+      "path": "采集项目/遇到的问题及解决/dout出现x值的情况.md"
+    },
+    {
+      "basename": "1.时序分析基本概念",
+      "path": "知识技能树/二、设计技巧/九、时序设计/1.时序分析基本概念.md"
+    },
+    {
+      "basename": "4. RAM&ROM",
+      "path": "知识技能树/一、基础知识/FPGA内部结构/4. RAM&ROM.md"
+    },
+    {
+      "basename": "3. FPGA 设计流程",
+      "path": "知识技能树/一、基础知识/FPGA开发/3. FPGA 设计流程.md"
+    },
+    {
+      "basename": "5. RAM-SRAM-DRAM-SDRAM-DDR",
+      "path": "知识技能树/一、基础知识/FPGA开发/5. RAM-SRAM-DRAM-SDRAM-DDR.md"
+    },
+    {
+      "basename": "0. FPGA内部资源",
+      "path": "知识技能树/一、基础知识/FPGA内部结构/0. FPGA内部资源.md"
+    },
+    {
+      "basename": "1. 关键字",
+      "path": "知识技能树/一、基础知识/Verlog/1. 关键字.md"
+    },
+    {
+      "basename": "2. 运算符",
+      "path": "知识技能树/一、基础知识/Verlog/2. 运算符.md"
+    },
+    {
+      "basename": "3. 数据类型",
+      "path": "知识技能树/一、基础知识/Verlog/3. 数据类型.md"
+    },
+    {
+      "basename": "4. 缩位运算",
+      "path": "知识技能树/一、基础知识/Verlog/4. 缩位运算.md"
+    },
+    {
+      "basename": "5. if-else",
+      "path": "知识技能树/一、基础知识/Verlog/5. if-else.md"
+    },
+    {
+      "basename": "6. case",
+      "path": "知识技能树/一、基础知识/Verlog/6. case.md"
+    },
+    {
+      "basename": "7. for",
+      "path": "知识技能树/一、基础知识/Verlog/7. for.md"
+    },
+    {
+      "basename": "8. generate",
+      "path": "知识技能树/一、基础知识/Verlog/8. generate.md"
+    },
+    {
+      "basename": "9. 函数function",
+      "path": "知识技能树/一、基础知识/Verlog/9. 函数function.md"
+    },
+    {
+      "basename": "10. 任务task",
+      "path": "知识技能树/一、基础知识/Verlog/10. 任务task.md"
+    },
+    {
+      "basename": "11. 过程块",
+      "path": "知识技能树/一、基础知识/Verlog/11. 过程块.md"
+    },
+    {
+      "basename": "13. 阻塞&非阻塞",
+      "path": "知识技能树/一、基础知识/Verlog/13. 阻塞&非阻塞.md"
+    },
+    {
+      "basename": "14. 时间尺度timescale",
+      "path": "知识技能树/一、基础知识/Verlog/14. 时间尺度timescale.md"
+    },
+    {
+      "basename": "15. reg数组-存储器设计",
+      "path": "知识技能树/一、基础知识/Verlog/15. reg数组-存储器设计.md"
+    },
+    {
+      "basename": "17. 可综合",
+      "path": "知识技能树/一、基础知识/Verlog/17. 可综合.md"
+    },
+    {
+      "basename": "18. VHDL的结构",
+      "path": "知识技能树/一、基础知识/Verlog/18. VHDL的结构.md"
+    },
+    {
+      "basename": "20. 原语",
+      "path": "知识技能树/一、基础知识/Verlog/20. 原语.md"
+    },
+    {
+      "basename": "42. Verilog建模方式",
+      "path": "知识技能树/一、基础知识/Verlog/42. Verilog建模方式.md"
+    },
+    {
+      "basename": "22. `反引号-编译预处理",
+      "path": "知识技能树/一、基础知识/Verlog/22. `反引号-编译预处理.md"
+    },
+    {
+      "basename": "仿真-Vivado仿真的三个阶段",
+      "path": "知识技能树/一、基础知识/FPCA开发流程/仿真-Vivado仿真的三个阶段.md"
+    },
+    {
+      "basename": "选型-Xilinx FPGA系列参数",
+      "path": "知识技能树/一、基础知识/FPCA开发流程/选型-Xilinx FPGA系列参数.md"
+    },
+    {
+      "basename": "1. 稳压二极管",
+      "path": "知识技能树/一、基础知识/数电模电/1. 稳压二极管.md"
+    },
+    {
+      "basename": "2. 三极管",
+      "path": "知识技能树/一、基础知识/数电模电/2. 三极管.md"
+    },
+    {
+      "basename": "0. CMOS、门电路、触发器",
+      "path": "知识技能树/一、基础知识/数电模电/0. CMOS、门电路、触发器.md"
+    },
+    {
+      "basename": "1 6. 常见触发器",
+      "path": "知识技能树/一、基础知识/数电模电/1 6. 常见触发器.md"
+    },
+    {
+      "basename": "1. CLB（LUT、SRL、DRAM）",
+      "path": "知识技能树/一、基础知识/FPGA内部结构/1. CLB（LUT、SRL、DRAM）.md"
+    },
+    {
+      "basename": "1 建模",
+      "path": "知识技能树/一、基础知识/verilog重点/1 建模.md"
+    },
+    {
+      "basename": "0 代码规范",
+      "path": "知识技能树/一、基础知识/verilog重点/0 代码规范.md"
+    },
+    {
+      "basename": "2 UDP 源语",
+      "path": "知识技能树/一、基础知识/verilog重点/2 UDP 源语.md"
+    },
+    {
+      "basename": "verilog重点回顾",
+      "path": "知识技能树/一、基础知识/verilog重点/verilog重点回顾.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null,
+  "openType": "tab"
+}

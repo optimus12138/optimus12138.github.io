@@ -1,6 +1,6 @@
 ---
 title: "留言"
-slug: "feedback"
+slug: "comments"
 offWordCount: true
 license: false
 disablebackbar: true
@@ -8,7 +8,7 @@ comments:
     enable: true   
 menu:
     main: 
-        weight:  -70
+        weight:  -50
         params:
             icon: messages
 ---
@@ -32,4 +32,5 @@ menu:
 <br>
 3. 博客<u>页面设计</u>是否存在不美观、或不易于浏览之处？
 {{< /chat >}}
+
 

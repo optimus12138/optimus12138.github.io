@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://goldenriver.site/archives/'>
 
-<link rel="stylesheet" href="/scss/style.min.f68c8f71d71e61377ce1b30b7e7c47a85f3e47c14da53688b337c8c5b93f18d8.css"><meta property='og:title' content="归档">
+<link rel="stylesheet" href="/scss/style.min.881b2b7244776e6407e677656abf0d9626f02bd331c2f6a8a6ce0aa3e38d677c.css"><meta property='og:title' content="归档">
 <meta property='og:description' content="">
 <meta property='og:url' content='https://goldenriver.site/archives/'>
 <meta property='og:site_name' content='金色河流'>
@@ -256,9 +256,23 @@
             <main class="main full-width">
     <header>
 
-            <h2 class="section-title">Categories</h2>
+            <h2 class="section-title">分类</h2>
             <div class="subsection-list">
                 <div class="article-list--tile">
+                    
+                        
+<article class="">
+    <a href="/categories/%E6%9D%82%E8%AE%B0/">
+        
+        
+
+        <div class="article-details">
+            <h2 class="article-title">杂记<span class="count">(6)</span>
+            </h2>
+        </div>
+    </a>
+</article>
+
                     
                         
 <article class="">
@@ -267,7 +281,8 @@
         
 
         <div class="article-details">
-            <h2 class="article-title">专题</h2>
+            <h2 class="article-title">专题<span class="count">(10)</span>
+            </h2>
         </div>
     </a>
 </article>
@@ -280,7 +295,8 @@
         
 
         <div class="article-details">
-            <h2 class="article-title">生活日志</h2>
+            <h2 class="article-title">生活日志<span class="count">(22)</span>
+            </h2>
         </div>
     </a>
 </article>
@@ -293,20 +309,8 @@
         
 
         <div class="article-details">
-            <h2 class="article-title">读书笔记</h2>
-        </div>
-    </a>
-</article>
-
-                    
-                        
-<article class="">
-    <a href="/categories/%E6%9D%82%E8%AE%B0/">
-        
-        
-
-        <div class="article-details">
-            <h2 class="article-title">杂记</h2>
+            <h2 class="article-title">读书笔记<span class="count">(6)</span>
+            </h2>
         </div>
     </a>
 </article>
@@ -319,7 +323,7 @@
 
     <header>
             <section class="widget tagCloud">
-                <h2 class="section-title">Tags</h2>
+                <h2 class="section-title">标签</h2>
                 <div class="archives-tagCloud-tags">
                     
                         
@@ -344,7 +348,7 @@
                             
                             <a href="/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE" class="tagCloud-tags">
                                 博客建设
-                                <span class="tagCloud-count">3</span>
+                                <span class="tagCloud-count">4</span>
                             </a>
                         
                             
@@ -417,8 +421,37 @@
                 </div>
             </header>
             <header>
-                <h2 class="section-title">热力图</h2>
-                <style>
+                <h2 class="section-title heatmap-title">热力图</h2>
+                
+<style>
+    :root {
+        --heatmap-bg: #fafafa;
+        --heatmap-border: #f0f0f0;
+        --heatmap-label: #e6b03d;
+        --heatmap-tooltip-bg: #fff8e1;
+        --heatmap-tooltip-text: #333;
+        --heatmap-emphasis-border: #e6b03d;
+        --heatmap-shadow: rgba(0, 0, 0, 0.2);
+        --heatmap-color: #FFDC73;
+        --heatmap-text: #333;
+        --heatmap-select-bg: #ffffff;
+        --heatmap-select-text: #000000;
+    }
+
+    [data-scheme="dark"] {
+        --heatmap-bg: #1a1a1a;
+        --heatmap-border: #333;
+        --heatmap-label: #fefefe;
+        --heatmap-tooltip-bg: #2c2c2c;
+        --heatmap-tooltip-text: #fefefe;
+        --heatmap-emphasis-border: #cccc66;
+        --heatmap-shadow: rgba(255, 255, 255, 0.2);
+        --heatmap-color: #d4af37;
+        --heatmap-text: #f0f0f0;
+        --heatmap-select-bg: #2c2c2c;
+        --heatmap-select-text: #f0f0f0;
+    }
+
     #heatmap {
         max-width: 100%;
         height: auto;
@@ -440,6 +473,10 @@
         border-radius: 4px;
         margin-right: 4px;
     }
+    .tooltip-entry a:hover {
+        text-decoration: underline;
+        color: #e6b03d;
+    }
     .tooltip-entry {
         display: flex;
         align-items: center;
@@ -451,19 +488,22 @@
         flex: 1;
         text-align: left;
         font-size: 1em;
+        color: var(--heatmap-text);
     }
     .range-select {
         margin: 0.5em auto;
         text-align: center;
+        color: var(--heatmap-text);
     }
     .range-select select {
         padding: 0.3em 0.6em;
         font-size: 0.9em;
         border: 1px solid #ccc;
         border-radius: 4px;
+        background-color: var(--heatmap-select-bg);
+        color: var(--heatmap-select-text);
     }
 </style>
-
 <div class="range-select">
     <label for="range">显示范围：</label>
     <select id="range" onchange="handleSelectChange()">
@@ -474,607 +514,679 @@
         <option value="2022">2022年</option>
     </select>
 </div>
-
 <div id="heatmap"></div>
-
 <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
-<script type="text/javascript">
-    var chartDom = document.getElementById('heatmap');
-    var myChart = echarts.init(chartDom);
-
-    window.onresize = function () {
-        myChart.resize();
-    };
-
-    var dataMap = {};
-
+<div style="text-align:center; font-size: 1em; color: var(--heatmap-text); margin: 0.8em 0 0.4em;">
+  
+  
     
-        var key = '2025-06-07';
-        var wordCount =  2873 ;
-        var link = '\/post\/puzzle02\/';
-        var title = '你是否也对这个世界有许多困惑';
-        var category = '专题';
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+    
+  
+  📝 历史发布 44 篇文章 · 总计 71.85k 字
+</div>
+<script>
+const css = getComputedStyle(document.documentElement);
+const getVar = name => css.getPropertyValue(name).trim();
+const chartDom = document.getElementById('heatmap');
+const myChart = echarts.init(chartDom);
+window.onresize = () => myChart.resize();
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2025-06-03';
-        var wordCount =  1173 ;
-        var link = '\/post\/2025week22\/';
-        var title = '2025 Week 22';
-        var category = '生活日志';
+const dataMap = {};
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2025-05-19';
-        var wordCount =  1537 ;
-        var link = '\/post\/2025week20\/';
-        var title = '2025 Week 19~20';
-        var category = '生活日志';
+  var key = '2025-06-14';
+  var wordCount =  2043 ;
+  var link = '\/post\/blog02\/';
+  var title = '博客建站一周年：独立博客自省问卷15题';
+  var category = '杂记';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2025-05-10';
-        var wordCount =  1533 ;
-        var link = '\/post\/steer-clear-of-the-ordinary-road\/';
-        var title = '远离那条平庸之路';
-        var category = '读书笔记';
+  var key = '2025-06-07';
+  var wordCount =  2873 ;
+  var link = '\/post\/puzzle02\/';
+  var title = '你是否也对这个世界有许多困惑';
+  var category = '专题';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2025-05-07';
-        var wordCount =  1340 ;
-        var link = '\/post\/2025week18\/';
-        var title = '2025 Week 18';
-        var category = '生活日志';
+  var key = '2025-06-03';
+  var wordCount =  1173 ;
+  var link = '\/post\/2025week22\/';
+  var title = '2025 Week 22';
+  var category = '生活日志';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2025-04-28';
-        var wordCount =  1759 ;
-        var link = '\/post\/2025week16\/';
-        var title = '2025 Week 16~17：近期见闻、体验与思考';
-        var category = '生活日志';
+  var key = '2025-05-19';
+  var wordCount =  1537 ;
+  var link = '\/post\/2025week20\/';
+  var title = '2025 Week 19~20';
+  var category = '生活日志';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2025-04-27';
-        var wordCount =  840 ;
-        var link = '\/post\/2025week17\/';
-        var title = '2025 Week16~17：减脂与运动记录';
-        var category = '生活日志';
+  var key = '2025-05-10';
+  var wordCount =  1533 ;
+  var link = '\/post\/steer-clear-of-the-ordinary-road\/';
+  var title = '远离那条平庸之路';
+  var category = '读书笔记';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2025-04-21';
-        var wordCount =  2614 ;
-        var link = '\/post\/commic-economics\/';
-        var title = '经济学为什么重要：经济生活常识扫盲';
-        var category = '读书笔记';
+  var key = '2025-05-07';
+  var wordCount =  1340 ;
+  var link = '\/post\/2025week18\/';
+  var title = '2025 Week 18';
+  var category = '生活日志';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2025-04-13';
-        var wordCount =  2886 ;
-        var link = '\/post\/2025week15\/';
-        var title = '2025 Week 15';
-        var category = '生活日志';
+  var key = '2025-04-28';
+  var wordCount =  1759 ;
+  var link = '\/post\/2025week16\/';
+  var title = '2025 Week 16~17：近期见闻、体验与思考';
+  var category = '生活日志';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2025-04-08';
-        var wordCount =  2029 ;
-        var link = '\/post\/2025week14\/';
-        var title = '2025 Week 12~14';
-        var category = '生活日志';
+  var key = '2025-04-27';
+  var wordCount =  840 ;
+  var link = '\/post\/2025week17\/';
+  var title = '2025 Week16~17：减脂与运动记录';
+  var category = '生活日志';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2025-03-22';
-        var wordCount =  1649 ;
-        var link = '\/post\/mini-habits\/';
-        var title = '微习惯：简单到不可能失败的自我管理法则';
-        var category = '读书笔记';
+  var key = '2025-04-21';
+  var wordCount =  2614 ;
+  var link = '\/post\/commic-economics\/';
+  var title = '经济学为什么重要：经济生活常识扫盲';
+  var category = '读书笔记';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2025-03-18';
-        var wordCount =  1907 ;
-        var link = '\/post\/2025week11\/';
-        var title = '2025 Week 11';
-        var category = '生活日志';
+  var key = '2025-04-13';
+  var wordCount =  2886 ;
+  var link = '\/post\/2025week15\/';
+  var title = '2025 Week 15';
+  var category = '生活日志';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2025-03-10';
-        var wordCount =  1813 ;
-        var link = '\/post\/2025week10\/';
-        var title = '2025 Week 10';
-        var category = '生活日志';
+  var key = '2025-04-08';
+  var wordCount =  2029 ;
+  var link = '\/post\/2025week14\/';
+  var title = '2025 Week 12~14';
+  var category = '生活日志';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2025-03-09';
-        var wordCount =  1392 ;
-        var link = '\/post\/amusing-ourselves-to-death\/';
-        var title = '《娱乐至死》：当娱乐吞噬严肃，我们如何抵抗思想的消亡？';
-        var category = '读书笔记';
+  var key = '2025-03-22';
+  var wordCount =  1649 ;
+  var link = '\/post\/mini-habits\/';
+  var title = '微习惯：简单到不可能失败的自我管理法则';
+  var category = '读书笔记';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2025-03-03';
-        var wordCount =  1332 ;
-        var link = '\/post\/2025week09\/';
-        var title = '2025 Week 09';
-        var category = '生活日志';
+  var key = '2025-03-18';
+  var wordCount =  1907 ;
+  var link = '\/post\/2025week11\/';
+  var title = '2025 Week 11';
+  var category = '生活日志';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2025-02-24';
-        var wordCount =  1356 ;
-        var link = '\/post\/2025week08\/';
-        var title = '2025 Week 08';
-        var category = '生活日志';
+  var key = '2025-03-10';
+  var wordCount =  1813 ;
+  var link = '\/post\/2025week10\/';
+  var title = '2025 Week 10';
+  var category = '生活日志';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2025-02-14';
-        var wordCount =  428 ;
-        var link = '\/post\/promise\/';
-        var title = '约定';
-        var category = '杂记';
+  var key = '2025-03-09';
+  var wordCount =  1392 ;
+  var link = '\/post\/amusing-ourselves-to-death\/';
+  var title = '《娱乐至死》：当娱乐吞噬严肃，我们如何抵抗思想的消亡？';
+  var category = '读书笔记';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2025-01-13';
-        var wordCount =  222 ;
-        var link = '\/post\/cyberlife02\/';
-        var title = '近日赛博笑话一则';
-        var category = '杂记';
+  var key = '2025-03-03';
+  var wordCount =  1332 ;
+  var link = '\/post\/2025week09\/';
+  var title = '2025 Week 09';
+  var category = '生活日志';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2024-12-29';
-        var wordCount =  1474 ;
-        var link = '\/post\/puzzle01\/';
-        var title = '成熟的人拒绝谈论理想';
-        var category = '专题';
+  var key = '2025-02-24';
+  var wordCount =  1356 ;
+  var link = '\/post\/2025week08\/';
+  var title = '2025 Week 08';
+  var category = '生活日志';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2024-12-18';
-        var wordCount =  2079 ;
-        var link = '\/post\/cyberlife01\/';
-        var title = '未经审视的赛博生活不值得过';
-        var category = '专题';
+  var key = '2025-02-14';
+  var wordCount =  428 ;
+  var link = '\/post\/promise\/';
+  var title = '约定';
+  var category = '杂记';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2024-12-05';
-        var wordCount =  1289 ;
-        var link = '\/post\/life11\/';
-        var title = '2024 November';
-        var category = '生活日志';
+  var key = '2025-01-13';
+  var wordCount =  222 ;
+  var link = '\/post\/cyberlife02\/';
+  var title = '近日赛博笑话一则';
+  var category = '杂记';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2024-11-07';
-        var wordCount =  559 ;
-        var link = '\/post\/life10\/';
-        var title = '2024 October';
-        var category = '生活日志';
+  var key = '2024-12-29';
+  var wordCount =  1474 ;
+  var link = '\/post\/puzzle01\/';
+  var title = '成熟的人拒绝谈论理想';
+  var category = '专题';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2024-10-11';
-        var wordCount =  2094 ;
-        var link = '\/post\/areading04\/';
-        var title = '零食店、萨莉亚、自助餐与柠檬茶';
-        var category = '专题';
+  var key = '2024-12-18';
+  var wordCount =  2079 ;
+  var link = '\/post\/cyberlife01\/';
+  var title = '未经审视的赛博生活不值得过';
+  var category = '专题';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2024-10-04';
-        var wordCount =  1426 ;
-        var link = '\/post\/cyberlife00\/';
-        var title = '世界的短视频化';
-        var category = '专题';
+  var key = '2024-12-05';
+  var wordCount =  1289 ;
+  var link = '\/post\/life11\/';
+  var title = '2024 November';
+  var category = '生活日志';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2024-10-02';
-        var wordCount =  632 ;
-        var link = '\/post\/life09\/';
-        var title = '2024 September (2)';
-        var category = '生活日志';
+  var key = '2024-11-07';
+  var wordCount =  559 ;
+  var link = '\/post\/life10\/';
+  var title = '2024 October';
+  var category = '生活日志';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2024-10-01';
-        var wordCount =  1138 ;
-        var link = '\/post\/life08\/';
-        var title = '2024 September (1)';
-        var category = '生活日志';
+  var key = '2024-10-11';
+  var wordCount =  2094 ;
+  var link = '\/post\/areading04\/';
+  var title = '零食店、萨莉亚、自助餐与柠檬茶';
+  var category = '专题';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2024-09-29';
-        var wordCount =  1800 ;
-        var link = '\/post\/film01\/';
-        var title = '困在“事理”里的女性，人生应该还有别的活法';
-        var category = '专题';
+  var key = '2024-10-04';
+  var wordCount =  1426 ;
+  var link = '\/post\/cyberlife00\/';
+  var title = '世界的短视频化';
+  var category = '专题';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2024-09-20';
-        var wordCount =  1233 ;
-        var link = '\/post\/areading02\/';
-        var title = '中国足坛的《我不是药神》';
-        var category = '专题';
+  var key = '2024-10-02';
+  var wordCount =  632 ;
+  var link = '\/post\/life09\/';
+  var title = '2024 September (2)';
+  var category = '生活日志';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2024-09-13';
-        var wordCount =  1904 ;
-        var link = '\/post\/areading01\/';
-        var title = '中国足球的九九八十一难，才刚刚开始';
-        var category = '专题';
+  var key = '2024-10-01';
+  var wordCount =  1138 ;
+  var link = '\/post\/life08\/';
+  var title = '2024 September (1)';
+  var category = '生活日志';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2024-09-02';
-        var wordCount =  174 ;
-        var link = '\/post\/life07\/';
-        var title = '2024 Week 35';
-        var category = '生活日志';
+  var key = '2024-09-29';
+  var wordCount =  1800 ;
+  var link = '\/post\/film01\/';
+  var title = '困在“事理”里的女性，人生应该还有别的活法';
+  var category = '专题';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2024-08-26';
-        var wordCount =  461 ;
-        var link = '\/post\/wukong\/';
-        var title = '理解《黑神话∶悟空》爆火的五个关键词';
-        var category = '专题';
+  var key = '2024-09-20';
+  var wordCount =  1233 ;
+  var link = '\/post\/areading02\/';
+  var title = '中国足坛的《我不是药神》';
+  var category = '专题';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2024-08-19';
-        var wordCount =  2076 ;
-        var link = '\/post\/life06\/';
-        var title = '2024 Week 33';
-        var category = '生活日志';
+  var key = '2024-09-13';
+  var wordCount =  1904 ;
+  var link = '\/post\/areading01\/';
+  var title = '中国足球的九九八十一难，才刚刚开始';
+  var category = '专题';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2024-08-15';
-        var wordCount =  2275 ;
-        var link = '\/post\/olympics\/';
-        var title = '奥运·印象';
-        var category = '专题';
+  var key = '2024-09-02';
+  var wordCount =  174 ;
+  var link = '\/post\/life07\/';
+  var title = '2024 Week 35';
+  var category = '生活日志';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2024-08-12';
-        var wordCount =  2400 ;
-        var link = '\/post\/life05\/';
-        var title = '2024 Week 32';
-        var category = '生活日志';
+  var key = '2024-08-26';
+  var wordCount =  461 ;
+  var link = '\/post\/wukong\/';
+  var title = '理解《黑神话∶悟空》爆火的五个关键词';
+  var category = '专题';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2024-08-05';
-        var wordCount =  1985 ;
-        var link = '\/post\/life04\/';
-        var title = '2024 Week 31';
-        var category = '生活日志';
+  var key = '2024-08-19';
+  var wordCount =  2076 ;
+  var link = '\/post\/life06\/';
+  var title = '2024 Week 33';
+  var category = '生活日志';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2024-07-31';
-        var wordCount =  3809 ;
-        var link = '\/post\/reading03\/';
-        var title = '培养良好习惯的四步法则';
-        var category = '读书笔记';
+  var key = '2024-08-15';
+  var wordCount =  2275 ;
+  var link = '\/post\/olympics\/';
+  var title = '奥运·印象';
+  var category = '专题';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2024-07-28';
-        var wordCount =  1647 ;
-        var link = '\/post\/life03\/';
-        var title = '2024 Week 30';
-        var category = '生活日志';
+  var key = '2024-08-12';
+  var wordCount =  2400 ;
+  var link = '\/post\/life05\/';
+  var title = '2024 Week 32';
+  var category = '生活日志';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2024-07-21';
-        var wordCount =  1533 ;
-        var link = '\/post\/life02\/';
-        var title = '2024 Week 29';
-        var category = '生活日志';
+  var key = '2024-08-05';
+  var wordCount =  1985 ;
+  var link = '\/post\/life04\/';
+  var title = '2024 Week 31';
+  var category = '生活日志';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2024-07-14';
-        var wordCount =  1881 ;
-        var link = '\/post\/life01\/';
-        var title = '2024 Week 28';
-        var category = '生活日志';
+  var key = '2024-07-31';
+  var wordCount =  3809 ;
+  var link = '\/post\/reading03\/';
+  var title = '培养良好习惯的四步法则';
+  var category = '读书笔记';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2024-06-16';
-        var wordCount =  4929 ;
-        var link = '\/post\/smartphone-brain\/';
-        var title = '手机与多巴胺：现代生活的注意力陷阱';
-        var category = '读书笔记';
+  var key = '2024-07-28';
+  var wordCount =  1647 ;
+  var link = '\/post\/life03\/';
+  var title = '2024 Week 30';
+  var category = '生活日志';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2024-06-12';
-        var wordCount =  312 ;
-        var link = '\/post\/settings\/';
-        var title = '我的博客折腾笔记';
-        var category = '杂记';
+  var key = '2024-07-21';
+  var wordCount =  1533 ;
+  var link = '\/post\/life02\/';
+  var title = '2024 Week 29';
+  var category = '生活日志';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2023-05-22';
-        var wordCount =  724 ;
-        var link = '\/post\/emo\/';
-        var title = 'EMO六则';
-        var category = '杂记';
+  var key = '2024-07-14';
+  var wordCount =  1881 ;
+  var link = '\/post\/life01\/';
+  var title = '2024 Week 28';
+  var category = '生活日志';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });
-        var key = '2022-05-29';
-        var wordCount =  529 ;
-        var link = '\/post\/past\/';
-        var title = '关于老人的记忆';
-        var category = '杂记';
+  var key = '2024-06-16';
+  var wordCount =  4929 ;
+  var link = '\/post\/smartphone-brain\/';
+  var title = '手机与多巴胺：现代生活的注意力陷阱';
+  var category = '读书笔记';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
 
-        if (!dataMap[key]) {
-            dataMap[key] = [];
-        }
-        dataMap[key].push({ wordCount, link, title, category });var data = [];
-    for (const key in dataMap) {
-        let sum = 0;
-        for (const v of dataMap[key]) {
-            sum += v.wordCount;
-        }
-        data.push([
-            key,
-            parseFloat((sum / 1000).toFixed(1))
-        ]);
+  var key = '2024-06-12';
+  var wordCount =  312 ;
+  var link = '\/post\/settings\/';
+  var title = '我的博客折腾笔记';
+  var category = '杂记';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
+
+  var key = '2023-05-22';
+  var wordCount =  724 ;
+  var link = '\/post\/emo\/';
+  var title = 'EMO六则';
+  var category = '杂记';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
+
+  var key = '2022-05-29';
+  var wordCount =  529 ;
+  var link = '\/post\/past\/';
+  var title = '关于老人的记忆';
+  var category = '杂记';
+  if (!dataMap[key]) dataMap[key] = [];
+  dataMap[key].push({ wordCount, link, title, category });
+
+
+const data = Object.entries(dataMap).map(([date, posts]) => [date, +(posts.reduce((a, b) => a + b.wordCount, 0) / 1000).toFixed(1)]);
+const today = echarts.format.formatTime('yyyy-MM-dd', new Date());
+
+const option = {
+  animationDuration: 1000,
+  animationEasing: 'cubicOut',
+  tooltip: {
+    hideDelay: 1000,
+    enterable: true,
+    borderColor: getVar('--heatmap-emphasis-border'),
+    backgroundColor: getVar('--heatmap-tooltip-bg'),
+    textStyle: { color: getVar('--heatmap-tooltip-text'), fontSize: 14 },
+    formatter: p => {
+      const date = p.data[0];
+      const posts = dataMap[date];
+      if (!posts) return date;
+      return posts.reduce((out, post) => out + `<div class='tooltip-entry'><span class='badge'>${post.category || '未分类'}</span><a href="${post.link}" target="_blank">${post.title}</a></div>`, date);
     }
-
-    function getDateRange(months) {
-        const now = new Date();
-        const start = new Date(now.getFullYear(), now.getMonth() - months, now.getDate());
-        return [
-            echarts.format.formatTime('yyyy-MM-dd', start),
-            echarts.format.formatTime('yyyy-MM-dd', now)
-        ];
+  },
+  visualMap: {
+    min: 0,
+    max: 10,
+    show: false,
+    type: 'piecewise',
+    orient: 'horizontal',
+    left: 'center',
+    top: -30,
+    inRange: { color: [getVar('--heatmap-color')] },
+    splitNumber: 5,
+    text: ['千字', ''],
+    itemGap: 20
+  },
+  calendar: {
+    borderRadius: 2,
+    top: 30,
+    left: 18,
+    right: 2,
+    cellSize: ['auto', 20],
+    range: getDateRange(12),
+    itemStyle: {
+      color: getVar('--heatmap-bg'),
+      borderWidth: 2,
+      borderColor: getVar('--heatmap-border')
+    },
+    monthLabel: {
+      nameMap: ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
+      margin: 6,
+      fontSize: 11,
+      color: getVar('--heatmap-text')
+    },
+    dayLabel: {
+      margin: 6,
+      fontSize: 11,
+      color: getVar('--heatmap-text')
+    },
+    splitLine: { lineStyle: { opacity: 0 } }
+  },
+  series: [{
+    type: 'heatmap',
+    coordinateSystem: 'calendar',
+    data: data,
+    label: {
+      show: true,
+      formatter: () => '',
+      color: getVar('--heatmap-label'),
+      fontSize: 16,
+      fontWeight: 'bolder'
+    },
+    itemStyle: { borderRadius: 2 },
+    emphasis: {
+      itemStyle: {
+        borderColor: getVar('--heatmap-emphasis-border'),
+        borderWidth: 3,
+        shadowBlur: 6,
+        shadowColor: getVar('--heatmap-shadow')
+      }
+    },
+    markPoint: {
+      symbol: 'circle',
+      symbolSize: 12,
+      itemStyle: {
+        color: getVar('--heatmap-emphasis-border'),
+        opacity: 0.8
+      },
+      label: { show: false },
+      data: [{ name: 'today', coord: [today], value: 0 }]
     }
+  }]
+};
 
-    function getYearRange(year) {
-        return [
-            `${year}-01-01`,
-            `${year}-12-31`
-        ];
-    }
-
-    function updateRange(type) {
-        let range;
-        if (type === 'lastYear') {
-            range = getDateRange(12);
-        } else {
-            range = getYearRange(type);
+myChart.setOption(option);
+function getDateRange(months) {
+  const now = new Date();
+  const start = new Date(now.getFullYear(), now.getMonth() - months, now.getDate());
+  return [echarts.format.formatTime('yyyy-MM-dd', start), echarts.format.formatTime('yyyy-MM-dd', now)];
+}
+function getYearRange(year) {
+  return [`${year}-01-01`, `${year}-12-31`];
+}
+function updateRange(type) {
+  const range = type === 'lastYear' ? getDateRange(12) : getYearRange(type);
+  option.calendar.range = range;
+  myChart.setOption(option);
+  applyTheme();
+}
+function handleSelectChange() {
+  const val = document.getElementById('range').value;
+  updateRange(val);
+}
+const observer = new MutationObserver(() => {
+  
+  myChart.setOption({
+    tooltip: {
+      borderColor: getVar('--heatmap-emphasis-border'),
+      backgroundColor: getVar('--heatmap-tooltip-bg'),
+      textStyle: { color: getVar('--heatmap-tooltip-text') }
+    },
+    visualMap: {
+      inRange: { color: [getVar('--heatmap-color')] }
+    },
+    calendar: {
+      itemStyle: {
+        color: getVar('--heatmap-bg'),
+        borderColor: getVar('--heatmap-border')
+      },
+      monthLabel: {
+        color: getVar('--heatmap-text')
+      },
+      dayLabel: {
+        color: getVar('--heatmap-text')
+      }
+    },
+    series: [{
+      label: {
+        color: getVar('--heatmap-label')
+      },
+      emphasis: {
+        itemStyle: {
+          borderColor: getVar('--heatmap-emphasis-border'),
+          shadowColor: getVar('--heatmap-shadow')
         }
-        option.calendar.range = range;
-        myChart.setOption(option);
-    }
-
-    function handleSelectChange() {
-        const val = document.getElementById('range').value;
-        updateRange(val);
-    }
-
-    function getResponsiveRange() {
-        const w = window.innerWidth;
-        return getDateRange(w >= 600 ? 12 : 3);
-    }
-
-    var option = {
-        tooltip: {
-            hideDelay: 1000,
-            enterable: true,
-            borderColor: '#e6b03d',
-            backgroundColor: '#fff8e1',
-            textStyle: { color: '#333', fontSize: 14 },
-            formatter: function (p) {
-                const date = p.data[0];
-                const posts = dataMap[date];
-                var content = `${date}`;
-                if (!posts) return content;
-                for (const post of posts) {
-                    content += "<div class='tooltip-entry'>";
-                    var category = post.category || '未分类';
-                    content += `<span class='badge'>${category}</span><a href="${post.link}" target="_blank">${post.title}</a>`;
-                    content += "</div>";
-                }
-                return content;
-            }
-        },
-        visualMap: {
-            min: 0,
-            max: 10,
-            show: false,
-            type: 'piecewise',
-            orient: 'horizontal',
-            left: 'center',
-            top: -30,
-            inRange: { color: ['#FFDC73']
-            },
-            splitNumber: 5,
-            text: ['千字', ''],
-            showLabel: true,
-            itemGap: 20
-        },
-        calendar: {
-            borderRadius: 2,
-            top: 30,
-            left: 18,
-            right: 2,
-            cellSize: ['auto', 20],
-            range: getResponsiveRange(),
-            itemStyle: {
-                color: '#fafafa',
-                borderWidth: 2,
-                borderColor: '#f0f0f0'
-            },
-            
-            monthLabel: {
-                nameMap: ['1月','2月','3月','4月','5月','6月','7月','8月','9月','10月','11月','12月'],
-                margin: 6,
-                fontSize: 11
-            },
-            dayLabel: {
-                margin: 6,
-                fontSize: 11
-            },
-            splitLine: {
-                lineStyle: {
-                    opacity: 0
-                }
-            }
-        },
-        series: {
-            type: 'heatmap',
-            coordinateSystem: 'calendar',
-            data: data,
-            label: {
-                show: true,
-                formatter: function (params) {
-                    const date = params.data[0];
-                    const d = new Date(date);
-                    if (d.getDate() === 1) return '①';
-                    return '';
-                },
-                color: '#e6b03d',
-                fontSize: 16,
-                fontWeight: 'bolder'
-            },
-            itemStyle: {
-                borderRadius: 2
-            },
-            emphasis: {
-                itemStyle: {
-                    borderColor: '#e6b03d',
-                    borderWidth: 3,
-                    shadowBlur: 6,
-                    shadowColor: 'rgba(0, 0, 0, 0.2)'
-                }
-            }
+      },
+      markPoint: {
+        itemStyle: {
+          color: getVar('--heatmap-emphasis-border')
         }
-    };
+      }
+    }]
+  });
+});
+observer.observe(document.documentElement, { attributes: true, attributeFilter: ['data-scheme'] });
 
-    myChart.setOption(option);
 
-    myChart.on('click', function (params) {
-        if (params.componentType === 'series') {
-            const date = params.data[0];
-            const posts = dataMap[date];
-            if (posts && posts.length > 0) {
-                const link = window.location.origin + posts[0].link;
-                window.open(link, '_blank').focus();
-            }
+function applyTheme() {
+  myChart.setOption({
+    tooltip: {
+      borderColor: getVar('--heatmap-emphasis-border'),
+      backgroundColor: getVar('--heatmap-tooltip-bg'),
+      textStyle: { color: getVar('--heatmap-tooltip-text') }
+    },
+    visualMap: {
+      inRange: { color: [getVar('--heatmap-color')] }
+    },
+    calendar: {
+      itemStyle: {
+        color: getVar('--heatmap-bg'),
+        borderColor: getVar('--heatmap-border')
+      },
+      monthLabel: {
+        color: getVar('--heatmap-text')
+      },
+      dayLabel: {
+        color: getVar('--heatmap-text')
+      }
+    },
+    series: [{
+      label: {
+        color: getVar('--heatmap-label')
+      },
+      emphasis: {
+        itemStyle: {
+          borderColor: getVar('--heatmap-emphasis-border'),
+          shadowColor: getVar('--heatmap-shadow')
         }
-    });
+      },
+      markPoint: {
+        itemStyle: {
+          color: getVar('--heatmap-emphasis-border')
+        }
+      }
+    }]
+  });
+}
+myChart.on('click', function (params) {
+  if (params.componentType === 'series') {
+    const date = params.data[0];
+    const posts = dataMap[date];
+    if (posts && posts.length > 0) {
+      const link = window.location.origin + posts[0].link;
+      window.open(link, '_blank').focus();
+    }
+  }
+});
 </script>
-
             </header>
             <section>
             
@@ -1090,6 +1202,31 @@
                         <a href="/archives/#2025-06">2025-06</a>
                     </h2>
                     <div class="article-list--compact">
+                        
+                            <article>
+    <a href="/post/blog02/">
+        <div class="article-details">
+            <h2 class="article-title">博客建站一周年：独立博客自省问卷15题</h2> 
+            <footer class="article-time">
+                <time datetime='2025-06-14T00:00:00Z'>2025-06-14</time>
+            </footer>
+            
+                <div class="article-subtitle">
+                    关于如何做博客建设、如何看待博客生态、和如何看待博客写作的想法
+                </div>
+                
+        </div>
+            <div class="article-image">
+                <img src="/post/blog02/image_hu16649269866241123886.png" 
+                        width="120"
+                        height="120" 
+                        alt="博客建站一周年：独立博客自省问卷15题"
+                        loading="lazy">
+                
+            </div>
+        
+    </a>
+</article>
                         
                             <article>
     <a href="/post/puzzle02/">
@@ -2352,8 +2489,10 @@
         
             
         
-        发表了43篇文章 · 
-        总计69.84k字
+            
+        
+        发表了44篇文章 · 
+        总计71.85k字
     </section>
 
     <section class="powerby">

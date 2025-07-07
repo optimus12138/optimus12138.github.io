@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head>
+	<meta name="generator" content="Hugo 0.138.0"><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="时常怀念，偶尔向前">
+<title>Pager 5 - 金色河流</title>
+
+<link rel='canonical' href='https://goldenriver.site/'>
+
+<link rel="stylesheet" href="/scss/style.min.5b4c3b45b093f29520db52b01b456457ebda43fbb79ef28a9f81a1548840ab1b.css"><meta property='og:title' content="金色河流">
+<meta property='og:description' content="时常怀念，偶尔向前">
+<meta property='og:url' content='https://goldenriver.site/'>
+<meta property='og:site_name' content='金色河流'>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-07-07T08:51:18&#43;08:00 '/>
+<meta name="twitter:title" content="金色河流">
+<meta name="twitter:description" content="时常怀念，偶尔向前"><link rel="alternate" type="application/rss&#43;xml" href="https://goldenriver.site/index.xml">
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+<link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-screen-webfont@1.7.0/lxgwwenkaigbscreen.css" />
+
+<link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-screen-webfont@1.7.0/lxgwwenkaigbscreenr.css" />
+
+<link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-screen-webfont@1.7.0/lxgwwenkaiscreen.css" />
+
+<link rel="stylesheet" href="https://npm.elemecdn.com/npm/lxgw-wenkai-screen-webfont@1.7.0/lxgwwenkaiscreenr.css" />
+
+    </head>
+    <body class="">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/avatar_hu14165049517427043723.png" width="300"
+                            height="300" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">金色河流</a></h1>
+            <h2 class="site-description">时常怀念，偶尔向前</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/optimus12138/optimus12138.github.io'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/index.xml'
+                        target="_blank"
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li  class='current' >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>博友</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/comments/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-messages" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M21 14l-3 -3h-7a1 1 0 0 1 -1 -1v-6a1 1 0 0 1 1 -1h9a1 1 0 0 1 1 1v10" />
+  <path d="M14 15v2a1 1 0 0 1 -1 1h-7l-3 3v-10a1 1 0 0 1 1 -1h2" />
+</svg>
+
+
+
+                
+                <span>留言</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                <form action="/search/" class="search-form widget" >
+        <p>
+            <label>搜索</label>
+            <input name="keyword" required placeholder="输入关键词..." />
+        
+            <button title="搜索">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+            </button>
+        </p>
+    </form>
+            
+        
+            
+                
+
+<section class="widget category">
+    <div class="widget-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+    </div>
+    <h2 class="widget-title section-title">分类</h2>
+
+    <div class="category-label">
+        
+            <a href="/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%BF%97/" class="font_size_25">
+                生活日志<span class="category-count">25</span>
+            </a>
+        
+            <a href="/categories/%E4%B8%93%E9%A2%98/" class="font_size_10">
+                专题<span class="category-count">10</span>
+            </a>
+        
+            <a href="/categories/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/" class="font_size_8">
+                阅读笔记<span class="category-count">8</span>
+            </a>
+        
+            <a href="/categories/%E6%9D%82%E8%AE%B0/" class="font_size_6">
+                杂记<span class="category-count">6</span>
+            </a>
+        
+    </div>
+</section>
+
+            
+        
+            
+                <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-infinity" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M9.828 9.172a4 4 0 1 0 0 5.656 a10 10 0 0 0 2.172 -2.828a10 10 0 0 1 2.172 -2.828 a4 4 0 1 1 0 5.656a10 10 0 0 1 -2.172 -2.828a10 10 0 0 0 -2.172 -2.828" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">归档</h2>
+
+        
+        
+        
+        
+        
+        <div class="widget-archive--list">
+            <div class="archives-year">
+                    <a href="/archives/#2025">
+                        
+                            <span class="year">2025</span>
+                            <span class="count">24</span>
+                        
+                    </a> 
+                </div>
+            <div class="archives-year">
+                    <a href="/archives/#2024">
+                        
+                            <span class="year">2024</span>
+                            <span class="count">23</span>
+                        
+                    </a> 
+                </div>
+            <div class="archives-year">
+                    <a href="/archives/#2023">
+                        
+                            <span class="year">2023</span>
+                            <span class="count">1</span>
+                        
+                    </a> 
+                </div>
+            <div class="archives-year">
+                    <a href="/archives/#2022">
+                        
+                            <span class="year">2022</span>
+                            <span class="count">1</span>
+                        
+                    </a> 
+                </div>
+            
+        </div>
+    </section>
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    
+    
+    
+    
+
+
+<div class="welcome">
+    <p style="font-size: 2rem; text-align: center">
+        <span class="jump-text" > 在静水流深时打磨时光褶皱，在波澜壮阔时书写命运注脚</span>         
+    </p>
+  </div>
+  
+  
+
+  
+    <section class="article-list">
+        
+            
+<article class="has-image">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/post/mini-habits/">
+                <img src="/post/mini-habits/cover4_hu4252587483558591901.webp"
+                        srcset="/post/mini-habits/cover4_hu4252587483558591901.webp 800w, /post/mini-habits/cover4_hu16254514494033346842.webp 1600w"
+                        width="800" 
+                        height="340" 
+                        loading="lazy"
+                        alt="Featured image of post 微习惯：简单到不可能失败的自我管理法则" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/mini-habits/">
+                微习惯：简单到不可能失败的自我管理法则</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+        
+        <header class="article-category">
+            
+                <a href="/categories/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/" >
+                    
+                        阅读笔记
+                </a>
+            
+        </header>
+        
+
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2025-03-22</time>
+            </div>
+        
+
+        
+                <div>
+                <?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1733139709751" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5082" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200"><path d="M597.333333 273.664L657.664 213.333333l195.84 195.669334L793.258667 469.333333z" fill="#8a8a8a" p-id="5083"></path><path d="M745.472 203.264L281.898667 666.837333l-39.253334 157.226667 157.184-39.296L863.402667 321.194667l-117.930667-117.930667zM981.333333 321.194667l-538.88 538.88L128 938.666667l78.634667-314.453334L745.472 85.333333 981.333333 321.194667z" fill="#8a8a8a" p-id="5084"></path></svg>
+                <time class="article-time--reading">
+                    1649 字
+                </time>
+            </div>
+        
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E8%87%AA%E6%88%91%E7%AE%A1%E7%90%86/">#自我管理</a>
+        
+    </section>
+
+
+    </footer>
+    
+
+
+
+    
+
+
+    
+    <h3 class="article-subtitle">
+        对抗完美主义的生存策略
+    </h3>
+    
+
+</header>
+</article>
+        
+            
+<article class="has-image">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/post/2025week11/">
+                
+                    <img src="https://s1mon-files.oss-cn-shenzhen.aliyuncs.com/img/202503190510952.webp" loading="lazy" alt="Featured image of post 2025 Week 11" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/2025week11/">
+                2025 Week 11</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+        
+        <header class="article-category">
+            
+                <a href="/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%BF%97/" >
+                    
+                        生活日志
+                </a>
+            
+        </header>
+        
+
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2025-03-18</time>
+            </div>
+        
+
+        
+                <div>
+                <?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1733139709751" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5082" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200"><path d="M597.333333 273.664L657.664 213.333333l195.84 195.669334L793.258667 469.333333z" fill="#8a8a8a" p-id="5083"></path><path d="M745.472 203.264L281.898667 666.837333l-39.253334 157.226667 157.184-39.296L863.402667 321.194667l-117.930667-117.930667zM981.333333 321.194667l-538.88 538.88L128 938.666667l78.634667-314.453334L745.472 85.333333 981.333333 321.194667z" fill="#8a8a8a" p-id="5084"></path></svg>
+                <time class="article-time--reading">
+                    1907 字
+                </time>
+            </div>
+        
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/">#生活感悟</a>
+        
+            <a href="/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/">#博客建设</a>
+        
+    </section>
+
+
+    </footer>
+    
+
+
+
+    
+
+
+    
+    <h3 class="article-subtitle">
+        ①近日状态；②优化博客访问速度
+    </h3>
+    
+
+</header>
+</article>
+        
+            
+<article class="has-image">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/post/2025week10/">
+                
+                    <img src="https://s1mon-files.oss-cn-shenzhen.aliyuncs.com/img/202503190510952.webp" loading="lazy" alt="Featured image of post 2025 Week 10" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/2025week10/">
+                2025 Week 10</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+        
+        <header class="article-category">
+            
+                <a href="/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%BF%97/" >
+                    
+                        生活日志
+                </a>
+            
+        </header>
+        
+
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2025-03-10</time>
+            </div>
+        
+
+        
+                <div>
+                <?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1733139709751" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5082" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200"><path d="M597.333333 273.664L657.664 213.333333l195.84 195.669334L793.258667 469.333333z" fill="#8a8a8a" p-id="5083"></path><path d="M745.472 203.264L281.898667 666.837333l-39.253334 157.226667 157.184-39.296L863.402667 321.194667l-117.930667-117.930667zM981.333333 321.194667l-538.88 538.88L128 938.666667l78.634667-314.453334L745.472 85.333333 981.333333 321.194667z" fill="#8a8a8a" p-id="5084"></path></svg>
+                <time class="article-time--reading">
+                    1813 字
+                </time>
+            </div>
+        
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/">#生活感悟</a>
+        
+            <a href="/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/">#博客建设</a>
+        
+            <a href="/tags/%E8%B0%88%E5%86%99%E4%BD%9C/">#谈写作</a>
+        
+    </section>
+
+
+    </footer>
+    
+
+
+
+    
+
+
+    
+    <h3 class="article-subtitle">
+        ①状态；②我为什么不开评论区；③文字的质感：标题篇（3）
+    </h3>
+    
+
+</header>
+</article>
+        
+            
+<article class="has-image">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/post/amusing-ourselves-to-death/">
+                
+                    <img src="https://s1mon-files.oss-cn-shenzhen.aliyuncs.com/img/202503191905043.webp" loading="lazy" alt="Featured image of post 《娱乐至死》：当娱乐吞噬严肃，我们如何抵抗思想的消亡？" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/amusing-ourselves-to-death/">
+                《娱乐至死》：当娱乐吞噬严肃，我们如何抵抗思想的消亡？</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+        
+        <header class="article-category">
+            
+                <a href="/categories/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/" >
+                    
+                        阅读笔记
+                </a>
+            
+        </header>
+        
+
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2025-03-09</time>
+            </div>
+        
+
+        
+                <div>
+                <?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1733139709751" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5082" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200"><path d="M597.333333 273.664L657.664 213.333333l195.84 195.669334L793.258667 469.333333z" fill="#8a8a8a" p-id="5083"></path><path d="M745.472 203.264L281.898667 666.837333l-39.253334 157.226667 157.184-39.296L863.402667 321.194667l-117.930667-117.930667zM981.333333 321.194667l-538.88 538.88L128 938.666667l78.634667-314.453334L745.472 85.333333 981.333333 321.194667z" fill="#8a8a8a" p-id="5084"></path></svg>
+                <time class="article-time--reading">
+                    1392 字
+                </time>
+            </div>
+        
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E8%B5%9B%E5%8D%9A%E7%94%9F%E6%B4%BB/">#赛博生活</a>
+        
+            <a href="/tags/%E8%87%AA%E6%88%91%E7%AE%A1%E7%90%86/">#自我管理</a>
+        
+    </section>
+
+
+    </footer>
+    
+
+
+
+    
+
+
+    
+    <h3 class="article-subtitle">
+        《娱乐至死》阅读笔记
+    </h3>
+    
+
+</header>
+</article>
+        
+    </section>
+    <nav class='pagination'>
+        
+        
+
+        
+            
+                    <a class='page-link' href='/'>1</a>
+                
+            
+            
+                    
+                        
+                        <span class='page-link dots'>&hellip;</span>
+                    
+                
+            
+            
+                    
+                
+            
+            
+                    <a class='page-link' href='/page/4/'>4</a>
+                
+            
+            
+                <span class='page-link current'>5</span>
+                
+            
+            
+                    <a class='page-link' href='/page/6/'>6</a>
+                
+            
+            
+                    
+                        
+                        <span class='page-link dots'>&hellip;</span>
+                    
+                
+            
+            
+                    
+                
+            
+            
+                    
+                
+            
+            
+                    
+                
+            
+            
+                    
+                
+            
+            
+                    
+                
+            
+            
+                    <a class='page-link' href='/page/13/'>13</a>
+                
+            
+    </nav>
+
+<footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2024 - 
+        
+        2025 金色河流
+    </section>
+    
+    <section class="totalcount" style="color: var(--body-text-color);">
+        
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+        发表了49篇文章 · 
+        总计81.61k字
+    </section>
+
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+
+    
+
+
+</footer>
+
+
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<script src="https://npm.elemecdn.com/nprogress@0.2.0/nprogress.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://npm.elemecdn.com/nprogress@0.2.0/nprogress.css" crossorigin="anonymous" />
+<script>
+    NProgress.start();
+    document.addEventListener("readystatechange", () => {
+        if (document.readyState === "interactive") NProgress.inc(0.8);
+        if (document.readyState === "complete") NProgress.done();
+    });
+</script>
+
+    </body>
+</html>

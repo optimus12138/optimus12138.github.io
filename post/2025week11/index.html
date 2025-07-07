@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="①近日状态；②优化博客访问速度">
+<title>2025 Week 11</title>
+
+<link rel='canonical' href='https://goldenriver.site/post/2025week11/'>
+
+<link rel="stylesheet" href="/scss/style.min.5b4c3b45b093f29520db52b01b456457ebda43fbb79ef28a9f81a1548840ab1b.css"><meta property='og:title' content="2025 Week 11">
+<meta property='og:description' content="①近日状态；②优化博客访问速度">
+<meta property='og:url' content='https://goldenriver.site/post/2025week11/'>
+<meta property='og:site_name' content='金色河流'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='生活感悟' /><meta property='article:tag' content='博客建设' /><meta property='article:published_time' content='2025-03-18T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-04-11T21:36:37&#43;08:00'/><meta property='og:image' content='https://s1mon-files.oss-cn-shenzhen.aliyuncs.com/img/202503190510952.webp' />
+<meta name="twitter:title" content="2025 Week 11">
+<meta name="twitter:description" content="①近日状态；②优化博客访问速度"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://s1mon-files.oss-cn-shenzhen.aliyuncs.com/img/202503190510952.webp' />
+    <link rel="shortcut icon" href="/favicon.ico" />
+
+<link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-screen-webfont@1.7.0/lxgwwenkaigbscreen.css" />
+
+<link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-screen-webfont@1.7.0/lxgwwenkaigbscreenr.css" />
+
+<link rel="stylesheet" href="https://npm.elemecdn.com/lxgw-wenkai-screen-webfont@1.7.0/lxgwwenkaiscreen.css" />
+
+<link rel="stylesheet" href="https://npm.elemecdn.com/npm/lxgw-wenkai-screen-webfont@1.7.0/lxgwwenkaiscreenr.css" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended">
+
+        <div id="article-toolbar" style="position: sticky;top: 5px;z-index: 1000;">
+            <a href="/" class="back-home">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+                <span>首页</span>
+            </a>
+        </div>
+    
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#近日状态">近日状态</a>
+      <ol>
+        <li><a href="#-">🌤️ 💨</a></li>
+        <li><a href="#--1">🍎 📶</a></li>
+        <li><a href="#--2">💻 🐍</a></li>
+        <li><a href="#--3">🧋 🍓</a></li>
+        <li><a href="#--4">🚇 🥤</a></li>
+      </ol>
+    </li>
+    <li><a href="#优化博客访问速度">优化博客访问速度</a>
+      <ol>
+        <li><a href="#webp格式图片压缩">WebP格式图片压缩</a></li>
+        <li><a href="#国内云图床存储图片">国内云图床存储图片</a></li>
+        <li><a href="#cdn加速">CDN加速</a></li>
+        <li><a href="#效果测评">效果测评</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/post/2025week11/">
+                
+                    <img src="https://s1mon-files.oss-cn-shenzhen.aliyuncs.com/img/202503190510952.webp" loading="lazy" alt="Featured image of post 2025 Week 11" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/post/2025week11/">
+                2025 Week 11</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+        
+        <header class="article-category">
+            
+                <a href="/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%BF%97/" >
+                    
+                        生活日志
+                </a>
+            
+        </header>
+        
+
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">2025-03-18</time>
+            </div>
+        
+
+        
+                <div>
+                <?xml version="1.0" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg t="1733139709751" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5082" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="200"><path d="M597.333333 273.664L657.664 213.333333l195.84 195.669334L793.258667 469.333333z" fill="#8a8a8a" p-id="5083"></path><path d="M745.472 203.264L281.898667 666.837333l-39.253334 157.226667 157.184-39.296L863.402667 321.194667l-117.930667-117.930667zM981.333333 321.194667l-538.88 538.88L128 938.666667l78.634667-314.453334L745.472 85.333333 981.333333 321.194667z" fill="#8a8a8a" p-id="5084"></path></svg>
+                <time class="article-time--reading">
+                    1907 字
+                </time>
+            </div>
+        
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/">#生活感悟</a>
+        
+            <a href="/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/">#博客建设</a>
+        
+    </section>
+
+
+    </footer>
+    
+
+
+
+    
+
+
+    
+    <h3 class="article-subtitle">
+        ①近日状态；②优化博客访问速度
+    </h3>
+    
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <blockquote>
+<p>周记 | 2025年第11周（03-10~03-16）的见闻、体验与思考</p>
+</blockquote>
+<h2 id="近日状态">近日状态
+</h2><h3 id="-">🌤️ 💨
+</h3><p>&ldquo;乍暖还寒&quot;是春天的标准特征，暖空气和冷空气交替影响，气温时升时降，在南方尤为明显。这导致我周前几天还穿着短袖，一夜之间就得多加好几件衣服。</p>
+<p>另外，人和人的体感真的不一样，我穿着短袖走在街上，走两步就热得出汗，但还能看到不少人穿着毛衣外套。</p>
+<h3 id="--1">🍎 📶
+</h3><p>一直计划着给父母买 iPhone，最近出的 iPhone 16e 感觉合适，打算等降价到 3500 就入手。不过，关于信号弱这个问题，我又开始纠结了。</p>
+<p>虽然我自己常被人调侃&quot;苹果用户特有的强自适应&rdquo;，信号时不时只有一两格我倒是能接受，但给父母用的话还是不太放心。</p>
+<h3 id="--2">💻 🐍
+</h3><p>DeepSeek生成的内容用力过猛，我反馈的最多的一类就是“说人话”、“朴实一点”。</p>
+<p>特别是当让DS帮我整理笔记时，发现它总是偷偷添加一些我不认识的花里胡哨的内容。我一边在提示词里疯狂加入各种限制条件，一边内心暗叫：</p>
+<div align=center><img src="https://s1mon-files.oss-cn-shenzhen.aliyuncs.com/img/202503190437090.webp"  width="90%" />
+<figcaption style="font-size: 14px; color: gray;">“你随便篡改我的歌词是画蛇添足，还看星星一颗两颗三颗四颗连成线，你以为你是贪吃蛇吗”
+<br>——来自《夏洛特烦恼》夏洛暴打周杰伦片段</figcaption>
+</figure></div>
+<h3 id="--3">🧋 🍓
+</h3><p>蜜雪冰城的山楂莓莓甜到掉渣。</p>
+<p>蜜桃四季春只有第一口是甜的。</p>
+<h3 id="--4">🚇 🥤
+</h3><p>地铁安检口，安检人员摸了一下我水杯杯口，然后向同伴确认：“热的，可以了”。</p>
+<p>可是我的杯子是空的，今天也没装过热水。</p>
+<p>一直没搞懂深圳地铁的水检是什么原理，以前还要放在机器上，现在直接摸一下就给过。我以为是个别安检糊弄了事，后来发现坐的每一站的安检都是这样。</p>
+<p>我想是不是危险的液体都需要低温储存？所以摸着没有冰手的感觉就可以判断没有危险？</p>
+<p>但是后来发现，只有空杯才是这个流程，装水的还是要检测。</p>
+<p>所以摸空杯到底是什么操作？</p>
+<p>💬 🛖</p>
+<p>虽然日常在即刻发笔记、在微博上碎碎念和胡言乱语，但我还是对隐私问题有所顾虑。</p>
+<p>于是周末把大部分数据迁移到了<a class="link" href="https://www.usememos.com/"  target="_blank" rel="noopener"
+    >Memos
+    
+    <span style="white-space: nowrap;"><svg width=".7em"
+        height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+        <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+        <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+            fill="currentColor">
+    </svg></span>
+    
+    </a>上——这个self-host服务不仅能满足大部分需求，还更加安全。</p>
+<p>从此不再在这两个公共平台上输出了，算是在数字隐居的道路上迈出了一大步。</p>
+<p>（不过Memos似乎没有好的数据导出方案）</p>
+<hr>
+<h2 id="优化博客访问速度">优化博客访问速度
+</h2><p>我的博客托管在 GitHub 上，GitHub Pages 的访问速度还是太慢了。图片经常加载半天，别人点进来被加载转圈半天给劝退，我自己看着也闹心。</p>
+<p>这周终于抽出时间折腾了一下。找到了 3 个解决方案：</p>
+<ol>
+<li>图片转WebP格式进行压缩；</li>
+<li>用国内的云图床储存图片；</li>
+<li>CDN加速。</li>
+</ol>
+<h3 id="webp格式图片压缩">WebP格式图片压缩
+</h3><p>最影响页面加载速度的就是图片，因此图片优化是关键。主要2点思路：优化文件大小和优化存储位置。</p>
+<p>采用图片压缩可以有效提升访问速度。一个主流的压缩格式是WebP，WebP格式不仅兼容性好，还支持无损压缩，现在很多网站都选择使用WebP格式的图片。</p>
+<p>所使用的：</p>
+<ul>
+<li>转换工具：Google的<a class="link" href="https://developers.google.cn/speed/webp/docs/cwebp?hl=zh-cn"  target="_blank" rel="noopener"
+    >cwebp编辑器
+    
+    <span style="white-space: nowrap;"><svg width=".7em"
+        height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+        <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+        <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+            fill="currentColor">
+    </svg></span>
+    
+    </a>，可以将图片压缩转换为WebP格式。</li>
+<li>批量转换脚本：用DS写了一个自动转换图片并替换文本的Python脚本，放在与图片和文本相同或上级目录运行。</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
+</span><span class="lnt">51
+</span><span class="lnt">52
+</span><span class="lnt">53
+</span><span class="lnt">54
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl">   <span class="kn">import</span> <span class="nn">os</span>
+</span></span><span class="line"><span class="cl">   <span class="kn">import</span> <span class="nn">subprocess</span>
+</span></span><span class="line"><span class="cl">   <span class="kn">import</span> <span class="nn">re</span>
+</span></span><span class="line"><span class="cl">   
+</span></span><span class="line"><span class="cl">   <span class="c1"># 转换图片文件为 WebP 格式</span>
+</span></span><span class="line"><span class="cl">   <span class="k">def</span> <span class="nf">convert_to_webp</span><span class="p">(</span><span class="n">filepath</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">       <span class="n">output_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">splitext</span><span class="p">(</span><span class="n">filepath</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;.webp&#39;</span>
+</span></span><span class="line"><span class="cl">       <span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">           <span class="n">subprocess</span><span class="o">.</span><span class="n">run</span><span class="p">([</span><span class="s1">&#39;cwebp&#39;</span><span class="p">,</span> <span class="o">-</span><span class="n">lossless</span><span class="p">,</span> <span class="n">filepath</span><span class="p">,</span> <span class="s1">&#39;-o&#39;</span><span class="p">,</span> <span class="n">output_path</span><span class="p">],</span> <span class="n">check</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">           <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Converted </span><span class="si">{</span><span class="n">filepath</span><span class="si">}</span><span class="s1"> to </span><span class="si">{</span><span class="n">output_path</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">       <span class="k">except</span> <span class="n">subprocess</span><span class="o">.</span><span class="n">CalledProcessError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">           <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Failed to convert </span><span class="si">{</span><span class="n">filepath</span><span class="si">}</span><span class="s1">: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">   
+</span></span><span class="line"><span class="cl">   <span class="c1"># 遍历文件夹并转换图片</span>
+</span></span><span class="line"><span class="cl">   <span class="k">def</span> <span class="nf">convert_images_in_folder</span><span class="p">(</span><span class="n">folder</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">       <span class="k">for</span> <span class="n">root</span><span class="p">,</span> <span class="n">dirs</span><span class="p">,</span> <span class="n">files</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">walk</span><span class="p">(</span><span class="n">folder</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">           <span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">               <span class="k">if</span> <span class="n">file</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span><span class="o">.</span><span class="n">endswith</span><span class="p">((</span><span class="s1">&#39;.webp&#39;</span><span class="p">,</span> <span class="s1">&#39;.webp&#39;</span><span class="p">)):</span>
+</span></span><span class="line"><span class="cl">                   <span class="n">filepath</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">root</span><span class="p">,</span> <span class="n">file</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                   <span class="n">convert_to_webp</span><span class="p">(</span><span class="n">filepath</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">   
+</span></span><span class="line"><span class="cl">   <span class="c1"># 替换指定文件中的图片扩展名</span>
+</span></span><span class="line"><span class="cl">   <span class="k">def</span> <span class="nf">replace_extensions_in_markdown</span><span class="p">(</span><span class="n">filepath</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">       <span class="k">try</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">           <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filepath</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">               <span class="n">content</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">           
+</span></span><span class="line"><span class="cl">           <span class="c1"># 替换 &#34;png&#34; 和 &#34;jpg&#34; 为 &#34;webp&#34;</span>
+</span></span><span class="line"><span class="cl">           <span class="n">content</span> <span class="o">=</span> <span class="n">content</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;.webp&#39;</span><span class="p">,</span> <span class="s1">&#39;.webp&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">           <span class="n">content</span> <span class="o">=</span> <span class="n">content</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s1">&#39;.webp&#39;</span><span class="p">,</span> <span class="s1">&#39;.webp&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">           
+</span></span><span class="line"><span class="cl">           <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">filepath</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">,</span> <span class="n">encoding</span><span class="o">=</span><span class="s1">&#39;utf-8&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">               <span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">content</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">           <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;Replaced &#34;png&#34; and &#34;jpg&#34; with &#34;webp&#34; in </span><span class="si">{</span><span class="n">filepath</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">       <span class="k">except</span> <span class="ne">FileNotFoundError</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">           <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;The file </span><span class="si">{</span><span class="n">filepath</span><span class="si">}</span><span class="s1"> was not found.&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">       <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">           <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;An error occurred: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">   
+</span></span><span class="line"><span class="cl">   <span class="c1"># 主函数</span>
+</span></span><span class="line"><span class="cl">   <span class="k">def</span> <span class="nf">main</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">       <span class="c1"># 转换当前文件夹及其子文件夹中的图片</span>
+</span></span><span class="line"><span class="cl">       <span class="n">convert_images_in_folder</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">   
+</span></span><span class="line"><span class="cl">       <span class="c1"># 遍历当前目录及其子目录，替换所有的 index.md 文件中的图片扩展名</span>
+</span></span><span class="line"><span class="cl">       <span class="k">for</span> <span class="n">root</span><span class="p">,</span> <span class="n">dirs</span><span class="p">,</span> <span class="n">files</span> <span class="ow">in</span> <span class="n">os</span><span class="o">.</span><span class="n">walk</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">           <span class="k">for</span> <span class="n">file</span> <span class="ow">in</span> <span class="n">files</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">               <span class="k">if</span> <span class="n">file</span> <span class="o">==</span> <span class="s1">&#39;index.md&#39;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">                   <span class="n">markdown_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">root</span><span class="p">,</span> <span class="n">file</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">                   <span class="n">replace_extensions_in_markdown</span><span class="p">(</span><span class="n">markdown_path</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">   
+</span></span><span class="line"><span class="cl">   <span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">       <span class="n">main</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">   
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>转换后肉眼看没有差别，应该达到了无损的效果：</p>
+<style>
+.row {
+display: flex;
+}
+.column {
+flex: 33.33%;
+padding: 5px;
+}
+
+figcaption {
+  padding-top: 8px;
+  text-align: center;
+  font-size : 14px;
+  font-style: italic; /* 斜体 */
+  color: gray;
+}
+</style>
+<div class="row">
+<div class="column">
+<img src="https://s1mon-files.oss-cn-shenzhen.aliyuncs.com/img/202503190437092.png" alt="LOGO.jpg (213KB)" style="width:100%">
+ <figcaption>LOGO.png (213KB)</figcaption>
+</div>
+<div class="column">
+<img src="https://s1mon-files.oss-cn-shenzhen.aliyuncs.com/img/202503190437093.webp" alt="LOGO.webp (213KB)" style="width:100%">
+ <figcaption>LOGO.webp (89.8KB)</figcaption>
+</div>
+</div>
+<h3 id="国内云图床存储图片">国内云图床存储图片
+</h3><p>图片存储在 GitHub 仓库里，访问速度太慢了，换成国内的云图床后，图片加载会更快一些。</p>
+<p>工具：</p>
+<ul>
+<li>云图床：我选用的是<a class="link" href="https://help.aliyun.com/zh/oss/?spm=5176.7933691.nav-v2-dropdown-menu-3.d_main_0_3.2e392c478160LH&amp;scm=20140722.M_9491643._.V_1"  target="_blank" rel="noopener"
+    >阿里云OSS
+    
+    <span style="white-space: nowrap;"><svg width=".7em"
+        height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+        <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+        <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+            fill="currentColor">
+    </svg></span>
+    
+    </a>。</li>
+<li>上传工具：<a class="link" href="https://picgo.github.io/PicGo-Doc/zh/"  target="_blank" rel="noopener"
+    >PicGo
+    
+    <span style="white-space: nowrap;"><svg width=".7em"
+        height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+        <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+        <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+            fill="currentColor">
+    </svg></span>
+    
+    </a>。</li>
+<li>文本编辑器：<a class="link" href="https://typoraio.cn/"  target="_blank" rel="noopener"
+    >Typora
+    
+    <span style="white-space: nowrap;"><svg width=".7em"
+        height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+        <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+        <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+            fill="currentColor">
+    </svg></span>
+    
+    </a>，最好用的 Markdown 编辑器，支持一键上传云图床。免费版虽有文档数量限制，但也可以使用，也可以找找收费前的免费版本。</li>
+</ul>
+<p>参考教程：</p>
+<ul>
+<li><a class="link" href="https://developer.aliyun.com/article/1465963"  target="_blank" rel="noopener"
+    >手把手教你搭建阿里云图床(PicGo+Typora+阿里云OSS)，新手小白一看就会-阿里云开发者社区
+    
+    <span style="white-space: nowrap;"><svg width=".7em"
+        height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+        <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+        <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+            fill="currentColor">
+    </svg></span>
+    
+    </a></li>
+</ul>
+<h3 id="cdn加速">CDN加速
+</h3><p>直接访问 GitHub Pages 的速度太慢，可以使用CDN 来加速访问。</p>
+<p>CDN（Content Delivery Network，内容分发网络）加速，我的理解是将远端服务器的数据放到放到更近的服务器缓存，这样用户访问时可以从最近的服务器获取数据，而不必从远程服务器读取。</p>
+<p>用的是<a class="link" href="https://dash.cloudflare.com"  target="_blank" rel="noopener"
+    >Cloudflare
+    
+    <span style="white-space: nowrap;"><svg width=".7em"
+        height=".7em" viewBox="0 0 21 21" xmlns="http://www.w3.org/2000/svg">
+        <path d="m13 3l3.293 3.293l-7 7l1.414 1.414l7-7L21 11V3z" fill="currentColor" />
+        <path d="M19 19H5V5h7l-2-2H5c-1.103 0-2 .897-2 2v14c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-5l-2-2v7z"
+            fill="currentColor">
+    </svg></span>
+    
+    </a>的 CDN 加速服务，网上教程太多了，我这里就不放了。</p>
+<h3 id="效果测评">效果测评
+</h3><p>写完稿后发现访问速度仍时快时慢，可能是 CDN 配置的问题，我再调一调，之后再做评估。</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    <section class="article-lastmod">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+        <span>
+            最后更新于 2025-04-11, 21:36 CST
+        </span>
+    </section></footer>
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css"integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI&#43;WdtXRGWt2kTvGFasHpSy3SV"crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG&#43;vnGctmUb0ZY0l8"crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"integrity="sha384-&#43;VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4&#43;/RRE05"crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.body, {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">继续阅读</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/post/2025week10/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://s1mon-files.oss-cn-shenzhen.aliyuncs.com/img/202503190510952.webp" loading="lazy" data-key="2025Week10" data-hash="https://s1mon-files.oss-cn-shenzhen.aliyuncs.com/img/202503190510952.webp"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2025 Week 10<span class="count">(0)</span>
+            </h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/post/2025week09/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://s1mon-files.oss-cn-shenzhen.aliyuncs.com/img/202503190510952.webp" loading="lazy" data-key="2025Week09" data-hash="https://s1mon-files.oss-cn-shenzhen.aliyuncs.com/img/202503190510952.webp"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">2025 Week 09<span class="count">(0)</span>
+            </h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2024 - 
+        
+        2025 金色河流
+    </section>
+    
+    <section class="totalcount" style="color: var(--body-text-color);">
+        
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+            
+        
+        发表了49篇文章 · 
+        总计81.61k字
+    </section>
+
+    <section class="powerby">
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+
+    
+
+
+</footer>
+
+
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<script src="https://npm.elemecdn.com/nprogress@0.2.0/nprogress.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://npm.elemecdn.com/nprogress@0.2.0/nprogress.css" crossorigin="anonymous" />
+<script>
+    NProgress.start();
+    document.addEventListener("readystatechange", () => {
+        if (document.readyState === "interactive") NProgress.inc(0.8);
+        if (document.readyState === "complete") NProgress.done();
+    });
+</script>
+
+    </body>
+</html>

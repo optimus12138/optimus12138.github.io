@@ -46,7 +46,7 @@
     <link rel="canonical" href="https://goldenriver.site/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/">
     <link href="/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/index.xml" rel="alternate" type="application/rss+xml" title="金色河流">
     <link href="/tags/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/index.xml" rel="feed" type="application/rss+xml" title="金色河流">
-    <link href="/style.min.1d3fca93f4743066191acc4e0bf50017b888fee732a719ac9f5af377846d9c05.css" rel="stylesheet">
+    <link href="/style.min.750a1a2fa8822e30a64c2043ee8f3ca3097c143f2597b17a2ca7ecc0aad35a6b.css" rel="stylesheet">
     <link href="/code-highlight.min.3f71deab3c816f86050cbbeb8a311b9b8001fe1299c2d4ed17f7b34797161ac4.css" rel="stylesheet">
 
     
@@ -142,19 +142,28 @@ stroke-linejoin="round" class="feather feather-home">
     </nav>
 </div>
 <div class="wrapper list-page">
-    <header class="header">
+
+        <header class="header">
         <h1 class="header-title center">博客建设</h1>
     </header>
+    
+    <div style="margin-bottom: 2rem;">
+        <input type="text" id="searchInput" placeholder="搜索文章标题..." 
+               style="width: 100%; padding: 0.5em 1em; font-size: 1rem; border: 1px solid #ccc; border-radius: 5px;" />
+        <ul id="searchResults" style="margin-top: 1rem; list-style: none; padding-left: 0;"></ul>
+    </div>
+
+
+
     <main class="page-content" aria-label="Content">
-        
-        
-        <h2 class="post-year">2025-06</h2>
 
         
-
-        
-
-        <article class="post-item">
+        <div id="archiveList">
+            
+                
+                <h2 class="post-year">2025-06</h2>
+                
+                    <article class="post-item">
   <h4 class="post-item-title">
     <a href="/posts/blog-anniversary-15-questions/">博客建站一周年：独立博客自省问卷15题</a>
     <div class="post-item-tags">
@@ -186,18 +195,12 @@ stroke-linejoin="round" class="feather feather-home">
     </time>
 </article>
 
-
-         
-
-        
-        
-        <h2 class="post-year">2025-03</h2>
-
-        
-
-        
-
-        <article class="post-item">
+                
+            
+                
+                <h2 class="post-year">2025-03</h2>
+                
+                    <article class="post-item">
   <h4 class="post-item-title">
     <a href="/posts/2025-week-11/">2025 Week 11</a>
     <div class="post-item-tags">
@@ -231,10 +234,8 @@ stroke-linejoin="round" class="feather feather-home">
     </time>
 </article>
 
-
-        
-
-        <article class="post-item">
+                
+                    <article class="post-item">
   <h4 class="post-item-title">
     <a href="/posts/2025-week-10/">2025 Week 10</a>
     <div class="post-item-tags">
@@ -270,10 +271,8 @@ stroke-linejoin="round" class="feather feather-home">
     </time>
 </article>
 
-
-        
-
-        <article class="post-item">
+                
+                    <article class="post-item">
   <h4 class="post-item-title">
     <a href="/posts/2025-week-09/">2025 Week 09</a>
     <div class="post-item-tags">
@@ -309,13 +308,59 @@ stroke-linejoin="round" class="feather feather-home">
     </time>
 </article>
 
-
-         
-
-         
+                
+            
+        </div>
 
     </main>
-</div><footer class="footer">
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2/dist/fuse.min.js"></script>
+<script>
+  const searchInput = document.getElementById('searchInput');
+  const searchResults = document.getElementById('searchResults');
+  const archiveList = document.getElementById('archiveList');
+
+  let fuse;
+  let dataLoaded = false;
+
+  async function loadData() {
+    const response = await fetch('/index.json');
+    const data = await response.json();
+    fuse = new Fuse(data, {
+      keys: ['title', 'content'],
+      threshold: 0.3
+    });
+    dataLoaded = true;
+  }
+
+  searchInput.addEventListener('input', async function () {
+    const query = this.value.trim();
+    if (!dataLoaded) await loadData();
+
+    if (query === '') {
+      searchResults.innerHTML = '';
+      archiveList.style.display = 'block';
+      return;
+    }
+
+    const result = fuse.search(query);
+    archiveList.style.display = 'none';
+    searchResults.innerHTML = '';
+
+    if (result.length === 0) {
+      searchResults.innerHTML = '<li>未找到相关结果</li>';
+    } else {
+      result.forEach(({ item }) => {
+        const li = document.createElement('li');
+        li.innerHTML = `<a href="${item.url}">${item.title}</a>`;
+        li.style.marginBottom = '0.5rem';
+        searchResults.appendChild(li);
+      });
+    }
+  });
+</script><footer class="footer">
     <span class="footer_item"> </span>
     &nbsp;
 

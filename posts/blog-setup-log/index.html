@@ -92,7 +92,7 @@
     
 
     <link rel="canonical" href="https://goldenriver.site/posts/blog-setup-log/">
-    <link href="/style.min.750a1a2fa8822e30a64c2043ee8f3ca3097c143f2597b17a2ca7ecc0aad35a6b.css" rel="stylesheet">
+    <link href="/style.min.5966dcc5a19fa3992aadf6aa8998ffbb0bc3226091ef1c1e31ef951abb16b4d7.css" rel="stylesheet">
     <link href="/code-highlight.min.3f71deab3c816f86050cbbeb8a311b9b8001fe1299c2d4ed17f7b34797161ac4.css" rel="stylesheet">
 
     
@@ -340,6 +340,7 @@ stroke-linejoin="round" class="feather feather-home">
   <div class="timeline__content">
     <div class="timeline__header">
           <span class="timeline__tag">节日</span>
+
       <div class="timeline__title-wrapper">
         <div class="timeline__title">国庆节</div>
       </div>
@@ -348,8 +349,8 @@ stroke-linejoin="round" class="feather feather-home">
   </div>
 </div>
 
-
 <style>
+ 
 .timeline {
   display: flex;
   flex-direction: column;
@@ -361,9 +362,10 @@ stroke-linejoin="round" class="feather feather-home">
   margin-bottom: 0.8rem;
 }
 
+ 
 .timeline__time {
   flex: 0 0 90px;
-  color: #5d5d5d;
+  color: var(--theme);
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
@@ -402,6 +404,7 @@ stroke-linejoin="round" class="feather feather-home">
   z-index: -1;
 }
 
+ 
 .timeline__content {
   flex: 1;
   margin-left: 2.5rem;
@@ -431,32 +434,57 @@ stroke-linejoin="round" class="feather feather-home">
   font-size: 14px;
   color: #5d5d5d;
   line-height: 1.4;
-  margin-left: 3rem;  ✅ 去掉这个！
+  margin-left: 0.3rem;  
   margin-top: 0.1rem;
   opacity: 0.85;
 }
 
-
-.timeline__tag {
+ 
+ 
+.timeline__tag, .timeline__type-tag {
   display: inline-block;
-  color: var(--secondary);
-  background-color: #84c4e230;
-  border: 1px solid #84c4e230;
-  border-radius: 999px;
-  padding: 0 0.5rem;
+  padding: 2px 8px;
+  border-radius: 6px;  
   font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
 }
 
-[data-scheme="dark"] .timeline__time {
-  color: #cccccc;
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
 }
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme="dark"] .timeline__time,
 [data-scheme="dark"] .timeline__description {
   color: #cccccc;
 }
 
+[data-scheme="dark"] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
 
+[data-scheme="dark"] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
 </style>
 
 <h3 id="聊天气泡">聊天气泡</h3>

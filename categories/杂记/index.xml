@@ -136,6 +136,7 @@
   &lt;div class=&#34;timeline__content&#34;&gt;
     &lt;div class=&#34;timeline__header&#34;&gt;
           &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
+
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
         &lt;div class=&#34;timeline__title&#34;&gt;翻新文章url&lt;/div&gt;
       &lt;/div&gt;
@@ -143,8 +144,8 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-
 &lt;style&gt;
+ 
 .timeline {
   display: flex;
   flex-direction: column;
@@ -156,9 +157,10 @@
   margin-bottom: 0.8rem;
 }
 
+ 
 .timeline__time {
   flex: 0 0 90px;
-  color: #5d5d5d;
+  color: var(--theme);
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
@@ -197,6 +199,7 @@
   z-index: -1;
 }
 
+ 
 .timeline__content {
   flex: 1;
   margin-left: 2.5rem;
@@ -226,32 +229,57 @@
   font-size: 14px;
   color: #5d5d5d;
   line-height: 1.4;
-  margin-left: 3rem;  ✅ 去掉这个！
+  margin-left: 0.3rem;  
   margin-top: 0.1rem;
   opacity: 0.85;
 }
 
-
-.timeline__tag {
+ 
+ 
+.timeline__tag, .timeline__type-tag {
   display: inline-block;
-  color: var(--secondary);
-  background-color: #84c4e230;
-  border: 1px solid #84c4e230;
-  border-radius: 999px;
-  padding: 0 0.5rem;
+  padding: 2px 8px;
+  border-radius: 6px;  
   font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
 }
 
-[data-scheme=&#34;dark&#34;] .timeline__time {
-  color: #cccccc;
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
 }
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
 [data-scheme=&#34;dark&#34;] .timeline__description {
   color: #cccccc;
 }
 
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
 
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
 &lt;/style&gt;
 
 &lt;div class=&#34;timeline__row&#34;&gt;
@@ -262,6 +290,7 @@
   &lt;div class=&#34;timeline__content&#34;&gt;
     &lt;div class=&#34;timeline__header&#34;&gt;
           &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
+
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
         &lt;div class=&#34;timeline__title&#34;&gt;优化“归档”页面样式&lt;/div&gt;
       &lt;/div&gt;
@@ -269,8 +298,8 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-
 &lt;style&gt;
+ 
 .timeline {
   display: flex;
   flex-direction: column;
@@ -282,9 +311,10 @@
   margin-bottom: 0.8rem;
 }
 
+ 
 .timeline__time {
   flex: 0 0 90px;
-  color: #5d5d5d;
+  color: var(--theme);
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
@@ -323,6 +353,7 @@
   z-index: -1;
 }
 
+ 
 .timeline__content {
   flex: 1;
   margin-left: 2.5rem;
@@ -352,32 +383,57 @@
   font-size: 14px;
   color: #5d5d5d;
   line-height: 1.4;
-  margin-left: 3rem;  ✅ 去掉这个！
+  margin-left: 0.3rem;  
   margin-top: 0.1rem;
   opacity: 0.85;
 }
 
-
-.timeline__tag {
+ 
+ 
+.timeline__tag, .timeline__type-tag {
   display: inline-block;
-  color: var(--secondary);
-  background-color: #84c4e230;
-  border: 1px solid #84c4e230;
-  border-radius: 999px;
-  padding: 0 0.5rem;
+  padding: 2px 8px;
+  border-radius: 6px;  
   font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
 }
 
-[data-scheme=&#34;dark&#34;] .timeline__time {
-  color: #cccccc;
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
 }
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
 [data-scheme=&#34;dark&#34;] .timeline__description {
   color: #cccccc;
 }
 
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
 
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
 &lt;/style&gt;
 
 &lt;div class=&#34;timeline__row&#34;&gt;
@@ -388,6 +444,7 @@
   &lt;div class=&#34;timeline__content&#34;&gt;
     &lt;div class=&#34;timeline__header&#34;&gt;
           &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
+
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
         &lt;div class=&#34;timeline__title&#34;&gt;新增“留言”页面&lt;/div&gt;
       &lt;/div&gt;
@@ -395,8 +452,8 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-
 &lt;style&gt;
+ 
 .timeline {
   display: flex;
   flex-direction: column;
@@ -408,9 +465,10 @@
   margin-bottom: 0.8rem;
 }
 
+ 
 .timeline__time {
   flex: 0 0 90px;
-  color: #5d5d5d;
+  color: var(--theme);
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
@@ -449,6 +507,7 @@
   z-index: -1;
 }
 
+ 
 .timeline__content {
   flex: 1;
   margin-left: 2.5rem;
@@ -478,32 +537,57 @@
   font-size: 14px;
   color: #5d5d5d;
   line-height: 1.4;
-  margin-left: 3rem;  ✅ 去掉这个！
+  margin-left: 0.3rem;  
   margin-top: 0.1rem;
   opacity: 0.85;
 }
 
-
-.timeline__tag {
+ 
+ 
+.timeline__tag, .timeline__type-tag {
   display: inline-block;
-  color: var(--secondary);
-  background-color: #84c4e230;
-  border: 1px solid #84c4e230;
-  border-radius: 999px;
-  padding: 0 0.5rem;
+  padding: 2px 8px;
+  border-radius: 6px;  
   font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
 }
 
-[data-scheme=&#34;dark&#34;] .timeline__time {
-  color: #cccccc;
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
 }
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
 [data-scheme=&#34;dark&#34;] .timeline__description {
   color: #cccccc;
 }
 
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
 
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
 &lt;/style&gt;
 
 &lt;div class=&#34;timeline__row&#34;&gt;
@@ -514,6 +598,7 @@
   &lt;div class=&#34;timeline__content&#34;&gt;
     &lt;div class=&#34;timeline__header&#34;&gt;
           &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
+
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
         &lt;div class=&#34;timeline__title&#34;&gt;禁止搜索引擎检索，优化热力图&lt;/div&gt;
       &lt;/div&gt;
@@ -521,8 +606,8 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-
 &lt;style&gt;
+ 
 .timeline {
   display: flex;
   flex-direction: column;
@@ -534,9 +619,10 @@
   margin-bottom: 0.8rem;
 }
 
+ 
 .timeline__time {
   flex: 0 0 90px;
-  color: #5d5d5d;
+  color: var(--theme);
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
@@ -575,6 +661,7 @@
   z-index: -1;
 }
 
+ 
 .timeline__content {
   flex: 1;
   margin-left: 2.5rem;
@@ -604,32 +691,57 @@
   font-size: 14px;
   color: #5d5d5d;
   line-height: 1.4;
-  margin-left: 3rem;  ✅ 去掉这个！
+  margin-left: 0.3rem;  
   margin-top: 0.1rem;
   opacity: 0.85;
 }
 
-
-.timeline__tag {
+ 
+ 
+.timeline__tag, .timeline__type-tag {
   display: inline-block;
-  color: var(--secondary);
-  background-color: #84c4e230;
-  border: 1px solid #84c4e230;
-  border-radius: 999px;
-  padding: 0 0.5rem;
+  padding: 2px 8px;
+  border-radius: 6px;  
   font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
 }
 
-[data-scheme=&#34;dark&#34;] .timeline__time {
-  color: #cccccc;
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
 }
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
 [data-scheme=&#34;dark&#34;] .timeline__description {
   color: #cccccc;
 }
 
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
 
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
 &lt;/style&gt;
 
 &lt;div class=&#34;timeline__row&#34;&gt;
@@ -640,6 +752,7 @@
   &lt;div class=&#34;timeline__content&#34;&gt;
     &lt;div class=&#34;timeline__header&#34;&gt;
           &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
+
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
         &lt;div class=&#34;timeline__title&#34;&gt;“归档”页面新增热力图，解除文字禁止复制&lt;/div&gt;
       &lt;/div&gt;
@@ -648,8 +761,8 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-
 &lt;style&gt;
+ 
 .timeline {
   display: flex;
   flex-direction: column;
@@ -661,9 +774,10 @@
   margin-bottom: 0.8rem;
 }
 
+ 
 .timeline__time {
   flex: 0 0 90px;
-  color: #5d5d5d;
+  color: var(--theme);
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
@@ -702,6 +816,7 @@
   z-index: -1;
 }
 
+ 
 .timeline__content {
   flex: 1;
   margin-left: 2.5rem;
@@ -731,32 +846,57 @@
   font-size: 14px;
   color: #5d5d5d;
   line-height: 1.4;
-  margin-left: 3rem;  ✅ 去掉这个！
+  margin-left: 0.3rem;  
   margin-top: 0.1rem;
   opacity: 0.85;
 }
 
-
-.timeline__tag {
+ 
+ 
+.timeline__tag, .timeline__type-tag {
   display: inline-block;
-  color: var(--secondary);
-  background-color: #84c4e230;
-  border: 1px solid #84c4e230;
-  border-radius: 999px;
-  padding: 0 0.5rem;
+  padding: 2px 8px;
+  border-radius: 6px;  
   font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
 }
 
-[data-scheme=&#34;dark&#34;] .timeline__time {
-  color: #cccccc;
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
 }
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
 [data-scheme=&#34;dark&#34;] .timeline__description {
   color: #cccccc;
 }
 
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
 
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
 &lt;/style&gt;
 
 &lt;div class=&#34;timeline__row&#34;&gt;
@@ -767,6 +907,7 @@
   &lt;div class=&#34;timeline__content&#34;&gt;
     &lt;div class=&#34;timeline__header&#34;&gt;
           &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
+
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
         &lt;div class=&#34;timeline__title&#34;&gt;优化页面布局和内容，文字禁止复制&lt;/div&gt;
       &lt;/div&gt;
@@ -774,8 +915,8 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-
 &lt;style&gt;
+ 
 .timeline {
   display: flex;
   flex-direction: column;
@@ -787,9 +928,10 @@
   margin-bottom: 0.8rem;
 }
 
+ 
 .timeline__time {
   flex: 0 0 90px;
-  color: #5d5d5d;
+  color: var(--theme);
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
@@ -828,6 +970,7 @@
   z-index: -1;
 }
 
+ 
 .timeline__content {
   flex: 1;
   margin-left: 2.5rem;
@@ -857,32 +1000,57 @@
   font-size: 14px;
   color: #5d5d5d;
   line-height: 1.4;
-  margin-left: 3rem;  ✅ 去掉这个！
+  margin-left: 0.3rem;  
   margin-top: 0.1rem;
   opacity: 0.85;
 }
 
-
-.timeline__tag {
+ 
+ 
+.timeline__tag, .timeline__type-tag {
   display: inline-block;
-  color: var(--secondary);
-  background-color: #84c4e230;
-  border: 1px solid #84c4e230;
-  border-radius: 999px;
-  padding: 0 0.5rem;
+  padding: 2px 8px;
+  border-radius: 6px;  
   font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
 }
 
-[data-scheme=&#34;dark&#34;] .timeline__time {
-  color: #cccccc;
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
 }
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
 [data-scheme=&#34;dark&#34;] .timeline__description {
   color: #cccccc;
 }
 
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
 
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
 &lt;/style&gt;
 
 &lt;div class=&#34;timeline__row&#34;&gt;
@@ -893,6 +1061,7 @@
   &lt;div class=&#34;timeline__content&#34;&gt;
     &lt;div class=&#34;timeline__header&#34;&gt;
           &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
+
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
         &lt;div class=&#34;timeline__title&#34;&gt;优化图片格式、上传图床，配置CDN加速&lt;/div&gt;
       &lt;/div&gt;
@@ -900,8 +1069,8 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-
 &lt;style&gt;
+ 
 .timeline {
   display: flex;
   flex-direction: column;
@@ -913,9 +1082,10 @@
   margin-bottom: 0.8rem;
 }
 
+ 
 .timeline__time {
   flex: 0 0 90px;
-  color: #5d5d5d;
+  color: var(--theme);
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
@@ -954,6 +1124,7 @@
   z-index: -1;
 }
 
+ 
 .timeline__content {
   flex: 1;
   margin-left: 2.5rem;
@@ -983,32 +1154,57 @@
   font-size: 14px;
   color: #5d5d5d;
   line-height: 1.4;
-  margin-left: 3rem;  ✅ 去掉这个！
+  margin-left: 0.3rem;  
   margin-top: 0.1rem;
   opacity: 0.85;
 }
 
-
-.timeline__tag {
+ 
+ 
+.timeline__tag, .timeline__type-tag {
   display: inline-block;
-  color: var(--secondary);
-  background-color: #84c4e230;
-  border: 1px solid #84c4e230;
-  border-radius: 999px;
-  padding: 0 0.5rem;
+  padding: 2px 8px;
+  border-radius: 6px;  
   font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
 }
 
-[data-scheme=&#34;dark&#34;] .timeline__time {
-  color: #cccccc;
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
 }
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
 [data-scheme=&#34;dark&#34;] .timeline__description {
   color: #cccccc;
 }
 
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
 
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
 &lt;/style&gt;
 
 &lt;div class=&#34;timeline__row&#34;&gt;
@@ -1019,6 +1215,7 @@
   &lt;div class=&#34;timeline__content&#34;&gt;
     &lt;div class=&#34;timeline__header&#34;&gt;
           &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
+
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
         &lt;div class=&#34;timeline__title&#34;&gt;统一颜色风格，优化部分页面布局&lt;/div&gt;
       &lt;/div&gt;
@@ -1026,8 +1223,8 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-
 &lt;style&gt;
+ 
 .timeline {
   display: flex;
   flex-direction: column;
@@ -1039,9 +1236,10 @@
   margin-bottom: 0.8rem;
 }
 
+ 
 .timeline__time {
   flex: 0 0 90px;
-  color: #5d5d5d;
+  color: var(--theme);
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
@@ -1080,6 +1278,7 @@
   z-index: -1;
 }
 
+ 
 .timeline__content {
   flex: 1;
   margin-left: 2.5rem;
@@ -1109,32 +1308,57 @@
   font-size: 14px;
   color: #5d5d5d;
   line-height: 1.4;
-  margin-left: 3rem;  ✅ 去掉这个！
+  margin-left: 0.3rem;  
   margin-top: 0.1rem;
   opacity: 0.85;
 }
 
-
-.timeline__tag {
+ 
+ 
+.timeline__tag, .timeline__type-tag {
   display: inline-block;
-  color: var(--secondary);
-  background-color: #84c4e230;
-  border: 1px solid #84c4e230;
-  border-radius: 999px;
-  padding: 0 0.5rem;
+  padding: 2px 8px;
+  border-radius: 6px;  
   font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
 }
 
-[data-scheme=&#34;dark&#34;] .timeline__time {
-  color: #cccccc;
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
 }
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
 [data-scheme=&#34;dark&#34;] .timeline__description {
   color: #cccccc;
 }
 
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
 
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
 &lt;/style&gt;
 
 &lt;div class=&#34;timeline__row&#34;&gt;
@@ -1145,6 +1369,7 @@
   &lt;div class=&#34;timeline__content&#34;&gt;
     &lt;div class=&#34;timeline__header&#34;&gt;
           &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
+
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
         &lt;div class=&#34;timeline__title&#34;&gt;统一封面风格，优化分类和标签&lt;/div&gt;
       &lt;/div&gt;
@@ -1152,8 +1377,8 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-
 &lt;style&gt;
+ 
 .timeline {
   display: flex;
   flex-direction: column;
@@ -1165,9 +1390,10 @@
   margin-bottom: 0.8rem;
 }
 
+ 
 .timeline__time {
   flex: 0 0 90px;
-  color: #5d5d5d;
+  color: var(--theme);
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
@@ -1206,6 +1432,7 @@
   z-index: -1;
 }
 
+ 
 .timeline__content {
   flex: 1;
   margin-left: 2.5rem;
@@ -1235,32 +1462,57 @@
   font-size: 14px;
   color: #5d5d5d;
   line-height: 1.4;
-  margin-left: 3rem;  ✅ 去掉这个！
+  margin-left: 0.3rem;  
   margin-top: 0.1rem;
   opacity: 0.85;
 }
 
-
-.timeline__tag {
+ 
+ 
+.timeline__tag, .timeline__type-tag {
   display: inline-block;
-  color: var(--secondary);
-  background-color: #84c4e230;
-  border: 1px solid #84c4e230;
-  border-radius: 999px;
-  padding: 0 0.5rem;
+  padding: 2px 8px;
+  border-radius: 6px;  
   font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
 }
 
-[data-scheme=&#34;dark&#34;] .timeline__time {
-  color: #cccccc;
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
 }
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
 [data-scheme=&#34;dark&#34;] .timeline__description {
   color: #cccccc;
 }
 
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
 
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
 &lt;/style&gt;
 
 &lt;div class=&#34;timeline__row&#34;&gt;
@@ -1271,6 +1523,7 @@
   &lt;div class=&#34;timeline__content&#34;&gt;
     &lt;div class=&#34;timeline__header&#34;&gt;
           &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
+
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
         &lt;div class=&#34;timeline__title&#34;&gt;布局优化&lt;/div&gt;
       &lt;/div&gt;
@@ -1278,8 +1531,8 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-
 &lt;style&gt;
+ 
 .timeline {
   display: flex;
   flex-direction: column;
@@ -1291,9 +1544,10 @@
   margin-bottom: 0.8rem;
 }
 
+ 
 .timeline__time {
   flex: 0 0 90px;
-  color: #5d5d5d;
+  color: var(--theme);
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
@@ -1332,6 +1586,7 @@
   z-index: -1;
 }
 
+ 
 .timeline__content {
   flex: 1;
   margin-left: 2.5rem;
@@ -1361,32 +1616,57 @@
   font-size: 14px;
   color: #5d5d5d;
   line-height: 1.4;
-  margin-left: 3rem;  ✅ 去掉这个！
+  margin-left: 0.3rem;  
   margin-top: 0.1rem;
   opacity: 0.85;
 }
 
-
-.timeline__tag {
+ 
+ 
+.timeline__tag, .timeline__type-tag {
   display: inline-block;
-  color: var(--secondary);
-  background-color: #84c4e230;
-  border: 1px solid #84c4e230;
-  border-radius: 999px;
-  padding: 0 0.5rem;
+  padding: 2px 8px;
+  border-radius: 6px;  
   font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
 }
 
-[data-scheme=&#34;dark&#34;] .timeline__time {
-  color: #cccccc;
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
 }
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
 [data-scheme=&#34;dark&#34;] .timeline__description {
   color: #cccccc;
 }
 
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
 
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
 &lt;/style&gt;
 
 &lt;div class=&#34;timeline__row&#34;&gt;
@@ -1397,6 +1677,7 @@
   &lt;div class=&#34;timeline__content&#34;&gt;
     &lt;div class=&#34;timeline__header&#34;&gt;
           &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
+
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
         &lt;div class=&#34;timeline__title&#34;&gt;添加字数统计，优化暗色模式&lt;/div&gt;
       &lt;/div&gt;
@@ -1404,8 +1685,8 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-
 &lt;style&gt;
+ 
 .timeline {
   display: flex;
   flex-direction: column;
@@ -1417,9 +1698,10 @@
   margin-bottom: 0.8rem;
 }
 
+ 
 .timeline__time {
   flex: 0 0 90px;
-  color: #5d5d5d;
+  color: var(--theme);
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
@@ -1458,6 +1740,7 @@
   z-index: -1;
 }
 
+ 
 .timeline__content {
   flex: 1;
   margin-left: 2.5rem;
@@ -1487,32 +1770,57 @@
   font-size: 14px;
   color: #5d5d5d;
   line-height: 1.4;
-  margin-left: 3rem;  ✅ 去掉这个！
+  margin-left: 0.3rem;  
   margin-top: 0.1rem;
   opacity: 0.85;
 }
 
-
-.timeline__tag {
+ 
+ 
+.timeline__tag, .timeline__type-tag {
   display: inline-block;
-  color: var(--secondary);
-  background-color: #84c4e230;
-  border: 1px solid #84c4e230;
-  border-radius: 999px;
-  padding: 0 0.5rem;
+  padding: 2px 8px;
+  border-radius: 6px;  
   font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
 }
 
-[data-scheme=&#34;dark&#34;] .timeline__time {
-  color: #cccccc;
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
 }
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
 [data-scheme=&#34;dark&#34;] .timeline__description {
   color: #cccccc;
 }
 
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
 
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
 &lt;/style&gt;
 
 &lt;div class=&#34;timeline__row&#34;&gt;
@@ -1523,6 +1831,7 @@
   &lt;div class=&#34;timeline__content&#34;&gt;
     &lt;div class=&#34;timeline__header&#34;&gt;
           &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
+
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
         &lt;div class=&#34;timeline__title&#34;&gt;新增“友邻”页面，短代码优化部分页面&lt;/div&gt;
       &lt;/div&gt;
@@ -1530,8 +1839,8 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-
 &lt;style&gt;
+ 
 .timeline {
   display: flex;
   flex-direction: column;
@@ -1543,9 +1852,10 @@
   margin-bottom: 0.8rem;
 }
 
+ 
 .timeline__time {
   flex: 0 0 90px;
-  color: #5d5d5d;
+  color: var(--theme);
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
@@ -1584,6 +1894,7 @@
   z-index: -1;
 }
 
+ 
 .timeline__content {
   flex: 1;
   margin-left: 2.5rem;
@@ -1613,32 +1924,57 @@
   font-size: 14px;
   color: #5d5d5d;
   line-height: 1.4;
-  margin-left: 3rem;  ✅ 去掉这个！
+  margin-left: 0.3rem;  
   margin-top: 0.1rem;
   opacity: 0.85;
 }
 
-
-.timeline__tag {
+ 
+ 
+.timeline__tag, .timeline__type-tag {
   display: inline-block;
-  color: var(--secondary);
-  background-color: #84c4e230;
-  border: 1px solid #84c4e230;
-  border-radius: 999px;
-  padding: 0 0.5rem;
+  padding: 2px 8px;
+  border-radius: 6px;  
   font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
 }
 
-[data-scheme=&#34;dark&#34;] .timeline__time {
-  color: #cccccc;
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
 }
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
 [data-scheme=&#34;dark&#34;] .timeline__description {
   color: #cccccc;
 }
 
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
 
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
 &lt;/style&gt;
 
 &lt;div class=&#34;timeline__row&#34;&gt;
@@ -1649,6 +1985,7 @@
   &lt;div class=&#34;timeline__content&#34;&gt;
     &lt;div class=&#34;timeline__header&#34;&gt;
           &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
+
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
         &lt;div class=&#34;timeline__title&#34;&gt;添加部分文章封面图&lt;/div&gt;
       &lt;/div&gt;
@@ -1656,8 +1993,8 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-
 &lt;style&gt;
+ 
 .timeline {
   display: flex;
   flex-direction: column;
@@ -1669,9 +2006,10 @@
   margin-bottom: 0.8rem;
 }
 
+ 
 .timeline__time {
   flex: 0 0 90px;
-  color: #5d5d5d;
+  color: var(--theme);
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
@@ -1710,6 +2048,7 @@
   z-index: -1;
 }
 
+ 
 .timeline__content {
   flex: 1;
   margin-left: 2.5rem;
@@ -1739,32 +2078,57 @@
   font-size: 14px;
   color: #5d5d5d;
   line-height: 1.4;
-  margin-left: 3rem;  ✅ 去掉这个！
+  margin-left: 0.3rem;  
   margin-top: 0.1rem;
   opacity: 0.85;
 }
 
-
-.timeline__tag {
+ 
+ 
+.timeline__tag, .timeline__type-tag {
   display: inline-block;
-  color: var(--secondary);
-  background-color: #84c4e230;
-  border: 1px solid #84c4e230;
-  border-radius: 999px;
-  padding: 0 0.5rem;
+  padding: 2px 8px;
+  border-radius: 6px;  
   font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
 }
 
-[data-scheme=&#34;dark&#34;] .timeline__time {
-  color: #cccccc;
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
 }
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
 [data-scheme=&#34;dark&#34;] .timeline__description {
   color: #cccccc;
 }
 
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
 
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
 &lt;/style&gt;
 
 &lt;div class=&#34;timeline__row&#34;&gt;
@@ -1775,6 +2139,7 @@
   &lt;div class=&#34;timeline__content&#34;&gt;
     &lt;div class=&#34;timeline__header&#34;&gt;
           &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
+
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
         &lt;div class=&#34;timeline__title&#34;&gt;建设“关于”页面，配置落霞孤鹜字体&lt;/div&gt;
       &lt;/div&gt;
@@ -1782,8 +2147,8 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-
 &lt;style&gt;
+ 
 .timeline {
   display: flex;
   flex-direction: column;
@@ -1795,9 +2160,10 @@
   margin-bottom: 0.8rem;
 }
 
+ 
 .timeline__time {
   flex: 0 0 90px;
-  color: #5d5d5d;
+  color: var(--theme);
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
@@ -1836,6 +2202,7 @@
   z-index: -1;
 }
 
+ 
 .timeline__content {
   flex: 1;
   margin-left: 2.5rem;
@@ -1865,32 +2232,57 @@
   font-size: 14px;
   color: #5d5d5d;
   line-height: 1.4;
-  margin-left: 3rem;  ✅ 去掉这个！
+  margin-left: 0.3rem;  
   margin-top: 0.1rem;
   opacity: 0.85;
 }
 
-
-.timeline__tag {
+ 
+ 
+.timeline__tag, .timeline__type-tag {
   display: inline-block;
-  color: var(--secondary);
-  background-color: #84c4e230;
-  border: 1px solid #84c4e230;
-  border-radius: 999px;
-  padding: 0 0.5rem;
+  padding: 2px 8px;
+  border-radius: 6px;  
   font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
 }
 
-[data-scheme=&#34;dark&#34;] .timeline__time {
-  color: #cccccc;
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
 }
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
 [data-scheme=&#34;dark&#34;] .timeline__description {
   color: #cccccc;
 }
 
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
 
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
 &lt;/style&gt;
 
 &lt;div class=&#34;timeline__row&#34;&gt;
@@ -1901,6 +2293,7 @@
   &lt;div class=&#34;timeline__content&#34;&gt;
     &lt;div class=&#34;timeline__header&#34;&gt;
           &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
+
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
         &lt;div class=&#34;timeline__title&#34;&gt;设计logo，优化Stack主题&lt;/div&gt;
       &lt;/div&gt;
@@ -1908,8 +2301,8 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-
 &lt;style&gt;
+ 
 .timeline {
   display: flex;
   flex-direction: column;
@@ -1921,9 +2314,10 @@
   margin-bottom: 0.8rem;
 }
 
+ 
 .timeline__time {
   flex: 0 0 90px;
-  color: #5d5d5d;
+  color: var(--theme);
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
@@ -1962,6 +2356,7 @@
   z-index: -1;
 }
 
+ 
 .timeline__content {
   flex: 1;
   margin-left: 2.5rem;
@@ -1991,32 +2386,57 @@
   font-size: 14px;
   color: #5d5d5d;
   line-height: 1.4;
-  margin-left: 3rem;  ✅ 去掉这个！
+  margin-left: 0.3rem;  
   margin-top: 0.1rem;
   opacity: 0.85;
 }
 
-
-.timeline__tag {
+ 
+ 
+.timeline__tag, .timeline__type-tag {
   display: inline-block;
-  color: var(--secondary);
-  background-color: #84c4e230;
-  border: 1px solid #84c4e230;
-  border-radius: 999px;
-  padding: 0 0.5rem;
+  padding: 2px 8px;
+  border-radius: 6px;  
   font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
 }
 
-[data-scheme=&#34;dark&#34;] .timeline__time {
-  color: #cccccc;
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
 }
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
 [data-scheme=&#34;dark&#34;] .timeline__description {
   color: #cccccc;
 }
 
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
 
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
 &lt;/style&gt;
 
 &lt;div class=&#34;timeline__row&#34;&gt;
@@ -2027,6 +2447,7 @@
   &lt;div class=&#34;timeline__content&#34;&gt;
     &lt;div class=&#34;timeline__header&#34;&gt;
           &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
+
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
         &lt;div class=&#34;timeline__title&#34;&gt;将博客迁移至Hugo&lt;/div&gt;
       &lt;/div&gt;
@@ -2035,8 +2456,8 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-
 &lt;style&gt;
+ 
 .timeline {
   display: flex;
   flex-direction: column;
@@ -2048,9 +2469,10 @@
   margin-bottom: 0.8rem;
 }
 
+ 
 .timeline__time {
   flex: 0 0 90px;
-  color: #5d5d5d;
+  color: var(--theme);
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
@@ -2089,6 +2511,7 @@
   z-index: -1;
 }
 
+ 
 .timeline__content {
   flex: 1;
   margin-left: 2.5rem;
@@ -2118,32 +2541,57 @@
   font-size: 14px;
   color: #5d5d5d;
   line-height: 1.4;
-  margin-left: 3rem;  ✅ 去掉这个！
+  margin-left: 0.3rem;  
   margin-top: 0.1rem;
   opacity: 0.85;
 }
 
-
-.timeline__tag {
+ 
+ 
+.timeline__tag, .timeline__type-tag {
   display: inline-block;
-  color: var(--secondary);
-  background-color: #84c4e230;
-  border: 1px solid #84c4e230;
-  border-radius: 999px;
-  padding: 0 0.5rem;
+  padding: 2px 8px;
+  border-radius: 6px;  
   font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
 }
 
-[data-scheme=&#34;dark&#34;] .timeline__time {
-  color: #cccccc;
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
 }
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
 [data-scheme=&#34;dark&#34;] .timeline__description {
   color: #cccccc;
 }
 
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
 
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
 &lt;/style&gt;
 
 &lt;div class=&#34;timeline__row&#34;&gt;
@@ -2154,6 +2602,7 @@
   &lt;div class=&#34;timeline__content&#34;&gt;
     &lt;div class=&#34;timeline__header&#34;&gt;
           &lt;span class=&#34;timeline__tag&#34;&gt;v1&lt;/span&gt;
+
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
         &lt;div class=&#34;timeline__title&#34;&gt;使用NotionNext建站&lt;/div&gt;
       &lt;/div&gt;
@@ -2162,8 +2611,8 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-
 &lt;style&gt;
+ 
 .timeline {
   display: flex;
   flex-direction: column;
@@ -2175,9 +2624,10 @@
   margin-bottom: 0.8rem;
 }
 
+ 
 .timeline__time {
   flex: 0 0 90px;
-  color: #5d5d5d;
+  color: var(--theme);
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
@@ -2216,6 +2666,7 @@
   z-index: -1;
 }
 
+ 
 .timeline__content {
   flex: 1;
   margin-left: 2.5rem;
@@ -2245,32 +2696,57 @@
   font-size: 14px;
   color: #5d5d5d;
   line-height: 1.4;
-  margin-left: 3rem;  ✅ 去掉这个！
+  margin-left: 0.3rem;  
   margin-top: 0.1rem;
   opacity: 0.85;
 }
 
-
-.timeline__tag {
+ 
+ 
+.timeline__tag, .timeline__type-tag {
   display: inline-block;
-  color: var(--secondary);
-  background-color: #84c4e230;
-  border: 1px solid #84c4e230;
-  border-radius: 999px;
-  padding: 0 0.5rem;
+  padding: 2px 8px;
+  border-radius: 6px;  
   font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
 }
 
-[data-scheme=&#34;dark&#34;] .timeline__time {
-  color: #cccccc;
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
 }
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
 [data-scheme=&#34;dark&#34;] .timeline__description {
   color: #cccccc;
 }
 
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
 
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
 &lt;/style&gt;
 &lt;/p&gt;
 </description>
@@ -2479,6 +2955,7 @@
   &lt;div class=&#34;timeline__content&#34;&gt;
     &lt;div class=&#34;timeline__header&#34;&gt;
           &lt;span class=&#34;timeline__tag&#34;&gt;节日&lt;/span&gt;
+
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
         &lt;div class=&#34;timeline__title&#34;&gt;国庆节&lt;/div&gt;
       &lt;/div&gt;
@@ -2487,8 +2964,8 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-
 &lt;style&gt;
+ 
 .timeline {
   display: flex;
   flex-direction: column;
@@ -2500,9 +2977,10 @@
   margin-bottom: 0.8rem;
 }
 
+ 
 .timeline__time {
   flex: 0 0 90px;
-  color: #5d5d5d;
+  color: var(--theme);
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
@@ -2541,6 +3019,7 @@
   z-index: -1;
 }
 
+ 
 .timeline__content {
   flex: 1;
   margin-left: 2.5rem;
@@ -2570,32 +3049,57 @@
   font-size: 14px;
   color: #5d5d5d;
   line-height: 1.4;
-  margin-left: 3rem;  ✅ 去掉这个！
+  margin-left: 0.3rem;  
   margin-top: 0.1rem;
   opacity: 0.85;
 }
 
-
-.timeline__tag {
+ 
+ 
+.timeline__tag, .timeline__type-tag {
   display: inline-block;
-  color: var(--secondary);
-  background-color: #84c4e230;
-  border: 1px solid #84c4e230;
-  border-radius: 999px;
-  padding: 0 0.5rem;
+  padding: 2px 8px;
+  border-radius: 6px;  
   font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
 }
 
-[data-scheme=&#34;dark&#34;] .timeline__time {
-  color: #cccccc;
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
 }
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
 [data-scheme=&#34;dark&#34;] .timeline__description {
   color: #cccccc;
 }
 
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
 
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
 &lt;/style&gt;
 
 &lt;h3 id=&#34;聊天气泡&#34;&gt;聊天气泡&lt;/h3&gt;

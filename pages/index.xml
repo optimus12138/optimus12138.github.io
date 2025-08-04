@@ -7,6 +7,148 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language><atom:link href="https://goldenriver.site/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>博客维护手册</title>
+      <link>https://goldenriver.site/blog-maintenance-manual/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://goldenriver.site/blog-maintenance-manual/</guid>
+      
+      <description>&lt;blockquote&gt;
+&lt;p&gt;文档建设日志：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2025-08-04 新建文档，根据Gemini指导内容&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;（建设中）&lt;/p&gt;
+&lt;h2 id=&#34;一-版本迭代命名规范-versioning-rules&#34;&gt;一、 版本迭代命名规范 (Versioning Rules)&lt;/h2&gt;
+&lt;p&gt;本规范旨在为博客的更新迭代建立一套清晰、可预测的版本管理体系。所有更新日志均须遵循此规则。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;核心结构:&lt;/strong&gt; &lt;code&gt;主版本号&lt;/code&gt; + &lt;code&gt;更新类型标签&lt;/code&gt; + &lt;code&gt;简短描述&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;示例:&lt;/strong&gt; &lt;code&gt;v3 ✨ Feature: 新增文章内容检索功能&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;1.1 主版本号 (Major Version - &lt;code&gt;vX&lt;/code&gt;)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;主版本号代表博客的重大里程碑。它的变更意味着底层架构、核心设计或整体方向发生了根本性变化。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;升级时机 (When to Upgrade):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;技术栈迁移:&lt;/strong&gt; 例如，从 &lt;code&gt;GitHub Pages&lt;/code&gt; 迁移至 &lt;code&gt;Cloudflare Pages&lt;/code&gt; (即 &lt;code&gt;v4&lt;/code&gt; 的核心任务)。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;主题或框架重构:&lt;/strong&gt; 例如，从 Hugo 的某个主题彻底更换为另一个，或自己从零开始重写主题。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内容方向大改:&lt;/strong&gt; 例如，博客从个人生活记录彻底转型为专业技术分享。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;当前版本:&lt;/strong&gt; &lt;code&gt;v3&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;1.2 更新类型标签 (Update Type Tag)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;每个标签都配有专属的图标和颜色，用于在更新日志中快速识别更新的性质。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;图标&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;英文标签&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;中文含义&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;适用场景&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;示例&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;✨&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Feature&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;新功能&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;增加用户可感知的新模块或新能力。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;新增文章内容检索&lt;/code&gt;、&lt;code&gt;增加评论系统&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;🎨&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Style&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;样式&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;不影响功能的视觉调整，如颜色、字体、布局。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;优化暗色模式配色&lt;/code&gt;、&lt;code&gt;调整分割线样式&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;🐛&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Fix&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;问题修复&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;修正已知的 Bug 或错误。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;修复小屏幕目录显示错位&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;📝&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Docs&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;文档&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;撰写或更新说明性文档，如本手册。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;创建博客维护手册&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;🚀&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Perf&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;性能优化&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;提升网站加载速度或运行效率。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;优化图片加载速度&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;♻️&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Refactor&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;代码重构&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;未增加新功能或修复问题的代码结构调整。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;重构短代码逻辑&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;🧹&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Chore&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;杂务&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;构建过程、工具链或依赖项的更新。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;升级 Hugo 版本&lt;/code&gt;、&lt;code&gt;清理无用文件&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;二-博客建设指导规则-construction-guidelines&#34;&gt;二、 博客建设指导规则 (Construction Guidelines)&lt;/h2&gt;
+&lt;p&gt;这些规则旨在确保博客内容和功能开发的质量与一致性。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2.1 开发流程 (Development Workflow)&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;规划 (Plan):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;任何非紧急的修复或调整，都应先在 &lt;strong&gt;“迭代蓝图”&lt;/strong&gt; (即你的待办清单) 中进行记录和规划。&lt;/li&gt;
+&lt;li&gt;明确每次迭代的核心目标 (例如，&lt;code&gt;v3&lt;/code&gt; 期间完成搜索功能)。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;执行 (Execute):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;遵循上文的 &lt;strong&gt;版本迭代命名规范&lt;/strong&gt; 来记录每一次变更。&lt;/li&gt;
+&lt;li&gt;在本地进行充分测试，确保新功能或修复在不同设备 (PC/移动端) 和模式 (亮色/暗色) 下均表现正常。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;发布 (Deploy):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;完成测试后，将代码推送到主分支并部署上线。&lt;/li&gt;
+&lt;li&gt;在博客的 &lt;strong&gt;“更新日志”&lt;/strong&gt; 页面发布对应的版本更新说明。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>博客写作规范</title>
+      <link>https://goldenriver.site/blog-writing-guidelines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://goldenriver.site/blog-writing-guidelines/</guid>
+      
+      <description>&lt;blockquote&gt;
+&lt;p&gt;文档建设日志：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2025-08-04 新建文档&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;(建设中)&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
       <title>分类与标签</title>
       <link>https://goldenriver.site/pages/categroies/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -76,21 +218,23 @@
 &lt;h2 id=&#34;博客建设日志&#34;&gt;博客建设日志&lt;/h2&gt;
 &lt;p&gt;&lt;div class=&#34;timeline__row&#34;&gt;
   &lt;div class=&#34;timeline__time&#34;&gt;
-    &lt;div class=&#34;timeline__time-text&#34;&gt;2025-07-28&lt;/div&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;2025-08-03&lt;/div&gt;
     &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;timeline__content&#34;&gt;
     &lt;div class=&#34;timeline__header&#34;&gt;
           &lt;span class=&#34;timeline__tag&#34;&gt;v3&lt;/span&gt;
+        &lt;span class=&#34;timeline__type-tag&#34;&gt;✨ Feature&lt;/span&gt;
+
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
-        &lt;div class=&#34;timeline__title&#34;&gt;域名到期，续费一年&lt;/div&gt;
+        &lt;div class=&#34;timeline__title&#34;&gt;新增搜索功能(归档页)&lt;/div&gt;
       &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
-
 &lt;style&gt;
+ 
 .timeline {
   display: flex;
   flex-direction: column;
@@ -102,9 +246,10 @@
   margin-bottom: 0.8rem;
 }
 
+ 
 .timeline__time {
   flex: 0 0 90px;
-  color: #5d5d5d;
+  color: var(--theme);
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
@@ -143,6 +288,7 @@
   z-index: -1;
 }
 
+ 
 .timeline__content {
   flex: 1;
   margin-left: 2.5rem;
@@ -172,32 +318,212 @@
   font-size: 14px;
   color: #5d5d5d;
   line-height: 1.4;
-  margin-left: 3rem;  ✅ 去掉这个！
+  margin-left: 0.3rem;  
   margin-top: 0.1rem;
   opacity: 0.85;
 }
 
-
-.timeline__tag {
+ 
+ 
+.timeline__tag, .timeline__type-tag {
   display: inline-block;
-  color: var(--secondary);
-  background-color: #84c4e230;
-  border: 1px solid #84c4e230;
-  border-radius: 999px;
-  padding: 0 0.5rem;
+  padding: 2px 8px;
+  border-radius: 6px;  
   font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
 }
 
-[data-scheme=&#34;dark&#34;] .timeline__time {
-  color: #cccccc;
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
 }
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
 [data-scheme=&#34;dark&#34;] .timeline__description {
   color: #cccccc;
 }
 
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
 
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;2025-07-28&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;v3&lt;/span&gt;
+        &lt;span class=&#34;timeline__type-tag&#34;&gt;🔧 Chore&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        &lt;div class=&#34;timeline__title&#34;&gt;域名到期，续费一年&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
 &lt;/style&gt;
 
 &lt;div class=&#34;timeline__row&#34;&gt;
@@ -208,6 +534,8 @@
   &lt;div class=&#34;timeline__content&#34;&gt;
     &lt;div class=&#34;timeline__header&#34;&gt;
           &lt;span class=&#34;timeline__tag&#34;&gt;v3&lt;/span&gt;
+        &lt;span class=&#34;timeline__type-tag&#34;&gt;⚙️ Config&lt;/span&gt;
+
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
         &lt;div class=&#34;timeline__title&#34;&gt;重新配置页面，禁止搜索引擎检索&lt;/div&gt;
       &lt;/div&gt;
@@ -215,8 +543,8 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-
 &lt;style&gt;
+ 
 .timeline {
   display: flex;
   flex-direction: column;
@@ -228,9 +556,10 @@
   margin-bottom: 0.8rem;
 }
 
+ 
 .timeline__time {
   flex: 0 0 90px;
-  color: #5d5d5d;
+  color: var(--theme);
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
@@ -269,6 +598,7 @@
   z-index: -1;
 }
 
+ 
 .timeline__content {
   flex: 1;
   margin-left: 2.5rem;
@@ -298,32 +628,57 @@
   font-size: 14px;
   color: #5d5d5d;
   line-height: 1.4;
-  margin-left: 3rem;  ✅ 去掉这个！
+  margin-left: 0.3rem;  
   margin-top: 0.1rem;
   opacity: 0.85;
 }
 
-
-.timeline__tag {
+ 
+ 
+.timeline__tag, .timeline__type-tag {
   display: inline-block;
-  color: var(--secondary);
-  background-color: #84c4e230;
-  border: 1px solid #84c4e230;
-  border-radius: 999px;
-  padding: 0 0.5rem;
+  padding: 2px 8px;
+  border-radius: 6px;  
   font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
 }
 
-[data-scheme=&#34;dark&#34;] .timeline__time {
-  color: #cccccc;
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
 }
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
 [data-scheme=&#34;dark&#34;] .timeline__description {
   color: #cccccc;
 }
 
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
 
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
 &lt;/style&gt;
 
 &lt;div class=&#34;timeline__row&#34;&gt;
@@ -334,6 +689,8 @@
   &lt;div class=&#34;timeline__content&#34;&gt;
     &lt;div class=&#34;timeline__header&#34;&gt;
           &lt;span class=&#34;timeline__tag&#34;&gt;v3&lt;/span&gt;
+        &lt;span class=&#34;timeline__type-tag&#34;&gt;🎨 Style&lt;/span&gt;
+
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
         &lt;div class=&#34;timeline__title&#34;&gt;博客更换成awesome主题&lt;/div&gt;
       &lt;/div&gt;
@@ -341,8 +698,8 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-
 &lt;style&gt;
+ 
 .timeline {
   display: flex;
   flex-direction: column;
@@ -354,9 +711,10 @@
   margin-bottom: 0.8rem;
 }
 
+ 
 .timeline__time {
   flex: 0 0 90px;
-  color: #5d5d5d;
+  color: var(--theme);
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
@@ -395,6 +753,7 @@
   z-index: -1;
 }
 
+ 
 .timeline__content {
   flex: 1;
   margin-left: 2.5rem;
@@ -424,32 +783,57 @@
   font-size: 14px;
   color: #5d5d5d;
   line-height: 1.4;
-  margin-left: 3rem;  ✅ 去掉这个！
+  margin-left: 0.3rem;  
   margin-top: 0.1rem;
   opacity: 0.85;
 }
 
-
-.timeline__tag {
+ 
+ 
+.timeline__tag, .timeline__type-tag {
   display: inline-block;
-  color: var(--secondary);
-  background-color: #84c4e230;
-  border: 1px solid #84c4e230;
-  border-radius: 999px;
-  padding: 0 0.5rem;
+  padding: 2px 8px;
+  border-radius: 6px;  
   font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
 }
 
-[data-scheme=&#34;dark&#34;] .timeline__time {
-  color: #cccccc;
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
 }
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
 [data-scheme=&#34;dark&#34;] .timeline__description {
   color: #cccccc;
 }
 
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
 
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
 &lt;/style&gt;
 
 &lt;div class=&#34;timeline__row&#34;&gt;
@@ -460,6 +844,8 @@
   &lt;div class=&#34;timeline__content&#34;&gt;
     &lt;div class=&#34;timeline__header&#34;&gt;
           &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
+        &lt;span class=&#34;timeline__type-tag&#34;&gt;🔨 Refactor&lt;/span&gt;
+
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
         &lt;div class=&#34;timeline__title&#34;&gt;将博客迁移至Hugo，使用Stack主题&lt;/div&gt;
       &lt;/div&gt;
@@ -467,8 +853,8 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-
 &lt;style&gt;
+ 
 .timeline {
   display: flex;
   flex-direction: column;
@@ -480,9 +866,10 @@
   margin-bottom: 0.8rem;
 }
 
+ 
 .timeline__time {
   flex: 0 0 90px;
-  color: #5d5d5d;
+  color: var(--theme);
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
@@ -521,6 +908,7 @@
   z-index: -1;
 }
 
+ 
 .timeline__content {
   flex: 1;
   margin-left: 2.5rem;
@@ -550,32 +938,57 @@
   font-size: 14px;
   color: #5d5d5d;
   line-height: 1.4;
-  margin-left: 3rem;  ✅ 去掉这个！
+  margin-left: 0.3rem;  
   margin-top: 0.1rem;
   opacity: 0.85;
 }
 
-
-.timeline__tag {
+ 
+ 
+.timeline__tag, .timeline__type-tag {
   display: inline-block;
-  color: var(--secondary);
-  background-color: #84c4e230;
-  border: 1px solid #84c4e230;
-  border-radius: 999px;
-  padding: 0 0.5rem;
+  padding: 2px 8px;
+  border-radius: 6px;  
   font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
 }
 
-[data-scheme=&#34;dark&#34;] .timeline__time {
-  color: #cccccc;
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
 }
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
 [data-scheme=&#34;dark&#34;] .timeline__description {
   color: #cccccc;
 }
 
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
 
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
 &lt;/style&gt;
 
 &lt;div class=&#34;timeline__row&#34;&gt;
@@ -586,6 +999,8 @@
   &lt;div class=&#34;timeline__content&#34;&gt;
     &lt;div class=&#34;timeline__header&#34;&gt;
           &lt;span class=&#34;timeline__tag&#34;&gt;v1&lt;/span&gt;
+        &lt;span class=&#34;timeline__type-tag&#34;&gt;🎉 Init&lt;/span&gt;
+
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
         &lt;div class=&#34;timeline__title&#34;&gt;使用NotionNext建站&lt;/div&gt;
       &lt;/div&gt;
@@ -593,8 +1008,8 @@
   &lt;/div&gt;
 &lt;/div&gt;
 
-
 &lt;style&gt;
+ 
 .timeline {
   display: flex;
   flex-direction: column;
@@ -606,9 +1021,10 @@
   margin-bottom: 0.8rem;
 }
 
+ 
 .timeline__time {
   flex: 0 0 90px;
-  color: #5d5d5d;
+  color: var(--theme);
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
@@ -647,6 +1063,7 @@
   z-index: -1;
 }
 
+ 
 .timeline__content {
   flex: 1;
   margin-left: 2.5rem;
@@ -676,34 +1093,77 @@
   font-size: 14px;
   color: #5d5d5d;
   line-height: 1.4;
-  margin-left: 3rem;  ✅ 去掉这个！
+  margin-left: 0.3rem;  
   margin-top: 0.1rem;
   opacity: 0.85;
 }
 
-
-.timeline__tag {
+ 
+ 
+.timeline__tag, .timeline__type-tag {
   display: inline-block;
-  color: var(--secondary);
-  background-color: #84c4e230;
-  border: 1px solid #84c4e230;
-  border-radius: 999px;
-  padding: 0 0.5rem;
+  padding: 2px 8px;
+  border-radius: 6px;  
   font-size: 12px;
-  line-height: 1.4;
-  opacity: 0.85;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
 }
 
-[data-scheme=&#34;dark&#34;] .timeline__time {
-  color: #cccccc;
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
 }
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
 [data-scheme=&#34;dark&#34;] .timeline__description {
   color: #cccccc;
 }
 
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
 
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
 &lt;/style&gt;
 &lt;/p&gt;
+&lt;p&gt;参考：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://goldenriver.site/blog-maintenance-manual/&#34;
+   
+   &gt;
+  博客维护手册（建设中）
+  
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://goldenriver.site/blog-writing-guidelines/&#34;
+   
+   &gt;
+  博客写作规范（建设中）
+  
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;To-do（内容）&lt;/strong&gt;：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 年末总结
@@ -935,7 +1395,7 @@
 &lt;/details&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;To-do（形式）&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;To-do（v4）&lt;/strong&gt;：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Self-host：使用服务器部署博客&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 更换&lt;code&gt;.com&lt;/code&gt;域名&lt;/li&gt;

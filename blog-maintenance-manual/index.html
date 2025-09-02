@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="zh-cn"><head><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">博客维护手册 | 金色河流</title>
+<meta property="og:title" content="博客维护手册 | 金色河流" />
+<meta name="twitter:title" content="博客维护手册 | 金色河流" />
+<meta itemprop="name" content="博客维护手册 | 金色河流" />
+<meta name="application-name" content="博客维护手册 | 金色河流" />
+<meta property="og:site_name" content="金色河流" />
+
+<meta name="description" content="">
+<meta itemprop="description" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:description" content="" />
+
+<meta property="og:locale" content="zh-cn" />
+<meta name="language" content="zh-cn" />
+
+  <link rel="alternate" hreflang="zh-cn" href="https://goldenriver.site/blog-maintenance-manual/" title="Chinese" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.148.1">
+
+    
+    <meta property="og:url" content="https://goldenriver.site/blog-maintenance-manual/">
+  <meta property="og:site_name" content="金色河流">
+  <meta property="og:title" content="博客维护手册">
+  <meta property="og:description" content="文档建设日志：
+2025-08-04 新建文档，根据Gemini指导内容 （建设中）
+一、 版本迭代命名规范 (Versioning Rules) 本规范旨在为博客的更新迭代建立一套清晰、可预测的版本管理体系。所有更新日志均须遵循此规则。
+核心结构: 主版本号 &#43; 更新类型标签 &#43; 简短描述
+示例: v3 ✨ Feature: 新增文章内容检索功能
+1.1 主版本号 (Major Version - vX)
+主版本号代表博客的重大里程碑。它的变更意味着底层架构、核心设计或整体方向发生了根本性变化。
+升级时机 (When to Upgrade): 技术栈迁移: 例如，从 GitHub Pages 迁移至 Cloudflare Pages (即 v4 的核心任务)。 主题或框架重构: 例如，从 Hugo 的某个主题彻底更换为另一个，或自己从零开始重写主题。 内容方向大改: 例如，博客从个人生活记录彻底转型为专业技术分享。 当前版本: v3 1.2 更新类型标签 (Update Type Tag)
+每个标签都配有专属的图标和颜色，用于在更新日志中快速识别更新的性质。
+图标 英文标签 中文含义 适用场景 示例 ✨ Feature 新功能 增加用户可感知的新模块或新能力。 新增文章内容检索、增加评论系统 🎨 Style 样式 不影响功能的视觉调整，如颜色、字体、布局。 优化暗色模式配色、调整分割线样式 🐛 Fix 问题修复 修正已知的 Bug 或错误。 修复小屏幕目录显示错位 📝 Docs 文档 撰写或更新说明性文档，如本手册。 创建博客维护手册 🚀 Perf 性能优化 提升网站加载速度或运行效率。 优化图片加载速度 ♻️ Refactor 代码重构 未增加新功能或修复问题的代码结构调整。 重构短代码逻辑 🧹 Chore 杂务 构建过程、工具链或依赖项的更新。 升级 Hugo 版本、清理无用文件 二、 博客建设指导规则 (Construction Guidelines) 这些规则旨在确保博客内容和功能开发的质量与一致性。">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="pages">
+
+
+    
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="博客维护手册">
+  <meta name="twitter:description" content="文档建设日志：
+2025-08-04 新建文档，根据Gemini指导内容 （建设中）
+一、 版本迭代命名规范 (Versioning Rules) 本规范旨在为博客的更新迭代建立一套清晰、可预测的版本管理体系。所有更新日志均须遵循此规则。
+核心结构: 主版本号 &#43; 更新类型标签 &#43; 简短描述
+示例: v3 ✨ Feature: 新增文章内容检索功能
+1.1 主版本号 (Major Version - vX)
+主版本号代表博客的重大里程碑。它的变更意味着底层架构、核心设计或整体方向发生了根本性变化。
+升级时机 (When to Upgrade): 技术栈迁移: 例如，从 GitHub Pages 迁移至 Cloudflare Pages (即 v4 的核心任务)。 主题或框架重构: 例如，从 Hugo 的某个主题彻底更换为另一个，或自己从零开始重写主题。 内容方向大改: 例如，博客从个人生活记录彻底转型为专业技术分享。 当前版本: v3 1.2 更新类型标签 (Update Type Tag)
+每个标签都配有专属的图标和颜色，用于在更新日志中快速识别更新的性质。
+图标 英文标签 中文含义 适用场景 示例 ✨ Feature 新功能 增加用户可感知的新模块或新能力。 新增文章内容检索、增加评论系统 🎨 Style 样式 不影响功能的视觉调整，如颜色、字体、布局。 优化暗色模式配色、调整分割线样式 🐛 Fix 问题修复 修正已知的 Bug 或错误。 修复小屏幕目录显示错位 📝 Docs 文档 撰写或更新说明性文档，如本手册。 创建博客维护手册 🚀 Perf 性能优化 提升网站加载速度或运行效率。 优化图片加载速度 ♻️ Refactor 代码重构 未增加新功能或修复问题的代码结构调整。 重构短代码逻辑 🧹 Chore 杂务 构建过程、工具链或依赖项的更新。 升级 Hugo 版本、清理无用文件 二、 博客建设指导规则 (Construction Guidelines) 这些规则旨在确保博客内容和功能开发的质量与一致性。">
+
+
+    
+
+    <link rel="canonical" href="https://goldenriver.site/blog-maintenance-manual/">
+    <link href="/style.min.52dcfaa36a19917af3c763bda46608b5a164d13485c00d6f43a455473b27d0dc.css" rel="stylesheet">
+    <link href="/code-highlight.min.3f71deab3c816f86050cbbeb8a311b9b8001fe1299c2d4ed17f7b34797161ac4.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="https://goldenriver.site/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/avatar.png">
+
+    
+    
+    
+</head>
+<body data-theme = "light" class="notransition">
+
+<script src="/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js" integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="https://goldenriver.site/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title>首页</title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link " href="/">
+                        首页
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/posts/">
+                        归档
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/pages/about/">
+                        关于
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/pages/guestbook/">
+                        留言
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="21" height="21" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <meta name="robots" content="noindex, nofollow" />
+                <h1 class="header-title">博客维护手册</h1>
+                <div class="post-meta">
+                    
+
+
+                    
+
+
+                    
+
+
+                </div>
+            </header>
+            
+                
+    
+        
+            
+        
+    
+    <details class="toc" open>
+        <summary><b>目录</b></summary>
+        <nav id="TableOfContents">
+  <ol>
+    <li><a href="#一-版本迭代命名规范-versioning-rules">一、 版本迭代命名规范 (Versioning Rules)</a></li>
+    <li><a href="#二-博客建设指导规则-construction-guidelines">二、 博客建设指导规则 (Construction Guidelines)</a></li>
+  </ol>
+</nav>
+    </details>
+            
+            <div class="page-content">
+                <blockquote>
+<p>文档建设日志：</p>
+<ul>
+<li>2025-08-04 新建文档，根据Gemini指导内容</li>
+</ul></blockquote>
+<p>（建设中）</p>
+<h2 id="一-版本迭代命名规范-versioning-rules">一、 版本迭代命名规范 (Versioning Rules)</h2>
+<p>本规范旨在为博客的更新迭代建立一套清晰、可预测的版本管理体系。所有更新日志均须遵循此规则。</p>
+<p><strong>核心结构:</strong> <code>主版本号</code> + <code>更新类型标签</code> + <code>简短描述</code></p>
+<p><strong>示例:</strong> <code>v3 ✨ Feature: 新增文章内容检索功能</code></p>
+<hr>
+<p><strong>1.1 主版本号 (Major Version - <code>vX</code>)</strong></p>
+<p>主版本号代表博客的重大里程碑。它的变更意味着底层架构、核心设计或整体方向发生了根本性变化。</p>
+<ul>
+<li><strong>升级时机 (When to Upgrade):</strong>
+<ul>
+<li><strong>技术栈迁移:</strong> 例如，从 <code>GitHub Pages</code> 迁移至 <code>Cloudflare Pages</code> (即 <code>v4</code> 的核心任务)。</li>
+<li><strong>主题或框架重构:</strong> 例如，从 Hugo 的某个主题彻底更换为另一个，或自己从零开始重写主题。</li>
+<li><strong>内容方向大改:</strong> 例如，博客从个人生活记录彻底转型为专业技术分享。</li>
+</ul>
+</li>
+<li><strong>当前版本:</strong> <code>v3</code></li>
+</ul>
+<hr>
+<p><strong>1.2 更新类型标签 (Update Type Tag)</strong></p>
+<p>每个标签都配有专属的图标和颜色，用于在更新日志中快速识别更新的性质。</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">图标</th>
+          <th style="text-align: left">英文标签</th>
+          <th style="text-align: left">中文含义</th>
+          <th style="text-align: left">适用场景</th>
+          <th style="text-align: left">示例</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left">✨</td>
+          <td style="text-align: left"><strong>Feature</strong></td>
+          <td style="text-align: left"><strong>新功能</strong></td>
+          <td style="text-align: left">增加用户可感知的新模块或新能力。</td>
+          <td style="text-align: left"><code>新增文章内容检索</code>、<code>增加评论系统</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">🎨</td>
+          <td style="text-align: left"><strong>Style</strong></td>
+          <td style="text-align: left"><strong>样式</strong></td>
+          <td style="text-align: left">不影响功能的视觉调整，如颜色、字体、布局。</td>
+          <td style="text-align: left"><code>优化暗色模式配色</code>、<code>调整分割线样式</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">🐛</td>
+          <td style="text-align: left"><strong>Fix</strong></td>
+          <td style="text-align: left"><strong>问题修复</strong></td>
+          <td style="text-align: left">修正已知的 Bug 或错误。</td>
+          <td style="text-align: left"><code>修复小屏幕目录显示错位</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">📝</td>
+          <td style="text-align: left"><strong>Docs</strong></td>
+          <td style="text-align: left"><strong>文档</strong></td>
+          <td style="text-align: left">撰写或更新说明性文档，如本手册。</td>
+          <td style="text-align: left"><code>创建博客维护手册</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">🚀</td>
+          <td style="text-align: left"><strong>Perf</strong></td>
+          <td style="text-align: left"><strong>性能优化</strong></td>
+          <td style="text-align: left">提升网站加载速度或运行效率。</td>
+          <td style="text-align: left"><code>优化图片加载速度</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">♻️</td>
+          <td style="text-align: left"><strong>Refactor</strong></td>
+          <td style="text-align: left"><strong>代码重构</strong></td>
+          <td style="text-align: left">未增加新功能或修复问题的代码结构调整。</td>
+          <td style="text-align: left"><code>重构短代码逻辑</code></td>
+      </tr>
+      <tr>
+          <td style="text-align: left">🧹</td>
+          <td style="text-align: left"><strong>Chore</strong></td>
+          <td style="text-align: left"><strong>杂务</strong></td>
+          <td style="text-align: left">构建过程、工具链或依赖项的更新。</td>
+          <td style="text-align: left"><code>升级 Hugo 版本</code>、<code>清理无用文件</code></td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<h2 id="二-博客建设指导规则-construction-guidelines">二、 博客建设指导规则 (Construction Guidelines)</h2>
+<p>这些规则旨在确保博客内容和功能开发的质量与一致性。</p>
+<p><strong>2.1 开发流程 (Development Workflow)</strong></p>
+<ol>
+<li><strong>规划 (Plan):</strong>
+<ul>
+<li>任何非紧急的修复或调整，都应先在 <strong>“迭代蓝图”</strong> (即你的待办清单) 中进行记录和规划。</li>
+<li>明确每次迭代的核心目标 (例如，<code>v3</code> 期间完成搜索功能)。</li>
+</ul>
+</li>
+<li><strong>执行 (Execute):</strong>
+<ul>
+<li>遵循上文的 <strong>版本迭代命名规范</strong> 来记录每一次变更。</li>
+<li>在本地进行充分测试，确保新功能或修复在不同设备 (PC/移动端) 和模式 (亮色/暗色) 下均表现正常。</li>
+</ul>
+</li>
+<li><strong>发布 (Deploy):</strong>
+<ul>
+<li>完成测试后，将代码推送到主分支并部署上线。</li>
+<li>在博客的 <strong>“更新日志”</strong> 页面发布对应的版本更新说明。</li>
+</ul>
+</li>
+</ol>
+
+            </div>
+        </article>
+        
+                    
+        <footer class="post-footer" style="margin-top: 3em; text-align: center; color: #555; font-size: 0.9em; line-height: 1.6;">
+<div style="text-align: center; font-weight: bold;">
+    <hr style="margin: 12px auto; border-color: #000000; width: 50%;" />
+</div>                                    
+<div class="post-footer-title" style="color: #888;">
+    标题：博客维护手册
+</div>                
+    <div class="post-footer-lastmod" style="color: #888;">
+    
+                        </div>
+                        <div class="post-footer-categories" style="color: #888;">
+                    分类：
+
+</div>
+
+                <div class="post-footer-tags" style="color: #888;">
+                    标签：
+
+
+                </div>
+                
+            
+<div style="text-align: center; font-weight: bold;">
+    <hr style="margin: 12px auto; border-color: #000000; width: 50%;" />
+</div>
+                                    <div class="post-license" style="font-size: 0.8rem; margin-bottom: 0.5em;">
+                    采用 
+                    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer" style="color: $text-link-blue; text-decoration: none;">
+                        CC BY-NC-SA 4.0
+                    </a>
+                    授权
+                </div>
+            
+        </footer>
+                    
+
+<div style="text-align: center; font-weight: bold;">
+    <hr style="margin: 24px auto; border-color: #000000; width: 50%;" />
+</div>    
+        
+    </main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+<a href="https://github.com/optimus12138/optimus12138.github.io" target="_blank" rel="noopener noreferrer me"
+    title="Github">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+</a>
+<a href="/index.xml" target="_blank" rel="noopener noreferrer me"
+    title="RSS Feed">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 11a9 9 0 0 1 9 9" />
+    <path d="M4 4a16 16 0 0 1 16 16" />
+    <circle cx="5" cy="19" r="1" />
+</svg>
+</a>
+</div>
+    <small class="footer_copyright">
+        © 2025 金色河流.
+        Powered by <a href="https://github.com/hugo-sid/hugo-blog-awesome" target="_blank" rel="noopener">Hugo blog awesome</a>.
+    </small>
+</footer><a href="#" title="回到顶部" id="totop">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" stroke="currentColor" viewBox="0 96 960 960">
+    <path d="M283 704.739 234.261 656 480 410.261 725.739 656 677 704.739l-197-197-197 197Z"/>
+</svg>
+
+</a>
+
+
+    
+
+
+
+
+    
+    
+        
+    
+
+    
+    
+        
+    
+
+
+
+    
+    <script src="https://goldenriver.site/js/main.min.35f435a5d8eac613c52daa28d8af544a4512337d3e95236e4a4978417b8dcb2f.js" integrity="sha256-NfQ1pdjqxhPFLaoo2K9USkUSM30&#43;lSNuSkl4QXuNyy8="></script>
+
+    
+
+</body>
+</html>

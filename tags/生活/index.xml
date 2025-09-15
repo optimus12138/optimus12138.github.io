@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>生活 on 金色河流</title>
-    <link>https://goldenriver.site/tags/%E7%94%9F%E6%B4%BB/</link>
+    <link>http://localhost:1313/tags/%E7%94%9F%E6%B4%BB/</link>
     <description>Recent content in 生活 on 金色河流</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 31 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://goldenriver.site/tags/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>2025 Week 32~35</title>
-      <link>https://goldenriver.site/posts/2025-week-32-35/</link>
+      <link>http://localhost:1313/posts/2025-week-32-35/</link>
       <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://goldenriver.site/posts/2025-week-32-35/</guid>
+      <guid>http://localhost:1313/posts/2025-week-32-35/</guid>
       
       <description>&lt;blockquote&gt;
 &lt;p&gt;周记 | 2025年第32~35周（08-04~08-31）的见闻、体验与思考&lt;/p&gt;&lt;/blockquote&gt;
@@ -34,6 +34,67 @@
 &lt;p&gt;月内为中国电影票房贡献了2张电影票：《浪浪山的小妖怪》、《捕风捉影》。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://s1mon-files.oss-cn-shenzhen.aliyuncs.com/img/202509022242528.webp&#34; alt=&#34;《浪浪山的小妖怪》&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://s1mon-files.oss-cn-shenzhen.aliyuncs.com/img/202509022242529.webp&#34; alt=&#34;《捕风捉影》&#34;&gt;&lt;/p&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>2025 Week 36~37</title>
+      <link>http://localhost:1313/posts/2025-week-32-35/</link>
+      <pubDate>Sun, 31 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2025-week-32-35/</guid>
+      
+      <description>&lt;blockquote&gt;
+&lt;p&gt;周记 | 2025年第32~35周（08-04~08-31）的见闻、体验与思考&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;单向度的人&#34;&gt;单向度的人&lt;/h2&gt;
+&lt;p&gt;和友人Z聊了友谊与社会压力。&lt;/p&gt;
+&lt;p&gt;他一开始有点丧，提起他的朋友只能陪一程，这让他很不好受 。我们聊到这个，都觉得年少时的友谊确实更纯粹些，不像现在，我常常听其他朋友说，如今身边的人多少都有利益往来 。&lt;/p&gt;
+&lt;p&gt;后来Z又说，他身边的朋友都开始把赚钱当作人生的唯一目标，并劝说他，只有钱才能解决问题、带来快乐 。他好像很抗拒这个说法。听他讲的时候，我脑子里冒出来一个想法，就跟他说，感觉人长大的过程其实不是“自我成长”，而是“自我改造”。我们似乎都在被一只无形的手推着，去妥协，去磨平棱角，去让心变得坚硬。大家越来越像了。整个社会都朝着一个方向奔跑，那些不一样的、多元的可能性似乎就消失了。&lt;/p&gt;
+&lt;p&gt;聊到这，我想起书单里的一本书，马尔库塞的《单向度的人》。我向Z描述了书里的概念：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;发达工业社会是如何成功地压制了人们内心中的否定性、批判性、超越性的向度，使这个社会成为单向度的社会，而生活于其中的人成了单向度的人，这种人丧失了自由和创造力，不再想像或追求与现实生活不同的另一种生活。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;对话的结尾，我们没有陷在沮丧里。我们定下一个约定：年前，一起去读这本《单向度的人》 。我们想看看，那个被称为“全世界左派青年精神教父”的马尔库塞，究竟给了怎样的答案 。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/2025-week-32-35/image.png&#34; alt=&#34;共读的约定&#34;&gt;&lt;/p&gt;
+&lt;p&gt;共读的约定&lt;/p&gt;
+&lt;h2 id=&#34;自学围棋之路1&#34;&gt;自学围棋之路（1）&lt;/h2&gt;
+&lt;p&gt;七月开始自学围棋，跟着《聂卫平围棋教程》这套书，一天看一点，陆陆续续学完了基本的吃子、对杀、死活的棋形和技巧。再往下学，看开局定式、更加复杂的中盘对杀，总是不得要领，难以理解，无法推进。
+我怀疑我的教材不够好，书籍讲解太过死板，内容安排学习曲线太陡峭，于是我开始搜视频教程，看看能不能找到有助于当前学习的教程。浏览了许久发现，网上的东西，要么还是周旋在吃子技巧这些入门的知识，太基础，要么是直接摆谱讲斩大龙，太难。这些内容，相较于书籍，碎片化严重，更加不成系统，更加难以辅助自学。
+我的围棋自学之路进入迷茫期，无人指点，自己也找不到和当前能力匹配的教学材料，因此停滞了很久。
+九月的某一天，刷到一个视频，&lt;a href=&#34;https://www.bilibili.com/video/BV1s64y1J7dm/?spm_id_from=333.1387.list.card_archive.click&amp;amp;vd_source=5d9037ea8c87a099735bcb1857463472&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  《围棋常用对杀技巧习题集》讲解
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+，对杀技巧我是学过的，无非就是那些，秉持着复习的心态，我看了前几个题目。看完大吃一惊，发现里面的习题，虽然涉及到的知识基础，但解题思路一点都不基础，很多都在填补我对围棋理解的空缺。我对这个长达五个小时的讲解视频如获至宝。&lt;/p&gt;
+&lt;p&gt;回想起《聂卫平围棋教程》这套书的学习，我对我此前的学习方法感到惭愧，也许并不是书的学习曲线陡峭，而是我攀爬的速度太快，自身的基础不牢，对于前面的知识并没有真正掌握，没有积累足够的练习，所有才会觉得后面的内容难以理解。&lt;/p&gt;
+&lt;p&gt;我陷入了自学者容易陷入的陷阱，没有老师领导，尽管自己摸索到方向，但总是急于求成，并不注意锤炼自身，渴望新的剑法新的招式，最后三分钟热度，热情熄灭。&lt;/p&gt;
+&lt;p&gt;回想起从小到大在学校里的学习，那么多习题练习，那么多随堂测验，它们繁琐又讨厌，但却是辅助我一步一步前进的基石。围棋棋理复杂，更需要一步一个脚印的锤炼，才能攀登这座迷人的高峰。这道理虽然简单，但总是容易忽略，很庆幸我现在意识到了这一点。&lt;/p&gt;
+&lt;h2 id=&#34;碎片&#34;&gt;碎片&lt;/h2&gt;
+&lt;h3 id=&#34;丽江行&#34;&gt;丽江行&lt;/h3&gt;
+&lt;p&gt;9月上旬和友人H去丽江旅行，为期近一周，这趟行程丰富又治愈。之后想写篇专题游记，先在此流水账地简单回顾一下这趟旅行。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;9月5日，下午深圳机场出发，晚上10点到达丽江，逛了古城夜市。&lt;/li&gt;
+&lt;li&gt;9月6日，丽江古城内闲逛，天下起了雨，下午在咖啡厅喝咖啡，坐着发呆一下午，非常闲适。&lt;/li&gt;
+&lt;li&gt;9月7日，前往市外的玉龙雪山景区，雾气弥漫，在牦牛坪啥也看不到，气氛阴森孤寂。下山后被山下里的蓝月谷治愈，蓝色湖泊旁守着一头白色牦牛。下午在云杉坪度过，远处的雪山，雪山下青绿的草原，草原上低头吃草的羊群，景色犹如在北欧。&lt;/li&gt;
+&lt;li&gt;9月7日晚，吃着烧烤，听到店外的驻唱歌手唱起了陈升的歌，《我不再让你孤单》，十分感动。在直播间打赏了十元，瞬间成为榜一大哥，离开时放下大话会常来看直播。回去又开始纠结，之后该如何面对他呢？心情复杂地入睡。&lt;/li&gt;
+&lt;li&gt;9月8日，前往香格里拉，游览了独客宗古城，大失所望，到了号称“小布达拉宫”的松赞林寺，看到到处是追求出片的游客，开始怀疑旅行的意义。下午前往纳帕海，车开到一半，路被雨水阻断无法前行，脚步再次放慢，看着路边被雨水灌满的草甸，草甸上的临时湖泊和湖中的经幡，仅仅观赏这些就足够惬意。&lt;/li&gt;
+&lt;li&gt;9月9日，在束河古镇看到了一个摆摊诗人，叫卖着自己的诗，我们买了2本作为支持。在白沙古镇逛着兴趣寥寥。晚上回到丽江古城，在酒馆给H过了生日。我们待到凌晨12点，听到酒馆歌手唱完最后一首歌说道，“希望明年还能在这里看到大家”，陌生人与陌生人的一期一会，这是真诚又美好的寄语。&lt;/li&gt;
+&lt;li&gt;9月10日，回程。飞机上翻看这个诗人的诗，看到后记《卖诗记》中有这么一句发问：为何现在写诗的人越来越多，读诗的人越来越少？&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;新头像&#34;&gt;新头像&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;微信换了新头像，是《恶搞之家》里饺子穿着西装的图片，老妈注意到了，发来微信称赞帅气，我也不知道如何回复…&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/posts/2025-week-32-35/image%201.png&#34; alt=&#34;image.png&#34;&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;没有什么是突然发生的&#34;&gt;没有什么是突然发生的&lt;/h3&gt;
+&lt;p&gt;不知是在哪看到这句话，但看到后十分震撼，之后就念念不忘：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;没有什么事是突然发生的，只是你突然知道而已。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;这是一个视角转换的启迪，作为世界观的一个新的碎片。&lt;/p&gt;
 </description>
       
     </item>

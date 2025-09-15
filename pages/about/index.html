@@ -47,7 +47,7 @@
     
 
     <link rel="canonical" href="https://goldenriver.site/pages/about/">
-    <link href="/style.min.52dcfaa36a19917af3c763bda46608b5a164d13485c00d6f43a455473b27d0dc.css" rel="stylesheet">
+    <link href="/style.min.c9ecd7e320ba4c969394c5a283d309265e76ff6d6238e37ce8537cf902f3573d.css" rel="stylesheet">
     <link href="/code-highlight.min.3f71deab3c816f86050cbbeb8a311b9b8001fe1299c2d4ed17f7b34797161ac4.css" rel="stylesheet">
 
     
@@ -180,9 +180,7 @@ stroke-linejoin="round" class="feather feather-home">
     </details>
             
             <div class="page-content">
-                <p>测试：</p>
-<div class="custom-divider">
-<div class="line"></div>
+                <div class="line"></div>
 <div class="icon"><i class="fas fa-tv"></i></div> <div class="line"></div>
 </div>
 <h2 id="关于我">关于我</h2>
@@ -210,10 +208,10 @@ stroke-linejoin="round" class="feather feather-home">
   
 </a>
 ）；</li>
-<li>🏊‍♂️ <strong>爱好游泳、喜欢跑步但体脂永远减不下来的小胖子</strong>（参考：<a href="/tags/%e8%bf%90%e5%8a%a8%e7%9b%b8%e5%85%b3/"
+<li>🏊‍♂️ <strong>爱好游泳、喜欢跑步并永远在减脂的普通人</strong>（参考：<a href="/tags/%e8%bf%90%e5%8a%a8%e7%9b%b8%e5%85%b3/"
    
    >
-  Tags-运动相关
+  Tags - 运动相关
   
 </a>
 ）。</li>
@@ -222,20 +220,180 @@ stroke-linejoin="round" class="feather feather-home">
 <h2 id="关于本站">关于本站</h2>
 <!-- **关于本站:** -->
 <ul>
-<li>🏰 <strong>我的互联网自留地；</strong></li>
-<li>📝 <strong>记录生活，记录思考，记录困惑，记录成长；</strong></li>
-<li>🏃 <strong>在内容创作这件事上，「持续性」大于一切。</strong></li>
-</ul>
-<p>（参考文章：<a href="/posts//blog-anniversary-15-questions"
+<li>🏰 <strong>我的互联网自留地</strong> （参考文章：<a href="/posts//blog-anniversary-15-questions"
    
    >
   博客建站一周年：独立博客自省问卷15题
   
 </a>
-)</p>
+)</li>
+<li>📝 <strong>记录生活，记录思考，记录困惑，记录成长</strong> ；</li>
+<li>🏃 <strong>在内容创作这件事上，「持续性」大于一切</strong> （参考：<a href="/tags/%e8%b0%88%e5%86%99%e4%bd%9c/"
+   
+   >
+  Tags - 谈写作
+  
+</a>
+)。</li>
+</ul>
 <hr>
 <h2 id="博客建设日志">博客建设日志</h2>
 <p><div class="timeline__row">
+  <div class="timeline__time">
+    <div class="timeline__time-text">2025-09-11</div>
+    <div class="timeline__split-line"></div>
+  </div>
+  <div class="timeline__content">
+    <div class="timeline__header">
+          <span class="timeline__tag">v3</span>
+        <span class="timeline__type-tag">🎨 Style</span>
+
+      <div class="timeline__title-wrapper">
+        <div class="timeline__title">建设留言页面，新增友链</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: "";
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme="dark"] .timeline__time,
+[data-scheme="dark"] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme="dark"] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme="dark"] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+</style>
+
+<div class="timeline__row">
   <div class="timeline__time">
     <div class="timeline__time-text">2025-08-09</div>
     <div class="timeline__split-line"></div>

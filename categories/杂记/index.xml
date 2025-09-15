@@ -3103,19 +3103,18 @@
 
 &lt;h3 id=&#34;聊天气泡&#34;&gt;聊天气泡&lt;/h3&gt;
 
+
+
 &lt;div class=&#34;chat --other&#34;&gt;
     &lt;div class=&#34;chat__inner&#34;&gt;
-        
         &lt;div class=&#34;chat__text&#34;&gt;
-            
-这是左边的消息内容。
-
-        &lt;/div&gt;
+            这是左边的消息内容。 &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 
 
 &lt;style&gt;
+     
     .chat {
         margin: 10px;
         padding: 10px;
@@ -3211,21 +3210,19 @@
         }
     }
 &lt;/style&gt;
+
 
 
 &lt;div class=&#34;chat --self&#34;&gt;
     &lt;div class=&#34;chat__inner&#34;&gt;
-        
         &lt;div class=&#34;chat__text&#34;&gt;
-             
-这是右边的消息内容，测试长长长长长长长长长长长长长长长长长长长长长长长长度。
-
-        &lt;/div&gt;
+            这是右边的消息内容，测试长长长长长长长长长长长长长长长长长长长长长长长长度。 &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 
 
 &lt;style&gt;
+     
     .chat {
         margin: 10px;
         padding: 10px;
@@ -3321,7 +3318,6 @@
         }
     }
 &lt;/style&gt;
-
 &lt;h3 id=&#34;旅行者一号&#34;&gt;旅行者一号&lt;/h3&gt;
 &lt;p&gt;&lt;span id=&#34;voyager&#34;&gt;载入旅行者一号离地球距离信息&amp;hellip;&lt;/span&gt;&lt;/p&gt;
 &lt;script language=&#34;javascript&#34;&gt; 

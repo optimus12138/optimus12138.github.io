@@ -32,8 +32,8 @@
   <meta property="og:site_name" content="金色河流">
   <meta property="og:title" content="留言">
   <meta property="og:description" content="欢迎来到我的博客做客，请畅所欲言, 你可以：
-搭讪闲聊； 分享你的体验和想法； 表达对我的博客的意见和建议。 另外，如果你在浏览阅读我的博客时，被以下问题困扰，请务必告诉我：
-是否存在加载速度过慢或图片显示不完整问题？ 文章的排版、字体大小和颜色是否清晰易读？ 博客页面设计是否存在不美观、或不易于浏览之处？ （评论系统加载较慢，请耐心等待）">
+搭讪闲聊；
+分享你的体验和想法； 发表对我的博客的意见和建议。 另外，如果你在浏览阅读我的博客时，被以下问题困扰，请务必告诉我：">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="pages">
@@ -44,14 +44,14 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="留言">
   <meta name="twitter:description" content="欢迎来到我的博客做客，请畅所欲言, 你可以：
-搭讪闲聊； 分享你的体验和想法； 表达对我的博客的意见和建议。 另外，如果你在浏览阅读我的博客时，被以下问题困扰，请务必告诉我：
-是否存在加载速度过慢或图片显示不完整问题？ 文章的排版、字体大小和颜色是否清晰易读？ 博客页面设计是否存在不美观、或不易于浏览之处？ （评论系统加载较慢，请耐心等待）">
+搭讪闲聊；
+分享你的体验和想法； 发表对我的博客的意见和建议。 另外，如果你在浏览阅读我的博客时，被以下问题困扰，请务必告诉我：">
 
 
     
 
     <link rel="canonical" href="https://goldenriver.site/pages/guestbook/">
-    <link href="/style.min.52dcfaa36a19917af3c763bda46608b5a164d13485c00d6f43a455473b27d0dc.css" rel="stylesheet">
+    <link href="/style.min.c9ecd7e320ba4c969394c5a283d309265e76ff6d6238e37ce8537cf902f3573d.css" rel="stylesheet">
     <link href="/code-highlight.min.3f71deab3c816f86050cbbeb8a311b9b8001fe1299c2d4ed17f7b34797161ac4.css" rel="stylesheet">
 
     
@@ -167,20 +167,371 @@ stroke-linejoin="round" class="feather feather-home">
             </header>
             
             <div class="page-content">
-                <p>欢迎来到我的博客做客，请畅所欲言, 你可以：</p>
+                
+
+
+<div class="chat --other">
+    <div class="chat__inner">
+        <div class="chat__text">
+            <p>欢迎来到我的博客做客，请畅所欲言, 你可以：<br></p>
 <ol>
-<li><u>搭讪闲聊</u>；</li>
-<li>分享你的<u>体验和想法</u>；</li>
-<li>表达对我的博客的<u>意见和建议</u>。</li>
-</ol>
-<p>另外，如果你在浏览阅读我的博客时，被以下问题困扰，请务必告诉我：</p>
+<li><u>搭讪闲聊</u>；<br></li>
+<li>分享你的<u>体验和想法</u>；  <br></li>
+<li>发表对我的博客的<u>意见和建议</u>。</li>
+</ol> </div>
+    </div>
+</div>
+
+
+<style>
+     
+    .chat {
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+         
+        transition: transform 0.2s;
+         
+        max-width: 80%;
+        min-width: 15%;
+    }
+    
+    .chat:hover {
+        transform: scale(1.05);
+    }
+    
+    .chat.--self {
+        text-align: left;
+        background-color: #ecf5ff;
+        color: #000000;
+        border-radius: 15px;
+        width: fit-content;
+        margin-left: auto;
+    }
+     
+    
+    .chat.--self::before {
+        content: "";
+        position: absolute;
+        right: -18px;
+         
+        bottom: 5px;
+        transform: translateY(-50%);
+        border-width: 15px 0 0 20px;
+        border-style: solid;
+        border-color: transparent transparent transparent #ecf5ff;
+         
+    }
+     
+    
+    .chat.--other {
+        text-align: left;
+        background-color: #ffecec;
+        color: #333;
+        border-radius: 15px;
+        position: relative;
+        width: fit-content;
+    }
+     
+    
+    .chat.--other::before {
+        content: "";
+        position: absolute;
+        left: -18px;
+        bottom: 5px;
+        transform: translateY(-50%);
+        border-width: 15px 20px 0 0;
+        border-style: solid;
+        border-color: transparent #ffecec transparent transparent;
+    }
+     
+    
+    .chat__meta {
+        font-weight: bold;
+        font-size: 0.67em;
+        color: #707070;
+        margin-bottom: 5px;
+    }
+     
+    
+    .chat__text {
+        font-size: 0.9em;
+        margin-left: 10px;
+        word-break: break-all;
+    }
+    
+    [data-scheme="dark"] {
+        .chat.--self {
+            color: #fefefe;
+            background-color: #253958;
+        }
+        .chat.--self::before {
+            border-color: transparent transparent transparent #253958;
+        }
+        .chat.--other {
+            color: #fefefe;
+            background-color: #1a1a1a;
+        }
+        .chat.--other::before {
+            border-color: transparent #1a1a1a transparent transparent;
+        }
+        .chat__meta {
+            color: #b1b1b1;
+        }
+    }
+</style>
+<hr>
+
+
+
+<div class="chat --self">
+    <div class="chat__inner">
+        <div class="chat__text">
+            <p>另外，如果你在浏览阅读我的博客时，被以下问题困扰，请务必告诉我：<br></p>
 <ol>
-<li>是否存在<u>加载速度过慢</u>或<u>图片显示不完整</u>问题？</li>
-<li><u>文章的排版、字体大小和颜色</u>是否清晰易读？</li>
-<li>博客页面设计是否存在<u>不美观、或不易于浏览</u>之处？</li>
-</ol>
+<li>是否存在<u>加载速度过慢</u>或<u>图片显示不完整</u>问题？<br></li>
+<li><u>文章的排版、字体大小和颜色</u>是否清晰易读？<br></li>
+<li>博客页面设计是否存在<u>不美观、或不易于浏览</u>之处？<br></li>
+</ol> </div>
+    </div>
+</div>
+
+
+<style>
+     
+    .chat {
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+         
+        transition: transform 0.2s;
+         
+        max-width: 80%;
+        min-width: 15%;
+    }
+    
+    .chat:hover {
+        transform: scale(1.05);
+    }
+    
+    .chat.--self {
+        text-align: left;
+        background-color: #ecf5ff;
+        color: #000000;
+        border-radius: 15px;
+        width: fit-content;
+        margin-left: auto;
+    }
+     
+    
+    .chat.--self::before {
+        content: "";
+        position: absolute;
+        right: -18px;
+         
+        bottom: 5px;
+        transform: translateY(-50%);
+        border-width: 15px 0 0 20px;
+        border-style: solid;
+        border-color: transparent transparent transparent #ecf5ff;
+         
+    }
+     
+    
+    .chat.--other {
+        text-align: left;
+        background-color: #ffecec;
+        color: #333;
+        border-radius: 15px;
+        position: relative;
+        width: fit-content;
+    }
+     
+    
+    .chat.--other::before {
+        content: "";
+        position: absolute;
+        left: -18px;
+        bottom: 5px;
+        transform: translateY(-50%);
+        border-width: 15px 20px 0 0;
+        border-style: solid;
+        border-color: transparent #ffecec transparent transparent;
+    }
+     
+    
+    .chat__meta {
+        font-weight: bold;
+        font-size: 0.67em;
+        color: #707070;
+        margin-bottom: 5px;
+    }
+     
+    
+    .chat__text {
+        font-size: 0.9em;
+        margin-left: 10px;
+        word-break: break-all;
+    }
+    
+    [data-scheme="dark"] {
+        .chat.--self {
+            color: #fefefe;
+            background-color: #253958;
+        }
+        .chat.--self::before {
+            border-color: transparent transparent transparent #253958;
+        }
+        .chat.--other {
+            color: #fefefe;
+            background-color: #1a1a1a;
+        }
+        .chat.--other::before {
+            border-color: transparent #1a1a1a transparent transparent;
+        }
+        .chat__meta {
+            color: #b1b1b1;
+        }
+    }
+</style>
+<hr>
+
+
+
+<div class="chat --other">
+    <div class="chat__inner">
+        <div class="chat__text">
+            <p>最后，感谢这些网络邻居，让我在博客世界不再孤单：  <br></p>
+<ul>
+<li><a href="https://zopiya.com/"
+   
+    target="_blank" rel="noopener">
+  仲平
+  <svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+
+</a>
+<br></li>
+<li><a href="https://ramble.imzh.me/"
+   
+    target="_blank" rel="noopener">
+  jz&rsquo;s ramblings
+  <svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+
+</a>
+<br></li>
+<li><a href="https://cry4o4n0tfound.cn/"
+   
+    target="_blank" rel="noopener">
+  Cry
+  <svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+
+</a>
+<br></li>
+</ul> </div>
+    </div>
+</div>
+
+
+<style>
+     
+    .chat {
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+         
+        transition: transform 0.2s;
+         
+        max-width: 80%;
+        min-width: 15%;
+    }
+    
+    .chat:hover {
+        transform: scale(1.05);
+    }
+    
+    .chat.--self {
+        text-align: left;
+        background-color: #ecf5ff;
+        color: #000000;
+        border-radius: 15px;
+        width: fit-content;
+        margin-left: auto;
+    }
+     
+    
+    .chat.--self::before {
+        content: "";
+        position: absolute;
+        right: -18px;
+         
+        bottom: 5px;
+        transform: translateY(-50%);
+        border-width: 15px 0 0 20px;
+        border-style: solid;
+        border-color: transparent transparent transparent #ecf5ff;
+         
+    }
+     
+    
+    .chat.--other {
+        text-align: left;
+        background-color: #ffecec;
+        color: #333;
+        border-radius: 15px;
+        position: relative;
+        width: fit-content;
+    }
+     
+    
+    .chat.--other::before {
+        content: "";
+        position: absolute;
+        left: -18px;
+        bottom: 5px;
+        transform: translateY(-50%);
+        border-width: 15px 20px 0 0;
+        border-style: solid;
+        border-color: transparent #ffecec transparent transparent;
+    }
+     
+    
+    .chat__meta {
+        font-weight: bold;
+        font-size: 0.67em;
+        color: #707070;
+        margin-bottom: 5px;
+    }
+     
+    
+    .chat__text {
+        font-size: 0.9em;
+        margin-left: 10px;
+        word-break: break-all;
+    }
+    
+    [data-scheme="dark"] {
+        .chat.--self {
+            color: #fefefe;
+            background-color: #253958;
+        }
+        .chat.--self::before {
+            border-color: transparent transparent transparent #253958;
+        }
+        .chat.--other {
+            color: #fefefe;
+            background-color: #1a1a1a;
+        }
+        .chat.--other::before {
+            border-color: transparent #1a1a1a transparent transparent;
+        }
+        .chat__meta {
+            color: #b1b1b1;
+        }
+    }
+</style>
+<hr>
 <div style="text-align: right;">
-（评论系统加载较慢，请耐心等待）
+（以下评论系统加载较慢，请耐心等待）
 </div>
 
             </div>

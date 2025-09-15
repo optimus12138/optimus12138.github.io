@@ -3,11 +3,11 @@
 <meta http-equiv="content-type" content="text/html">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title itemprop="name">博客维护手册 | 金色河流</title>
-<meta property="og:title" content="博客维护手册 | 金色河流" />
-<meta name="twitter:title" content="博客维护手册 | 金色河流" />
-<meta itemprop="name" content="博客维护手册 | 金色河流" />
-<meta name="application-name" content="博客维护手册 | 金色河流" />
+<title itemprop="name">博客建设/维护手册 | 金色河流</title>
+<meta property="og:title" content="博客建设/维护手册 | 金色河流" />
+<meta name="twitter:title" content="博客建设/维护手册 | 金色河流" />
+<meta itemprop="name" content="博客建设/维护手册 | 金色河流" />
+<meta name="application-name" content="博客建设/维护手册 | 金色河流" />
 <meta property="og:site_name" content="金色河流" />
 
 <meta name="description" content="">
@@ -30,17 +30,15 @@
     
     <meta property="og:url" content="https://goldenriver.site/blog-maintenance-manual/">
   <meta property="og:site_name" content="金色河流">
-  <meta property="og:title" content="博客维护手册">
+  <meta property="og:title" content="博客建设/维护手册">
   <meta property="og:description" content="文档建设日志：
-2025-08-04 新建文档，根据Gemini指导内容 （建设中）
+2025-08-04 新建文档，根据Gemini指导内容 2025-09-12 找到一篇可参考文章我的博客设计-Spike Leung（建设中）
 一、 版本迭代命名规范 (Versioning Rules) 本规范旨在为博客的更新迭代建立一套清晰、可预测的版本管理体系。所有更新日志均须遵循此规则。
 核心结构: 主版本号 &#43; 更新类型标签 &#43; 简短描述
 示例: v3 ✨ Feature: 新增文章内容检索功能
 1.1 主版本号 (Major Version - vX)
 主版本号代表博客的重大里程碑。它的变更意味着底层架构、核心设计或整体方向发生了根本性变化。
-升级时机 (When to Upgrade): 技术栈迁移: 例如，从 GitHub Pages 迁移至 Cloudflare Pages (即 v4 的核心任务)。 主题或框架重构: 例如，从 Hugo 的某个主题彻底更换为另一个，或自己从零开始重写主题。 内容方向大改: 例如，博客从个人生活记录彻底转型为专业技术分享。 当前版本: v3 1.2 更新类型标签 (Update Type Tag)
-每个标签都配有专属的图标和颜色，用于在更新日志中快速识别更新的性质。
-图标 英文标签 中文含义 适用场景 示例 ✨ Feature 新功能 增加用户可感知的新模块或新能力。 新增文章内容检索、增加评论系统 🎨 Style 样式 不影响功能的视觉调整，如颜色、字体、布局。 优化暗色模式配色、调整分割线样式 🐛 Fix 问题修复 修正已知的 Bug 或错误。 修复小屏幕目录显示错位 📝 Docs 文档 撰写或更新说明性文档，如本手册。 创建博客维护手册 🚀 Perf 性能优化 提升网站加载速度或运行效率。 优化图片加载速度 ♻️ Refactor 代码重构 未增加新功能或修复问题的代码结构调整。 重构短代码逻辑 🧹 Chore 杂务 构建过程、工具链或依赖项的更新。 升级 Hugo 版本、清理无用文件 二、 博客建设指导规则 (Construction Guidelines) 这些规则旨在确保博客内容和功能开发的质量与一致性。">
+升级时机 (When to Upgrade): 技术栈迁移: 例如，从 GitHub Pages 迁移至 Cloudflare Pages (即 v4 的核心任务)。 主题或框架重构: 例如，从 Hugo 的某个主题彻底更换为另一个，或自己从零开始重写主题。 内容方向大改: 例如，博客从个人生活记录彻底转型为专业技术分享。 当前版本: v3 1.2 更新类型标签 (Update Type Tag)">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="pages">
@@ -49,23 +47,21 @@
     
     
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="博客维护手册">
+  <meta name="twitter:title" content="博客建设/维护手册">
   <meta name="twitter:description" content="文档建设日志：
-2025-08-04 新建文档，根据Gemini指导内容 （建设中）
+2025-08-04 新建文档，根据Gemini指导内容 2025-09-12 找到一篇可参考文章我的博客设计-Spike Leung（建设中）
 一、 版本迭代命名规范 (Versioning Rules) 本规范旨在为博客的更新迭代建立一套清晰、可预测的版本管理体系。所有更新日志均须遵循此规则。
 核心结构: 主版本号 &#43; 更新类型标签 &#43; 简短描述
 示例: v3 ✨ Feature: 新增文章内容检索功能
 1.1 主版本号 (Major Version - vX)
 主版本号代表博客的重大里程碑。它的变更意味着底层架构、核心设计或整体方向发生了根本性变化。
-升级时机 (When to Upgrade): 技术栈迁移: 例如，从 GitHub Pages 迁移至 Cloudflare Pages (即 v4 的核心任务)。 主题或框架重构: 例如，从 Hugo 的某个主题彻底更换为另一个，或自己从零开始重写主题。 内容方向大改: 例如，博客从个人生活记录彻底转型为专业技术分享。 当前版本: v3 1.2 更新类型标签 (Update Type Tag)
-每个标签都配有专属的图标和颜色，用于在更新日志中快速识别更新的性质。
-图标 英文标签 中文含义 适用场景 示例 ✨ Feature 新功能 增加用户可感知的新模块或新能力。 新增文章内容检索、增加评论系统 🎨 Style 样式 不影响功能的视觉调整，如颜色、字体、布局。 优化暗色模式配色、调整分割线样式 🐛 Fix 问题修复 修正已知的 Bug 或错误。 修复小屏幕目录显示错位 📝 Docs 文档 撰写或更新说明性文档，如本手册。 创建博客维护手册 🚀 Perf 性能优化 提升网站加载速度或运行效率。 优化图片加载速度 ♻️ Refactor 代码重构 未增加新功能或修复问题的代码结构调整。 重构短代码逻辑 🧹 Chore 杂务 构建过程、工具链或依赖项的更新。 升级 Hugo 版本、清理无用文件 二、 博客建设指导规则 (Construction Guidelines) 这些规则旨在确保博客内容和功能开发的质量与一致性。">
+升级时机 (When to Upgrade): 技术栈迁移: 例如，从 GitHub Pages 迁移至 Cloudflare Pages (即 v4 的核心任务)。 主题或框架重构: 例如，从 Hugo 的某个主题彻底更换为另一个，或自己从零开始重写主题。 内容方向大改: 例如，博客从个人生活记录彻底转型为专业技术分享。 当前版本: v3 1.2 更新类型标签 (Update Type Tag)">
 
 
     
 
     <link rel="canonical" href="https://goldenriver.site/blog-maintenance-manual/">
-    <link href="/style.min.52dcfaa36a19917af3c763bda46608b5a164d13485c00d6f43a455473b27d0dc.css" rel="stylesheet">
+    <link href="/style.min.c9ecd7e320ba4c969394c5a283d309265e76ff6d6238e37ce8537cf902f3573d.css" rel="stylesheet">
     <link href="/code-highlight.min.3f71deab3c816f86050cbbeb8a311b9b8001fe1299c2d4ed17f7b34797161ac4.css" rel="stylesheet">
 
     
@@ -166,7 +162,7 @@ stroke-linejoin="round" class="feather feather-home">
         <article>
             <header class="header">
                 <meta name="robots" content="noindex, nofollow" />
-                <h1 class="header-title">博客维护手册</h1>
+                <h1 class="header-title">博客建设/维护手册</h1>
                 <div class="post-meta">
                     
 
@@ -201,6 +197,14 @@ stroke-linejoin="round" class="feather feather-home">
 <p>文档建设日志：</p>
 <ul>
 <li>2025-08-04 新建文档，根据Gemini指导内容</li>
+<li>2025-09-12 找到一篇可参考文章<a href="https://taxodium.ink/my-blog-design.html"
+   
+    target="_blank" rel="noopener">
+  我的博客设计-Spike Leung
+  <svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+
+</a>
+</li>
 </ul></blockquote>
 <p>（建设中）</p>
 <h2 id="一-版本迭代命名规范-versioning-rules">一、 版本迭代命名规范 (Versioning Rules)</h2>
@@ -319,7 +323,7 @@ stroke-linejoin="round" class="feather feather-home">
     <hr style="margin: 12px auto; border-color: #000000; width: 50%;" />
 </div>                                    
 <div class="post-footer-title" style="color: #888;">
-    标题：博客维护手册
+    标题：博客建设/维护手册
 </div>                
     <div class="post-footer-lastmod" style="color: #888;">
     

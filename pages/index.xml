@@ -138,7 +138,7 @@
     </item>
     
     <item>
-      <title>博客写作规范</title>
+      <title>博客写作规范(建设中)</title>
       <link>https://goldenriver.site/blog-writing-guidelines/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -148,8 +148,110 @@
 &lt;p&gt;文档建设日志：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;2025-08-04 新建文档&lt;/li&gt;
+&lt;li&gt;2025-10-11 增添（一）一些待解决的问题（二）我的写作原则（三）格式与排版检查清单（四）我的选题库部分。搭建建设框架。&lt;/li&gt;
 &lt;/ul&gt;&lt;/blockquote&gt;
-&lt;p&gt;(建设中)&lt;/p&gt;
+&lt;p&gt;建设索引：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;部分&lt;/th&gt;
+          &lt;th&gt;作用&lt;/th&gt;
+          &lt;th&gt;建设进度&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;（一）一些待解决的问题&lt;/td&gt;
+          &lt;td&gt;用以存放待解决的问题&lt;/td&gt;
+          &lt;td&gt;随时添加&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;（二）我的写作原则&lt;/td&gt;
+          &lt;td&gt;用以写作时检查&lt;/td&gt;
+          &lt;td&gt;随时添加内容，待整理&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;（三）格式与排版检查清单&lt;/td&gt;
+          &lt;td&gt;用以写作后检查&lt;/td&gt;
+          &lt;td&gt;待系统性补充整理&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;（四）我的选题库&lt;/td&gt;
+          &lt;td&gt;感兴趣的主题&lt;/td&gt;
+          &lt;td&gt;随时挖坑，谨慎填坑&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;一一些待解决的问题&#34;&gt;（一）一些待解决的问题&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;如何引经据典不会显得掉书袋？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;二我的写作原则&#34;&gt;（二）我的写作原则&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;超链接放文末/段末，避免打断阅读。&lt;code&gt;2025-06&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;如果有AI辅助写作，必须标注。&lt;code&gt;2025-06&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;在内容创作这件事上，「持续性」大于一切。&lt;code&gt;2024&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;图片一定要加caption——检视阅读时，最容易看到的就是图片，加caption能够方便理解图片内容和文章的联系。&lt;code&gt;2025-05&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;注意调整图片比例，避免图片太大，喧宾夺主。&lt;code&gt;2025-05&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;忌复制粘贴——做到有效引用、概括转述。&lt;code&gt;2025-07&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;内容长度500~2000字，内容长度不要过长（太长不看）；不要过短（点一篇博文也需要精力成本，如果只是看到寥寥几个字，我会觉得浪费时间）。&lt;code&gt;2025-05&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;读书笔记写心得而非知识点总结。 &lt;code&gt;2025-10&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;引用，如果这个人对于内容来说是重要的，最好给出他的名称；如果不重要，只需要虚指即可。&lt;code&gt;2025-10-11&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;重要的/有意义的/有意思的想法要随手记下来。&lt;code&gt;2025-10&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;保持阅读的习惯。 &lt;code&gt;2025-06&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;做阅读笔记的一种参考： &lt;a href=&#34;https://www.huxiu.com/article/3728800.html&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  https://www.huxiu.com/article/3728800.html
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+  &lt;code&gt;2025-03&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;写作方法：描述熟悉的抽象概念时，还原其具体的场景，使之显得生动。&lt;br&gt;
+例：人类可能会在大约50年内变得无线电静默。我们已经过了无线电波的使用高峰，而是越来越多地使用窄波通信和光纤电缆，不再向天空发射电视和无线电信号。&amp;ndash; 卫报 &lt;code&gt;2025-05&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;三格式与排版检查清单&#34;&gt;（三）格式与排版检查清单&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;标点与空格&lt;/li&gt;
+&lt;li&gt;中文使用全角标点（，。！？）英文用半角（, . ! ?）&lt;/li&gt;
+&lt;li&gt;数字与单位间留空格（如200 MB而非200MB）&lt;/li&gt;
+&lt;li&gt;图文间距统一（上下各空1行）&lt;/li&gt;
+&lt;li&gt;多图并列时宽度一致（用CSS Grid布局）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;最后的人工核验方法&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&amp;ldquo;三秒原则&amp;rdquo;：快速滑动页面时能否识别信息结构&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;盲测法&amp;rdquo;：遮盖文字只看排版，判断视觉重心是否匹配内容优先级&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;四我的选题库&#34;&gt;（四）我的选题库&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;为什么狗是宠物猪是食物？  &lt;code&gt;2025&lt;/code&gt;&lt;br&gt;
+&lt;a href=&#34;https://book.douban.com/subject/34431982/&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  https://book.douban.com/subject/34431982/
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;《笔记的方法》读书笔记总结  &lt;code&gt;2025&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;你是如何完成社会化的？  &lt;code&gt;2025&lt;/code&gt;&lt;br&gt;
+&lt;a href=&#34;https://v.flomoapp.com/mine/?memo_id=MTY4MDMwMjY5&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  https://v.flomoapp.com/mine/?memo_id=MTY4MDMwMjY5
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
       
     </item>
@@ -232,7 +334,7 @@
 &lt;h2 id=&#34;博客建设日志&#34;&gt;博客建设日志&lt;/h2&gt;
 &lt;p&gt;&lt;div class=&#34;timeline__row&#34;&gt;
   &lt;div class=&#34;timeline__time&#34;&gt;
-    &lt;div class=&#34;timeline__time-text&#34;&gt;2025-09-11&lt;/div&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;2025-10-11&lt;/div&gt;
     &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;timeline__content&#34;&gt;
@@ -241,8 +343,164 @@
         &lt;span class=&#34;timeline__type-tag&#34;&gt;🎨 Style&lt;/span&gt;
 
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
-        &lt;div class=&#34;timeline__title&#34;&gt;优化RSS跳转逻辑&lt;/div&gt;
-      &lt;/div&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;
+            &lt;a href=&#34;https://goldenriver.site/posts/blog-setup-log/#2025-10-11-%e4%bc%98%e5%8c%96%e9%a6%96%e9%a1%b5%e6%96%87%e7%ab%a0%e6%9d%a1%e7%9b%ae%e6%8e%92%e7%89%88&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;优化首页文章条目排版&lt;/a&gt;
+          &lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;2025-09-21&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;v3&lt;/span&gt;
+        &lt;span class=&#34;timeline__type-tag&#34;&gt;🎨 Style&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;优化RSS跳转逻辑&lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -396,8 +654,8 @@
         &lt;span class=&#34;timeline__type-tag&#34;&gt;🎨 Style&lt;/span&gt;
 
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
-        &lt;div class=&#34;timeline__title&#34;&gt;建设留言页面，新增友链&lt;/div&gt;
-      &lt;/div&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;建设留言页面，新增友链&lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -551,8 +809,8 @@
         &lt;span class=&#34;timeline__type-tag&#34;&gt;🎨 Style&lt;/span&gt;
 
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
-        &lt;div class=&#34;timeline__title&#34;&gt;优化文章条目在手机端的显示效果，优化首页bio信息&lt;/div&gt;
-      &lt;/div&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;优化文章条目在手机端的显示效果，优化首页bio信息&lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -706,8 +964,8 @@
         &lt;span class=&#34;timeline__type-tag&#34;&gt;🐛 Fix&lt;/span&gt;
 
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
-        &lt;div class=&#34;timeline__title&#34;&gt;修复bio字数统计问题，手动设置lastmod&lt;/div&gt;
-      &lt;/div&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;修复bio字数统计问题，手动设置lastmod&lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -861,8 +1119,8 @@
         &lt;span class=&#34;timeline__type-tag&#34;&gt;✨ Feature&lt;/span&gt;
 
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
-        &lt;div class=&#34;timeline__title&#34;&gt;新增搜索功能(归档页)&lt;/div&gt;
-      &lt;/div&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;新增搜索功能(归档页)&lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1016,8 +1274,8 @@
         &lt;span class=&#34;timeline__type-tag&#34;&gt;🔧 Chore&lt;/span&gt;
 
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
-        &lt;div class=&#34;timeline__title&#34;&gt;域名到期，续费一年&lt;/div&gt;
-      &lt;/div&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;域名到期，续费一年&lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1171,8 +1429,8 @@
         &lt;span class=&#34;timeline__type-tag&#34;&gt;⚙️ Config&lt;/span&gt;
 
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
-        &lt;div class=&#34;timeline__title&#34;&gt;重新配置页面，禁止搜索引擎检索&lt;/div&gt;
-      &lt;/div&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;重新配置页面，禁止搜索引擎检索&lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
@@ -1326,8 +1584,8 @@
         &lt;span class=&#34;timeline__type-tag&#34;&gt;🔨 Refactor&lt;/span&gt;
 
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
-        &lt;div class=&#34;timeline__title&#34;&gt;博客更换成awesome主题&lt;/div&gt;
-      &lt;/div&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;博客更换成awesome主题&lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
       &lt;div class=&#34;timeline__description&#34;&gt;Hugo &amp;#43; Github Pages，使用awesome主题&lt;/div&gt;
   &lt;/div&gt;
@@ -1482,8 +1740,8 @@
         &lt;span class=&#34;timeline__type-tag&#34;&gt;🔨 Refactor&lt;/span&gt;
 
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
-        &lt;div class=&#34;timeline__title&#34;&gt;将博客迁移至Hugo，使用Stack主题&lt;/div&gt;
-      &lt;/div&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;将博客迁移至Hugo，使用Stack主题&lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
       &lt;div class=&#34;timeline__description&#34;&gt;Hugo &amp;#43; Github Pages，使用Stack主题&lt;/div&gt;
   &lt;/div&gt;
@@ -1638,8 +1896,8 @@
         &lt;span class=&#34;timeline__type-tag&#34;&gt;🎉 Init&lt;/span&gt;
 
       &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
-        &lt;div class=&#34;timeline__title&#34;&gt;使用NotionNext建站&lt;/div&gt;
-      &lt;/div&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;使用NotionNext建站&lt;/div&gt;&lt;/div&gt;
     &lt;/div&gt;
       &lt;div class=&#34;timeline__description&#34;&gt;NotionNext &amp;#43; Vercel，使用Nobelium主题&lt;/div&gt;
   &lt;/div&gt;
@@ -1796,6 +2054,13 @@
    
    &gt;
   博客写作规范（建设中）
+  
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://goldenriver.site/posts/blog-setup-log/&#34;
+   
+   &gt;
+  博客建设日志
   
 &lt;/a&gt;
 &lt;/li&gt;

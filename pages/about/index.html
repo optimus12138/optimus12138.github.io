@@ -47,7 +47,7 @@
     
 
     <link rel="canonical" href="https://goldenriver.site/pages/about/">
-    <link href="/style.min.5cb92ccd7ab1334d759a14975cf88de05ad6a8093d219f7b1927794a7d05dbca.css" rel="stylesheet">
+    <link href="/style.min.5555b1f93430ed1fc2141dd904a410ab67001724f7ec0df4fb7e15e5a435e7e1.css" rel="stylesheet">
     <link href="/code-highlight.min.3f71deab3c816f86050cbbeb8a311b9b8001fe1299c2d4ed17f7b34797161ac4.css" rel="stylesheet">
 
     
@@ -240,7 +240,7 @@ stroke-linejoin="round" class="feather feather-home">
 <h2 id="博客建设日志">博客建设日志</h2>
 <p><div class="timeline__row">
   <div class="timeline__time">
-    <div class="timeline__time-text">2025-09-11</div>
+    <div class="timeline__time-text">2025-10-11</div>
     <div class="timeline__split-line"></div>
   </div>
   <div class="timeline__content">
@@ -249,8 +249,164 @@ stroke-linejoin="round" class="feather feather-home">
         <span class="timeline__type-tag">🎨 Style</span>
 
       <div class="timeline__title-wrapper">
-        <div class="timeline__title">优化RSS跳转逻辑</div>
-      </div>
+        
+          <div class="timeline__title">
+            <a href="/posts/blog-setup-log/#2025-10-11-%e4%bc%98%e5%8c%96%e9%a6%96%e9%a1%b5%e6%96%87%e7%ab%a0%e6%9d%a1%e7%9b%ae%e6%8e%92%e7%89%88" target="_blank" rel="noopener noreferrer">优化首页文章条目排版</a>
+          </div></div>
+    </div>
+  </div>
+</div>
+
+<style>
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: "";
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme="dark"] .timeline__time,
+[data-scheme="dark"] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme="dark"] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme="dark"] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+</style>
+<div class="timeline__row">
+  <div class="timeline__time">
+    <div class="timeline__time-text">2025-09-21</div>
+    <div class="timeline__split-line"></div>
+  </div>
+  <div class="timeline__content">
+    <div class="timeline__header">
+          <span class="timeline__tag">v3</span>
+        <span class="timeline__type-tag">🎨 Style</span>
+
+      <div class="timeline__title-wrapper">
+        
+          <div class="timeline__title">优化RSS跳转逻辑</div></div>
     </div>
   </div>
 </div>
@@ -404,8 +560,8 @@ stroke-linejoin="round" class="feather feather-home">
         <span class="timeline__type-tag">🎨 Style</span>
 
       <div class="timeline__title-wrapper">
-        <div class="timeline__title">建设留言页面，新增友链</div>
-      </div>
+        
+          <div class="timeline__title">建设留言页面，新增友链</div></div>
     </div>
   </div>
 </div>
@@ -559,8 +715,8 @@ stroke-linejoin="round" class="feather feather-home">
         <span class="timeline__type-tag">🎨 Style</span>
 
       <div class="timeline__title-wrapper">
-        <div class="timeline__title">优化文章条目在手机端的显示效果，优化首页bio信息</div>
-      </div>
+        
+          <div class="timeline__title">优化文章条目在手机端的显示效果，优化首页bio信息</div></div>
     </div>
   </div>
 </div>
@@ -714,8 +870,8 @@ stroke-linejoin="round" class="feather feather-home">
         <span class="timeline__type-tag">🐛 Fix</span>
 
       <div class="timeline__title-wrapper">
-        <div class="timeline__title">修复bio字数统计问题，手动设置lastmod</div>
-      </div>
+        
+          <div class="timeline__title">修复bio字数统计问题，手动设置lastmod</div></div>
     </div>
   </div>
 </div>
@@ -869,8 +1025,8 @@ stroke-linejoin="round" class="feather feather-home">
         <span class="timeline__type-tag">✨ Feature</span>
 
       <div class="timeline__title-wrapper">
-        <div class="timeline__title">新增搜索功能(归档页)</div>
-      </div>
+        
+          <div class="timeline__title">新增搜索功能(归档页)</div></div>
     </div>
   </div>
 </div>
@@ -1024,8 +1180,8 @@ stroke-linejoin="round" class="feather feather-home">
         <span class="timeline__type-tag">🔧 Chore</span>
 
       <div class="timeline__title-wrapper">
-        <div class="timeline__title">域名到期，续费一年</div>
-      </div>
+        
+          <div class="timeline__title">域名到期，续费一年</div></div>
     </div>
   </div>
 </div>
@@ -1179,8 +1335,8 @@ stroke-linejoin="round" class="feather feather-home">
         <span class="timeline__type-tag">⚙️ Config</span>
 
       <div class="timeline__title-wrapper">
-        <div class="timeline__title">重新配置页面，禁止搜索引擎检索</div>
-      </div>
+        
+          <div class="timeline__title">重新配置页面，禁止搜索引擎检索</div></div>
     </div>
   </div>
 </div>
@@ -1334,8 +1490,8 @@ stroke-linejoin="round" class="feather feather-home">
         <span class="timeline__type-tag">🔨 Refactor</span>
 
       <div class="timeline__title-wrapper">
-        <div class="timeline__title">博客更换成awesome主题</div>
-      </div>
+        
+          <div class="timeline__title">博客更换成awesome主题</div></div>
     </div>
       <div class="timeline__description">Hugo &#43; Github Pages，使用awesome主题</div>
   </div>
@@ -1490,8 +1646,8 @@ stroke-linejoin="round" class="feather feather-home">
         <span class="timeline__type-tag">🔨 Refactor</span>
 
       <div class="timeline__title-wrapper">
-        <div class="timeline__title">将博客迁移至Hugo，使用Stack主题</div>
-      </div>
+        
+          <div class="timeline__title">将博客迁移至Hugo，使用Stack主题</div></div>
     </div>
       <div class="timeline__description">Hugo &#43; Github Pages，使用Stack主题</div>
   </div>
@@ -1646,8 +1802,8 @@ stroke-linejoin="round" class="feather feather-home">
         <span class="timeline__type-tag">🎉 Init</span>
 
       <div class="timeline__title-wrapper">
-        <div class="timeline__title">使用NotionNext建站</div>
-      </div>
+        
+          <div class="timeline__title">使用NotionNext建站</div></div>
     </div>
       <div class="timeline__description">NotionNext &#43; Vercel，使用Nobelium主题</div>
   </div>
@@ -1804,6 +1960,13 @@ stroke-linejoin="round" class="feather feather-home">
    
    >
   博客写作规范（建设中）
+  
+</a>
+</li>
+<li><a href="/posts/blog-setup-log/"
+   
+   >
+  博客建设日志
   
 </a>
 </li>

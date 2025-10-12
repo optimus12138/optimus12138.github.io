@@ -51,7 +51,7 @@
     
 
     <link rel="canonical" href="https://goldenriver.site/pages/guestbook/">
-    <link href="/style.min.5555b1f93430ed1fc2141dd904a410ab67001724f7ec0df4fb7e15e5a435e7e1.css" rel="stylesheet">
+    <link href="/style.min.143e3b823c384e03c09c273654b1fd888ddb9504b08ae8b7f9b4a437575cb2a0.css" rel="stylesheet">
     <link href="/code-highlight.min.3f71deab3c816f86050cbbeb8a311b9b8001fe1299c2d4ed17f7b34797161ac4.css" rel="stylesheet">
 
     
@@ -178,7 +178,8 @@ stroke-linejoin="round" class="feather feather-home">
 <li><u>搭讪闲聊</u>；<br></li>
 <li>分享你的<u>体验和想法</u>；  <br></li>
 <li>发表对我的博客的<u>意见和建议</u>。</li>
-</ol> </div>
+</ol>
+        </div>
     </div>
 </div>
 
@@ -189,95 +190,89 @@ stroke-linejoin="round" class="feather feather-home">
         margin: 10px;
         padding: 10px;
         position: relative;
-         
         transition: transform 0.2s;
-         
         max-width: 80%;
         min-width: 15%;
+        border-radius: 15px;
+        width: fit-content;
     }
-    
+
     .chat:hover {
         transform: scale(1.05);
     }
-    
-    .chat.--self {
-        text-align: left;
-        background-color: #ecf5ff;
-        color: #000000;
-        border-radius: 15px;
-        width: fit-content;
-        margin-left: auto;
-    }
-     
-    
-    .chat.--self::before {
-        content: "";
-        position: absolute;
-        right: -18px;
-         
-        bottom: 5px;
-        transform: translateY(-50%);
-        border-width: 15px 0 0 20px;
-        border-style: solid;
-        border-color: transparent transparent transparent #ecf5ff;
-         
-    }
-     
-    
-    .chat.--other {
-        text-align: left;
-        background-color: #ffecec;
-        color: #333;
-        border-radius: 15px;
-        position: relative;
-        width: fit-content;
-    }
-     
-    
-    .chat.--other::before {
-        content: "";
-        position: absolute;
-        left: -18px;
-        bottom: 5px;
-        transform: translateY(-50%);
-        border-width: 15px 20px 0 0;
-        border-style: solid;
-        border-color: transparent #ffecec transparent transparent;
-    }
-     
-    
-    .chat__meta {
-        font-weight: bold;
-        font-size: 0.67em;
-        color: #707070;
-        margin-bottom: 5px;
-    }
-     
-    
+
     .chat__text {
         font-size: 0.9em;
         margin-left: 10px;
         word-break: break-all;
     }
+
+    .chat__meta {
+        font-weight: bold;
+        font-size: 0.67em;
+        margin-bottom: 5px;
+    }
+
+     
+    .chat::before {
+        content: "";
+        position: absolute;
+        bottom: 5px;
+        transform: translateY(-50%);
+        border-style: solid;
+    }
+
+     
+    .chat.--self {
+        text-align: left;
+        background-color: #ecf5ff;
+        color: #000000;
+        margin-left: auto;
+    }
+
+    .chat.--self::before {
+        right: -18px;
+        border-width: 15px 0 0 20px;
+        border-color: transparent transparent transparent #ecf5ff;
+    }
+
+    .chat.--other {
+        text-align: left;
+        background-color: #ffecec;
+        color: #333;
+    }
+
+    .chat.--other::before {
+        left: -18px;
+        border-width: 15px 20px 0 0;
+        border-color: transparent #ffecec transparent transparent;
+    }
+
+    .chat__meta {
+        color: #707070;
+    }
+
+     
+    .dark .chat.--self {
+        color: #fefefe;
+        background-color: #253958;
+    }
     
-    [data-scheme="dark"] {
-        .chat.--self {
-            color: #fefefe;
-            background-color: #253958;
-        }
-        .chat.--self::before {
-            border-color: transparent transparent transparent #253958;
-        }
-        .chat.--other {
-            color: #fefefe;
-            background-color: #1a1a1a;
-        }
-        .chat.--other::before {
-            border-color: transparent #1a1a1a transparent transparent;
-        }
-        .chat__meta {
-            color: #b1b1b1;
-        }
+    .dark .chat.--self::before {
+        border-color: transparent transparent transparent #253958;
+    }
+
+    .dark .chat.--other {
+        color: #fefefe;
+        background-color: #402b2b;
+    }
+
+    .dark .chat.--other::before {
+        border-color: transparent #1a1a1a transparent transparent;
+    }
+
+    .dark .chat__meta {
+        color: #b1b1b1;
     }
 </style>
 <hr>
@@ -292,7 +287,8 @@ stroke-linejoin="round" class="feather feather-home">
 <li>是否存在<u>加载速度过慢</u>或<u>图片显示不完整</u>问题？<br></li>
 <li><u>文章的排版、字体大小和颜色</u>是否清晰易读？<br></li>
 <li>博客页面设计是否存在<u>不美观、或不易于浏览</u>之处？<br></li>
-</ol> </div>
+</ol>
+        </div>
     </div>
 </div>
 
@@ -303,95 +299,89 @@ stroke-linejoin="round" class="feather feather-home">
         margin: 10px;
         padding: 10px;
         position: relative;
-         
         transition: transform 0.2s;
-         
         max-width: 80%;
         min-width: 15%;
+        border-radius: 15px;
+        width: fit-content;
     }
-    
+
     .chat:hover {
         transform: scale(1.05);
     }
-    
-    .chat.--self {
-        text-align: left;
-        background-color: #ecf5ff;
-        color: #000000;
-        border-radius: 15px;
-        width: fit-content;
-        margin-left: auto;
-    }
-     
-    
-    .chat.--self::before {
-        content: "";
-        position: absolute;
-        right: -18px;
-         
-        bottom: 5px;
-        transform: translateY(-50%);
-        border-width: 15px 0 0 20px;
-        border-style: solid;
-        border-color: transparent transparent transparent #ecf5ff;
-         
-    }
-     
-    
-    .chat.--other {
-        text-align: left;
-        background-color: #ffecec;
-        color: #333;
-        border-radius: 15px;
-        position: relative;
-        width: fit-content;
-    }
-     
-    
-    .chat.--other::before {
-        content: "";
-        position: absolute;
-        left: -18px;
-        bottom: 5px;
-        transform: translateY(-50%);
-        border-width: 15px 20px 0 0;
-        border-style: solid;
-        border-color: transparent #ffecec transparent transparent;
-    }
-     
-    
-    .chat__meta {
-        font-weight: bold;
-        font-size: 0.67em;
-        color: #707070;
-        margin-bottom: 5px;
-    }
-     
-    
+
     .chat__text {
         font-size: 0.9em;
         margin-left: 10px;
         word-break: break-all;
     }
+
+    .chat__meta {
+        font-weight: bold;
+        font-size: 0.67em;
+        margin-bottom: 5px;
+    }
+
+     
+    .chat::before {
+        content: "";
+        position: absolute;
+        bottom: 5px;
+        transform: translateY(-50%);
+        border-style: solid;
+    }
+
+     
+    .chat.--self {
+        text-align: left;
+        background-color: #ecf5ff;
+        color: #000000;
+        margin-left: auto;
+    }
+
+    .chat.--self::before {
+        right: -18px;
+        border-width: 15px 0 0 20px;
+        border-color: transparent transparent transparent #ecf5ff;
+    }
+
+    .chat.--other {
+        text-align: left;
+        background-color: #ffecec;
+        color: #333;
+    }
+
+    .chat.--other::before {
+        left: -18px;
+        border-width: 15px 20px 0 0;
+        border-color: transparent #ffecec transparent transparent;
+    }
+
+    .chat__meta {
+        color: #707070;
+    }
+
+     
+    .dark .chat.--self {
+        color: #fefefe;
+        background-color: #253958;
+    }
     
-    [data-scheme="dark"] {
-        .chat.--self {
-            color: #fefefe;
-            background-color: #253958;
-        }
-        .chat.--self::before {
-            border-color: transparent transparent transparent #253958;
-        }
-        .chat.--other {
-            color: #fefefe;
-            background-color: #1a1a1a;
-        }
-        .chat.--other::before {
-            border-color: transparent #1a1a1a transparent transparent;
-        }
-        .chat__meta {
-            color: #b1b1b1;
-        }
+    .dark .chat.--self::before {
+        border-color: transparent transparent transparent #253958;
+    }
+
+    .dark .chat.--other {
+        color: #fefefe;
+        background-color: #402b2b;
+    }
+
+    .dark .chat.--other::before {
+        border-color: transparent #1a1a1a transparent transparent;
+    }
+
+    .dark .chat__meta {
+        color: #b1b1b1;
     }
 </style>
 <hr>
@@ -427,7 +417,8 @@ stroke-linejoin="round" class="feather feather-home">
 
 </a>
 <br></li>
-</ul> </div>
+</ul>
+        </div>
     </div>
 </div>
 
@@ -438,95 +429,89 @@ stroke-linejoin="round" class="feather feather-home">
         margin: 10px;
         padding: 10px;
         position: relative;
-         
         transition: transform 0.2s;
-         
         max-width: 80%;
         min-width: 15%;
+        border-radius: 15px;
+        width: fit-content;
     }
-    
+
     .chat:hover {
         transform: scale(1.05);
     }
-    
-    .chat.--self {
-        text-align: left;
-        background-color: #ecf5ff;
-        color: #000000;
-        border-radius: 15px;
-        width: fit-content;
-        margin-left: auto;
-    }
-     
-    
-    .chat.--self::before {
-        content: "";
-        position: absolute;
-        right: -18px;
-         
-        bottom: 5px;
-        transform: translateY(-50%);
-        border-width: 15px 0 0 20px;
-        border-style: solid;
-        border-color: transparent transparent transparent #ecf5ff;
-         
-    }
-     
-    
-    .chat.--other {
-        text-align: left;
-        background-color: #ffecec;
-        color: #333;
-        border-radius: 15px;
-        position: relative;
-        width: fit-content;
-    }
-     
-    
-    .chat.--other::before {
-        content: "";
-        position: absolute;
-        left: -18px;
-        bottom: 5px;
-        transform: translateY(-50%);
-        border-width: 15px 20px 0 0;
-        border-style: solid;
-        border-color: transparent #ffecec transparent transparent;
-    }
-     
-    
-    .chat__meta {
-        font-weight: bold;
-        font-size: 0.67em;
-        color: #707070;
-        margin-bottom: 5px;
-    }
-     
-    
+
     .chat__text {
         font-size: 0.9em;
         margin-left: 10px;
         word-break: break-all;
     }
+
+    .chat__meta {
+        font-weight: bold;
+        font-size: 0.67em;
+        margin-bottom: 5px;
+    }
+
+     
+    .chat::before {
+        content: "";
+        position: absolute;
+        bottom: 5px;
+        transform: translateY(-50%);
+        border-style: solid;
+    }
+
+     
+    .chat.--self {
+        text-align: left;
+        background-color: #ecf5ff;
+        color: #000000;
+        margin-left: auto;
+    }
+
+    .chat.--self::before {
+        right: -18px;
+        border-width: 15px 0 0 20px;
+        border-color: transparent transparent transparent #ecf5ff;
+    }
+
+    .chat.--other {
+        text-align: left;
+        background-color: #ffecec;
+        color: #333;
+    }
+
+    .chat.--other::before {
+        left: -18px;
+        border-width: 15px 20px 0 0;
+        border-color: transparent #ffecec transparent transparent;
+    }
+
+    .chat__meta {
+        color: #707070;
+    }
+
+     
+    .dark .chat.--self {
+        color: #fefefe;
+        background-color: #253958;
+    }
     
-    [data-scheme="dark"] {
-        .chat.--self {
-            color: #fefefe;
-            background-color: #253958;
-        }
-        .chat.--self::before {
-            border-color: transparent transparent transparent #253958;
-        }
-        .chat.--other {
-            color: #fefefe;
-            background-color: #1a1a1a;
-        }
-        .chat.--other::before {
-            border-color: transparent #1a1a1a transparent transparent;
-        }
-        .chat__meta {
-            color: #b1b1b1;
-        }
+    .dark .chat.--self::before {
+        border-color: transparent transparent transparent #253958;
+    }
+
+    .dark .chat.--other {
+        color: #fefefe;
+        background-color: #402b2b;
+    }
+
+    .dark .chat.--other::before {
+        border-color: transparent #1a1a1a transparent transparent;
+    }
+
+    .dark .chat__meta {
+        color: #b1b1b1;
     }
 </style>
 <hr>

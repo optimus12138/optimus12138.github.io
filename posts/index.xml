@@ -8855,7 +8855,8 @@ figcaption {
 &lt;div class=&#34;chat --other&#34;&gt;
     &lt;div class=&#34;chat__inner&#34;&gt;
         &lt;div class=&#34;chat__text&#34;&gt;
-            这是左边的消息内容。 &lt;/div&gt;
+            这是左边的消息内容。
+        &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 
@@ -8866,95 +8867,89 @@ figcaption {
         margin: 10px;
         padding: 10px;
         position: relative;
-         
         transition: transform 0.2s;
-         
         max-width: 80%;
         min-width: 15%;
+        border-radius: 15px;
+        width: fit-content;
     }
-    
+
     .chat:hover {
         transform: scale(1.05);
     }
-    
-    .chat.--self {
-        text-align: left;
-        background-color: #ecf5ff;
-        color: #000000;
-        border-radius: 15px;
-        width: fit-content;
-        margin-left: auto;
-    }
-     
-    
-    .chat.--self::before {
-        content: &#34;&#34;;
-        position: absolute;
-        right: -18px;
-         
-        bottom: 5px;
-        transform: translateY(-50%);
-        border-width: 15px 0 0 20px;
-        border-style: solid;
-        border-color: transparent transparent transparent #ecf5ff;
-         
-    }
-     
-    
-    .chat.--other {
-        text-align: left;
-        background-color: #ffecec;
-        color: #333;
-        border-radius: 15px;
-        position: relative;
-        width: fit-content;
-    }
-     
-    
-    .chat.--other::before {
-        content: &#34;&#34;;
-        position: absolute;
-        left: -18px;
-        bottom: 5px;
-        transform: translateY(-50%);
-        border-width: 15px 20px 0 0;
-        border-style: solid;
-        border-color: transparent #ffecec transparent transparent;
-    }
-     
-    
-    .chat__meta {
-        font-weight: bold;
-        font-size: 0.67em;
-        color: #707070;
-        margin-bottom: 5px;
-    }
-     
-    
+
     .chat__text {
         font-size: 0.9em;
         margin-left: 10px;
         word-break: break-all;
     }
+
+    .chat__meta {
+        font-weight: bold;
+        font-size: 0.67em;
+        margin-bottom: 5px;
+    }
+
+     
+    .chat::before {
+        content: &#34;&#34;;
+        position: absolute;
+        bottom: 5px;
+        transform: translateY(-50%);
+        border-style: solid;
+    }
+
+     
+    .chat.--self {
+        text-align: left;
+        background-color: #ecf5ff;
+        color: #000000;
+        margin-left: auto;
+    }
+
+    .chat.--self::before {
+        right: -18px;
+        border-width: 15px 0 0 20px;
+        border-color: transparent transparent transparent #ecf5ff;
+    }
+
+    .chat.--other {
+        text-align: left;
+        background-color: #ffecec;
+        color: #333;
+    }
+
+    .chat.--other::before {
+        left: -18px;
+        border-width: 15px 20px 0 0;
+        border-color: transparent #ffecec transparent transparent;
+    }
+
+    .chat__meta {
+        color: #707070;
+    }
+
+     
+    .dark .chat.--self {
+        color: #fefefe;
+        background-color: #253958;
+    }
     
-    [data-scheme=&#34;dark&#34;] {
-        .chat.--self {
-            color: #fefefe;
-            background-color: #253958;
-        }
-        .chat.--self::before {
-            border-color: transparent transparent transparent #253958;
-        }
-        .chat.--other {
-            color: #fefefe;
-            background-color: #1a1a1a;
-        }
-        .chat.--other::before {
-            border-color: transparent #1a1a1a transparent transparent;
-        }
-        .chat__meta {
-            color: #b1b1b1;
-        }
+    .dark .chat.--self::before {
+        border-color: transparent transparent transparent #253958;
+    }
+
+    .dark .chat.--other {
+        color: #fefefe;
+        background-color: #402b2b;
+    }
+
+    .dark .chat.--other::before {
+        border-color: transparent #1a1a1a transparent transparent;
+    }
+
+    .dark .chat__meta {
+        color: #b1b1b1;
     }
 &lt;/style&gt;&lt;/p&gt;
 
@@ -8963,7 +8958,8 @@ figcaption {
 &lt;div class=&#34;chat --self&#34;&gt;
     &lt;div class=&#34;chat__inner&#34;&gt;
         &lt;div class=&#34;chat__text&#34;&gt;
-            这是右边的消息内容，测试长长长长长长长长长长长长长长长长长长长长长长长长度。 &lt;/div&gt;
+            这是右边的消息内容，测试长长长长长长长长长长长长长长长长长长长长长长长长度。
+        &lt;/div&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 
@@ -8974,95 +8970,89 @@ figcaption {
         margin: 10px;
         padding: 10px;
         position: relative;
-         
         transition: transform 0.2s;
-         
         max-width: 80%;
         min-width: 15%;
+        border-radius: 15px;
+        width: fit-content;
     }
-    
+
     .chat:hover {
         transform: scale(1.05);
     }
-    
-    .chat.--self {
-        text-align: left;
-        background-color: #ecf5ff;
-        color: #000000;
-        border-radius: 15px;
-        width: fit-content;
-        margin-left: auto;
-    }
-     
-    
-    .chat.--self::before {
-        content: &#34;&#34;;
-        position: absolute;
-        right: -18px;
-         
-        bottom: 5px;
-        transform: translateY(-50%);
-        border-width: 15px 0 0 20px;
-        border-style: solid;
-        border-color: transparent transparent transparent #ecf5ff;
-         
-    }
-     
-    
-    .chat.--other {
-        text-align: left;
-        background-color: #ffecec;
-        color: #333;
-        border-radius: 15px;
-        position: relative;
-        width: fit-content;
-    }
-     
-    
-    .chat.--other::before {
-        content: &#34;&#34;;
-        position: absolute;
-        left: -18px;
-        bottom: 5px;
-        transform: translateY(-50%);
-        border-width: 15px 20px 0 0;
-        border-style: solid;
-        border-color: transparent #ffecec transparent transparent;
-    }
-     
-    
-    .chat__meta {
-        font-weight: bold;
-        font-size: 0.67em;
-        color: #707070;
-        margin-bottom: 5px;
-    }
-     
-    
+
     .chat__text {
         font-size: 0.9em;
         margin-left: 10px;
         word-break: break-all;
     }
+
+    .chat__meta {
+        font-weight: bold;
+        font-size: 0.67em;
+        margin-bottom: 5px;
+    }
+
+     
+    .chat::before {
+        content: &#34;&#34;;
+        position: absolute;
+        bottom: 5px;
+        transform: translateY(-50%);
+        border-style: solid;
+    }
+
+     
+    .chat.--self {
+        text-align: left;
+        background-color: #ecf5ff;
+        color: #000000;
+        margin-left: auto;
+    }
+
+    .chat.--self::before {
+        right: -18px;
+        border-width: 15px 0 0 20px;
+        border-color: transparent transparent transparent #ecf5ff;
+    }
+
+    .chat.--other {
+        text-align: left;
+        background-color: #ffecec;
+        color: #333;
+    }
+
+    .chat.--other::before {
+        left: -18px;
+        border-width: 15px 20px 0 0;
+        border-color: transparent #ffecec transparent transparent;
+    }
+
+    .chat__meta {
+        color: #707070;
+    }
+
+     
+    .dark .chat.--self {
+        color: #fefefe;
+        background-color: #253958;
+    }
     
-    [data-scheme=&#34;dark&#34;] {
-        .chat.--self {
-            color: #fefefe;
-            background-color: #253958;
-        }
-        .chat.--self::before {
-            border-color: transparent transparent transparent #253958;
-        }
-        .chat.--other {
-            color: #fefefe;
-            background-color: #1a1a1a;
-        }
-        .chat.--other::before {
-            border-color: transparent #1a1a1a transparent transparent;
-        }
-        .chat__meta {
-            color: #b1b1b1;
-        }
+    .dark .chat.--self::before {
+        border-color: transparent transparent transparent #253958;
+    }
+
+    .dark .chat.--other {
+        color: #fefefe;
+        background-color: #402b2b;
+    }
+
+    .dark .chat.--other::before {
+        border-color: transparent #1a1a1a transparent transparent;
+    }
+
+    .dark .chat__meta {
+        color: #b1b1b1;
     }
 &lt;/style&gt;
 &lt;hr&gt;

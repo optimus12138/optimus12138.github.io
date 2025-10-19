@@ -1,29 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on 金色河流</title>
+    
+    <title>金色河流</title>
     <link>https://goldenriver.site/categories/</link>
     <description>Recent content in Categories on 金色河流</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 11 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://goldenriver.site/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://goldenriver.site/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>专题</title>
-      <link>https://goldenriver.site/categories/%E4%B8%93%E9%A2%98/</link>
-      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
+      <title>生活日志</title>
+      <link>https://goldenriver.site/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%BF%97/</link>
+      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://goldenriver.site/categories/%E4%B8%93%E9%A2%98/</guid>
+      <guid>https://goldenriver.site/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%BF%97/</guid>
       
       <description></description>
       
     </item>
     
     <item>
-      <title>生活日志</title>
-      <link>https://goldenriver.site/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%BF%97/</link>
-      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+      <title>专题</title>
+      <link>https://goldenriver.site/categories/%E4%B8%93%E9%A2%98/</link>
+      <pubDate>Sat, 11 Oct 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://goldenriver.site/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%BF%97/</guid>
+      <guid>https://goldenriver.site/categories/%E4%B8%93%E9%A2%98/</guid>
       
       <description></description>
       

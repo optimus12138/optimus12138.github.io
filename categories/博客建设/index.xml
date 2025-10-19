@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>博客建设 on 金色河流</title>
+    
+    <title>金色河流</title>
     <link>https://goldenriver.site/categories/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/</link>
     <description>Recent content in 博客建设 on 金色河流</description>
     <generator>Hugo -- gohugo.io</generator>
@@ -2761,6 +2762,7 @@
       <guid>https://goldenriver.site/posts/blog-setup-log/</guid>
       
       <description>&lt;h2 id=&#34;建设日志&#34;&gt;建设日志&lt;/h2&gt;
+&lt;h3 id=&#34;2025-10-12-修复文章条目宽度问题&#34;&gt;2025-10-12 修复文章条目宽度问题&lt;/h3&gt;
 &lt;h3 id=&#34;2025-10-11-优化首页文章条目排版&#34;&gt;2025-10-11 优化首页文章条目排版&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;效果&lt;/strong&gt; 优化前（左） 优化后（右）：
 &lt;img src=&#34;https://goldenriver.site/posts/blog-setup-log/image-5.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;

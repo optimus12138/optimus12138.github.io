@@ -2,46 +2,52 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://goldenriver.site/posts/2025-week-46-47/</loc>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://goldenriver.site/categories/</loc>
-    <lastmod>2025-11-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://goldenriver.site/posts/</loc>
-    <lastmod>2025-11-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://goldenriver.site/tags/</loc>
-    <lastmod>2025-11-16T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://goldenriver.site/tags/%E8%A7%82%E5%BD%B1%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2025-11-16T00:00:00+00:00</lastmod>
+    <loc>https://goldenriver.site/tags/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/</loc>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://goldenriver.site/tags/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/</loc>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://goldenriver.site/tags/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/</loc>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://goldenriver.site/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%BF%97/</loc>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://goldenriver.site/</loc>
+    <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://goldenriver.site/tags/%E8%A7%82%E5%BD%B1%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2025-11-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://goldenriver.site/posts/misc-film-thoughts/</loc>
     <lastmod>2025-11-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://goldenriver.site/categories/%E4%B8%93%E9%A2%98/</loc>
+    <loc>https://goldenriver.site/categories/%E6%9D%82%E8%AE%B0/</loc>
     <lastmod>2025-11-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://goldenriver.site/posts/2025-week-44-45/</loc>
-    <lastmod>2025-11-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://goldenriver.site/tags/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/</loc>
-    <lastmod>2025-11-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://goldenriver.site/tags/%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF/</loc>
-    <lastmod>2025-11-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://goldenriver.site/tags/%E7%94%9F%E6%B4%BB%E6%84%9F%E6%82%9F/</loc>
-    <lastmod>2025-11-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://goldenriver.site/categories/%E7%94%9F%E6%B4%BB%E6%97%A5%E5%BF%97/</loc>
     <lastmod>2025-11-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://goldenriver.site/tags/%E8%B0%88%E5%86%99%E4%BD%9C/</loc>
     <lastmod>2025-11-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://goldenriver.site/posts/there-will-be-blood/</loc>
+    <lastmod>2025-10-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://goldenriver.site/categories/%E4%B8%93%E9%A2%98/</loc>
     <lastmod>2025-10-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://goldenriver.site/posts/2025-week-41-42/</loc>
@@ -183,9 +189,6 @@
     <lastmod>2025-02-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://goldenriver.site/posts/promise/</loc>
-    <lastmod>2025-02-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://goldenriver.site/categories/%E6%9D%82%E8%AE%B0/</loc>
     <lastmod>2025-02-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://goldenriver.site/posts/a-cyber-joke/</loc>

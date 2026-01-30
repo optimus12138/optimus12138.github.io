@@ -15,7 +15,9 @@
       
       <guid>https://goldenriver.site/posts/year-2025/</guid>
       
-      <description>&lt;p&gt;2025年对我来说，过得非常漫长。&lt;/p&gt;
+      <description>&lt;blockquote&gt;
+&lt;p&gt;这是一篇对2025年的年终总结&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;2025年对我来说，过得非常漫长。&lt;/p&gt;
 &lt;p&gt;漫长是因为这一年我的生活发生了一个很大的转变，24年硕士毕业后，我留在实验室继续读博，但我严重低估了其中的难度。让人喘不过气的压力，我和导师闹过不愉快，也在无数个深夜里反复纠结。直到9月，我终于决定止损，彻底离开学校进入社会。但横亘在面前的是空缺的一年和往届生身份的尴尬，这也使得我在剩下的日子里承受着另一种焦虑和艰难。&lt;/p&gt;
 &lt;p&gt;回看这一年的周记，我试图在文字里重新建立起内心的秩序，我刻意避开所有关于学业和工作的细节，依然无法消减其中的溺水感，我一直在焦虑的缝隙里。&lt;/p&gt;
 &lt;p&gt;但这依然是我的人生，即使是破碎的、失控的，也值得被封存。&lt;/p&gt;
@@ -50,6 +52,2678 @@
 &lt;p&gt;年底，我到了杭州，渐渐尘埃落定。&lt;/p&gt;
 &lt;p&gt;跨年夜，我和朋友在西湖边的一个Livehouse听摇滚。临近午夜，吉他声轰鸣，所有人一起合唱《明天会更好》。这首歌与其说是承诺，不如说是一种祈祷。因为大家都知道当下并不好，所以才需要用力地唱“明天会更好”。&lt;/p&gt;
 &lt;p&gt;2025年就这样过去了，我不想怀念它，也不想强迫自己去接受它。 我只庆幸它终于结束了。我就把它留在这里，留在西湖边凛冽的寒风里。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;附根据过往周记的总结&#34;&gt;附：根据过往周记的总结&lt;/h3&gt;
+&lt;p&gt;：&lt;/p&gt;
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;02-17 ~ 02-23&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;第8周&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;
+            &lt;a href=&#34;https://goldenriver.site/posts/2025-week-08&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;🏠回到深圳&lt;/a&gt;
+          &lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+      &lt;div class=&#34;timeline__description&#34;&gt;过完年回到了深圳，开始了生活记录，影院看了《诡才知道》。&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;02-24 ~ 03-02&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;第9周&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;
+            &lt;a href=&#34;https://goldenriver.site/posts/2025-week-09&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;🎮游戏沉迷期&lt;/a&gt;
+          &lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+      &lt;div class=&#34;timeline__description&#34;&gt;沉迷于游戏《饥荒》，熬夜甚至通宵玩，总游戏时长刷到了超过一千小时。&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;03-03 ~ 03-09&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;第10周&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;
+            &lt;a href=&#34;https://goldenriver.site/posts/2025-week-10&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;📚戒断与阅读&lt;/a&gt;
+          &lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+      &lt;div class=&#34;timeline__description&#34;&gt;把游戏卸载了，开始倒作息，连续几天5、6点起床。读了《小米创业思考》，收获寥寥。影院看《平原上的火焰》。&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;03-10 ~ 03-16&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;第11周&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;
+            &lt;a href=&#34;https://goldenriver.site/posts/2025-week-11&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;☀️深圳入夏&lt;/a&gt;
+          &lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+      &lt;div class=&#34;timeline__description&#34;&gt;气温升温，街上开始有人穿短袖。在刷《越狱》，感觉设定很牛，到第三季有点跨。&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;03-17 ~ 04-06&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;第12~14周&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;
+            &lt;a href=&#34;https://goldenriver.site/posts/2025-week-14&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;🧠心智与减法&lt;/a&gt;
+          &lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+      &lt;div class=&#34;timeline__description&#34;&gt;在读《打开心智》，意识到大脑应该做减法，更应该注重行动的意义。&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;04-07 ~ 04-13&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;第15周&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;
+            &lt;a href=&#34;https://goldenriver.site/posts/2025-week-15&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;🌍围观世界&lt;/a&gt;
+          &lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+      &lt;div class=&#34;timeline__description&#34;&gt;关注特朗普关税事件及“甲亢哥”深圳行。看完了《黑镜》最新一季。&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;04-14 ~ 04-27&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;第16~17周&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;
+            &lt;a href=&#34;https://goldenriver.site/posts/2025-week-16-17&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;🏃减肥与警醒&lt;/a&gt;
+          &lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+      &lt;div class=&#34;timeline__description&#34;&gt;开启新一轮减肥，体重减掉2斤。读完《半小时漫画经济学》和《关于说话的一切》，后记《远离那条平庸之路》令人热泪盈眶。&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;04-28 ~ 05-04&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;第18周&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;
+            &lt;a href=&#34;https://goldenriver.site/posts/2025-week-18&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;⚽️五一出游与足球&lt;/a&gt;
+          &lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+      &lt;div class=&#34;timeline__description&#34;&gt;五一和朋友出游。拜仁经历过一个赛季低迷后重新夺冠。&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;05-05 ~ 05-18&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;第19~20周&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;
+            &lt;a href=&#34;https://goldenriver.site/posts/2025-week19-20&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;❤️时区里的安慰&lt;/a&gt;
+          &lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+      &lt;div class=&#34;timeline__description&#34;&gt;继续锻炼。给老妈买花。安慰朋友（也是安慰自己）：每个人都有自己的时区。&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;05-26 ~ 06-01&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;第22周&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;
+            &lt;a href=&#34;https://goldenriver.site/posts/2025-week-22&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;🏃五月结算&lt;/a&gt;
+          &lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+      &lt;div class=&#34;timeline__description&#34;&gt;继续跑步。看了美剧《片厂风云》。5月跑量47公里。&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;06-02 ~ 06-15&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;第23~24周&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;
+            &lt;a href=&#34;https://goldenriver.site/posts/2025-week-23-24&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;🌧️雨季与失眠&lt;/a&gt;
+          &lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+      &lt;div class=&#34;timeline__description&#34;&gt;深圳下了一周雨。影院看《碟中谍》系列终章。开始看《摩登家庭》。&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;06-16 ~ 06-29&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;第25~26周&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;
+            &lt;a href=&#34;https://goldenriver.site/posts/2025-week-25-26&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;🚫断舍离&lt;/a&gt;
+          &lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+      &lt;div class=&#34;timeline__description&#34;&gt;弃追《摩登家庭》。意识到不要沉迷网络社区。影院看《F1：狂飙飞车》。&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;06-30 ~ 07-06&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;第27周&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;
+            &lt;a href=&#34;https://goldenriver.site/posts/2025-week-27&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;📚如愿以偿？&lt;/a&gt;
+          &lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+      &lt;div class=&#34;timeline__description&#34;&gt;运动中断。读了《并没有如愿以偿的人生》。看完了《豺狼的日子》。&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;07-08 ~ 08-03&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;第28~31周&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;
+            &lt;a href=&#34;https://goldenriver.site/posts/2025-week-31&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;：🧠反思跑步&lt;/a&gt;
+          &lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+      &lt;div class=&#34;timeline__description&#34;&gt;反思跑步为什么中断。被美剧《火线》彻底折服。AI工具从ChatGPT换到Gemini。影院看《长安的荔枝》。&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;08-04 ~ 08-31&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;32~35周&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;
+            &lt;a href=&#34;https://goldenriver.site/posts/2025-week-32-35&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;🎮告别虚拟&lt;/a&gt;
+          &lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+      &lt;div class=&#34;timeline__description&#34;&gt;戒掉过气页游，卖掉所有物品。影院看了《浪浪山的小妖怪》等。&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;09-01 ~ 09-14&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;第36~37周&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;
+            &lt;a href=&#34;https://goldenriver.site/posts/2025-week-36-37&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;：✈️丽江之行&lt;/a&gt;
+          &lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+      &lt;div class=&#34;timeline__description&#34;&gt;丽江古城喝咖啡，玉龙雪山看牦牛。约定共读《单向度的人》。&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;09-15 ~ 10-19&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;第38~41周&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;
+            &lt;a href=&#34;https://goldenriver.site/posts/2025-week-39-40&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;：🎶记录&lt;/a&gt;
+          &lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+      &lt;div class=&#34;timeline__description&#34;&gt;网友Z线下见面，自学围棋，经历台风“桦加华”。看完了《人生切割术》。循环刘若英。&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
 </description>
       
     </item>

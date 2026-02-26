@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "blog-maintenance-manual",
+      "path": "pages/blog-maintenance-manual.md"
+    },
+    {
+      "basename": "about",
+      "path": "pages/about.md"
+    },
+    {
+      "basename": "blog-writing-guidelines",
+      "path": "pages/blog-writing-guidelines.md"
+    },
+    {
       "basename": "index",
       "path": "posts/周记/2025/Week32~35/index.md"
     },
     {
       "basename": "index",
       "path": "posts/周记/2025/Week31/index.md"
-    },
-    {
-      "basename": "about",
-      "path": "pages/about.md"
     },
     {
       "basename": "index",
@@ -191,14 +199,6 @@
     {
       "basename": "Pasted image 20250728214033",
       "path": "attachments/Pasted image 20250728214033.png"
-    },
-    {
-      "basename": "Pasted image 20250728214328",
-      "path": "attachments/Pasted image 20250728214328.png"
-    },
-    {
-      "basename": "Pasted image 20250728214315",
-      "path": "attachments/Pasted image 20250728214315.png"
     }
   ],
   "omittedPaths": [],

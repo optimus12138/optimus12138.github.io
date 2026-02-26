@@ -540,7 +540,6 @@ stroke-linejoin="round" class="feather feather-home">
     EMOTION_CDN: '/owo/owo.json',  
     lang: 'zh-CN',
   });
-
 </script>
 
 <style>
@@ -549,8 +548,9 @@ stroke-linejoin="round" class="feather feather-home">
   max-width: 700px;
   margin: 3em auto;
   padding: 2em;
-  background-color: var($toc-bg);
-  color: var(--text-base-color);
+   
+  background-color: var(--toc-bg, #ffffff);
+  color: var(--text-base-color, #333333);
   border: 1px solid #ddd;
   border-radius: 12px;
   font-size: 15px;
@@ -559,209 +559,145 @@ stroke-linejoin="round" class="feather feather-home">
 }
 
  
-
-@media (prefers-color-scheme: dark) {
-  #twikoo {
-    background-color: #010101;
-    color: #e0e0e0;
-    border-color: #444;
-    box-shadow: 0 0 5px rgba(255, 255, 255, 0.05);
-  }
-
-   
-  #twikoo input,
-  #twikoo textarea {
-    background-color: #2b2b2b;
-    color: #e0e0e0;
-    border-color: #555;
-  }
-
-  #twikoo .tk-submit {
-    background-color: #3a3a3a;
-    color: #fff;
-  }
-
-  #twikoo a {
-    color: #90cdf4;
-  }
-}
-
-#twikoo .tk-avatar {
-  display: none !important;
-}
-  
+#twikoo .tk-avatar,
 #twikoo .tk-submit-action-icon:nth-child(2) {
   display: none !important;
 }
 
  
 #twikoo input {
-  height: 36px;      
+  height: 36px;
   box-sizing: border-box;
 }
-
- 
 #twikoo textarea {
-  width: 100%;       
-min-height: 140px !important;
+  width: 100%;
+  min-height: 140px !important;
   max-height: 280px !important;
-    resize: vertical;  
+  resize: vertical; 
   box-sizing: border-box;
 }
 
-
-#twikoo .tk-nick {
-  font-size: 1.1em;     
-  font-weight: 600;     
-  color: #f0f0f0;       
-}
-
-#twikoo .tk-replies {
-  margin-left: 2em;    
-  border-left: 2px solid rgba(255, 255, 255, 0.05);  
-  padding-left: 1em;   
-}
-
  
-#twikoo .tk-expand {
-  background-color: rgba(0, 0, 0, 0.05);   
-  padding: 0.5em 1em;
-  margin: 1em 0;
-  border-radius: 6px;
-  font-size: 14px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
  
-html.dark #twikoo .tk-expand {
-  background-color: rgba(255, 255, 255, 0.05);   
-  color: #ccc;
-}
-
-#twikoo .tk-comment {
-  background-color: rgba(255, 255, 255, 0.85);  
-  border-radius: 12px;
-  padding: 1em;
-  margin-bottom: 1.2em;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
-
 #twikoo .tk-comment {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 16px;
   padding: 1.2em 1.5em;
-  margin-bottom: 0.8em;        
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-
-#twikoo .tk-comment:hover {
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
-  transform: translateY(-3px);
-}
-
-html.dark #twikoo .tk-comment {
-  background-color: #2c2c2c;
-  border: 1px solid #444;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
-  color: #e0e0e0;
-}
-
-html.dark #twikoo .tk-comment:hover {
-  box-shadow: 0 10px 30px rgba(255, 255, 255, 0.15);
-  transform: translateY(-3px);
-}
-
-#twikoo .tk-nick {
-  font-size: 1.15em;
-  font-weight: 700;
-  margin-bottom: 0.6em;
-  color: #007acc;
-}
-
-#twikoo .tk-replies {
-  margin-left: 2em;
-  border-left: 3px solid #ddd;
-  padding-left: 1em;
-}
-
-html.dark #twikoo .tk-replies {
-  border-left: 3px solid #555;
-}
-
-#twikoo .tk-comment {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 16px;
-  padding: 1.2em 1.5em;
-  margin-bottom: 0.8em;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);   
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
-}
-
-#twikoo .tk-comment:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);  
-  transform: translateY(-1.5px);                
-}
-
-html.dark #twikoo .tk-comment {
-  background-color: #2c2c2c;
-  border: 1px solid #444;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-  color: #e0e0e0;
-}
-
-html.dark #twikoo .tk-comment:hover {
-  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
-  transform: translateY(-1.5px);
-}
-#twikoo .tk-comment {
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 16px;
-  padding: 1.2em 1.5em;
-  margin-bottom: 0.4em;    
+  margin-bottom: 0.8em; 
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  transition: box-shadow 0.3s ease, transform 0.3s ease, background-color 0.3s ease;
 }
-
 #twikoo .tk-comment:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
   transform: translateY(-1.5px);
 }
 
+ 
+#twikoo .tk-nick {
+  display: inline-block;
+  padding: 0.15em 0.5em;
+  border-radius: 8px;
+  background-color: #EDECEC;
+  color: #007acc;  
+  font-weight: 700;
+  font-size: 1.15em;
+  margin-bottom: 0.6em;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+ 
+#twikoo .tk-replies {
+  margin-left: 2em;
+  border-left: 3px solid #ddd;
+  padding-left: 1em;
+}
+#twikoo .tk-replies .tk-nick {
+  font-size: 1em;
+  font-weight: 600;
+  color: #333;
+}
+
+ 
+#twikoo .tk-expand {
+   
+  width: 100%;              
+  max-width: 100%;           
+  
+   
+  margin: 1.5em 0;           
+  padding: 0.6em 0;          
+  
+   
+  background-color: rgba(0, 0, 0, 0.05); 
+  border-radius: 8px;        
+  
+   
+  display: block;            
+  text-align: center;
+  font-size: 14px;
+  color: #666;               
+  
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.3s ease;
+}
+
+ 
+#twikoo .tk-expand:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+ 
+html.dark #twikoo .tk-expand {
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #bbb;
+}
+html.dark #twikoo .tk-expand:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+ 
+html.dark #twikoo {
+  background-color: #010101;
+  color: #e0e0e0;
+  border-color: #444;
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.05);
+}
+
+ 
+html.dark #twikoo input,
+html.dark #twikoo textarea {
+  background-color: #2b2b2b;
+  color: #e0e0e0;
+  border-color: #555;
+}
+html.dark #twikoo .tk-submit {
+  background-color: #3a3a3a;
+  color: #fff;
+}
+html.dark #twikoo a {
+  color: #90cdf4;
+}
+
+ 
 html.dark #twikoo .tk-comment {
   background-color: #2c2c2c;
-  border: 1px solid #444;
+  border-color: #444;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   color: #e0e0e0;
 }
-
 html.dark #twikoo .tk-comment:hover {
   box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
   transform: translateY(-1.5px);
 }
-#twikoo .tk-expand {
-  max-width: 700px;              
-  width: fit-content;            
-  margin: 1em auto;              
-  padding: 0.5em 1em;            
-  background-color: rgba(0, 0, 0, 0.05);   
-  border-radius: 12px;
-  font-size: 14px;
-  color: #333;
-  cursor: pointer;
-  box-sizing: border-box;
-  text-align: center;
-  user-select: none;
-  transition: background-color 0.3s ease;
-}
 
-#twikoo .tk-expand:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+ 
+html.dark #twikoo .tk-nick {
+  background-color: #535353;
+  color: #CCCCCC;
+}
+html.dark #twikoo .tk-replies {
+  border-left: 3px solid #555;
 }
 
  
@@ -769,53 +705,10 @@ html.dark #twikoo .tk-expand {
   background-color: rgba(255, 255, 255, 0.05);
   color: #ccc;
 }
-
 html.dark #twikoo .tk-expand:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
- 
-#twikoo .tk-nick {
-  display: inline-block;            
-  padding: 0.15em 0.5em;            
-  border-radius: 8px;               
-  background-color: #EDECEC;        
-  color: #333333;                   
-  font-weight: 700;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
- 
-  html.dark #twikoo .tk-nick {
-    background-color: #535353;      
-    color: #CCCCCC;                 
-  }
-
-   
-#twikoo .tk-replies .tk-nick {
-  font-size: 1em;        
-  font-weight: 600;      
-  background-color: #EDECEC;
-  color: #333;
-  padding: 0.1em 0.4em;
-  border-radius: 6px;
-  display: inline-block;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-#twikoo .tk-nick {
-  display: inline-block;
-  padding: 0.15em 0.5em;
-  border-radius: 8px;
-  background-color: #EDECEC;        
-  color: #333333;                   
-  font-weight: 700;                
-  font-size: unset;                
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-
 </style>
-
         
     </main>
 </div>

@@ -1,0 +1,3374 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    
+    <title>金色河流</title>
+    <link>https://goldenriver.site/pages/</link>
+    <description>Recent content in Pages on 金色河流</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language><atom:link href="https://goldenriver.site/pages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>博客建设/维护手册</title>
+      <link>https://goldenriver.site/blog-maintenance-manual/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://goldenriver.site/blog-maintenance-manual/</guid>
+      
+      <description>&lt;blockquote&gt;
+&lt;p&gt;文档建设日志：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2025-08-04 新建文档，根据Gemini指导内容&lt;/li&gt;
+&lt;li&gt;2025-09-12 找到一篇可参考文章&lt;a href=&#34;https://taxodium.ink/my-blog-design.html&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  我的博客设计-Spike Leung
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;p&gt;（建设中）&lt;/p&gt;
+&lt;h2 id=&#34;一-版本迭代命名规范-versioning-rules&#34;&gt;一、 版本迭代命名规范 (Versioning Rules)&lt;/h2&gt;
+&lt;p&gt;本规范旨在为博客的更新迭代建立一套清晰、可预测的版本管理体系。所有更新日志均须遵循此规则。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;核心结构:&lt;/strong&gt; &lt;code&gt;主版本号&lt;/code&gt; + &lt;code&gt;更新类型标签&lt;/code&gt; + &lt;code&gt;简短描述&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;示例:&lt;/strong&gt; &lt;code&gt;v3 ✨ Feature: 新增文章内容检索功能&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;1.1 主版本号 (Major Version - &lt;code&gt;vX&lt;/code&gt;)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;主版本号代表博客的重大里程碑。它的变更意味着底层架构、核心设计或整体方向发生了根本性变化。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;升级时机 (When to Upgrade):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;技术栈迁移:&lt;/strong&gt; 例如，从 &lt;code&gt;GitHub Pages&lt;/code&gt; 迁移至 &lt;code&gt;Cloudflare Pages&lt;/code&gt; (即 &lt;code&gt;v4&lt;/code&gt; 的核心任务)。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;主题或框架重构:&lt;/strong&gt; 例如，从 Hugo 的某个主题彻底更换为另一个，或自己从零开始重写主题。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;内容方向大改:&lt;/strong&gt; 例如，博客从个人生活记录彻底转型为专业技术分享。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;当前版本:&lt;/strong&gt; &lt;code&gt;v3&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;1.2 更新类型标签 (Update Type Tag)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;每个标签都配有专属的图标和颜色，用于在更新日志中快速识别更新的性质。&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;图标&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;英文标签&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;中文含义&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;适用场景&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;示例&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;✨&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Feature&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;新功能&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;增加用户可感知的新模块或新能力。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;新增文章内容检索&lt;/code&gt;、&lt;code&gt;增加评论系统&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;🎨&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Style&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;样式&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;不影响功能的视觉调整，如颜色、字体、布局。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;优化暗色模式配色&lt;/code&gt;、&lt;code&gt;调整分割线样式&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;🐛&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Fix&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;问题修复&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;修正已知的 Bug 或错误。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;修复小屏幕目录显示错位&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;📝&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Docs&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;文档&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;撰写或更新说明性文档，如本手册。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;创建博客维护手册&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;🚀&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Perf&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;性能优化&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;提升网站加载速度或运行效率。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;优化图片加载速度&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;♻️&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Refactor&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;代码重构&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;未增加新功能或修复问题的代码结构调整。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;重构短代码逻辑&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;🧹&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Chore&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;杂务&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;构建过程、工具链或依赖项的更新。&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;升级 Hugo 版本&lt;/code&gt;、&lt;code&gt;清理无用文件&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;二-博客建设指导规则-construction-guidelines&#34;&gt;二、 博客建设指导规则 (Construction Guidelines)&lt;/h2&gt;
+&lt;p&gt;这些规则旨在确保博客内容和功能开发的质量与一致性。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2.1 开发流程 (Development Workflow)&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;规划 (Plan):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;任何非紧急的修复或调整，都应先在 &lt;strong&gt;“迭代蓝图”&lt;/strong&gt; (即你的待办清单) 中进行记录和规划。&lt;/li&gt;
+&lt;li&gt;明确每次迭代的核心目标 (例如，&lt;code&gt;v3&lt;/code&gt; 期间完成搜索功能)。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;执行 (Execute):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;遵循上文的 &lt;strong&gt;版本迭代命名规范&lt;/strong&gt; 来记录每一次变更。&lt;/li&gt;
+&lt;li&gt;在本地进行充分测试，确保新功能或修复在不同设备 (PC/移动端) 和模式 (亮色/暗色) 下均表现正常。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;发布 (Deploy):&lt;/strong&gt;
+&lt;ul&gt;
+&lt;li&gt;完成测试后，将代码推送到主分支并部署上线。&lt;/li&gt;
+&lt;li&gt;在博客的 &lt;strong&gt;“更新日志”&lt;/strong&gt; 页面发布对应的版本更新说明。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>博客写作规范(建设中)</title>
+      <link>https://goldenriver.site/blog-writing-guidelines/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://goldenriver.site/blog-writing-guidelines/</guid>
+      
+      <description>&lt;blockquote&gt;
+&lt;p&gt;文档建设日志：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;2025-08-04 新建文档&lt;/li&gt;
+&lt;li&gt;2025-10-11 增添（一）一些待解决的问题（二）我的写作原则（三）格式与排版检查清单（四）我的选题库部分。搭建建设框架。&lt;/li&gt;
+&lt;/ul&gt;&lt;/blockquote&gt;
+&lt;p&gt;建设索引：&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th&gt;部分&lt;/th&gt;
+          &lt;th&gt;作用&lt;/th&gt;
+          &lt;th&gt;建设进度&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td&gt;（一）一些待解决的问题&lt;/td&gt;
+          &lt;td&gt;用以存放待解决的问题&lt;/td&gt;
+          &lt;td&gt;随时添加&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;（二）我的写作原则&lt;/td&gt;
+          &lt;td&gt;用以写作时检查&lt;/td&gt;
+          &lt;td&gt;随时添加内容，待整理&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;（三）格式与排版检查清单&lt;/td&gt;
+          &lt;td&gt;用以写作后检查&lt;/td&gt;
+          &lt;td&gt;待系统性补充整理&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td&gt;（四）我的选题库&lt;/td&gt;
+          &lt;td&gt;感兴趣的主题&lt;/td&gt;
+          &lt;td&gt;随时挖坑，谨慎填坑&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id=&#34;一一些待解决的问题&#34;&gt;（一）一些待解决的问题&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;如何引经据典不会显得掉书袋？&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;二我的写作原则&#34;&gt;（二）我的写作原则&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;超链接放文末/段末，避免打断阅读。&lt;code&gt;2025-06&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;如果有AI辅助写作，必须标注。&lt;code&gt;2025-06&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;在内容创作这件事上，「持续性」大于一切。&lt;code&gt;2024&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;图片一定要加caption——检视阅读时，最容易看到的就是图片，加caption能够方便理解图片内容和文章的联系。&lt;code&gt;2025-05&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;注意调整图片比例，避免图片太大，喧宾夺主。&lt;code&gt;2025-05&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;忌复制粘贴——做到有效引用、概括转述。&lt;code&gt;2025-07&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;内容长度500~2000字，内容长度不要过长（太长不看）；不要过短（点一篇博文也需要精力成本，如果只是看到寥寥几个字，我会觉得浪费时间）。&lt;code&gt;2025-05&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;读书笔记写心得而非知识点总结。 &lt;code&gt;2025-10&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;引用，如果这个人对于内容来说是重要的，最好给出他的名称；如果不重要，只需要虚指即可。&lt;code&gt;2025-10-11&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;重要的/有意义的/有意思的想法要随手记下来。&lt;code&gt;2025-10&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li&gt;保持阅读的习惯。 &lt;code&gt;2025-06&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;做阅读笔记的一种参考： &lt;a href=&#34;https://www.huxiu.com/article/3728800.html&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  https://www.huxiu.com/article/3728800.html
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+  &lt;code&gt;2025-03&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;写作方法：描述熟悉的抽象概念时，还原其具体的场景，使之显得生动。&lt;br&gt;
+例：人类可能会在大约50年内变得无线电静默。我们已经过了无线电波的使用高峰，而是越来越多地使用窄波通信和光纤电缆，不再向天空发射电视和无线电信号。&amp;ndash; 卫报 &lt;code&gt;2025-05&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;三格式与排版检查清单&#34;&gt;（三）格式与排版检查清单&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;标点与空格&lt;/li&gt;
+&lt;li&gt;中文使用全角标点（，。！？）英文用半角（, . ! ?）&lt;/li&gt;
+&lt;li&gt;数字与单位间留空格（如200 MB而非200MB）&lt;/li&gt;
+&lt;li&gt;图文间距统一（上下各空1行）&lt;/li&gt;
+&lt;li&gt;多图并列时宽度一致（用CSS Grid布局）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;最后的人工核验方法&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&amp;ldquo;三秒原则&amp;rdquo;：快速滑动页面时能否识别信息结构&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;盲测法&amp;rdquo;：遮盖文字只看排版，判断视觉重心是否匹配内容优先级&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;四我的选题库&#34;&gt;（四）我的选题库&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;为什么狗是宠物猪是食物？  &lt;code&gt;2025&lt;/code&gt;&lt;br&gt;
+&lt;a href=&#34;https://book.douban.com/subject/34431982/&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  https://book.douban.com/subject/34431982/
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;《笔记的方法》读书笔记总结  &lt;code&gt;2025&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;你是如何完成社会化的？  &lt;code&gt;2025&lt;/code&gt;&lt;br&gt;
+&lt;a href=&#34;https://v.flomoapp.com/mine/?memo_id=MTY4MDMwMjY5&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  https://v.flomoapp.com/mine/?memo_id=MTY4MDMwMjY5
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;深圳地铁六号线的冷空气 &lt;code&gt;2025-10-18&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;为什么说 CPU 是人造物的巅峰？ &lt;code&gt;2025-11-11&lt;/code&gt;&lt;br&gt;
+&lt;a href=&#34;https://www.zhihu.com/question/378861322&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  https://www.zhihu.com/question/378861322
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>分类与标签</title>
+      <link>https://goldenriver.site/pages/categroies/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://goldenriver.site/pages/categroies/</guid>
+      
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>关于</title>
+      <link>https://goldenriver.site/pages/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://goldenriver.site/pages/about/</guid>
+      
+      <description>&lt;h2 id=&#34;关于我&#34;&gt;关于我&lt;/h2&gt;
+&lt;!-- **关于我:** --&gt;
+&lt;ul&gt;
+&lt;li&gt;🤖 &lt;strong&gt;&lt;a href=&#34;https://www.16personalities.com/ch/intj-%E4%BA%BA%E6%A0%BC?page=27&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  INTJ
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/strong&gt;；&lt;/li&gt;
+&lt;li&gt;🕸️ &lt;strong&gt;厌倦社交网络&lt;/strong&gt;（参考文章：&lt;a href=&#34;https://goldenriver.site/posts//the-unexamined-cyber-life/&#34;
+   
+   &gt;
+  未经审视的赛博生活不值得过
+  
+&lt;/a&gt;
+）；&lt;/li&gt;
+&lt;li&gt;🤥 &lt;strong&gt;对世界有许多困惑&lt;/strong&gt;（参考文章：&lt;a href=&#34;https://goldenriver.site/posts//are-you-also-confused-by-the-world/&#34;
+   
+   &gt;
+  你是否也对这个世界有许多困惑
+  
+&lt;/a&gt;
+）；&lt;/li&gt;
+&lt;li&gt;📽️ &lt;strong&gt;爱好电影的非典型理工男&lt;/strong&gt;（参考文章：&lt;a href=&#34;https://goldenriver.site/posts/top-10-films-of-my-life/&#34;
+   
+   &gt;
+  我的人生观影片单Top10
+  
+&lt;/a&gt;
+）；&lt;/li&gt;
+&lt;li&gt;🏊‍♂️ &lt;strong&gt;爱好游泳、喜欢跑步并永远在减脂的普通人&lt;/strong&gt;（参考：&lt;a href=&#34;https://goldenriver.site/tags/%e8%bf%90%e5%8a%a8%e7%9b%b8%e5%85%b3/&#34;
+   
+   &gt;
+  Tags - 运动相关
+  
+&lt;/a&gt;
+）。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;关于本站&#34;&gt;关于本站&lt;/h2&gt;
+&lt;!-- **关于本站:** --&gt;
+&lt;ul&gt;
+&lt;li&gt;🏰 &lt;strong&gt;我的互联网自留地&lt;/strong&gt; （参考文章：&lt;a href=&#34;https://goldenriver.site/posts//blog-anniversary-15-questions&#34;
+   
+   &gt;
+  博客建站一周年：独立博客自省问卷15题
+  
+&lt;/a&gt;
+)&lt;/li&gt;
+&lt;li&gt;📝 &lt;strong&gt;记录生活，记录思考，记录困惑，记录成长&lt;/strong&gt; ；&lt;/li&gt;
+&lt;li&gt;🏃 &lt;strong&gt;在内容创作这件事上，「持续性」大于一切&lt;/strong&gt; （参考：&lt;a href=&#34;https://goldenriver.site/tags/%e8%b0%88%e5%86%99%e4%bd%9c/&#34;
+   
+   &gt;
+  Tags - 谈写作
+  
+&lt;/a&gt;
+)。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;博客建设日志&#34;&gt;博客建设日志&lt;/h2&gt;
+&lt;p&gt;&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;2026-04-09&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;v3&lt;/span&gt;
+        &lt;span class=&#34;timeline__type-tag&#34;&gt;🎨 Style&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;引入 Claude 纸张感配色方案，引入方块设计&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;2026-03-20&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;v3&lt;/span&gt;
+        &lt;span class=&#34;timeline__type-tag&#34;&gt;🎨 Style&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;导航栏悬浮毛玻璃效果，首页样式优化&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;2026-02-26&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;v3&lt;/span&gt;
+        &lt;span class=&#34;timeline__type-tag&#34;&gt;🐛 Fix&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;修复留言页面评论框暗色模式不适配问题&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;2025-10-12&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;v3&lt;/span&gt;
+        &lt;span class=&#34;timeline__type-tag&#34;&gt;🐛 Fix&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;修复文章条目小屏不适配问题；修复组件暗色模式不匹配问题&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;2025-10-11&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;v3&lt;/span&gt;
+        &lt;span class=&#34;timeline__type-tag&#34;&gt;🎨 Style&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;
+            &lt;a href=&#34;https://goldenriver.site/posts/blog-setup-log/#2025-10-11-%e4%bc%98%e5%8c%96%e9%a6%96%e9%a1%b5%e6%96%87%e7%ab%a0%e6%9d%a1%e7%9b%ae%e6%8e%92%e7%89%88&#34; target=&#34;_blank&#34; rel=&#34;noopener noreferrer&#34;&gt;优化首页文章条目排版&lt;/a&gt;
+          &lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;2025-09-21&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;v3&lt;/span&gt;
+        &lt;span class=&#34;timeline__type-tag&#34;&gt;🎨 Style&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;优化RSS跳转逻辑&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;2025-09-11&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;v3&lt;/span&gt;
+        &lt;span class=&#34;timeline__type-tag&#34;&gt;🎨 Style&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;建设留言页面，新增友链&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;2025-08-09&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;v3&lt;/span&gt;
+        &lt;span class=&#34;timeline__type-tag&#34;&gt;🎨 Style&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;优化文章条目在手机端的显示效果，优化首页bio信息&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;2025-08-05&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;v3&lt;/span&gt;
+        &lt;span class=&#34;timeline__type-tag&#34;&gt;🐛 Fix&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;修复bio字数统计问题，手动设置lastmod&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;2025-08-03&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;v3&lt;/span&gt;
+        &lt;span class=&#34;timeline__type-tag&#34;&gt;✨ Feature&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;新增搜索功能(归档页)&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;2025-07-28&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;v3&lt;/span&gt;
+        &lt;span class=&#34;timeline__type-tag&#34;&gt;🔧 Chore&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;域名到期，续费一年&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;2025-07-12&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;v3&lt;/span&gt;
+        &lt;span class=&#34;timeline__type-tag&#34;&gt;⚙️ Config&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;重新配置页面，禁止搜索引擎检索&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;2025-07-06&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;v3&lt;/span&gt;
+        &lt;span class=&#34;timeline__type-tag&#34;&gt;🔨 Refactor&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;博客更换成awesome主题&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+      &lt;div class=&#34;timeline__description&#34;&gt;Hugo &amp;#43; Github Pages，使用awesome主题&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;2024-11-16&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;v2&lt;/span&gt;
+        &lt;span class=&#34;timeline__type-tag&#34;&gt;🔨 Refactor&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;将博客迁移至Hugo，使用Stack主题&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+      &lt;div class=&#34;timeline__description&#34;&gt;Hugo &amp;#43; Github Pages，使用Stack主题&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+
+&lt;div class=&#34;timeline__row&#34;&gt;
+  &lt;div class=&#34;timeline__time&#34;&gt;
+    &lt;div class=&#34;timeline__time-text&#34;&gt;2024-06-12&lt;/div&gt;
+    &lt;div class=&#34;timeline__split-line&#34;&gt;&lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&#34;timeline__content&#34;&gt;
+    &lt;div class=&#34;timeline__header&#34;&gt;
+          &lt;span class=&#34;timeline__tag&#34;&gt;v1&lt;/span&gt;
+        &lt;span class=&#34;timeline__type-tag&#34;&gt;🎉 Init&lt;/span&gt;
+
+      &lt;div class=&#34;timeline__title-wrapper&#34;&gt;
+        
+          &lt;div class=&#34;timeline__title&#34;&gt;使用NotionNext建站&lt;/div&gt;&lt;/div&gt;
+    &lt;/div&gt;
+      &lt;div class=&#34;timeline__description&#34;&gt;NotionNext &amp;#43; Vercel，使用Nobelium主题&lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: &#34;&#34;;
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme=&#34;dark&#34;] .timeline__time,
+[data-scheme=&#34;dark&#34;] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme=&#34;dark&#34;] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+&lt;/style&gt;
+&lt;/p&gt;
+&lt;p&gt;参考：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://goldenriver.site/blog-maintenance-manual/&#34;
+   
+   &gt;
+  博客维护手册（建设中）
+  
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://goldenriver.site/blog-writing-guidelines/&#34;
+   
+   &gt;
+  博客写作规范（建设中）
+  
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://goldenriver.site/posts/blog-setup-log/&#34;
+   
+   &gt;
+  博客建设日志
+  
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;To-do（内容）&lt;/strong&gt;：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 年末总结
+&lt;details&gt;
+    &lt;summary&gt;参考-2025&lt;/summary&gt;
+    &lt;a href=&#34;https://nocoding.life/archives/ZHh0vExt&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  # 追寻生命力｜2025 年终总结 | Aaron
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+
+&lt;a href=&#34;https://www.javis.me/hunong/&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  # 2025年终总结 | 糊弄又一年 |  查令十字街 84 号 
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+
+&lt;a href=&#34;https://blog.vaaat.com/posts/2025_summary/&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  2025年终总结 | L1nSn0w
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+
+&lt;a href=&#34;https://www.qtmuniao.com/2025/12/28/2025-summary/&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  2025 年终总结 —— 向内生长 | 木鸟杂记
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+
+&lt;a href=&#34;https://prologue.dev/blog/2025-summary&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  2025年终总结 - Prologue
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+
+&lt;a href=&#34;https://www.skyue.com/26011121.html&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  我的2025：新阶段 - 拾月
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+
+&lt;a href=&#34;https://www.weisay.com/blog/2025-year-end-summary.html&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  2025年终小记：18岁的威言威语，依然在路上 - 威言威语
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/details&gt;
+&lt;br&gt;
+&lt;details&gt;
+    &lt;summary&gt;参考-2024&lt;/summary&gt;
+    &lt;a href=&#34;https://blog.uuanqin.top/p/fe5764d9/?utm_source=blogfinder&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  2024 年博客年度数字及域名问题求助 | 半方池水半方田
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://quaily.com/jiayifun/p/my-2024-book-media-tools-and-goodies-list&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  我的 2024｜附书影音、工具、好物清单 | 更好生活
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://deepzz.com/post/2024-year-end.html&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  2024年终总结 - 稳中求变 | Deepzz&amp;rsquo;s Blog
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://www.zuozuovera.com/posts/1819/&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  应似飞鸿踏雪泥——2024年终总结 | 薇拉航线
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://catcoding.me/p/2024-summary/&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  2024：简单的理想生活 | CatCoding
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://www.zzxworld.com/posts/2024-summary&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  我的 2024 年
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+ &lt;br&gt;
+&lt;a href=&#34;https://www.williamlong.info/archives/7480.html&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  月光博客2024年推荐阅读文章-月光博客
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://yayu.net/4764.html&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  2024年的已读书单+观影记录 · 雅余 · 茶余饭后，闲情雅致
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://wangyurui.com/posts/liao-liao-2024-ne-yan-min-xing-ti-yong-bu-er-4386ac11&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  我的2024：讷言敏行 体用不二 - 太隐
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://ssshooter.com/2024-summary/&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  2024 年终总结 • Usubeni Fantasy
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://jesor.me/2024/a-long-long-farewell/&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  漫长的告别 | 大破进击
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://blog.uuanqin.top/p/fe5764d9&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  2024 年博客年度数字及域名问题求助 | 半方池水半方田
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://www.52txr.cn/2024/2024conclusion.html&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  抓住2024年的尾巴写一份年终总结吧 - 陶小桃Blog
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://mantyke.icu/weekly/2024/dec.-09-dec.-28/&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  冬至 | 在2024年结束的最后一个周末里写了 | 小球飞鱼
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+
+&lt;a href=&#34;https://www.52txr.cn/2024/ddosblogforwhat.html&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  对于藏在阴暗处对个人博客进行攻击的人，我有一些想说的话 - 陶小桃Blog
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://lutaonan.com/blog/2024-summary/&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  2024: 在夜海中观望浪潮 | Randy&amp;rsquo;s Blog
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://elizen.me/posts/2024/12/2024-end/&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  2024 年概览 - Elizen
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://yayu.net/4763.html&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  2024 年个人博客回顾 · 雅余 · 茶余饭后，闲情雅致
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://onojyun.com/2024/12/23/%E5%86%99%E5%9C%A82025%E5%B9%B4%E6%96%B0%E5%B9%B4%E4%B9%8B%E5%89%8D/&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  写在2025年新年之前 – 莫比乌斯
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://www.campzhe.com/archives/1646&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  论创作：在混乱中冲浪 - 好奇的阿哲
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://soulteary.com/2024/12/20/at-the-end-of-2024-share-personal-device-to-friends.html&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  2024 年终，个人设备盘点 - 苏洋博客
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://www.williamlong.info/archives/7478.html&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  2024年十大流行语发布-月光博客
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://lenciel.com/2024/12/the-last-day-in-2024/&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  2024年终总结 - @Lenciel
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://soulteary.com/2024/12/31/2024-year-end-summary.html&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  2024 岁末总结 - 苏洋博客
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://digu.plus/post/38a43b4de4b64b4e8f452410c404338a/&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  新手机，旧手机 - 嘀咕
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://yinji.org/5383.html&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  2024 ·年度回顾 - 印记
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://linsnow.cn/posts/dailylife/2024_summary/&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  L1nSn0wの小窝 - 2024年终总结
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;
+&lt;a href=&#34;https://61.life/2024/books&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  📖 2024 阅读记录 - 61’s life
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/details&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;To-do（v4）&lt;/strong&gt;：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Self-host：使用服务器部署博客&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 更换&lt;code&gt;.com&lt;/code&gt;域名&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 加入十年之约&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      
+    </item>
+    
+    <item>
+      <title>留言</title>
+      <link>https://goldenriver.site/pages/guestbook/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://goldenriver.site/pages/guestbook/</guid>
+      
+      <description>
+
+
+&lt;div class=&#34;chat --other&#34;&gt;
+    &lt;div class=&#34;chat__inner&#34;&gt;
+        &lt;div class=&#34;chat__text&#34;&gt;
+            &lt;p&gt;欢迎来到我的博客做客，请畅所欲言, 你可以：&lt;br&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;u&gt;搭讪闲聊&lt;/u&gt;；&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;分享你的&lt;u&gt;体验和想法&lt;/u&gt;；  &lt;br&gt;&lt;/li&gt;
+&lt;li&gt;发表对我的博客的&lt;u&gt;意见和建议&lt;/u&gt;。&lt;/li&gt;
+&lt;/ol&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;style&gt;
+     
+    .chat {
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        transition: transform 0.2s;
+        max-width: 80%;
+        min-width: 15%;
+        border-radius: 15px;
+        width: fit-content;
+    }
+
+    .chat:hover {
+        transform: scale(1.05);
+    }
+
+    .chat__text {
+        font-size: 0.9em;
+        margin-left: 10px;
+        word-break: break-all;
+    }
+
+    .chat__meta {
+        font-weight: bold;
+        font-size: 0.67em;
+        margin-bottom: 5px;
+    }
+
+     
+    .chat::before {
+        content: &#34;&#34;;
+        position: absolute;
+        bottom: 5px;
+        transform: translateY(-50%);
+        border-style: solid;
+    }
+
+     
+    .chat.--self {
+        text-align: left;
+        background-color: #F4E1CC   ;
+        color: #2C1E11;
+        margin-left: auto;
+    }
+
+    .chat.--self::before {
+        right: -18px;
+        border-width: 15px 0 0 20px;
+        border-color: transparent transparent transparent #F4E1CC;
+    }
+
+    .chat.--other {
+        text-align: left;
+        background-color: #F8F1E6;
+        color: #333;
+    }
+
+    .chat.--other::before {
+        left: -18px;
+        border-width: 15px 20px 0 0;
+        border-color: transparent #F8F1E6 transparent transparent;
+    }
+
+    .chat__meta {
+        color: #707070;
+    }
+
+     
+    .dark .chat.--self {
+        color: #fefefe;
+        background-color: #253958;
+    }
+    
+    .dark .chat.--self::before {
+        border-color: transparent transparent transparent #253958;
+    }
+
+    .dark .chat.--other {
+        color: #fefefe;
+        background-color: #402b2b;
+    }
+
+    .dark .chat.--other::before {
+        border-color: transparent #1a1a1a transparent transparent;
+    }
+
+    .dark .chat__meta {
+        color: #b1b1b1;
+    }
+&lt;/style&gt;
+&lt;hr&gt;
+
+
+
+&lt;div class=&#34;chat --self&#34;&gt;
+    &lt;div class=&#34;chat__inner&#34;&gt;
+        &lt;div class=&#34;chat__text&#34;&gt;
+            &lt;p&gt;另外，如果你在浏览阅读我的博客时，被以下问题困扰，请务必告诉我：&lt;br&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;是否存在&lt;u&gt;加载速度过慢&lt;/u&gt;或&lt;u&gt;图片显示不完整&lt;/u&gt;问题？&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;文章的排版、字体大小和颜色&lt;/u&gt;是否清晰易读？&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;博客页面设计是否存在&lt;u&gt;不美观、或不易于浏览&lt;/u&gt;之处？&lt;br&gt;&lt;/li&gt;
+&lt;/ol&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;style&gt;
+     
+    .chat {
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        transition: transform 0.2s;
+        max-width: 80%;
+        min-width: 15%;
+        border-radius: 15px;
+        width: fit-content;
+    }
+
+    .chat:hover {
+        transform: scale(1.05);
+    }
+
+    .chat__text {
+        font-size: 0.9em;
+        margin-left: 10px;
+        word-break: break-all;
+    }
+
+    .chat__meta {
+        font-weight: bold;
+        font-size: 0.67em;
+        margin-bottom: 5px;
+    }
+
+     
+    .chat::before {
+        content: &#34;&#34;;
+        position: absolute;
+        bottom: 5px;
+        transform: translateY(-50%);
+        border-style: solid;
+    }
+
+     
+    .chat.--self {
+        text-align: left;
+        background-color: #F4E1CC   ;
+        color: #2C1E11;
+        margin-left: auto;
+    }
+
+    .chat.--self::before {
+        right: -18px;
+        border-width: 15px 0 0 20px;
+        border-color: transparent transparent transparent #F4E1CC;
+    }
+
+    .chat.--other {
+        text-align: left;
+        background-color: #F8F1E6;
+        color: #333;
+    }
+
+    .chat.--other::before {
+        left: -18px;
+        border-width: 15px 20px 0 0;
+        border-color: transparent #F8F1E6 transparent transparent;
+    }
+
+    .chat__meta {
+        color: #707070;
+    }
+
+     
+    .dark .chat.--self {
+        color: #fefefe;
+        background-color: #253958;
+    }
+    
+    .dark .chat.--self::before {
+        border-color: transparent transparent transparent #253958;
+    }
+
+    .dark .chat.--other {
+        color: #fefefe;
+        background-color: #402b2b;
+    }
+
+    .dark .chat.--other::before {
+        border-color: transparent #1a1a1a transparent transparent;
+    }
+
+    .dark .chat__meta {
+        color: #b1b1b1;
+    }
+&lt;/style&gt;
+&lt;hr&gt;
+
+
+
+&lt;div class=&#34;chat --other&#34;&gt;
+    &lt;div class=&#34;chat__inner&#34;&gt;
+        &lt;div class=&#34;chat__text&#34;&gt;
+            &lt;p&gt;最后，感谢这些网络邻居，让我在博客世界不再孤单：  &lt;br&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://zopiya.com/&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  仲平
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ramble.imzh.me/&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  jz&amp;rsquo;s ramblings
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cry4o4n0tfound.cn/&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  Cry
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;br&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://leehenry.top/&#34;
+   
+    target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;
+  伏枥
+  &lt;svg class=&#34;external-link-icon&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;16&#34; height=&#34;16&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6&#34;/&gt;&lt;polyline points=&#34;15 3 21 3 21 9&#34;/&gt;&lt;line x1=&#34;10&#34; y1=&#34;14&#34; x2=&#34;21&#34; y2=&#34;3&#34;/&gt;&lt;/svg&gt;
+
+&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;style&gt;
+     
+    .chat {
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        transition: transform 0.2s;
+        max-width: 80%;
+        min-width: 15%;
+        border-radius: 15px;
+        width: fit-content;
+    }
+
+    .chat:hover {
+        transform: scale(1.05);
+    }
+
+    .chat__text {
+        font-size: 0.9em;
+        margin-left: 10px;
+        word-break: break-all;
+    }
+
+    .chat__meta {
+        font-weight: bold;
+        font-size: 0.67em;
+        margin-bottom: 5px;
+    }
+
+     
+    .chat::before {
+        content: &#34;&#34;;
+        position: absolute;
+        bottom: 5px;
+        transform: translateY(-50%);
+        border-style: solid;
+    }
+
+     
+    .chat.--self {
+        text-align: left;
+        background-color: #F4E1CC   ;
+        color: #2C1E11;
+        margin-left: auto;
+    }
+
+    .chat.--self::before {
+        right: -18px;
+        border-width: 15px 0 0 20px;
+        border-color: transparent transparent transparent #F4E1CC;
+    }
+
+    .chat.--other {
+        text-align: left;
+        background-color: #F8F1E6;
+        color: #333;
+    }
+
+    .chat.--other::before {
+        left: -18px;
+        border-width: 15px 20px 0 0;
+        border-color: transparent #F8F1E6 transparent transparent;
+    }
+
+    .chat__meta {
+        color: #707070;
+    }
+
+     
+    .dark .chat.--self {
+        color: #fefefe;
+        background-color: #253958;
+    }
+    
+    .dark .chat.--self::before {
+        border-color: transparent transparent transparent #253958;
+    }
+
+    .dark .chat.--other {
+        color: #fefefe;
+        background-color: #402b2b;
+    }
+
+    .dark .chat.--other::before {
+        border-color: transparent #1a1a1a transparent transparent;
+    }
+
+    .dark .chat__meta {
+        color: #b1b1b1;
+    }
+&lt;/style&gt;
+&lt;hr&gt;
+&lt;div style=&#34;text-align: right;&#34;&gt;
+（以下评论系统加载较慢，请耐心等待）
+&lt;/div&gt;
+</description>
+      
+    </item>
+    
+  </channel>
+</rss>

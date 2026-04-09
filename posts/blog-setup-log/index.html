@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="zh-cn"><head><meta charset="utf-8">
+<meta http-equiv="content-type" content="text/html">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title itemprop="name">我的博客建设日志 | 金色河流</title>
+<meta property="og:title" content="我的博客建设日志 | 金色河流" />
+<meta name="twitter:title" content="我的博客建设日志 | 金色河流" />
+<meta itemprop="name" content="我的博客建设日志 | 金色河流" />
+<meta name="application-name" content="我的博客建设日志 | 金色河流" />
+<meta property="og:site_name" content="金色河流" />
+
+<meta name="description" content="">
+<meta itemprop="description" content="" />
+<meta property="og:description" content="" />
+<meta name="twitter:description" content="" />
+
+<meta property="og:locale" content="zh-cn" />
+<meta name="language" content="zh-cn" />
+
+  <link rel="alternate" hreflang="zh-cn" href="https://goldenriver.site/posts/blog-setup-log/" title="Chinese" />
+
+
+
+
+
+    
+    
+    
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content=0001-01-01T00:00:00Z />
+    <meta property="article:published_time" content=0001-01-01T00:00:00Z />
+    <meta property="og:url" content="https://goldenriver.site/posts/blog-setup-log/" />
+
+    
+    <meta property="og:article:author" content="金色河流" />
+    <meta property="article:author" content="金色河流" />
+    <meta name="author" content="金色河流" />
+    
+    
+
+    
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": "我的博客建设日志",
+        "author": {
+        "@type": "Person",
+        "name": ""
+        },
+        "datePublished": "0001-01-01",
+        "description": "",
+        "wordCount":  67 ,
+        "mainEntityOfPage": "True",
+        "dateModified": "0001-01-01",
+        "image": {
+        "@type": "imageObject",
+        "url": ""
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "金色河流"
+        }
+    }
+    </script>
+
+
+<meta name="generator" content="Hugo 0.148.1">
+
+    
+    <meta property="og:url" content="https://goldenriver.site/posts/blog-setup-log/">
+  <meta property="og:site_name" content="金色河流">
+  <meta property="og:title" content="我的博客建设日志">
+  <meta property="og:description" content="建设日志 2025-10-12 修复文章条目宽度问题 2025-10-11 优化首页文章条目排版 效果 优化前（左） 优化后（右）： 改动位置：首页主要改动内容：
+将专题/阅读笔记/杂记的内容和生活日志分开，单独展示在首页。 将总共5条文章条目调整为2个部分各3条。 优化颜色。 减小条目宽度，更加紧凑。 时间放到右边，采取月-日的形式。 一些可用的工具 文字处理 添加emoj添加emoj-AI图片处理 图片清晰拼图图片加边框svg图标建站参考 NotionNext建站参考:NotionNexti帮助手册Vercel托管参考:Vercel静态部署NotionNextHugo建站参考: Hugo主题:Hugo Themes域名购买:阿里云Hugo短代码 参考:">
+  <meta property="og:locale" content="zh_cn">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+
+
+    
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="我的博客建设日志">
+  <meta name="twitter:description" content="建设日志 2025-10-12 修复文章条目宽度问题 2025-10-11 优化首页文章条目排版 效果 优化前（左） 优化后（右）： 改动位置：首页主要改动内容：
+将专题/阅读笔记/杂记的内容和生活日志分开，单独展示在首页。 将总共5条文章条目调整为2个部分各3条。 优化颜色。 减小条目宽度，更加紧凑。 时间放到右边，采取月-日的形式。 一些可用的工具 文字处理 添加emoj添加emoj-AI图片处理 图片清晰拼图图片加边框svg图标建站参考 NotionNext建站参考:NotionNexti帮助手册Vercel托管参考:Vercel静态部署NotionNextHugo建站参考: Hugo主题:Hugo Themes域名购买:阿里云Hugo短代码 参考:">
+
+
+    
+
+    <link rel="canonical" href="https://goldenriver.site/posts/blog-setup-log/">
+    <link href="/style.min.49ba3755f1b61279480130c3902d6b81e9ffe94a39988326ee0535df160be621.css" rel="stylesheet">
+    <link href="/code-highlight.min.45372d770837dac9b84135929d6084e7b4b3408154a4650f6e0aff5642bf10ac.css" rel="stylesheet">
+
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+
+<link rel="manifest" href="https://goldenriver.site/site.webmanifest">
+
+<meta name="msapplication-config" content="/browserconfig.xml">
+<meta name="msapplication-TileColor" content="#2d89ef">
+<meta name="theme-color" content="#434648">
+
+    
+    <link rel="icon" type="image/svg+xml" href="/icons/avatar.png">
+
+    
+    
+    
+</head>
+<body data-theme = "light" class="notransition kind-page ">
+
+<script src="/js/theme.min.8961c317c5b88b953fe27525839672c9343f1058ab044696ca225656c8ba2ab0.js" integrity="sha256-iWHDF8W4i5U/4nUlg5ZyyTQ/EFirBEaWyiJWVsi6KrA="></script>
+
+<div class="navbar" role="navigation">
+    <nav class="menu" aria-label="Main Navigation">
+        <a href="https://goldenriver.site/" class="logo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" 
+viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" 
+stroke-linejoin="round" class="feather feather-home">
+<title>首页</title>
+<path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+<polyline points="9 22 9 12 15 12 15 22"></polyline>
+</svg>
+        </a>
+        <input type="checkbox" id="menu-trigger" class="menu-trigger" />
+        <label for="menu-trigger">
+            <span class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" stroke="currentColor" fill="none" viewBox="0 0 14 14"><title>Menu</title><path stroke-linecap="round" stroke-linejoin="round" d="M10.595 7L3.40726 7"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 3.51488L3.49301 3.51488"></path><path stroke-linecap="round" stroke-linejoin="round" d="M10.5096 10.4851H3.49301"></path><path stroke-linecap="round" stroke-linejoin="round" d="M0.5 12.5V1.5C0.5 0.947715 0.947715 0.5 1.5 0.5H12.5C13.0523 0.5 13.5 0.947715 13.5 1.5V12.5C13.5 13.0523 13.0523 13.5 12.5 13.5H1.5C0.947715 13.5 0.5 13.0523 0.5 12.5Z"></path></svg>
+            </span>
+        </label>
+
+        <div class="trigger">
+            <ul class="trigger-container">
+                
+                
+                <li>
+                    <a class="menu-link " href="/">
+                        首页
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link active" href="/posts/">
+                        归档
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/pages/about/">
+                        关于
+                    </a>
+                    
+                </li>
+                
+                <li>
+                    <a class="menu-link " href="/pages/guestbook/">
+                        留言
+                    </a>
+                    
+                </li>
+                
+                <li class="menu-separator">
+                    <span>|</span>
+                </li>
+                
+                
+            </ul>
+            <a id="mode" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-sunny" width="25" height="25" viewBox="0 0 14 14" stroke-width="1">
+<title>LIGHT</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" class="mode-moon" width="25" height="25" viewBox="0 0 14 14" stroke-width="1">
+<title>DARK</title><g><circle cx="7" cy="7" r="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></circle><line x1="7" y1="0.5" x2="7" y2="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="2.4" x2="3.82" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="0.5" y1="7" x2="2.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="2.4" y1="11.6" x2="3.82" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="7" y1="13.5" x2="7" y2="11.5" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="11.6" x2="10.18" y2="10.18" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="13.5" y1="7" x2="11.5" y2="7" fill="none" stroke-linecap="round" stroke-linejoin="round"></line><line x1="11.6" y1="2.4" x2="10.18" y2="3.82" fill="none" stroke-linecap="round" stroke-linejoin="round"></line></g></svg>
+            </a>
+        </div>
+    </nav>
+</div>
+
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <meta name="robots" content="noindex, nofollow" />
+                <h1 class="header-title">我的博客建设日志</h1>
+                <div class="post-meta">
+                    
+
+  <span class="article-categories">
+    
+      <a href="/categories/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/" class="category-link">博客建设</a>
+    
+  </span>
+
+
+                    
+
+
+                    
+
+
+                </div>
+            </header>
+            
+                
+    
+        
+            
+        
+    
+    <details class="toc" open>
+        <summary><b>目录</b></summary>
+        <nav id="TableOfContents">
+  <ol>
+    <li><a href="#建设日志">建设日志</a>
+      <ol>
+        <li><a href="#2025-10-12-修复文章条目宽度问题">2025-10-12 修复文章条目宽度问题</a></li>
+        <li><a href="#2025-10-11-优化首页文章条目排版">2025-10-11 优化首页文章条目排版</a></li>
+      </ol>
+    </li>
+    <li><a href="#一些可用的工具">一些可用的工具</a>
+      <ol>
+        <li><a href="#文字处理">文字处理</a></li>
+        <li><a href="#图片处理">图片处理</a></li>
+        <li><a href="#建站参考">建站参考</a></li>
+        <li><a href="#hugo短代码">Hugo短代码</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+    </details>
+            
+            <div class="page-content">
+                <h2 id="建设日志">建设日志</h2>
+<h3 id="2025-10-12-修复文章条目宽度问题">2025-10-12 修复文章条目宽度问题</h3>
+<h3 id="2025-10-11-优化首页文章条目排版">2025-10-11 优化首页文章条目排版</h3>
+<p><strong>效果</strong> 优化前（左） 优化后（右）：
+<img src="/posts/blog-setup-log/image-5.png" alt="alt text"></p>
+<p><strong>改动位置</strong>：<a href="/"
+   
+   >
+  首页
+  
+</a>
+</p>
+<p><strong>主要改动内容</strong>：</p>
+<ol>
+<li>将专题/阅读笔记/杂记的内容和生活日志分开，单独展示在首页。</li>
+<li>将总共5条文章条目调整为2个部分各3条。</li>
+<li>优化颜色。</li>
+<li>减小条目宽度，更加紧凑。</li>
+<li>时间放到右边，采取月-日的形式。</li>
+</ol>
+<hr>
+<h2 id="一些可用的工具">一些可用的工具</h2>
+<h3 id="文字处理">文字处理</h3>
+<ul>
+<li><a href="https://searchemoji.app/zh-hans"
+   
+    target="_blank" rel="noopener">
+  添加emoj
+  <svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+
+</a>
+</li>
+<li><a href="https://emojis.click/zh"
+   
+    target="_blank" rel="noopener">
+  添加emoj-AI
+  <svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+
+</a>
+</li>
+</ul>
+<hr>
+<h3 id="图片处理">图片处理</h3>
+<ul>
+<li><a href="https://www.photogrid.app/zh-cn/image-enhancer/"
+   
+    target="_blank" rel="noopener">
+  图片清晰
+  <svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+
+</a>
+</li>
+<li><a href="https://img.ops-coffee.com/photo/"
+   
+    target="_blank" rel="noopener">
+  拼图
+  <svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+
+</a>
+</li>
+<li><a href="https://tinysnap.app/zh-cn"
+   
+    target="_blank" rel="noopener">
+  图片加边框
+  <svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+
+</a>
+</li>
+<li><a href="https://tablericons.com/"
+   
+    target="_blank" rel="noopener">
+  svg图标
+  <svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+
+</a>
+</li>
+</ul>
+<hr>
+<h3 id="建站参考">建站参考</h3>
+<ul>
+<li>NotionNext建站参考:<a href="https://docs.tangly1024.com/about"
+   
+    target="_blank" rel="noopener">
+  NotionNexti帮助手册
+  <svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+
+</a>
+</li>
+<li>Vercel托管参考:<a href="https://docs.tangly1024.com/article/vercel-deploy-notion-next-static"
+   
+    target="_blank" rel="noopener">
+  Vercel静态部署NotionNext
+  <svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+
+</a>
+</li>
+<li>Hugo建站参考:</li>
+<li>Hugo主题:<a href="https://themes.gohugo.io/"
+   
+    target="_blank" rel="noopener">
+  Hugo Themes
+  <svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+
+</a>
+</li>
+<li>域名购买:<a href="https://www.aliyun.com/"
+   
+    target="_blank" rel="noopener">
+  阿里云
+  <svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+
+</a>
+</li>
+</ul>
+<hr>
+<!-- ## 字体配置 -->
+<!-- ## 封面图制作
+
+1. 选材
+2. 制作蒙版+文字:美图秀秀 -->
+<h3 id="hugo短代码">Hugo短代码</h3>
+<blockquote>
+<p>参考:</p>
+<ul>
+<li><a href="https://www.xalaok.top/post/hugo-shortcodes/"
+   
+    target="_blank" rel="noopener">
+  一些hugo短代码
+  <svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+
+</a>
+</li>
+<li><a href="https://www.sleepymoon.cyou/2023/hugo-shortcodes/"
+   
+    target="_blank" rel="noopener">
+  Hugo|在Stack主题上可行的短代码们
+  <svg class="external-link-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+
+</a>
+</li>
+</ul></blockquote>
+<hr>
+<p><strong>Notice</strong></p>
+
+<div class="notice notice-warning" >
+    <div class="notice-title"></div><p>你好。</p></div>
+
+
+<div class="notice notice-info" >
+    <div class="notice-title"></div><p>你好。</p></div>
+
+
+<div class="notice notice-note" >
+    <div class="notice-title"></div><p>你好。</p></div>
+
+
+<div class="notice notice-tip" >
+    <div class="notice-title"></div><p>你好。</p></div>
+
+<hr>
+<p><strong>toggle list</strong></p>
+<details>
+    <summary>点这里看隐藏内容！</summary>
+    这里是隐藏内容！🥰
+</details>
+
+<hr>
+<p><strong>时间轴</strong>
+<div class="timeline__row">
+  <div class="timeline__time">
+    <div class="timeline__time-text">2023-10-01</div>
+    <div class="timeline__split-line"></div>
+  </div>
+  <div class="timeline__content">
+    <div class="timeline__header">
+          <span class="timeline__tag">节日</span>
+
+      <div class="timeline__title-wrapper">
+        
+          <div class="timeline__title">国庆节</div></div>
+    </div>
+      <div class="timeline__description">祖国生日快乐</div>
+  </div>
+</div>
+
+<style>
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: "";
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme="dark"] .timeline__time,
+[data-scheme="dark"] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme="dark"] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme="dark"] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+</style>
+</p>
+<hr>
+<p><strong>聊天气泡</strong>
+
+
+
+<div class="chat --other">
+    <div class="chat__inner">
+        <div class="chat__text">
+            这是左边的消息内容。
+        </div>
+    </div>
+</div>
+
+
+<style>
+     
+    .chat {
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        transition: transform 0.2s;
+        max-width: 80%;
+        min-width: 15%;
+        border-radius: 15px;
+        width: fit-content;
+    }
+
+    .chat:hover {
+        transform: scale(1.05);
+    }
+
+    .chat__text {
+        font-size: 0.9em;
+        margin-left: 10px;
+        word-break: break-all;
+    }
+
+    .chat__meta {
+        font-weight: bold;
+        font-size: 0.67em;
+        margin-bottom: 5px;
+    }
+
+     
+    .chat::before {
+        content: "";
+        position: absolute;
+        bottom: 5px;
+        transform: translateY(-50%);
+        border-style: solid;
+    }
+
+     
+    .chat.--self {
+        text-align: left;
+        background-color: #F4E1CC   ;
+        color: #2C1E11;
+        margin-left: auto;
+    }
+
+    .chat.--self::before {
+        right: -18px;
+        border-width: 15px 0 0 20px;
+        border-color: transparent transparent transparent #F4E1CC;
+    }
+
+    .chat.--other {
+        text-align: left;
+        background-color: #F8F1E6;
+        color: #333;
+    }
+
+    .chat.--other::before {
+        left: -18px;
+        border-width: 15px 20px 0 0;
+        border-color: transparent #F8F1E6 transparent transparent;
+    }
+
+    .chat__meta {
+        color: #707070;
+    }
+
+     
+    .dark .chat.--self {
+        color: #fefefe;
+        background-color: #253958;
+    }
+    
+    .dark .chat.--self::before {
+        border-color: transparent transparent transparent #253958;
+    }
+
+    .dark .chat.--other {
+        color: #fefefe;
+        background-color: #402b2b;
+    }
+
+    .dark .chat.--other::before {
+        border-color: transparent #1a1a1a transparent transparent;
+    }
+
+    .dark .chat__meta {
+        color: #b1b1b1;
+    }
+</style></p>
+
+
+
+<div class="chat --self">
+    <div class="chat__inner">
+        <div class="chat__text">
+            这是右边的消息内容，测试长长长长长长长长长长长长长长长长长长长长长长长长度。
+        </div>
+    </div>
+</div>
+
+
+<style>
+     
+    .chat {
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        transition: transform 0.2s;
+        max-width: 80%;
+        min-width: 15%;
+        border-radius: 15px;
+        width: fit-content;
+    }
+
+    .chat:hover {
+        transform: scale(1.05);
+    }
+
+    .chat__text {
+        font-size: 0.9em;
+        margin-left: 10px;
+        word-break: break-all;
+    }
+
+    .chat__meta {
+        font-weight: bold;
+        font-size: 0.67em;
+        margin-bottom: 5px;
+    }
+
+     
+    .chat::before {
+        content: "";
+        position: absolute;
+        bottom: 5px;
+        transform: translateY(-50%);
+        border-style: solid;
+    }
+
+     
+    .chat.--self {
+        text-align: left;
+        background-color: #F4E1CC   ;
+        color: #2C1E11;
+        margin-left: auto;
+    }
+
+    .chat.--self::before {
+        right: -18px;
+        border-width: 15px 0 0 20px;
+        border-color: transparent transparent transparent #F4E1CC;
+    }
+
+    .chat.--other {
+        text-align: left;
+        background-color: #F8F1E6;
+        color: #333;
+    }
+
+    .chat.--other::before {
+        left: -18px;
+        border-width: 15px 20px 0 0;
+        border-color: transparent #F8F1E6 transparent transparent;
+    }
+
+    .chat__meta {
+        color: #707070;
+    }
+
+     
+    .dark .chat.--self {
+        color: #fefefe;
+        background-color: #253958;
+    }
+    
+    .dark .chat.--self::before {
+        border-color: transparent transparent transparent #253958;
+    }
+
+    .dark .chat.--other {
+        color: #fefefe;
+        background-color: #402b2b;
+    }
+
+    .dark .chat.--other::before {
+        border-color: transparent #1a1a1a transparent transparent;
+    }
+
+    .dark .chat__meta {
+        color: #b1b1b1;
+    }
+</style>
+<hr>
+<p><strong>旅行者一号</strong>
+<span id="voyager">载入旅行者一号离地球距离信息&hellip;</span></p>
+<script language="javascript"> 
+    var now = new Date();
+    function createtime(){
+        // 当前时间
+        now.setTime(now.getTime()+250);
+        var start = new Date("08/01/2022 00:00:00"); // 旅行者1号开始计算的时间
+        var dis = Math.trunc(23400000000 + ((now - start) / 1000) * 17); // 距离=秒数*速度 记住转换毫秒
+        var unit = (dis / 149600000).toFixed(6);  // 天文单位
+
+        document.getElementById("voyager").innerHTML = "旅行者 1 号当前距离地球 "+ dis +" 千米，约为 "+ unit +" 个天文单位 🚀"
+    }
+    setInterval("createtime()",250); 
+</script> 
+<hr>
+<p><strong>块引用</strong>
+<blockquote>
+    <p>内容</p><span class="cite"><span>― </span><span>作者/说话的人, </span><a href="%e9%93%be%e6%8e%a5%ef%bc%88%e5%8f%af%e9%80%89%ef%bc%89"><cite>书名/来源</cite></a><svg class="quote-link-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none"; stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+    </span></blockquote></p>
+<hr>
+<p><strong>卡片</strong>
+<div class="mycard">
+      <div class="content"> 可以在这里插入链接假装是卡片式链接。
+<br>
+换行需要空标签。 </div>
+    </div>
+</p>
+<!-- ### 居中引用(未完成) -->
+<!-- ### Neodb(未完成)
+### book(未完成) -->
+            </div>
+            
+        </article>
+
+                    
+        <footer class="post-footer" style="margin-top: 3em; text-align: center; color: #555; font-size: 0.9em; line-height: 1.6;">
+<div style="text-align: center; font-weight: bold;">
+    <hr style="margin: 12px auto; border-color: #000000; width: 50%;" />
+</div>                                    
+<div class="post-footer-title" style="color: #888;">
+    标题：我的博客建设日志
+</div>                
+    <div class="post-footer-lastmod" style="color: #888;">
+    
+                        </div>
+                        <div class="post-footer-categories" style="color: #888;">
+                    分类：
+
+  <span class="article-categories">
+    
+      <a href="/categories/%E5%8D%9A%E5%AE%A2%E5%BB%BA%E8%AE%BE/" class="category-link">博客建设</a>
+    
+  </span>
+
+</div>
+
+                <div class="post-footer-tags" style="color: #888;">
+                    标签：
+
+
+                </div>
+                
+            
+<div style="text-align: center; font-weight: bold;">
+    <hr style="margin: 12px auto; border-color: #000000; width: 50%;" />
+</div>
+                                    <div class="post-license" style="font-size: 0.8rem; margin-bottom: 0.5em;">
+                    采用 
+                    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreferrer" style="color: $text-link-blue; text-decoration: none;">
+                        CC BY-NC-SA 4.0
+                    </a>
+                    授权
+                </div>
+            
+        </footer>
+                    
+
+<div style="text-align: center; font-weight: bold;">
+    <hr style="margin: 24px auto; border-color: #000000; width: 50%;" />
+</div>    
+        
+    </main>
+</div>
+<footer class="footer">
+    <span class="footer_item"> </span>
+    &nbsp;
+
+    <div class="footer_social-icons">
+
+  
+    <a href="https://github.com/optimus12138/optimus12138.github.io" target="_blank" rel="noopener noreferrer me"
+       title="Github">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+    </path>
+</svg>
+    </a>
+
+  
+    <a href="javascript:void(0);" id="copy-rss-button" data-rss-url="https://goldenriver.site/index.xml" 
+       title="点击复制RSS链接">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+    stroke-linecap="round" stroke-linejoin="round">
+    <path d="M4 11a9 9 0 0 1 9 9" />
+    <path d="M4 4a16 16 0 0 1 16 16" />
+    <circle cx="5" cy="19" r="1" />
+</svg>
+    </a></div>
+    <small class="footer_copyright">
+        © 2026 金色河流.
+        Powered by <a href="https://github.com/hugo-sid/hugo-blog-awesome" target="_blank" rel="noopener">Hugo blog awesome</a>.
+    </small>
+
+    <div id="copy-toast" class="toast">RSS链接已复制</div>
+
+</footer><a href="#" title="回到顶部" id="totop">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" stroke="currentColor" viewBox="0 96 960 960">
+    <path d="M283 704.739 234.261 656 480 410.261 725.739 656 677 704.739l-197-197-197 197Z"/>
+</svg>
+
+</a>
+
+
+    
+
+
+
+
+    
+    
+        
+    
+
+    
+    
+        
+    
+
+
+
+    
+    <script src="https://goldenriver.site/js/main.min.468c5f65bf8c8d2efbab3d724961bd51c4f9a42291ae3c4783ee29bb3a517817.js" integrity="sha256-RoxfZb&#43;MjS77qz1ySWG9UcT5pCKRrjxHg&#43;4puzpReBc="></script>
+
+    
+
+</body>
+</html>

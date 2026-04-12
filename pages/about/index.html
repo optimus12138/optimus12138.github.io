@@ -47,7 +47,7 @@
     
 
     <link rel="canonical" href="https://goldenriver.site/pages/about/">
-    <link href="/style.min.49ba3755f1b61279480130c3902d6b81e9ffe94a39988326ee0535df160be621.css" rel="stylesheet">
+    <link href="/style.min.a9800db0b0b0ed215568c0707416ccdf38bccb177f5dfd362afcfca54ae38223.css" rel="stylesheet">
     <link href="/code-highlight.min.45372d770837dac9b84135929d6084e7b4b3408154a4650f6e0aff5642bf10ac.css" rel="stylesheet">
 
     
@@ -171,11 +171,11 @@ stroke-linejoin="round" class="feather feather-home">
     <details class="toc" open>
         <summary><b>目录</b></summary>
         <nav id="TableOfContents">
-  <ol>
+  <ul>
     <li><a href="#关于我">关于我</a></li>
     <li><a href="#关于本站">关于本站</a></li>
     <li><a href="#博客建设日志">博客建设日志</a></li>
-  </ol>
+  </ul>
 </nav>
     </details>
             
@@ -243,6 +243,161 @@ stroke-linejoin="round" class="feather feather-home">
 <hr>
 <h2 id="博客建设日志">博客建设日志</h2>
 <p><div class="timeline__row">
+  <div class="timeline__time">
+    <div class="timeline__time-text">2026-04-12</div>
+    <div class="timeline__split-line"></div>
+  </div>
+  <div class="timeline__content">
+    <div class="timeline__header">
+          <span class="timeline__tag">v3</span>
+        <span class="timeline__type-tag">🎨 Style</span>
+
+      <div class="timeline__title-wrapper">
+        
+          <div class="timeline__title">优化目录样式（右侧悬浮）</div></div>
+    </div>
+  </div>
+</div>
+
+<style>
+ 
+.timeline {
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline__row {
+  display: flex;
+  padding-left: 3%;
+  margin-bottom: 0.8rem;
+}
+
+ 
+.timeline__time {
+  flex: 0 0 90px;
+  color: var(--theme);
+  font-size: 14px;
+  text-transform: uppercase;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0;
+}
+
+.timeline__time-text {
+  margin: 0;
+}
+
+.timeline__split-line {
+  position: absolute;
+  top: 0.4rem;
+  right: -16px;
+  height: 100%;
+  width: 2px;
+  background-color: #84c4e240;
+  z-index: 0;
+}
+
+.timeline__split-line:before {
+  content: "";
+  position: absolute;
+  top: 24%;
+  right: -4px;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+  background-color: #c9e5f2;
+  box-shadow: 0 0 0 3px var(--theme);
+  border-radius: 50%;
+  border: 0px solid #84c4e2;
+  z-index: -1;
+}
+
+ 
+.timeline__content {
+  flex: 1;
+  margin-left: 2.5rem;
+  padding: 0.2rem 0;
+}
+
+.timeline__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 0.3rem;
+  margin-bottom: 0.1rem;
+}
+
+.timeline__title {
+  color: var(--content);
+  font-family: var(--font-family-teshu);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+}
+
+.timeline__description {
+  font-size: 14px;
+  color: #5d5d5d;
+  line-height: 1.4;
+  margin-left: 0.3rem;  
+  margin-top: 0.1rem;
+  opacity: 0.85;
+}
+
+ 
+ 
+.timeline__tag, .timeline__type-tag {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 6px;  
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.5;
+  border: 1px solid;
+  margin: 0;
+  background-color: transparent;
+}
+
+ 
+.timeline__tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+.timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+   
+  background-color: color-mix(in srgb, var(--theme) 15%, transparent);
+}
+
+ 
+[data-scheme="dark"] .timeline__time,
+[data-scheme="dark"] .timeline__description {
+  color: #cccccc;
+}
+
+[data-scheme="dark"] .timeline__tag {
+  color: #a3a3a3;
+  border-color: #404040;
+  background-color: #262626;
+}
+
+[data-scheme="dark"] .timeline__type-tag {
+  color: var(--theme);
+  border-color: var(--theme);
+  background-color: color-mix(in srgb, var(--theme) 20%, #000);
+}
+</style>
+
+<div class="timeline__row">
   <div class="timeline__time">
     <div class="timeline__time-text">2026-04-09</div>
     <div class="timeline__split-line"></div>
@@ -2965,7 +3120,7 @@ stroke-linejoin="round" class="feather feather-home">
 
 
     
-    <script src="https://goldenriver.site/js/main.min.468c5f65bf8c8d2efbab3d724961bd51c4f9a42291ae3c4783ee29bb3a517817.js" integrity="sha256-RoxfZb&#43;MjS77qz1ySWG9UcT5pCKRrjxHg&#43;4puzpReBc="></script>
+    <script src="https://goldenriver.site/js/main.min.383525613d6f5fb8b58c1b8a341644a63947ccf09a64cd8eb63984dd5a7c6047.js" integrity="sha256-ODUlYT1vX7i1jBuKNBZEpjlHzPCaZM2OtjmE3Vp8YEc="></script>
 
     
 

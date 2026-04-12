@@ -119,6 +119,100 @@ document.addEventListener('DOMContentLoaded', function() {
 })();
 
 ;
+'use strict';
+
+// Table of Contents ScrollSpy
+document.addEventListener('DOMContentLoaded', function() {
+    const toc = document.querySelector('.toc');
+    if (!toc) return; // No TOC on this page
+
+    const tocLinks = toc.querySelectorAll('#TableOfContents a[href^="#"]');
+    if (tocLinks.length === 0) return;
+
+    // Get all section headings that have corresponding TOC links
+    const sections = Array.from(tocLinks).map(link => {
+        const id = link.getAttribute('href').substring(1);
+        return document.getElementById(id);
+    }).filter(section => section !== null);
+
+    if (sections.length === 0) return;
+
+    // Remove any existing active classes
+    function clearActiveLinks() {
+        tocLinks.forEach(link => {
+            link.classList.remove('active');
+        });
+    }
+
+    // Set active link based on current scroll position
+    function setActiveLink() {
+        // Get current scroll position
+        const scrollPos = window.scrollY + 100; // offset for better UX
+
+        // Find the current section
+        let currentSection = null;
+        for (let i = sections.length - 1; i >= 0; i--) {
+            const section = sections[i];
+            if (section.offsetTop <= scrollPos) {
+                currentSection = section;
+                break;
+            }
+        }
+
+        // Clear all active classes
+        clearActiveLinks();
+
+        // If we found a current section, activate the corresponding link
+        if (currentSection) {
+            const currentLink = toc.querySelector(`a[href="#${currentSection.id}"]`);
+            if (currentLink) {
+                currentLink.classList.add('active');
+            }
+        } else {
+            // If no section found (scrolled to top), activate the first link
+            tocLinks[0]?.classList.add('active');
+        }
+    }
+
+    // Throttle scroll events for performance
+    let ticking = false;
+    function updateOnScroll() {
+        if (!ticking) {
+            requestAnimationFrame(() => {
+                setActiveLink();
+                ticking = false;
+            });
+            ticking = true;
+        }
+    }
+
+    // Initial activation
+    setActiveLink();
+
+    // Listen to scroll events
+    window.addEventListener('scroll', updateOnScroll);
+
+    // Update on hash change (when user clicks TOC links)
+    window.addEventListener('hashchange', setActiveLink);
+
+    // Clicking on TOC links should also update active state
+    tocLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            // Small delay to allow hash change to take effect
+            setTimeout(setActiveLink, 100);
+        });
+    });
+
+    // Optional: Auto-expand details element if it's collapsed
+    const detailsElement = toc.closest('details');
+    if (detailsElement && !detailsElement.open) {
+        // Auto-open TOC on desktop for better UX
+        if (window.innerWidth >= 1200) {
+            detailsElement.open = true;
+        }
+    }
+});
+;
 window.addEventListener('load', () => {
     const gttButton = document.getElementById("totop");
     if (!gttButton) return;

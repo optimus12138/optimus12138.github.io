@@ -46,7 +46,7 @@
     <link rel="canonical" href="https://goldenriver.site/tags/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/">
     <link href="/tags/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/index.xml" rel="alternate" type="application/rss+xml" title="金色河流">
     <link href="/tags/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/index.xml" rel="feed" type="application/rss+xml" title="金色河流">
-    <link href="/style.min.5ff370db1dd72bdac12cc48b1221d49b77925a2834f2ae0c984e584d66935bfc.css" rel="stylesheet">
+    <link href="/style.min.148da8569692ef251d3761eddc6f3ae890d9f4c5da7dfbdbfd343916769434f4.css" rel="stylesheet">
     <link href="/code-highlight.min.45372d770837dac9b84135929d6084e7b4b3408154a4650f6e0aff5642bf10ac.css" rel="stylesheet">
 
     
@@ -147,13 +147,276 @@ stroke-linejoin="round" class="feather feather-home">
         <h1 class="header-title center">博客相关</h1>
     </header>
 
+    
+    <div class="heatmap-wrapper">
+  <div id="heatmap" class="heatmap-container"></div>
+</div>
+
+<script id="heatmap-data" type="application/json">
+[["2026-04-26",  2965 ,  1 ],["2026-04-18",  1254 ,  1 ],["2026-04-12",  2244 ,  1 ],["2026-03-28",  2057 ,  1 ],["2026-03-08",  4881 ,  1 ],["2026-01-30",  2537 ,  1 ],["2025-12-06",  1378 ,  1 ],["2025-11-24",  1336 ,  1 ],["2025-11-16",  1611 ,  1 ],["2025-11-10",  1128 ,  1 ],["2025-10-27",  1199 ,  1 ],["2025-10-19",  1250 ,  1 ],["2025-10-11",  1518 ,  1 ],["2025-10-06",  977 ,  1 ],["2025-09-21",  2035 ,  1 ],["2025-09-15",  1547 ,  1 ],["2025-08-31",  682 ,  1 ],["2025-08-04",  1720 ,  1 ],["2025-07-28",  2116 ,  1 ],["2025-07-20",  2993 ,  1 ],["2025-07-13",  1546 ,  1 ],["2025-07-07",  1929 ,  1 ],["2025-07-05",  2073 ,  1 ],["2025-06-29",  1400 ,  1 ],["2025-06-23",  2625 ,  1 ],["2025-06-22",  1685 ,  1 ],["2025-06-14",  2040 ,  1 ],["2025-06-07",  2860 ,  1 ],["2025-06-03",  1173 ,  1 ],["2025-05-19",  1537 ,  1 ],["2025-05-10",  1535 ,  1 ],["2025-05-07",  1340 ,  1 ],["2025-04-28",  1756 ,  1 ],["2025-04-27",  848 ,  1 ],["2025-04-21",  2614 ,  1 ],["2025-04-13",  2886 ,  1 ],["2025-04-08",  2029 ,  1 ],["2025-03-22",  1649 ,  1 ],["2025-03-18",  1831 ,  1 ],["2025-03-10",  1813 ,  1 ],["2025-03-09",  1392 ,  1 ],["2025-03-03",  1330 ,  1 ],["2025-02-24",  1356 ,  1 ],["2025-02-14",  428 ,  1 ],["2025-01-13",  226 ,  1 ],["2024-12-29",  1474 ,  1 ],["2024-12-18",  2079 ,  1 ],["2024-12-05",  1289 ,  1 ],["2024-11-07",  582 ,  1 ],["2024-10-11",  2094 ,  1 ],["2024-10-04",  1426 ,  1 ],["2024-10-02",  627 ,  1 ],["2024-10-01",  1138 ,  1 ],["2024-09-29",  1801 ,  1 ],["2024-09-20",  1233 ,  1 ],["2024-09-13",  1904 ,  1 ],["2024-09-02",  174 ,  1 ],["2024-08-26",  461 ,  1 ],["2024-08-19",  2071 ,  1 ],["2024-08-15",  2265 ,  1 ],["2024-08-12",  2400 ,  1 ],["2024-08-05",  1982 ,  1 ],["2024-07-31",  3809 ,  1 ],["2024-07-28",  1647 ,  1 ],["2024-07-21",  1533 ,  1 ],["2024-07-14",  1955 ,  1 ],["2024-06-16",  4929 ,  1 ],["2023-05-22",  642 ,  1 ],["2022-05-29",  529 ,  1 ]]
+</script><script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+<script>
+(function() {
+  'use strict';
+
+  
+  var el = document.getElementById('heatmap');
+  if (!el) return;
+
+  
+  var rawData = JSON.parse(document.getElementById('heatmap-data').textContent);
+  if (!rawData.length) { el.style.display = 'none'; return; }
+
+  
+  
+  
+  function getISOWeekInfo(date) {
+    var d = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+    var day = d.getUTCDay() || 7;
+    d.setUTCDate(d.getUTCDate() + 4 - day);
+    var yrStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+    return {
+      year: d.getUTCFullYear(),
+      week: Math.ceil((((d - yrStart) / 86400000) + 1) / 7)
+    };
+  }
+
+  
+  
+  
+  var agg = {};
+  rawData.forEach(function(d) {
+    var info = getISOWeekInfo(new Date(d[0]));
+    var key = info.year + '-' + info.week;
+    if (!agg[key]) agg[key] = { year: info.year, week: info.week, count: 0, articles: 0 };
+    agg[key].count += d[1];
+    agg[key].articles += d[2];
+  });
+
+  
+  
+  
+  var cur = getISOWeekInfo(new Date());
+  var showYears =  3 ;
+  var minYear = cur.year - (showYears - 1);
+  var maxYear = cur.year;
+
+  var filteredAgg = {};
+  Object.keys(agg).forEach(function(k) {
+    if (agg[k].year >= minYear && agg[k].year <= maxYear) {
+      filteredAgg[k] = agg[k];
+    }
+  });
+  if (Object.keys(filteredAgg).length === 0) { el.style.display = 'none'; return; }
+
+  
+  
+  
+  var yData = [];
+  for (var y = minYear; y <= maxYear; y++) yData.push(y);
+
+  var xData = [];
+  for (var w = 1; w <= 53; w++) xData.push(w);
+
+  
+  
+  
+  var cellMeta = []; 
+  var gridValues = [];
+  for (var yi = 0; yi < yData.length; yi++) {
+    for (var wi = 0; wi < xData.length; wi++) {
+      var year = yData[yi], week = xData[wi];
+      var item = filteredAgg[year + '-' + week];
+      var isFuture = (year === cur.year && week > cur.week);
+      var state, count = 0, articles = 0;
+      if (item) {
+        state = isFuture ? -1 : 1;
+        count = item.count;
+        articles = item.articles;
+      } else {
+        state = isFuture ? -1 : 0;
+      }
+      gridValues.push([wi, yi, state]);
+      cellMeta.push({ count: count, articles: articles, year: year, week: week });
+    }
+  }
+  if (gridValues.length === 0) { el.style.display = 'none'; return; }
+
+  
+  
+  
+  var root = document.documentElement;
+  function refetchCSS() {
+    var s = getComputedStyle(root);
+    function cv(n) { return s.getPropertyValue(n).trim(); }
+    function cn(n) { return parseInt(cv(n), 10) || 0; }
+    return {
+      
+      bodyBg:      cv('--heatmap-bg'),
+      gridTop:    cn('--heatmap-grid-top'),
+      gridBottom: cn('--heatmap-grid-bottom'),
+      gridLeft:   cn('--heatmap-grid-left'),
+      gridRight:  cn('--heatmap-grid-right'),
+
+      
+      rowGap:     cn('--heatmap-row-gap'),
+      cellBorder: cn('--heatmap-cell-border'),
+
+      
+      axisSize:   cn('--heatmap-axis-size'),
+      axisWeight: cv('--heatmap-axis-weight'),
+      axisFamily: cv('--heatmap-axis-family') || 'Consolas, monospace',
+
+      
+      axisColor:   cv('--heatmap-axis-color'),
+      activeColor: cv('--heatmap-active-color'),
+      emptyCell:   cv('--heatmap-empty-cell'),
+      futureCell:  cv('--heatmap-future-cell'),
+
+      tipBg:    cv('--heatmap-tip-bg'),
+      tipColor: cv('--heatmap-tip-color'),
+
+      
+      cellRadius: cn('--heatmap-cell-radius')
+    };
+  }
+
+  
+  
+  
+  function computeContainerSize(css) {
+    var cellSize = Math.max(6, (el.offsetWidth - css.gridLeft - css.gridRight) / 53);
+    el.style.height = Math.round(cellSize * yData.length + css.gridTop + css.gridBottom) + 'px';
+  }
+
+  
+  
+  
+  function buildOption(css) {
+    
+    var coloredData = gridValues.map(function(d) {
+      var color;
+      if (d[2] === 1)       color = css.activeColor;
+      else if (d[2] === 0)  color = css.emptyCell;
+      else                   color = css.futureCell; 
+      return {
+        value: d,
+        itemStyle: { color: color }
+      };
+    });
+
+    return {
+      tooltip: {
+        backgroundColor: css.tipBg,
+        borderColor: css.tipBg,
+        textStyle: { color: css.tipColor, fontSize: 13 },
+        formatter: function(params) {
+          var val = params.value[2];
+          if (val <= 0) return '';
+          var meta = cellMeta[params.dataIndex];
+          return meta.year + ' Week ' + meta.week + '<br/>'
+            + meta.articles + ' 篇文章，共 ' + meta.count.toLocaleString() + ' 字';
+        }
+      },
+      grid: {
+        top: css.gridTop,
+        bottom: css.gridBottom,
+        left: css.gridLeft,
+        right: css.gridRight,
+        containLabel: false
+      },
+      xAxis: {
+        type: 'category',
+        data: xData,
+        splitLine: { show: false },
+        axisLine: { show: false },
+        axisTick: { show: false },
+        axisLabel: {
+          show: true,
+          interval: 4,
+          fontSize: css.axisSize,
+          fontFamily: css.axisFamily,
+          color: css.axisColor,
+          fontWeight: css.axisWeight,
+          formatter: function(v) { return 'W' + v; }
+        }
+      },
+      yAxis: {
+        type: 'category',
+        data: yData,
+        splitLine: {
+          show: css.rowGap > 0,
+          lineStyle: { width: css.rowGap, color: css.bodyBg }
+        },
+        axisLine: { show: false },
+        axisTick: { show: false },
+        axisLabel: {
+          interval: 0,
+          fontSize: css.axisSize,
+          fontFamily: css.axisFamily,
+          color: css.axisColor,
+          fontWeight: css.axisWeight
+        }
+      },
+      series: [{
+        type: 'heatmap',
+        coordinateSystem: 'cartesian2d',
+        data: coloredData,
+        progressive: 0,
+        label: { show: false },
+        itemStyle: {
+          borderWidth: css.cellBorder,
+          borderColor: css.bodyBg,
+          borderRadius: css.cellRadius
+        },
+        emphasis: {
+          itemStyle: {
+            borderWidth: Math.max(1, css.cellBorder + 1),
+            borderColor: css.bodyBg,
+            shadowBlur: 4,
+            shadowColor: 'rgba(0,0,0,0.15)'
+          }
+        }
+      }]
+    };
+  }
+
+  
+  
+  
+  var css = refetchCSS();
+  el.style.background = css.bodyBg;
+  computeContainerSize(css);
+
+  try {
+    var chart = echarts.init(el);
+    chart.setOption(buildOption(css));
+    window.addEventListener('resize', function() { chart.resize(); });
+  } catch(e) {
+    console.error('[Heatmap]', e);
+    return;
+  }
+
+  
+  
+  
+  var observer = new MutationObserver(function() {
+    css = refetchCSS();
+    el.style.background = css.bodyBg;
+    computeContainerSize(css);
+    chart.setOption(buildOption(css));
+  });
+  observer.observe(document.documentElement, { attributes: true, attributeFilter: ['class'] });
+})();
+</script>
+
 <div class="search-container">
   <span class="search-icon">
     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
   </span>
-  
+
   <input type="text" id="search-input" placeholder="搜索文章、标签或内容...">
-  
+
   <span id="esc-hint" style="display: none;">
     按 <kbd>ESC</kbd> 键清除
   </span>
@@ -169,6 +432,49 @@ stroke-linejoin="round" class="feather feather-home">
 
         
         <div id="archiveList">
+            
+                
+                <h2 class="post-year">2026-04</h2>
+                
+                    <article class="post-item">
+  <h4 class="post-item-title">
+    <a href="/posts/recent/">近日浏览的博客文章(1)</a>
+    <div class="post-item-tags">
+      
+        
+          <span class="tag">#博客相关</span>
+        
+      
+    </div>
+  </h4>
+  <span class="post-item-categories">
+      
+
+  <span class="article-categories">
+    
+      <a href="/categories/%E5%8D%9A%E5%AE%A2%E4%B8%96%E7%95%8C%E6%BC%AB%E6%B8%B8%E8%AE%B0/" class="category-link">博客世界漫游记</a>
+    
+  </span>
+
+
+</span>
+    
+    
+    
+    
+
+
+
+    
+    
+   
+    <time class="post-item-meta" datetime="2026-04-26T00:00:00Z">
+        
+    04-26
+</time>
+</article>
+
+                
             
                 
                 <h2 class="post-year">2026-03</h2>
@@ -191,7 +497,7 @@ stroke-linejoin="round" class="feather feather-home">
 
   <span class="article-categories">
     
-      <a href="/categories/%E4%B8%93%E9%A2%98/" class="category-link">专题</a>
+      <a href="/categories/%E5%8D%9A%E5%AE%A2%E4%B8%96%E7%95%8C%E6%BC%AB%E6%B8%B8%E8%AE%B0/" class="category-link">博客世界漫游记</a>
     
   </span>
 
